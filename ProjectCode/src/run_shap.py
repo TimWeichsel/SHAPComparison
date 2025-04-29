@@ -3,6 +3,7 @@ import pandas as pd
 import time
 import datetime
 from data.data_loader import get_data
+from config import Seed
 
 #SHAP imports
 from models.model_loader import get_model
@@ -17,7 +18,7 @@ def run_and_save_shap_values(data_name: str, model_name: str, approximation_name
             shap_information = __run_shap_values(data_name, model_name, approximation_name, nsamples, df_dict, model, run_id+1)
             __save_shap_values(shap_information, approximation_name, data_name, model_name, nsamples, run_id+1)
     else:
-        shap_information = __run_shap_values(data_name, model_name, approximation_name, nsamples, df_dict, model)
+        shap_information = __run_shap_values(data_name, model_name, approximation_name, nsamples, df_dict, model, Seed.SEED)
         __save_shap_values(shap_information, approximation_name, data_name, model_name, nsamples)
     
 def __prepare_shap_calulation(data_name: str, model_name: str):
@@ -26,12 +27,12 @@ def __prepare_shap_calulation(data_name: str, model_name: str):
     model = get_model(data_name, model_name)
     return df_dict, model
 
-def __run_shap_values(data, model_name, approximation, nsamples, df_dict, model, run_id = 0):
+def __run_shap_values(data, model_name, approximation, nsamples, df_dict, model, run_id_seed):
     start_time = time.time()
-    shap_values = __calculate_SHAP_approximation(model, df_dict, approximation, nsamples)
+    shap_values = __calculate_SHAP_approximation(model, df_dict, approximation, nsamples, run_id_seed)
     end_time =  time.time()
     total_time = end_time - start_time
-    return __create_shap_information(total_time, shap_values, model_name, data, approximation, nsamples, df_dict["X_test"], df_dict["y_test"], df_dict["X_train"].columns, datetime.datetime.now(), run_id)
+    return __create_shap_information(total_time, shap_values, model_name, data, approximation, nsamples, df_dict["X_test"], df_dict["y_test"], df_dict["X_train"].columns, datetime.datetime.now(), run_id_seed)
 
 def __save_shap_values(shap_information, approximation_name, data_name, model_name, nsamples, run_id = 0):
     if run_id:
@@ -53,29 +54,28 @@ def __check_regression_classification(model) -> int:
             raise ValueError("Invalid model. Choose 'LR', 'LO', 'RR', 'RC', 'SR', 'SC', 'XR' or 'XC'")
     
 
-def __calculate_SHAP_approximation(model, df_dict, approximation, nsamples):
+def __calculate_SHAP_approximation(model, df_dict, approximation, nsamples, run_id_seed):
     X_train = pd.DataFrame(df_dict["X_train"])
+    y_train = pd.DataFrame(df_dict["y_train"])
     X_test = pd.DataFrame(df_dict["X_test"], columns=X_train.columns)
-    shap_values = __get_SHAP_values(approximation, model, X_train, X_test, nsamples)
+    shap_values = __get_SHAP_values(approximation, model, X_train, X_test, nsamples, y_train, run_id_seed)
     return shap_values
 
-def __get_SHAP_values(approximation: str, model, X_train, X_test, nsamples):
+def __get_SHAP_values(approximation: str, model, X_train, X_test, nsamples, y_train, run_id_seed):
     match approximation:
         case "K":
-            explainer = create_kernel_shap_explainer(model=model, X_train=X_train)
+            explainer = create_kernel_shap_explainer(model=model, X_train=X_train, run_id_seed=run_id_seed)
             return explainer.shap_values(X_test, nsamples=nsamples)
         case "S":
-            pass
-            explainer = create_sample_shap_explainer(model=model, X_train=X_train)
+            explainer = create_sample_shap_explainer(model=model, X_train=X_train,  run_id_seed=run_id_seed)
             return explainer.shap_values(X_test, nsamples=nsamples)
         case "B":
             pass
             #return create_bounded_sampling_shap_explainer
         case "C":
-            return get_copula_shap_values()
+            return get_copula_shap_values(model, X_train, X_test, y_train, nsamples, run_id_seed)
         case "G":
-            pass
-            #return create_gauss_copula_shap_explainer
+            return get_copula_shap_values(model, X_train, X_test, y_train, nsamples, run_id_seed)
         case "E":
             pass
             #return create_exact_shap_explainer

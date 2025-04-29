@@ -41,7 +41,6 @@ def main():
                 else:
                     run_and_save_shap_values(args.data, args.model, args.approximation, args.nsamples, args.number_of_runs)
                 return
-            print("R")
         case "E":
             if not (args.eval_method):
                 print("Evaluation Method needs to be defined.")
