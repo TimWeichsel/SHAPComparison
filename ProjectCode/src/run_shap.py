@@ -10,6 +10,7 @@ from models.model_loader import get_model
 from shap_approximations.kernel_shap import create_kernel_shap_explainer
 from shap_approximations.sample_shap import create_sample_shap_explainer
 from shap_approximations.copula_shap import get_copula_shap_values
+from shap_approximations.gauss_shap import get_gauss_shap_values
 
 def run_and_save_shap_values(data_name: str, model_name: str, approximation_name: str, nsamples: int, number_of_runs: int = 0):
     df_dict, model = __prepare_shap_calulation(data_name, model_name)
@@ -75,7 +76,7 @@ def __get_SHAP_values(approximation: str, model, X_train, X_test, nsamples, y_tr
         case "C":
             return get_copula_shap_values(model, X_train, X_test, y_train, nsamples, run_id_seed)
         case "G":
-            return get_copula_shap_values(model, X_train, X_test, y_train, nsamples, run_id_seed)
+            return get_gauss_shap_values(model, X_train, X_test, y_train, nsamples, run_id_seed)
         case "E":
             pass
             #return create_exact_shap_explainer
