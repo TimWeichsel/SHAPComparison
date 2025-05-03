@@ -33,14 +33,20 @@ def main():
         case "T":
             train_models()
         case "R":
-            if not all([args.data, args.model, args.approximation, args.nsamples]):
-                print("Not all arguments provided for running an approximation.")
-            else:
-                if not (args.number_of_runs):
-                    run_and_save_shap_values(args.data, args.model, args.approximation, args.nsamples)
+            if args.approximation == "E":
+                if not all([args.data, args.model]):
+                    print("Not all arguments provided for running an approximation.")
                 else:
-                    run_and_save_shap_values(args.data, args.model, args.approximation, args.nsamples, args.number_of_runs)
-                return
+                    run_and_save_shap_values(args.data, args.model, args.approximation, None)
+            else:
+                if not all([args.data, args.model, args.approximation, args.nsamples]):
+                    print("Not all arguments provided for running an approximation.")
+                else:
+                    if not (args.number_of_runs):
+                        run_and_save_shap_values(args.data, args.model, args.approximation, args.nsamples)
+                    else:
+                        run_and_save_shap_values(args.data, args.model, args.approximation, args.nsamples, args.number_of_runs)
+                    return
         case "E":
             if not (args.eval_method):
                 print("Evaluation Method needs to be defined.")

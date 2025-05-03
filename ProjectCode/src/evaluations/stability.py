@@ -16,5 +16,5 @@ def compute_stability_score(data_name, model_name, approximation_name, nsamples,
     ci_size_mean_per_point = upper_bound-lower_bound #confidence interval per point (data_point_index, feature_index)
     ci_size_mean_per_feature = ci_size_mean_per_point.mean(axis=0) #mean confidence interval per feature (feature_index)
     stability_score = ci_size_mean_per_feature.mean(axis=0) #mean interval = stability score
-    save_result(data_name, model_name, approximation_name, nsamples, number_of_runs, "Stability_Score", stability_score)
+    save_result(data_name, model_name, approximation_name, nsamples, "Stability_Score", stability_score, number_of_runs=number_of_runs)
     return stability_score

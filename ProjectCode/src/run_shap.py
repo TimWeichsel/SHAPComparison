@@ -9,8 +9,11 @@ from config import Seed
 from models.model_loader import get_model
 from shap_approximations.kernel_shap import create_kernel_shap_explainer
 from shap_approximations.sample_shap import create_sample_shap_explainer
+from shap_approximations.exact_shap import create_exact_shap_explainer
 from shap_approximations.copula_shap import get_copula_shap_values
 from shap_approximations.gauss_shap import get_gauss_shap_values
+
+from evaluations.result_organizer import save_result
 
 def run_and_save_shap_values(data_name: str, model_name: str, approximation_name: str, nsamples: int, number_of_runs: int = 0):
     df_dict, model = __prepare_shap_calulation(data_name, model_name)
@@ -40,6 +43,8 @@ def __save_shap_values(shap_information, approximation_name, data_name, model_na
         file_name = f"shap_approximations/shap_values/{approximation_name}_{data_name}_{model_name}_{nsamples}_{run_id}.pkl"
 
     else:
+        runtime = shap_information["total_time"]
+        save_result(data_name, model_name, approximation_name, nsamples,"Running_Time", result=runtime)
         file_name = f"shap_approximations/shap_values/{approximation_name}_{data_name}_{model_name}_{nsamples}.pkl"
     file = open(file_name, "wb")
     pickle.dump(shap_information, file)
@@ -74,12 +79,12 @@ def __get_SHAP_values(approximation: str, model, X_train, X_test, nsamples, y_tr
             pass
             #return create_bounded_sampling_shap_explainer
         case "C":
-            return get_copula_shap_values(model, X_train, X_test, y_train, nsamples, run_id_seed)
+            return get_copula_shap_values(model=model, X_train=X_train, X_test=X_test, y_train=y_train, n_samples=nsamples, run_id_seed=run_id_seed)
         case "G":
-            return get_gauss_shap_values(model, X_train, X_test, y_train, nsamples, run_id_seed)
+            return get_gauss_shap_values(model=model, X_train=X_train, X_test=X_test, y_train=y_train, n_samples=nsamples, run_id_seed=run_id_seed)
         case "E":
-            pass
-            #return create_exact_shap_explainer
+            explainer = create_exact_shap_explainer(model=model, X_train=X_train)
+            return explainer(X_test)
         case _:
             pass
             #raise ValueError("Invalid SHAP approximation. Choose 'K', 'S', 'B', 'C', 'G' or 'E'")
