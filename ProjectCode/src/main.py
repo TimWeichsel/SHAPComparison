@@ -14,6 +14,7 @@ from shap_approximations.shap_loader import get_shap_values
 
 #import evaluation functions
 from evaluations.stability import compute_stability_score
+from evaluations.rbo import compute_rbo_score
 from evaluations.result_organizer import print_restults
 
 
@@ -55,7 +56,7 @@ def main():
                     case "F":
                         print("Fidelity")
                     case "R":
-                        print("RBO")
+                        compute_rbo_score(args.data, args.model, args.approximation, args.nsamples)
                     case "S":
                         if all([args.data, args.model, args.approximation, args.nsamples, args.number_of_runs]):
                             print(compute_stability_score(args.data, args.model, args.approximation, args.nsamples, args.number_of_runs))
