@@ -2,7 +2,10 @@ import pickle
 
 def save_result(data_name, model_name, approximation_name, nsamples, category, result, number_of_runs = None):
     file_name = f"evaluations/results.pkl"
-    key = f"{approximation_name}_{data_name}_{model_name}_{nsamples}_{number_of_runs}"
+    if number_of_runs is not None:
+        key = f"{approximation_name}_{data_name}_{model_name}_{nsamples}_{number_of_runs}"
+    else:
+        key = f"{approximation_name}_{data_name}_{model_name}_{nsamples}"
     try:
         file = open(file_name, "rb")
         evaluation_dict = pickle.load(file)

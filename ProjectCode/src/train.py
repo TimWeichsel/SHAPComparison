@@ -24,7 +24,6 @@ def train_models(test_split: float = 0.2):
     print("All data sets have been loaded...")
     __safe_all_data(reg_data, classification_data)
     print("All data sets have been saved as pickle...")
-    #print(reg_data[0])
     
     # Train all models on each data set
     models = __train_all_model_data_combinations(reg_data,classification_data)

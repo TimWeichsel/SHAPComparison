@@ -1,37 +1,48 @@
 import subprocess
 import itertools
 
-# Nur Regression-Modelle
+#Regression Models
 regression_models = ["LR", "RR", "SR", "XR"]
 
-# Beide Datensätze
+#Classification Models
+classification_models = ["LO", "RC", "SC", "XC"]
+
+#All Datasets
 datasets = ["A", "W"]
 
-# Alle Approximations außer 'B' (Bounded SHAP)
+#All Approximation-Methods
 approximations = ["K", "S", "C", "G", "E"]
 
-# nsamples-Werte
+#nsamples values
 nsamples_values = [10, 100, 1000]
 
-# Für jede Kombination aus Data, Model, Approx, nsamples
+#All Combinations of datasets, regression models, approximations and nsamples
+print("Running Process started")
 for data, model, approx, nsamples in itertools.product(datasets, regression_models, approximations, nsamples_values):
-    key = f"D={data}, M={model}, A={approx}, N={nsamples}"
-    command = [
-        "python", "main.py",
-        "--mode", "R",
-        "--data", data,
-        "--model", model,
-        "--approximation", approx,
-        "--nsamples", str(nsamples)
-    ]
+    if approx == "E":
+        key = f"D={data}, M={model}, A={approx}"
+        running_command = [
+            "python", "main.py",
+            "--mode", "R",
+            "--data", data,
+            "--model", model,
+            "--approximation", approx,
+        ]
+    else: 
+        key = f"D={data}, M={model}, A={approx}, N={nsamples}"
+        running_command = [
+            "python", "main.py",
+            "--mode", "R",
+            "--data", data,
+            "--model", model,
+            "--approximation", approx,
+            "--nsamples", str(nsamples)
+        ]
     
     try:
-        print(f"⏳ Running: {key}")
-        subprocess.run(command, check=True)
-        print(f"✅ Success: {key}")
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Fehler bei: {key}")
-        print(f"    Fehlercode: {e.returncode}")
+        print(f"Started: {key}")
+        subprocess.run(running_command, check=True)
+        print(f"Finished: {key}")
     except Exception as e:
-        print(f"❌ Unerwarteter Fehler bei: {key}")
-        print(f"    {str(e)}")
+        print(f"Error for: {key} = {str(e)}")
+print("Running Process ended")

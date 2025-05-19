@@ -15,6 +15,7 @@ from shap_approximations.shap_loader import get_shap_values
 #import evaluation functions
 from evaluations.stability import compute_stability_score
 from evaluations.rbo import compute_rbo_score
+from evaluations.fidelity import compute_fidelity_score
 from evaluations.result_organizer import print_restults
 
 
@@ -22,7 +23,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["T", "R", "E", "L", "P"], type=str, required=True, help="T = Training all the models on all data sets. R = Run one model on one Shap Approximation and saving runtime. E = Evaluate one SHAP approximation on one Method. L = Load SHAP values. P = Print all Evaluation Results")
     parser.add_argument("--data", choices=["A", "W"], type=str, help="A = Abalone, W = Wine Quality")
-    parser.add_argument("--model", choices=["LR", "LO", "RR", "RC", "SR", "SC", "XR", "XC"], type=str, help="LR = LinRegression, LO = LogRegression, RR = RFRegressor, RC = RFClassifier, SR = SVMRegressor, SC = SVMClassifier, XR = XGBRegressor, XC = XGBClassifier")
+    parser.add_argument("--model", choices=["LR", ], type=str, help="LR = LinRegression, LO = LogRegression, RR = RFRegressor, RC = RFClassifier, SR = SVMRegressor, SC = SVMClassifier, XR = XGBRegressor, XC = XGBClassifier")
     parser.add_argument("--approximation", choices=["K", "S", "B", "C", "G", "E"], type=str, help="K = Kernel SHAP, S = Sampling SHAP, B = Bounded Sampling, C = Copula SHAP, G = Gauss Copula SHAP, E = Exact SHAP")
     parser.add_argument("--nsamples", type=int, help="Number of coalitions for the SHAP approximation")
     parser.add_argument("--number_of_runs", type=int, help="Number of individual SHAP calculations for the same model, data and approximation for stability evaluation")
@@ -54,9 +55,9 @@ def main():
             else:
                 match args.eval_method:
                     case "F":
-                        print("Fidelity")
+                        print(compute_fidelity_score(args.data, args.model, args.approximation, args.nsamples))
                     case "R":
-                        compute_rbo_score(args.data, args.model, args.approximation, args.nsamples)
+                        print(compute_rbo_score(args.data, args.model, args.approximation, args.nsamples))
                     case "S":
                         if all([args.data, args.model, args.approximation, args.nsamples, args.number_of_runs]):
                             print(compute_stability_score(args.data, args.model, args.approximation, args.nsamples, args.number_of_runs))
