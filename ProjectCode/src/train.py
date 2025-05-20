@@ -3,6 +3,7 @@ import pickle
 #fetch data functions imports
 from data.abalone import fetch_abalone
 from data.wine_quality import fetch_wine_quality
+from data.diabetes import fetch_diabetes
 
 #model functions imports
 from models.regression import train_LinRegression
@@ -39,9 +40,10 @@ def train_models(test_split: float = 0.2):
 def __fetch_all_data(test_split: float = 0.2):
     reg_data = []
     classification_data = []
-    reg_data.append(("Abalone", fetch_abalone(split=True, normalize=True, test_split=test_split)))
-    reg_data.append(("WineQuality", fetch_wine_quality(split=True, normalize=True, test_split=test_split)))
-    classification_data.append(("WineQuality", fetch_wine_quality(split=True, normalize=True, test_split=test_split)))
+    reg_data.append(("Abalone", fetch_abalone(normalize=True, test_split=test_split)))
+    reg_data.append(("WineQuality", fetch_wine_quality(normalize=True, test_split=test_split)))
+    reg_data.append(("Diabetes", fetch_diabetes(normalize=True, test_split=test_split)))
+    classification_data.append(("WineQuality", fetch_wine_quality(normalize=True, test_split=test_split)))
     return reg_data, classification_data
 
 def __safe_all_data(reg_data,classification_data):

@@ -21,7 +21,7 @@ from evaluations.result_organizer import print_restults
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["T", "R", "E", "L", "P"], type=str, required=True, help="T = Training all the models on all data sets. R = Run one model on one Shap Approximation and saving runtime. E = Evaluate one SHAP approximation on one Method. L = Load SHAP values. P = Print all Evaluation Results")
+    parser.add_argument("--mode", choices=["T", "R", "E", "L", "P", "Z"], type=str, required=True, help="T = Training all the models on all data sets. R = Run one model on one Shap Approximation and saving runtime. E = Evaluate one SHAP approximation on one Method. L = Load SHAP values. P = Print all Evaluation Results")
     parser.add_argument("--data", choices=["A", "W"], type=str, help="A = Abalone, W = Wine Quality")
     parser.add_argument("--model", choices=["LR", ], type=str, help="LR = LinRegression, LO = LogRegression, RR = RFRegressor, RC = RFClassifier, SR = SVMRegressor, SC = SVMClassifier, XR = XGBRegressor, XC = XGBClassifier")
     parser.add_argument("--approximation", choices=["K", "S", "B", "C", "G", "E"], type=str, help="K = Kernel SHAP, S = Sampling SHAP, B = Bounded Sampling, C = Copula SHAP, G = Gauss Copula SHAP, E = Exact SHAP")
