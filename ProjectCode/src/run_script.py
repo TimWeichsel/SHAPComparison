@@ -8,7 +8,7 @@ regression_models = ["LR", "RR", "SR", "XR"]
 classification_models = ["LO", "RC", "SC", "XC"]
 
 #Datasets Regression
-reg_data = ["A", "W"]
+reg_data = ["A", "D", "W"]
 
 #Datasets Classification
 classification_data = ["W"]

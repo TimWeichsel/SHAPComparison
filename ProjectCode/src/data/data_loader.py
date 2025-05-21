@@ -10,6 +10,11 @@ def get_data(data: str, regression_indicator) -> pd.DataFrame:
             if regression_indicator == 1:
                 raise ValueError("Invalid data set. Abalone is not a classification data set.")
             key = "Abalone_Regression"
+        
+        case "D":
+            if regression_indicator == 1:
+                raise ValueError("Invalid data set. Diabetes is not a classification data set.")
+            key = "Diabetes_Regression"
         case "W":
             if regression_indicator == 0:
                 key = "WineQuality_Regression"
