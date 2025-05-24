@@ -1,6 +1,5 @@
 import pandas as pd
 import os
-from data.data_splitter import split_data
 from data.data_normalizer import normalize_data
 
 def fetch_blog(normalize: bool = True, test_split: float = 0.2) -> tuple[pd.DataFrame, pd.DataFrame, pd.Series, pd.Series]:
@@ -18,7 +17,7 @@ def fetch_blog(normalize: bool = True, test_split: float = 0.2) -> tuple[pd.Data
     blog_y_test = blog_test.iloc[:, -1]
     
 
-    # Identify categorical columns based on the criteria thtey have less than 3 unique values and have the binary bounds
+    # Identify categorical columns based on the criteria that tey have less than 3 unique values and have the binary bounds
     list_max = [maxima for maxima in blog_X_train.max()]
     list_min = [minima for minima in blog_X_train.min()]
     list_unique = [unique_count for unique_count in blog_X_train.nunique()]

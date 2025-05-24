@@ -20,6 +20,10 @@ def get_data(data: str, regression_indicator) -> pd.DataFrame:
                 key = "WineQuality_Regression"
             else:
                 key = "WineQuality_Classification"
+        case "B":
+            if regression_indicator == 1:
+                raise ValueError("Invalid data set. Diabetes is not a classification data set.")
+            key = "BlogComments_Regression"
         case _:
             raise ValueError("Invalid data set.")
     if key not in data_dict:

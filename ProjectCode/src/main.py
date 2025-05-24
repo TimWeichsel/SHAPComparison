@@ -16,13 +16,13 @@ from shap_approximations.shap_loader import get_shap_values
 from evaluations.stability import compute_stability_score
 from evaluations.rbo import compute_rbo_score
 from evaluations.fidelity import compute_fidelity_score
-from evaluations.result_organizer import print_restults
+from evaluations.result_organizer import print_results
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["T", "R", "E", "L", "P", "Z"], type=str, required=True, help="T = Training all the models on all data sets. R = Run one model on one Shap Approximation and saving runtime. E = Evaluate one SHAP approximation on one Method. L = Load SHAP values. P = Print all Evaluation Results")
-    parser.add_argument("--data", choices=["A", "D", "W"], type=str, help="A = Abalone (Regression), D = Diabetes (Regression), W = Wine Quality (Classification & Regression)")
+    parser.add_argument("--data", choices=["A", "D", "B", "W"], type=str, help="A = Abalone (Regression), D = Diabetes (Regression), B = Blog Comments (Regression), W = Wine Quality (Classification & Regression)")
     parser.add_argument("--model", choices=["LR", ], type=str, help="LR = LinRegression, LO = LogRegression, RR = RFRegressor, RC = RFClassifier, SR = SVMRegressor, SC = SVMClassifier, XR = XGBRegressor, XC = XGBClassifier")
     parser.add_argument("--approximation", choices=["K", "S", "B", "C", "G", "E"], type=str, help="K = Kernel SHAP, S = Sampling SHAP, B = Bounded Sampling, C = Copula SHAP, G = Gauss Copula SHAP, E = Exact SHAP")
     parser.add_argument("--nsamples", type=int, help="Number of coalitions for the SHAP approximation")
@@ -32,9 +32,6 @@ def main():
     args = parser.parse_args()
     
     match args.mode:
-        case "Z":
-            from data.blog_comments import fetch_blog
-            fetch_blog()
         case "T":
             train_models()
         case "R":
@@ -78,7 +75,7 @@ def main():
                     for run_id in range(args.number_of_runs):
                         print(get_shap_values(args.data, args.model, args.approximation, args.nsamples, run_id+1))
         case "P":
-            print_restults()
+            print_results()
 
 if __name__ == "__main__":
     main()

@@ -22,7 +22,7 @@ def save_result(data_name, model_name, approximation_name, nsamples, category, r
     pickle.dump(evaluation_dict, file)
     file.close()
     
-def print_restults():
+def print_results():
     file_name = f"evaluations/results.pkl"
     try:
         file = open(file_name, "rb")

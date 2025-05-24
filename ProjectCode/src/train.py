@@ -4,6 +4,7 @@ import pickle
 from data.abalone import fetch_abalone
 from data.wine_quality import fetch_wine_quality
 from data.diabetes import fetch_diabetes
+from data.blog_comments import fetch_blog
 
 #model functions imports
 from models.regression import train_LinRegression
@@ -24,7 +25,7 @@ def train_models(test_split: float = 0.2):
     reg_data, classification_data = __fetch_all_data()
     print("All data sets have been loaded...")
     __safe_all_data(reg_data, classification_data)
-    print("All data sets have been saved as pickle...")
+    print("All data sets have been saved as pickle file...")
     
     # Train all models on each data set
     models = __train_all_model_data_combinations(reg_data,classification_data)
@@ -32,7 +33,7 @@ def train_models(test_split: float = 0.2):
     
     # Save all models to pickle
     __safe_all_models(models)
-    print("All models have been saved as pickle...")
+    print("All models have been saved as pickle file...")
     
     # Evaluate all models
     __evaluate_all_models(models)
@@ -43,6 +44,7 @@ def __fetch_all_data(test_split: float = 0.2):
     reg_data.append(("Abalone", fetch_abalone(normalize=True, test_split=test_split)))
     reg_data.append(("WineQuality", fetch_wine_quality(normalize=True, test_split=test_split)))
     reg_data.append(("Diabetes", fetch_diabetes(normalize=True, test_split=test_split)))
+    reg_data.append(("BlogComments", fetch_blog(normalize=True, test_split=test_split)))
     classification_data.append(("WineQuality", fetch_wine_quality(normalize=True, test_split=test_split)))
     return reg_data, classification_data
 
