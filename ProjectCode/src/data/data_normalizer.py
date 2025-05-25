@@ -35,5 +35,5 @@ def __one_hot_encode_categorical_data(cat_features_train, cat_features_test, cat
     ohe.fit(cat_features_train)
     cat_features_train = ohe.transform(cat_features_train)
     cat_features_test = ohe.transform(cat_features_test)
-    one_hot_encoding_columns = ohe.get_feature_names_out(cat_columns).tolist()
+    one_hot_encoding_columns = ohe.get_feature_names_out([str(col) for col in cat_columns]).tolist()
     return cat_features_train, cat_features_test, one_hot_encoding_columns

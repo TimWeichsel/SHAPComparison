@@ -1,15 +1,19 @@
 import subprocess
-import sys
 from pathlib import Path
 import itertools
+import sys
+import os
 
-src_path = str(Path(__file__).parent.parent)
-sys.path.append(src_path)
+src_dir = Path(__file__).resolve().parent.parent
+sys.path.append(str(src_dir)) 
+os.chdir(str(src_dir)) 
 
 from train import train_models
 from evaluations.stability import compute_stability_score
 from evaluations.rbo import compute_rbo_score
 from evaluations.fidelity import compute_fidelity_score
+
+
 
 
 def __write_result_to_file_and_print(result_content, filename="run_results.txt"):
@@ -18,7 +22,7 @@ def __write_result_to_file_and_print(result_content, filename="run_results.txt")
         file.write(f"{result_content}\n")
 
 #Regression Models
-regression_models = ["LR", "RR", "SR", "XR"]
+regression_models = ["RR", "SR", "XR"] #["LR", "RR", "SR", "XR"]
 
 #Classification Models
 classification_models = ["LO", "RC", "SC", "XC"]
@@ -33,7 +37,7 @@ classification_data = ["W"]
 approximations = ["K", "S", "C", "G", "E"]
 
 #nsamples values
-nsamples_values = [10, 100, 1000]
+nsamples_values = [10]#[10, 100, 1000]
 
 #number of runs for stability evaluation
 number_of_runs = 10
@@ -61,6 +65,10 @@ for data, model, approximation, nsamples in itertools.product(regression_data, r
             "--model", model,
             "--approximation", approximation,
         ]
+        
+    elif approximation == "E":
+        continue
+       
     else: 
         key = f"D={data}, M={model}, A={approximation}, N={nsamples}"
         running_command = [
@@ -74,7 +82,7 @@ for data, model, approximation, nsamples in itertools.product(regression_data, r
     
     try:
         __write_result_to_file_and_print(f"Started: {key} ({running_counter})")
-        #subprocess.run(running_command, check=True)
+        subprocess.run(running_command, check=True, cwd=src_dir)
         __write_result_to_file_and_print(f"Finished: {key} ({running_counter})")
     except Exception as e:
         __write_result_to_file_and_print(f"Error for: {key} = {str(e)} ({running_counter})")
@@ -95,7 +103,7 @@ for data, model, approximation, nsamples in itertools.product(regression_data, r
         
         try:
             __write_result_to_file_and_print(f"Started: {key_multiple_runs} ({running_counter})")
-            #subprocess.run(running_command, check=True)
+            subprocess.run(running_command, check=True, cwd=src_dir)
             __write_result_to_file_and_print(f"Finished: {key_multiple_runs} ({running_counter})")
         except Exception as e:
             __write_result_to_file_and_print(f"Error for: {key_multiple_runs} = {str(e)} ({running_counter})")
@@ -126,7 +134,7 @@ for data, model, approximation, nsamples in itertools.product(classification_dat
     
     try:
         __write_result_to_file_and_print(f"Started: {key} ({running_counter})")
-        #subprocess.run(running_command, check=True)
+        subprocess.run(running_command, check=True, cwd=src_dir)
         __write_result_to_file_and_print(f"Finished: {key} ({running_counter})")
     except Exception as e:
         __write_result_to_file_and_print(f"Error for: {key} = {str(e)} ({running_counter})")
@@ -146,7 +154,7 @@ for data, model, approximation, nsamples in itertools.product(classification_dat
         
         try:
             __write_result_to_file_and_print(f"Started: {key_multiple_runs} ({running_counter})")
-            #subprocess.run(running_command, check=True)
+            subprocess.run(running_command, check=True, cwd=src_dir)
             __write_result_to_file_and_print(f"Finished: {key_multiple_runs} ({running_counter})")
         except Exception as e:
             __write_result_to_file_and_print(f"Error for: {key_multiple_runs} = {str(e)} ({running_counter})")
@@ -160,12 +168,12 @@ for data, model, approximation, nsamples in itertools.product(regression_data, r
     if approximation == "E":
         continue # Skip Exact SHAP for evaluation
     
-    #fidelity_score = compute_fidelity_score(data, model, approximation, nsamples)
-    fidelity_score = 0
+    fidelity_score = compute_fidelity_score(data, model, approximation, nsamples)
+    #fidelity_score = 0
     __write_result_to_file_and_print(f"Computed Fidelity Score for {data}, {model}, {approximation}, {nsamples} = {fidelity_score}")
     
-    #rbo_score = compute_rbo_score(data, model, approximation, nsamples)
-    rbo_score = 0
+    rbo_score = compute_rbo_score(data, model, approximation, nsamples)
+    #rbo_score = 0
     __write_result_to_file_and_print(f"Computed RBO Score for {data}, {model}, {approximation}, {nsamples} = {rbo_score}")
     
     #stability_score = compute_stability_score(data, model, approximation, nsamples, number_of_runs)
@@ -178,16 +186,16 @@ for data, model, approximation, nsamples in itertools.product(classification_dat
     if approximation == "E":
         continue # Skip Exact SHAP for evaluation
     
-    #fidelity_score = compute_fidelity_score(data, model, approximation, nsamples)
-    fidelity_score = 0
+    fidelity_score = compute_fidelity_score(data, model, approximation, nsamples)
+    #fidelity_score = 0
     __write_result_to_file_and_print(f"Computed Fidelity Score for {data}, {model}, {approximation}, {nsamples} = {fidelity_score}")
     
-    #rbo_score = compute_rbo_score(data, model, approximation, nsamples)
-    rbo_score = 0
+    rbo_score = compute_rbo_score(data, model, approximation, nsamples)
+    #rbo_score = 0
     __write_result_to_file_and_print(f"Computed RBO Score for {data}, {model}, {approximation}, {nsamples} = {rbo_score}")
     
-    #stability_score = compute_stability_score(data, model, approximation, nsamples, number_of_runs)
-    stability_score = 0
+    stability_score = compute_stability_score(data, model, approximation, nsamples, number_of_runs)
+    #stability_score = 0
     __write_result_to_file_and_print(f"Computed Stability Score for {data}, {model}, {approximation}, {nsamples} = {stability_score}")
     
     

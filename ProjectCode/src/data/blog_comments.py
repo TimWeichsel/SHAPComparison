@@ -29,4 +29,7 @@ def fetch_blog(normalize: bool = True, test_split: float = 0.2) -> tuple[pd.Data
     if normalize:
         blog_X_train, blog_X_test = normalize_data(blog_X_train, blog_X_test, cat_columns)
         
+    blog_X_train.columns = blog_X_train.columns.astype(str) #current type int
+    blog_X_test.columns = blog_X_test.columns.astype(str) #current type int
+        
     return blog_X_train, blog_X_test, blog_y_train, blog_y_test
