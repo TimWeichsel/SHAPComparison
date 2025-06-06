@@ -68,10 +68,6 @@ def __calculate_SHAP_approximation(model, df_dict, approximation, nsamples, run_
     return shap_values
 
 def __get_SHAP_values(approximation: str, model, X_train, X_test, nsamples, y_train, run_id_seed):
-    ##DELETE
-    X_test = X_test.iloc[:10]
-    print(X_test.shape)
-    ##DELETE END
     match approximation:
         case "K":
             explainer = create_kernel_shap_explainer(model=model, X_train=X_train, run_id_seed=run_id_seed)
