@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 
-def get_data(data: str, regression_indicator) -> pd.DataFrame:
+def get_data(data: str, regression_indicator: int) -> pd.DataFrame:
     file = open("data/all_datasets.pkl", "rb")
     data_dict = pickle.load(file)
     key = ""

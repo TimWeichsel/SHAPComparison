@@ -1,0 +1,49 @@
+--data A(X_test.data_point = 836, X_test.feature = 11) --model LR --nsamples=20
+SampleSHAP model calls before Shap calc: 3341
+SampleSHAP model calls: 37617
+KernelSHAP model calls before Shap calc: 3341
+KernelSHAP model calls: 55865697
+Copula SHAP model calls: 151318
+Gaussian Copula SHAP model calls: 151318
+
+--data A(X_test.data_point = 836, X_test.feature = 11) --model LR --nsamples=40
+SampleSHAP model calls before Shap calc: 3341
+SampleSHAP model calls: 71057
+KernelSHAP model calls before Shap calc: 3341
+KernelSHAP model calls: 111727217
+Gaussian Copula SHAP model calls: 318518
+Copula SHAP model calls: 318518
+
+Copula and Gauss have MC_SAMPLES = 10
+
+--data A(X_test.data_point = 836, X_test.feature = 10) --model RR --nsamples=20
+SampleSHAP model calls before Shap calc: 3341
+SampleSHAP model calls: 37617
+KernelSHAP model calls before Shap calc: 3341
+KernelSHAP model calls: 55865697
+Copula SHAP model calls: 151318
+Gaussian Copula SHAP model calls: 151318
+
+--data W(X_test.data_point = 1300, X_test.feature = 11) --model RR --nsamples=40
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 110497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 270250497
+Copula SHAP model calls: 495302
+Gaussian Copula SHAP model calls: 495302
+
+--data W(X_test.data_point = 1, X_test.feature = 11) --model RR --nsamples=40
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 5278
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 213078
+Copula SHAP model calls: 383
+Gaussian Copula SHAP model calls: 383
+
+--data W(X_test.data_point = 10, X_test.feature = 11) --model RR --nsamples=40
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 6007
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 2084007
+Copula SHAP model calls: 3812
+Gaussian Copula SHAP model calls: 3812

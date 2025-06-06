@@ -32,6 +32,9 @@ def main():
     args = parser.parse_args()
     
     match args.mode:
+        case "Z":
+            from run_comparison.run_script import run_all_reg_sample_specific_nsamples
+            run_all_reg_sample_specific_nsamples(args.nsamples)
         case "T":
             train_models()
         case "R":
