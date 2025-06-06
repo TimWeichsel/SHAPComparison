@@ -47,3 +47,6 @@ KernelSHAP model calls before Shap calc: 5197
 KernelSHAP model calls: 2084007
 Copula SHAP model calls: 3812
 Gaussian Copula SHAP model calls: 3812
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 85207
+SampleSHAP model calls before Shap calc: 5197
