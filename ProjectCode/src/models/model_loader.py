@@ -35,6 +35,10 @@ def get_model(data: str, model: str):
             data_name = "Abalone"
         case "W":
             data_name = "WineQuality"
+        case "B":
+            data_name = "BlogComments"
+        case "D":
+            data_name = "Diabetes"
         case _:
             raise ValueError("Invalid data set.")
         

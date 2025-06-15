@@ -52,3 +52,506 @@ SampleSHAP model calls: 85207
 SampleSHAP model calls before Shap calc: 5197
 SampleSHAP model calls before Shap calc: 5197
 SampleSHAP model calls: 1046497
+SampleSHAP model calls before Shap calc: 52397
+SampleSHAP model calls before Shap calc: 52397
+SampleSHAP model calls before Shap calc: 52397
+SampleSHAP model calls: 15308021
+SampleSHAP model calls before Shap calc: 52397
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 110497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 270250497
+Gaussian Copula SHAP model calls: 495302
+Copula SHAP model calls: 495302
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 135128497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 135128497
+KernelSHAP model calls before Shap calc: 5197
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 266497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 270250497
+Gaussian Copula SHAP model calls: 495302
+Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 266497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 67567497
+Gaussian Copula SHAP model calls: 235302
+Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+KernelSHAP model calls before Shap calc: 5197
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 136497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 67567497
+Gaussian Copula SHAP model calls: 105302
+Gaussian Copula SHAP model calls: 105302
+Copula SHAP model calls: 105302
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 6762597
+Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 84497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 101347997
+Gaussian Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+Gaussian Copula SHAP model calls: 105302
+Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 318497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 266497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 270250497
+Gaussian Copula SHAP model calls: 495302
+Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 84497
+Gaussian Copula SHAP model calls: 105302
+Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 84497
+Gaussian Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 396497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 13518697
+Gaussian Copula SHAP model calls: 105302
+Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 1046497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 675616497
+Gaussian Copula SHAP model calls: 1275302
+Copula SHAP model calls: 495302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 136497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 135128497
+Gaussian Copula SHAP model calls: 495302
+Copula SHAP model calls: 235302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 136497
+Gaussian Copula SHAP model calls: 105302
+Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 656497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 67567497
+Gaussian Copula SHAP model calls: 105302
+Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 1956497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 2702446497
+Gaussian Copula SHAP model calls: 2575302
+Copula SHAP model calls: 1275302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 214497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 270250497
+Gaussian Copula SHAP model calls: 1275302
+Copula SHAP model calls: 1275302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 214497
+Gaussian Copula SHAP model calls: 105302
+Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 1046497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 135128497
+Gaussian Copula SHAP model calls: 235302
+Copula SHAP model calls: 235302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 2606497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 5067081497
+Gaussian Copula SHAP model calls: 2575302
+Copula SHAP model calls: 2575302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 2606497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 675616497
+Gaussian Copula SHAP model calls: 2575302
+Copula SHAP model calls: 2575302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 396497
+Gaussian Copula SHAP model calls: 1275302
+Copula SHAP model calls: 1275302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 1956497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 270250497
+Gaussian Copula SHAP model calls: 495302
+Copula SHAP model calls: 495302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 10406497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 6756106497
+Gaussian Copula SHAP model calls: 2575302
+Copula SHAP model calls: 2575302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 10406497
+KernelSHAP model calls before Shap calc: 5197
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 7312497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 1080982497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 1351226497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 33786997
+Copula SHAP model calls: 885302
+Copula SHAP model calls: 235302
+Copula SHAP model calls: 1275302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 235302
+Gaussian Copula SHAP model calls: 2655902
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 40543097
+Copula SHAP model calls: 1015302
+Copula SHAP model calls: 885302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 24966497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 5830497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 526497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 18154497
+Copula SHAP model calls: 2575302
+Copula SHAP model calls: 365302
+Copula SHAP model calls: 2055302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2655902
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 49848497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 36250497
+Copula SHAP model calls: 2575302
+Copula SHAP model calls: 2575302
+Copula SHAP model calls: 755302
+Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 1015302
+Gaussian Copula SHAP model calls: 2655902
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 74756497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 17322497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 1436497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 54346497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 135128497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 337811497
+Copula SHAP model calls: 2575302
+Copula SHAP model calls: 2575302
+Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 1405302
+Gaussian Copula SHAP model calls: 2655902
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 85806497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 20806497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 1436497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 72806497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 202689497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 405372497
+Copula SHAP model calls: 2575302
+Copula SHAP model calls: 2575302
+Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2655902
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 99638497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 23068497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 1904497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 72416497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 10134156497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 6762597
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 472933497
+Copula SHAP model calls: 2575302
+Copula SHAP model calls: 2575302
+Copula SHAP model calls: 1665302
+Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 1925302
+Gaussian Copula SHAP model calls: 2655902
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 4686497
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 20806497
+Copula SHAP model calls: 105302
+Copula SHAP model calls: 755302
+Copula SHAP model calls: 2575302
+Copula SHAP model calls: 755302
+Copula SHAP model calls: 755302
+Copula SHAP model calls: 625302
+Copula SHAP model calls: 755302
+Copula SHAP model calls: 105302
+Copula SHAP model calls: 105302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 105302
+Gaussian Copula SHAP model calls: 105302
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls before Shap calc: 5197
+SampleSHAP model calls: 8326497
+KernelSHAP model calls before Shap calc: 5197
+KernelSHAP model calls: 6762597
+Gaussian Copula SHAP model calls: 2575302
+SampleSHAP model calls before Shap calc: 5197
+Gaussian Copula SHAP model calls: 2575302
+Gaussian Copula SHAP model calls: 2575302
+SampleSHAP model calls before Shap calc: 5197
+Copula SHAP model calls: 105302
+Copula SHAP model calls: 84438
+Copula SHAP model calls: 131302
+Copula SHAP model calls: 7211
+Copula SHAP model calls: 7211
+Copula SHAP model calls: 7211
+Copula SHAP model calls: 7211
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 31859
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 31859
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 31859
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 31859
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 18242
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 18242
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 18242
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 18242
+Gaussian Copula SHAP model calls: 7211
+Gaussian Copula SHAP model calls: 7211
+Gaussian Copula SHAP model calls: 7211
+Gaussian Copula SHAP model calls: 7211
+Copula SHAP model calls: 7211
+Copula SHAP model calls: 7211
+Copula SHAP model calls: 7211
+Copula SHAP model calls: 7211
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 314612
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 314612
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 314612
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 314612
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 178442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 178442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 178442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 178442
+Gaussian Copula SHAP model calls: 7211
+Gaussian Copula SHAP model calls: 7211
+Gaussian Copula SHAP model calls: 7211
+Gaussian Copula SHAP model calls: 7211
+Copula SHAP model calls: 7211
+Copula SHAP model calls: 16111
+Copula SHAP model calls: 16111
+Copula SHAP model calls: 16111
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 314612
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 628782
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 628782
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 628782
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 178442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 356506
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 356442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 356442
+Gaussian Copula SHAP model calls: 7211
+Gaussian Copula SHAP model calls: 16111
+Gaussian Copula SHAP model calls: 16111
+Gaussian Copula SHAP model calls: 16111
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 1780442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 3560442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 3560442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 3560442
+Gaussian Copula SHAP model calls: 176311
+Gaussian Copula SHAP model calls: 176311
+Gaussian Copula SHAP model calls: 176311
+Copula SHAP model calls: 7211
+Copula SHAP model calls: 87311
+Copula SHAP model calls: 16111
+Copula SHAP model calls: 105111
+KernelSHAP model calls before Shap calc: 353
+Copula SHAP model calls: 7211
+Copula SHAP model calls: 105111
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 78411
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 105111
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 3142142
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 25134042
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 4712992
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 1257122
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 18242
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 1424442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 1246442
+Gaussian Copula SHAP model calls: 131811
+Gaussian Copula SHAP model calls: 176311
+Gaussian Copula SHAP model calls: 176311
+Gaussian Copula SHAP model calls: 176311
+Copula SHAP model calls: 258636
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 12567242
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 64279624
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 64279624
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 12567242
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 178442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 21360442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 17800442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 7120442
+Gaussian Copula SHAP model calls: 310434
+Gaussian Copula SHAP model calls: 176311
+Gaussian Copula SHAP model calls: 176311
+Gaussian Copula SHAP model calls: 176311
+Copula SHAP model calls: 258636
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 37700842
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 64279624
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 64279624
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 47125942
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 178442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 89000442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 71200442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 35600442
+Gaussian Copula SHAP model calls: 310434
+Gaussian Copula SHAP model calls: 176311
+Gaussian Copula SHAP model calls: 176311
+Gaussian Copula SHAP model calls: 176311
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 1780442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 534000442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 178000442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 712000442
+Gaussian Copula SHAP model calls: 310434
+Gaussian Copula SHAP model calls: 176311
+Gaussian Copula SHAP model calls: 176311
+Gaussian Copula SHAP model calls: 176311
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 628782
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 40842542
+KernelSHAP model calls before Shap calc: 353
+KernelSHAP model calls: 1728377
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 89442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 1068442
+SampleSHAP model calls before Shap calc: 353
+SampleSHAP model calls: 890442
+Gaussian Copula SHAP model calls: 176311
+Gaussian Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 258636
+Copula SHAP model calls: 258636
+Copula SHAP model calls: 258636
+Copula SHAP model calls: 258636
+Copula SHAP model calls: 258636
+Copula SHAP model calls: 258636
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 176311
+Copula SHAP model calls: 2575302

@@ -22,7 +22,7 @@ def save_result(data_name, model_name, approximation_name, nsamples, category, r
     pickle.dump(evaluation_dict, file)
     file.close()
     
-def print_results():
+def print_results_():
     file_name = f"evaluations/results.pkl"
     try:
         file = open(file_name, "rb")
@@ -34,3 +34,17 @@ def print_results():
         print("\n"+key)
         for evaluation_key, result_value in value.items():
             print(f"    - {evaluation_key}: {result_value}")
+            
+def print_results():
+    file_name = f"evaluations/results.pkl"
+    try:
+        file = open(file_name, "rb")
+        evaluation_dict = pickle.load(file)
+        file.close()
+    except FileNotFoundError:
+        raise FileNotFoundError(f"{file_name} not found")
+    
+    running_times = [(key, value["Running_Time"]) for key, value in evaluation_dict.items() if "Running_Time" in value]
+    running_times.sort(key=lambda x: (x[0][:6], x[1]))
+    for key, running_time in running_times:
+        print(f"{key}: {running_time}")

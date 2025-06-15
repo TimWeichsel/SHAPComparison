@@ -33,8 +33,8 @@ def main():
     
     match args.mode:
         case "Z":
-            from run_comparison.run_script import run_all_reg_sample_specific_nsamples
-            run_all_reg_sample_specific_nsamples(args.nsamples)
+            from run_comparison.run_script import run_exact_diabetes
+            run_exact_diabetes()
         case "T":
             train_models()
         case "R":
@@ -69,11 +69,14 @@ def main():
                     case _:
                         print("Invalid Evaluation Method.")
         case "L":
-            if not all([args.data, args.model, args.approximation, args.nsamples]):
+            if not all([args.data, args.model, args.approximation]):
                 print("Not all arguments provided for running an approximation.")
             else:
                 if not (args.number_of_runs):
-                    print(get_shap_values(args.data, args.model, args.approximation, args.nsamples))
+                    shap_values = get_shap_values(args.data, args.model, args.approximation, args.nsamples)
+                    print(type(shap_values))
+                    print(shap_values.shape)
+                    print(shap_values[0:10,:])
                 else:
                     for run_id in range(args.number_of_runs):
                         print(get_shap_values(args.data, args.model, args.approximation, args.nsamples, run_id+1))

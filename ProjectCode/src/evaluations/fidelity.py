@@ -6,10 +6,10 @@ import numpy as np
 
 def compute_fidelity_score(data_name, model_name, approximation_name, nsamples):    
     shap_values = get_shap_values(data_name, model_name, approximation_name, nsamples)
-    exact_values = get_shap_values(data_name, model_name, "E", nsamples)
+    exact_values = get_shap_values(data_name, model_name, "E")
     fidelity_scores = []
     for data_point_index in range(shap_values.shape[0]):
-        exact_value_data_point = exact_values.values[data_point_index]
+        exact_value_data_point = exact_values[data_point_index]
         shap_values_data_point = shap_values[data_point_index]
         fidelity_scores.append(mse(exact_value_data_point, shap_values_data_point))
         
