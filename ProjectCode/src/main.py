@@ -17,6 +17,7 @@ from evaluations.stability import compute_stability_score
 from evaluations.rbo import compute_rbo_score
 from evaluations.fidelity import compute_fidelity_score
 from evaluations.result_organizer import print_results
+from evaluations.result_organizer import get_results
 
 
 def main():
@@ -33,8 +34,13 @@ def main():
     
     match args.mode:
         case "Z":
-            from run_comparison.run_script import run_exact_diabetes
-            run_exact_diabetes()
+            from run_comparison.run_script import run_approximations
+            from run_comparison.run_script import run_evaluations
+            from run_comparison.run_script import run_stability
+            #run_approximations()
+            run_evaluations()
+            #run_stability()
+
         case "T":
             train_models()
         case "R":
@@ -81,7 +87,10 @@ def main():
                     for run_id in range(args.number_of_runs):
                         print(get_shap_values(args.data, args.model, args.approximation, args.nsamples, run_id+1))
         case "P":
-            print_results()
+            if not (args.eval_method):
+                print_results()
+            else:
+                print_results(args.eval_method)
 
 if __name__ == "__main__":
     main()

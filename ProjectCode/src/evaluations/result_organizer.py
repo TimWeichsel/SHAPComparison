@@ -1,4 +1,5 @@
 import pickle
+import pandas as pd
 
 def save_result(data_name, model_name, approximation_name, nsamples, category, result, number_of_runs = None):
     file_name = f"evaluations/results.pkl"
@@ -22,18 +23,6 @@ def save_result(data_name, model_name, approximation_name, nsamples, category, r
     pickle.dump(evaluation_dict, file)
     file.close()
     
-def print_results_():
-    file_name = f"evaluations/results.pkl"
-    try:
-        file = open(file_name, "rb")
-        evaluation_dict = pickle.load(file)
-        file.close()
-    except FileNotFoundError:
-        raise FileNotFoundError(f"{file_name} not found")
-    for key, value in evaluation_dict.items():
-        print("\n"+key)
-        for evaluation_key, result_value in value.items():
-            print(f"    - {evaluation_key}: {result_value}")
             
 def print_results():
     file_name = f"evaluations/results.pkl"
@@ -48,3 +37,14 @@ def print_results():
     running_times.sort(key=lambda x: (x[0][:6], x[1]))
     for key, running_time in running_times:
         print(f"{key}: {running_time}")
+        
+def get_results() -> pd.DataFrame:
+    file_name = f"evaluations/results.pkl"
+    try:
+        file = open(file_name, "rb")
+        evaluation_dict = pickle.load(file)
+        file.close()
+    except FileNotFoundError:
+        raise FileNotFoundError(f"{file_name} not found")
+    
+    return pd.DataFrame.from_dict(evaluation_dict).T
