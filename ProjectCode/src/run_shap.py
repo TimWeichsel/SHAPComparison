@@ -39,11 +39,12 @@ def __run_shap_values(data, model_name, approximation, nsamples, df_dict, model,
     return __create_shap_information(total_time, shap_values, model_name, data, approximation, nsamples, df_dict["X_test"], df_dict["y_test"], df_dict["X_train"].columns, datetime.datetime.now(), run_id_seed)
 
 def __save_shap_values(shap_information, approximation_name, data_name, model_name, nsamples, run_id = 0):
+    runtime = shap_information["total_time"]
     if run_id:
+        save_result(data_name, model_name, approximation_name, nsamples,"Running_Time", result=runtime, number_of_runs=run_id)
         file_name = f"shap_approximations/shap_values/{approximation_name}_{data_name}_{model_name}_{nsamples}_{run_id}.pkl"
-
+        
     else:
-        runtime = shap_information["total_time"]
         save_result(data_name, model_name, approximation_name, nsamples,"Running_Time", result=runtime)
         file_name = f"shap_approximations/shap_values/{approximation_name}_{data_name}_{model_name}_{nsamples}.pkl"
     file = open(file_name, "wb")

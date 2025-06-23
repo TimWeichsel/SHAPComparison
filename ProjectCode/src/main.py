@@ -36,10 +36,13 @@ def main():
         case "Z":
             from run_comparison.run_script import run_approximations
             from run_comparison.run_script import run_evaluations
-            from run_comparison.run_script import run_stability
-            #run_approximations()
+            #from run_comparison.run_script import run_stability
+            #from evaluations.result_organizer import update_runtimes_flat_key_format
+
+            run_approximations()
             run_evaluations()
             #run_stability()
+            #update_runtimes_flat_key_format()
 
         case "T":
             train_models()

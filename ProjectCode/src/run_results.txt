@@ -4543,3 +4543,3418 @@ Finished
 Started: S (2)
 Finished
 Started: S (3)
+Training Models finished
+
+Training Models finished
+
+Started: Stability: M=LR, A=C, D=D, N=36, R=10 (1)
+Finished: Stability: M=LR, A=C, D=D, N=36, R=10 (1)
+Started: Stability: M=LR, A=C, D=D, N=36, R=10 (1)
+Finished: Stability: M=LR, A=C, D=D, N=36, R=10 (1)
+Started: Stability: M=LR, A=C, D=D, N=70, R=10 (2)
+Finished: Stability: M=LR, A=C, D=D, N=70, R=10 (2)
+Started: Stability: M=LR, A=C, D=D, N=70, R=10 (2)
+Training Models finished
+
+Started: Stability: M=LR, A=C, D=D, N=36, R=10 (1)
+Finished: Stability: M=LR, A=C, D=D, N=36, R=10 (1)
+Started: Stability: M=LR, A=C, D=D, N=70, R=10 (2)
+Finished: Stability: M=LR, A=C, D=D, N=70, R=10 (2)
+Started: Stability: M=LR, A=G, D=D, N=26, R=10 (3)
+Finished: Stability: M=LR, A=G, D=D, N=26, R=10 (3)
+Started: Stability: M=LR, A=K, D=D, N=500, R=10 (4)
+Finished: Stability: M=LR, A=K, D=D, N=500, R=10 (4)
+Started: Stability: M=LR, A=S, D=D, N=1400, R=10 (5)
+Finished: Stability: M=LR, A=S, D=D, N=1400, R=10 (5)
+Training Models finished
+
+Started: Stability: M=LR, A=S, D=D, N=2100, R=10 (1)
+Finished: Stability: M=LR, A=S, D=D, N=2100, R=10 (1)
+Training Models finished
+
+Started: Stability: M=LR, A=C, D=D, N=140, R=10 (1)
+Finished: Stability: M=LR, A=C, D=D, N=140, R=10 (1)
+Started: Stability: M=LR, A=C, D=D, N=140, R=10 (1)
+Finished: Stability: M=LR, A=C, D=D, N=140, R=10 (1)
+Training Models finished
+
+Started: Stability: M=LR, A=G, D=D, N=40, R=10 (1)
+Finished: Stability: M=LR, A=G, D=D, N=40, R=10 (1)
+Started: Stability: M=LR, A=G, D=D, N=40, R=10 (1)
+Finished: Stability: M=LR, A=G, D=D, N=40, R=10 (1)
+Training Models finished
+
+Started: Stability: M=LR, A=G, D=D, N=56, R=10 (1)
+Finished: Stability: M=LR, A=G, D=D, N=56, R=10 (1)
+Started: Stability: M=LR, A=G, D=D, N=56, R=10 (1)
+Finished: Stability: M=LR, A=G, D=D, N=56, R=10 (1)
+Training Models finished
+
+Started: Stability: M=LR, A=C, D=W, N=20, R=10 (1)
+Finished: Stability: M=LR, A=C, D=W, N=20, R=10 (1)
+Started: Stability: M=LR, A=C, D=W, N=20, R=10 (1)
+Finished: Stability: M=LR, A=C, D=W, N=20, R=10 (1)
+Training Models finished
+
+Started: Stability: M=LR, A=G, D=W, N=94, R=10 (1)
+Finished: Stability: M=LR, A=G, D=W, N=94, R=10 (1)
+Started: Stability: M=LR, A=G, D=W, N=94, R=10 (1)
+Finished: Stability: M=LR, A=G, D=W, N=94, R=10 (1)
+Training Models finished
+
+Started: Stability: M=SR, A=S, D=W, N=40, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=40, R=10 (1)
+Started: Stability: M=SR, A=S, D=W, N=40, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=40, R=10 (1)
+Started: Stability: M=SR, A=S, D=W, N=70, R=10 (2)
+Finished: Stability: M=SR, A=S, D=W, N=70, R=10 (2)
+Started: Stability: M=SR, A=S, D=W, N=70, R=10 (2)
+Finished: Stability: M=SR, A=S, D=W, N=70, R=10 (2)
+Training Models finished
+
+Started: Stability: M=SR, A=S, D=W, N=70, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=70, R=10 (1)
+Started: Stability: M=SR, A=S, D=W, N=70, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=70, R=10 (1)
+Training Models finished
+
+Started: Stability: M=SR, A=S, D=W, N=56, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=56, R=10 (1)
+Started: Stability: M=SR, A=S, D=W, N=56, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=56, R=10 (1)
+Training Models finished
+
+Started: Stability: M=SR, A=S, D=W, N=54, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=54, R=10 (1)
+Started: Stability: M=SR, A=S, D=W, N=54, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=54, R=10 (1)
+Training Models finished
+
+Started: Stability: M=SR, A=S, D=W, N=50, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=50, R=10 (1)
+Started: Stability: M=SR, A=S, D=W, N=50, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=50, R=10 (1)
+Started: Stability: M=SR, A=S, D=W, N=52, R=10 (2)
+Finished: Stability: M=SR, A=S, D=W, N=52, R=10 (2)
+Started: Stability: M=SR, A=S, D=W, N=52, R=10 (2)
+Finished: Stability: M=SR, A=S, D=W, N=52, R=10 (2)
+Started: Stability: M=SR, A=S, D=W, N=54, R=10 (3)
+Finished: Stability: M=SR, A=S, D=W, N=54, R=10 (3)
+Started: Stability: M=SR, A=S, D=W, N=54, R=10 (3)
+Finished: Stability: M=SR, A=S, D=W, N=54, R=10 (3)
+Started: Stability: M=SR, A=S, D=W, N=56, R=10 (4)
+Finished: Stability: M=SR, A=S, D=W, N=56, R=10 (4)
+Started: Stability: M=SR, A=S, D=W, N=56, R=10 (4)
+Finished: Stability: M=SR, A=S, D=W, N=56, R=10 (4)
+Started: Stability: M=SR, A=S, D=W, N=58, R=10 (5)
+Finished: Stability: M=SR, A=S, D=W, N=58, R=10 (5)
+Started: Stability: M=SR, A=S, D=W, N=58, R=10 (5)
+Finished: Stability: M=SR, A=S, D=W, N=58, R=10 (5)
+Started: Stability: M=SR, A=S, D=W, N=60, R=10 (6)
+Finished: Stability: M=SR, A=S, D=W, N=60, R=10 (6)
+Started: Stability: M=SR, A=S, D=W, N=60, R=10 (6)
+Finished: Stability: M=SR, A=S, D=W, N=60, R=10 (6)
+Training Models finished
+
+Started: Stability: M=SR, A=S, D=W, N=70, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=70, R=10 (1)
+Started: Stability: M=SR, A=S, D=W, N=70, R=10 (1)
+Finished: Stability: M=SR, A=S, D=W, N=70, R=10 (1)
+Started: Stability: M=SR, A=S, D=W, N=62, R=10 (2)
+Finished: Stability: M=SR, A=S, D=W, N=62, R=10 (2)
+Started: Stability: M=SR, A=S, D=W, N=62, R=10 (2)
+Finished: Stability: M=SR, A=S, D=W, N=62, R=10 (2)
+Started: Stability: M=SR, A=S, D=W, N=64, R=10 (3)
+Finished: Stability: M=SR, A=S, D=W, N=64, R=10 (3)
+Started: Stability: M=SR, A=S, D=W, N=64, R=10 (3)
+Finished: Stability: M=SR, A=S, D=W, N=64, R=10 (3)
+Started: Stability: M=SR, A=S, D=W, N=66, R=10 (4)
+Finished: Stability: M=SR, A=S, D=W, N=66, R=10 (4)
+Started: Stability: M=SR, A=S, D=W, N=66, R=10 (4)
+Finished: Stability: M=SR, A=S, D=W, N=66, R=10 (4)
+Started: Stability: M=SR, A=S, D=W, N=68, R=10 (5)
+Finished: Stability: M=SR, A=S, D=W, N=68, R=10 (5)
+Started: Stability: M=SR, A=S, D=W, N=68, R=10 (5)
+Finished: Stability: M=SR, A=S, D=W, N=68, R=10 (5)
+Started: Stability: M=SR, A=S, D=W, N=74, R=10 (6)
+Finished: Stability: M=SR, A=S, D=W, N=74, R=10 (6)
+Started: Stability: M=SR, A=S, D=W, N=74, R=10 (6)
+Finished: Stability: M=SR, A=S, D=W, N=74, R=10 (6)
+Started: Stability: M=SR, A=S, D=W, N=78, R=10 (7)
+Finished: Stability: M=SR, A=S, D=W, N=78, R=10 (7)
+Started: Stability: M=SR, A=S, D=W, N=78, R=10 (7)
+Finished: Stability: M=SR, A=S, D=W, N=78, R=10 (7)
+Training Models finished
+
+Started: Runtime(1)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'LR', '--model', 'D', '--approximation', 'C', '--nsamples', '12', '--eval_method', 'R', '--number_of_runs', '10']' returned non-zero exit status 2. (1)
+Started: Runtime(2)
+Training Models finished
+
+Started: Runtime(1)
+Finished
+Started: Runtime(2)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '16', '--eval_method', 'R', '--number_of_runs', '10']' returned non-zero exit status 1. (2)
+Started: Runtime(3)
+Finished
+Started: Runtime(4)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '26', '--eval_method', 'R', '--number_of_runs', '10']' returned non-zero exit status 1. (4)
+Started: Runtime(5)
+Finished
+Started: Runtime(6)
+Finished
+Started: Runtime(7)
+Finished
+Started: Runtime(8)
+Finished
+Started: Runtime(9)
+Finished
+Started: Runtime(10)
+Finished
+Started: Runtime(11)
+Finished
+Started: Runtime(12)
+Finished
+Training Models finished
+
+Started: : M=RR, A=C, D=D, N=12 - Number(1)
+Finished
+Started: : M=RR, A=C, D=D, N=50 - Number(2)
+Finished
+Started: : M=RR, A=C, D=D, N=100 - Number(3)
+Finished
+Started: : M=RR, A=C, D=D, N=200 - Number(4)
+Finished
+Started: : M=RR, A=C, D=D, N=300 - Number(5)
+Finished
+Started: : M=RR, A=C, D=D, N=400 - Number(6)
+Finished
+Started: : M=RR, A=C, D=D, N=500 - Number(7)
+Finished
+Started: : M=RR, A=C, D=D, N=750 - Number(8)
+Finished
+Started: : M=RR, A=C, D=D, N=1000 - Number(9)
+Finished
+Started: : M=RR, A=C, D=D, N=1250 - Number(10)
+Finished
+Started: : M=RR, A=C, D=D, N=1500 - Number(11)
+Finished
+Started: : M=RR, A=C, D=D, N=1750 - Number(12)
+Finished
+Started: : M=RR, A=C, D=D, N=2048 - Number(13)
+Finished
+Started: : M=RR, A=G, D=D, N=12 - Number(14)
+Finished
+Started: : M=RR, A=G, D=D, N=50 - Number(15)
+Finished
+Started: : M=RR, A=G, D=D, N=100 - Number(16)
+Finished
+Started: : M=RR, A=G, D=D, N=200 - Number(17)
+Finished
+Started: : M=RR, A=G, D=D, N=300 - Number(18)
+Finished
+Started: : M=RR, A=G, D=D, N=400 - Number(19)
+Finished
+Started: : M=RR, A=G, D=D, N=500 - Number(20)
+Finished
+Started: : M=RR, A=G, D=D, N=750 - Number(21)
+Finished
+Started: : M=RR, A=G, D=D, N=1000 - Number(22)
+Finished
+Started: : M=RR, A=G, D=D, N=1250 - Number(23)
+Finished
+Started: : M=RR, A=G, D=D, N=1500 - Number(24)
+Finished
+Started: : M=RR, A=G, D=D, N=1750 - Number(25)
+Finished
+Started: : M=RR, A=G, D=D, N=2048 - Number(26)
+Finished
+Started: : M=RR, A=K, D=D, N=1 - Number(27)
+Finished
+Started: : M=RR, A=K, D=D, N=10 - Number(28)
+Finished
+Started: : M=RR, A=K, D=D, N=20 - Number(29)
+Finished
+Started: : M=RR, A=K, D=D, N=30 - Number(30)
+Finished
+Started: : M=RR, A=K, D=D, N=40 - Number(31)
+Finished
+Started: : M=RR, A=K, D=D, N=50 - Number(32)
+Finished
+Started: : M=RR, A=K, D=D, N=75 - Number(33)
+Finished
+Started: : M=RR, A=K, D=D, N=100 - Number(34)
+Finished
+Started: : M=RR, A=K, D=D, N=125 - Number(35)
+Finished
+Started: : M=RR, A=K, D=D, N=150 - Number(36)
+Finished
+Started: : M=RR, A=K, D=D, N=200 - Number(37)
+Finished
+Started: : M=RR, A=K, D=D, N=250 - Number(38)
+Finished
+Started: : M=RR, A=K, D=D, N=300 - Number(39)
+Finished
+Started: : M=RR, A=S, D=D, N=30 - Number(40)
+Finished
+Started: : M=RR, A=S, D=D, N=50 - Number(41)
+Finished
+Started: : M=RR, A=S, D=D, N=100 - Number(42)
+Finished
+Started: : M=RR, A=S, D=D, N=200 - Number(43)
+Finished
+Started: : M=RR, A=S, D=D, N=300 - Number(44)
+Finished
+Started: : M=RR, A=S, D=D, N=400 - Number(45)
+Finished
+Started: : M=RR, A=S, D=D, N=500 - Number(46)
+Finished
+Started: : M=RR, A=S, D=D, N=600 - Number(47)
+Finished
+Started: : M=RR, A=S, D=D, N=700 - Number(48)
+Finished
+Started: : M=RR, A=S, D=D, N=800 - Number(49)
+Finished
+Started: : M=RR, A=S, D=D, N=900 - Number(50)
+Finished
+Started: : M=RR, A=S, D=D, N=1000 - Number(51)
+Finished
+Started: : M=RR, A=S, D=D, N=1500 - Number(52)
+Finished
+Started: : M=RR, A=S, D=D, N=2000 - Number(53)
+Finished
+Started: : M=RR, A=S, D=D, N=2500 - Number(54)
+Finished
+Started: : M=RR, A=S, D=D, N=3000 - Number(55)
+Finished
+Started: : M=RR, A=S, D=D, N=3500 - Number(56)
+Finished
+Started: : M=RR, A=S, D=D, N=4000 - Number(57)
+Finished
+Started: : M=RR, A=S, D=D, N=4500 - Number(58)
+Finished
+Started: : M=RR, A=S, D=D, N=5000 - Number(59)
+Finished
+Started: : M=RR, A=S, D=D, N=5500 - Number(60)
+Finished
+Started: : M=RR, A=S, D=D, N=6000 - Number(61)
+Finished
+Started: : M=RR, A=S, D=D, N=1150 - Number(62)
+Finished
+Started: : M=RR, A=S, D=D, N=1300 - Number(63)
+Finished
+Started: : M=RR, A=S, D=D, N=7000 - Number(64)
+Finished
+Started: : M=RR, A=S, D=D, N=8000 - Number(65)
+Finished
+Started: : M=RR, A=S, D=D, N=9000 - Number(66)
+Finished
+Started: : M=RR, A=S, D=D, N=10000 - Number(67)
+Finished
+Started: : M=RR, A=S, D=D, N=12000 - Number(68)
+Finished
+Started: : M=RR, A=S, D=D, N=14000 - Number(69)
+Finished
+Started: : M=RR, A=S, D=D, N=16000 - Number(70)
+Finished
+Training Models finished
+
+Started: : M=LR, A=S, D=D, N=25 - Number(1)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'S', '--nsamples', '25', '--eval_method', 'R']' returned non-zero exit status 1. (1)
+Started: : M=LR, A=S, D=D, N=25 (1)
+Training Models finished
+
+Started: : M=LR, A=S, D=D, N=25 - Number(1)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'S', '--nsamples', '25', '--eval_method', 'R']' returned non-zero exit status 1. (1)
+Started: : M=LR, A=S, D=D, N=25 (1)
+Training Models finished
+
+Started: : M=LR, A=S, D=D, N=100 - Number(1)
+Finished
+Started: : M=LR, A=S, D=D, N=100 (1)
+Training Models finished
+
+Started: D=D, M=LR, A=S, D=D, N=25 (1)
+Finished: D=D, M=LR, A=S, D=D, N=25 (1)
+Started: D=D, M=LR, A=S, D=D, N=50 (2)
+Training Models finished
+
+Started: D=D, M=LR, A=S, D=D, N=25 (1)
+Finished: D=D, M=LR, A=S, D=D, N=25 (1)
+Started: D=D, M=LR, A=S, D=D, N=50 (2)
+Finished: D=D, M=LR, A=S, D=D, N=50 (2)
+Started: D=D, M=LR, A=S, D=D, N=75 (3)
+Finished: D=D, M=LR, A=S, D=D, N=75 (3)
+Started: D=D, M=LR, A=C, D=D, N=110 (4)
+Finished: D=D, M=LR, A=C, D=D, N=110 (4)
+Started: D=D, M=LR, A=C, D=D, N=120 (5)
+Finished: D=D, M=LR, A=C, D=D, N=120 (5)
+Started: D=D, M=LR, A=C, D=D, N=130 (6)
+Finished: D=D, M=LR, A=C, D=D, N=130 (6)
+Started: D=D, M=LR, A=C, D=D, N=140 (7)
+Finished: D=D, M=LR, A=C, D=D, N=140 (7)
+Started: D=D, M=LR, A=C, D=D, N=150 (8)
+Finished: D=D, M=LR, A=C, D=D, N=150 (8)
+Started: D=D, M=LR, A=C, D=D, N=160 (9)
+Finished: D=D, M=LR, A=C, D=D, N=160 (9)
+Started: D=D, M=LR, A=C, D=D, N=170 (10)
+Finished: D=D, M=LR, A=C, D=D, N=170 (10)
+Started: D=D, M=LR, A=G, D=D, N=110 (11)
+Finished: D=D, M=LR, A=G, D=D, N=110 (11)
+Started: D=D, M=LR, A=G, D=D, N=120 (12)
+Finished: D=D, M=LR, A=G, D=D, N=120 (12)
+Started: D=D, M=LR, A=G, D=D, N=130 (13)
+Finished: D=D, M=LR, A=G, D=D, N=130 (13)
+Started: D=D, M=LR, A=G, D=D, N=140 (14)
+Finished: D=D, M=LR, A=G, D=D, N=140 (14)
+Started: D=D, M=LR, A=G, D=D, N=150 (15)
+Finished: D=D, M=LR, A=G, D=D, N=150 (15)
+Started: D=D, M=LR, A=G, D=D, N=160 (16)
+Finished: D=D, M=LR, A=G, D=D, N=160 (16)
+Started: D=D, M=LR, A=G, D=D, N=170 (17)
+Finished: D=D, M=LR, A=G, D=D, N=170 (17)
+Started: D=D, M=LR, A=G, D=D, N=180 (18)
+Finished: D=D, M=LR, A=G, D=D, N=180 (18)
+Started: D=D, M=LR, A=G, D=D, N=190 (19)
+Finished: D=D, M=LR, A=G, D=D, N=190 (19)
+Started: D=D, M=LR, A=G, D=D, N=200 (20)
+Finished: D=D, M=LR, A=G, D=D, N=200 (20)
+Started: : M=LR, A=S, D=D, N=25 - Number(1)
+Finished
+Started: : M=LR, A=S, D=D, N=25 (1)
+Finished
+Started: : M=LR, A=S, D=D, N=50 - Number(2)
+Finished
+Started: : M=LR, A=S, D=D, N=50 (2)
+Finished
+Started: : M=LR, A=S, D=D, N=75 - Number(3)
+Finished
+Started: : M=LR, A=S, D=D, N=75 (3)
+Finished
+Started: : M=LR, A=C, D=D, N=110 - Number(4)
+Finished
+Started: : M=LR, A=C, D=D, N=110 (4)
+Finished
+Started: : M=LR, A=C, D=D, N=120 - Number(5)
+Finished
+Started: : M=LR, A=C, D=D, N=120 (5)
+Finished
+Started: : M=LR, A=C, D=D, N=130 - Number(6)
+Finished
+Started: : M=LR, A=C, D=D, N=130 (6)
+Finished
+Started: : M=LR, A=C, D=D, N=140 - Number(7)
+Finished
+Started: : M=LR, A=C, D=D, N=140 (7)
+Finished
+Started: : M=LR, A=C, D=D, N=150 - Number(8)
+Finished
+Started: : M=LR, A=C, D=D, N=150 (8)
+Finished
+Started: : M=LR, A=C, D=D, N=160 - Number(9)
+Finished
+Started: : M=LR, A=C, D=D, N=160 (9)
+Finished
+Started: : M=LR, A=C, D=D, N=170 - Number(10)
+Finished
+Started: : M=LR, A=C, D=D, N=170 (10)
+Finished
+Started: : M=LR, A=G, D=D, N=110 - Number(11)
+Finished
+Started: : M=LR, A=G, D=D, N=110 (11)
+Finished
+Started: : M=LR, A=G, D=D, N=120 - Number(12)
+Finished
+Started: : M=LR, A=G, D=D, N=120 (12)
+Finished
+Started: : M=LR, A=G, D=D, N=130 - Number(13)
+Finished
+Started: : M=LR, A=G, D=D, N=130 (13)
+Finished
+Started: : M=LR, A=G, D=D, N=140 - Number(14)
+Finished
+Started: : M=LR, A=G, D=D, N=140 (14)
+Finished
+Started: : M=LR, A=G, D=D, N=150 - Number(15)
+Finished
+Started: : M=LR, A=G, D=D, N=150 (15)
+Finished
+Started: : M=LR, A=G, D=D, N=160 - Number(16)
+Finished
+Started: : M=LR, A=G, D=D, N=160 (16)
+Finished
+Started: : M=LR, A=G, D=D, N=170 - Number(17)
+Finished
+Started: : M=LR, A=G, D=D, N=170 (17)
+Finished
+Started: : M=LR, A=G, D=D, N=180 - Number(18)
+Finished
+Started: : M=LR, A=G, D=D, N=180 (18)
+Finished
+Started: : M=LR, A=G, D=D, N=190 - Number(19)
+Finished
+Started: : M=LR, A=G, D=D, N=190 (19)
+Finished
+Started: : M=LR, A=G, D=D, N=200 - Number(20)
+Finished
+Started: : M=LR, A=G, D=D, N=200 (20)
+Finished
+Started: : M=LR, A=S, D=D, N=25 - Number(21)
+Finished
+Started: : M=LR, A=S, D=D, N=25 (21)
+Finished
+Started: : M=LR, A=S, D=D, N=50 - Number(22)
+Finished
+Started: : M=LR, A=S, D=D, N=50 (22)
+Finished
+Started: : M=LR, A=S, D=D, N=75 - Number(23)
+Finished
+Started: : M=LR, A=S, D=D, N=75 (23)
+Finished
+Started: : M=LR, A=S, D=D, N=100 - Number(24)
+Finished
+Started: : M=LR, A=S, D=D, N=100 (24)
+Finished
+Started: : M=LR, A=S, D=D, N=200 - Number(25)
+Finished
+Started: : M=LR, A=S, D=D, N=200 (25)
+Finished
+Started: : M=LR, A=S, D=D, N=300 - Number(26)
+Finished
+Started: : M=LR, A=S, D=D, N=300 (26)
+Finished
+Started: : M=LR, A=S, D=D, N=400 - Number(27)
+Finished
+Started: : M=LR, A=S, D=D, N=400 (27)
+Finished
+Started: : M=LR, A=S, D=D, N=500 - Number(28)
+Finished
+Started: : M=LR, A=S, D=D, N=500 (28)
+Finished
+Started: : M=LR, A=S, D=D, N=600 - Number(29)
+Finished
+Started: : M=LR, A=S, D=D, N=600 (29)
+Finished
+Started: : M=LR, A=S, D=D, N=700 - Number(30)
+Finished
+Started: : M=LR, A=S, D=D, N=700 (30)
+Finished
+Started: : M=LR, A=S, D=D, N=800 - Number(31)
+Finished
+Started: : M=LR, A=S, D=D, N=800 (31)
+Finished
+Started: : M=LR, A=S, D=D, N=900 - Number(32)
+Finished
+Started: : M=LR, A=S, D=D, N=900 (32)
+Finished
+Started: : M=LR, A=S, D=D, N=1000 - Number(33)
+Finished
+Started: : M=LR, A=S, D=D, N=1000 (33)
+Finished
+Started: : M=LR, A=S, D=D, N=1500 - Number(34)
+Finished
+Started: : M=LR, A=S, D=D, N=1500 (34)
+Finished
+Started: : M=LR, A=S, D=D, N=2000 - Number(35)
+Finished
+Started: : M=LR, A=S, D=D, N=2000 (35)
+Finished
+Started: : M=LR, A=S, D=D, N=2500 - Number(36)
+Finished
+Started: : M=LR, A=S, D=D, N=2500 (36)
+Finished
+Started: : M=LR, A=S, D=D, N=3000 - Number(37)
+Finished
+Started: : M=LR, A=S, D=D, N=3000 (37)
+Finished
+Started: : M=LR, A=S, D=D, N=3500 - Number(38)
+Finished
+Started: : M=LR, A=S, D=D, N=3500 (38)
+Finished
+Started: : M=LR, A=S, D=D, N=4000 - Number(39)
+Finished
+Started: : M=LR, A=S, D=D, N=4000 (39)
+Finished
+Started: : M=RR, A=S, D=D, N=30 - Number(40)
+Finished
+Started: : M=RR, A=S, D=D, N=30 (40)
+Finished
+Started: : M=RR, A=S, D=D, N=50 - Number(41)
+Finished
+Started: : M=RR, A=S, D=D, N=50 (41)
+Finished
+Started: : M=RR, A=S, D=D, N=100 - Number(42)
+Finished
+Started: : M=RR, A=S, D=D, N=100 (42)
+Finished
+Started: : M=RR, A=S, D=D, N=200 - Number(43)
+Finished
+Started: : M=RR, A=S, D=D, N=200 (43)
+Finished
+Started: : M=RR, A=S, D=D, N=300 - Number(44)
+Finished
+Started: : M=RR, A=S, D=D, N=300 (44)
+Finished
+Started: : M=RR, A=S, D=D, N=400 - Number(45)
+Finished
+Started: : M=RR, A=S, D=D, N=400 (45)
+Finished
+Started: : M=RR, A=S, D=D, N=500 - Number(46)
+Finished
+Started: : M=RR, A=S, D=D, N=500 (46)
+Finished
+Started: : M=RR, A=S, D=D, N=600 - Number(47)
+Finished
+Started: : M=RR, A=S, D=D, N=600 (47)
+Finished
+Started: : M=RR, A=S, D=D, N=700 - Number(48)
+Finished
+Started: : M=RR, A=S, D=D, N=700 (48)
+Finished
+Started: : M=RR, A=S, D=D, N=800 - Number(49)
+Finished
+Started: : M=RR, A=S, D=D, N=800 (49)
+Finished
+Started: : M=RR, A=S, D=D, N=900 - Number(50)
+Finished
+Started: : M=RR, A=S, D=D, N=900 (50)
+Finished
+Started: : M=RR, A=S, D=D, N=1000 - Number(51)
+Finished
+Started: : M=RR, A=S, D=D, N=1000 (51)
+Finished
+Started: : M=RR, A=S, D=D, N=1150 - Number(52)
+Finished
+Started: : M=RR, A=S, D=D, N=1150 (52)
+Finished
+Started: : M=RR, A=S, D=D, N=1300 - Number(53)
+Finished
+Started: : M=RR, A=S, D=D, N=1300 (53)
+Finished
+Started: : M=RR, A=S, D=D, N=1500 - Number(54)
+Finished
+Started: : M=RR, A=S, D=D, N=1500 (54)
+Finished
+Started: : M=RR, A=S, D=D, N=2000 - Number(55)
+Finished
+Started: : M=RR, A=S, D=D, N=2000 (55)
+Finished
+Started: : M=RR, A=S, D=D, N=2500 - Number(56)
+Finished
+Started: : M=RR, A=S, D=D, N=2500 (56)
+Finished
+Started: : M=RR, A=S, D=D, N=3000 - Number(57)
+Finished
+Started: : M=RR, A=S, D=D, N=3000 (57)
+Finished
+Started: : M=RR, A=S, D=D, N=3500 - Number(58)
+Finished
+Started: : M=RR, A=S, D=D, N=3500 (58)
+Finished
+Started: : M=RR, A=S, D=D, N=4000 - Number(59)
+Finished
+Started: : M=RR, A=S, D=D, N=4000 (59)
+Finished
+Started: : M=RR, A=S, D=D, N=4500 - Number(60)
+Finished
+Started: : M=RR, A=S, D=D, N=4500 (60)
+Finished
+Started: : M=RR, A=S, D=D, N=5000 - Number(61)
+Finished
+Started: : M=RR, A=S, D=D, N=5000 (61)
+Finished
+Started: : M=RR, A=S, D=D, N=5500 - Number(62)
+Finished
+Started: : M=RR, A=S, D=D, N=5500 (62)
+Finished
+Started: : M=RR, A=S, D=D, N=6000 - Number(63)
+Finished
+Started: : M=RR, A=S, D=D, N=6000 (63)
+Finished
+Started: : M=RR, A=S, D=D, N=7000 - Number(64)
+Finished
+Started: : M=RR, A=S, D=D, N=7000 (64)
+Finished
+Started: : M=RR, A=S, D=D, N=8000 - Number(65)
+Finished
+Started: : M=RR, A=S, D=D, N=8000 (65)
+Finished
+Started: : M=RR, A=S, D=D, N=9000 - Number(66)
+Finished
+Started: : M=RR, A=S, D=D, N=9000 (66)
+Finished
+Started: : M=RR, A=S, D=D, N=10000 - Number(67)
+Finished
+Started: : M=RR, A=S, D=D, N=10000 (67)
+Finished
+Started: : M=RR, A=S, D=D, N=12000 - Number(68)
+Finished
+Started: : M=RR, A=S, D=D, N=12000 (68)
+Finished
+Started: : M=SR, A=S, D=D, N=30 - Number(69)
+Finished
+Started: : M=SR, A=S, D=D, N=30 (69)
+Finished
+Started: : M=SR, A=S, D=D, N=50 - Number(70)
+Finished
+Started: : M=SR, A=S, D=D, N=50 (70)
+Finished
+Started: : M=SR, A=S, D=D, N=100 - Number(71)
+Finished
+Started: : M=SR, A=S, D=D, N=100 (71)
+Finished
+Started: : M=SR, A=S, D=D, N=150 - Number(72)
+Finished
+Started: : M=SR, A=S, D=D, N=150 (72)
+Finished
+Started: : M=SR, A=S, D=D, N=200 - Number(73)
+Finished
+Started: : M=SR, A=S, D=D, N=200 (73)
+Finished
+Started: : M=SR, A=S, D=D, N=250 - Number(74)
+Finished
+Started: : M=SR, A=S, D=D, N=250 (74)
+Finished
+Started: : M=SR, A=S, D=D, N=300 - Number(75)
+Finished
+Started: : M=SR, A=S, D=D, N=300 (75)
+Finished
+Started: : M=SR, A=S, D=D, N=350 - Number(76)
+Finished
+Started: : M=SR, A=S, D=D, N=350 (76)
+Finished
+Started: : M=SR, A=S, D=D, N=400 - Number(77)
+Finished
+Started: : M=SR, A=S, D=D, N=400 (77)
+Finished
+Started: : M=SR, A=S, D=D, N=450 - Number(78)
+Finished
+Started: : M=SR, A=S, D=D, N=450 (78)
+Finished
+Started: : M=SR, A=S, D=D, N=500 - Number(79)
+Finished
+Started: : M=SR, A=S, D=D, N=500 (79)
+Finished
+Started: : M=SR, A=S, D=D, N=550 - Number(80)
+Finished
+Started: : M=SR, A=S, D=D, N=550 (80)
+Finished
+Started: : M=SR, A=S, D=D, N=600 - Number(81)
+Finished
+Started: : M=SR, A=S, D=D, N=600 (81)
+Finished
+Started: : M=SR, A=S, D=D, N=650 - Number(82)
+Finished
+Started: : M=SR, A=S, D=D, N=650 (82)
+Finished
+Started: : M=SR, A=S, D=D, N=700 - Number(83)
+Finished
+Started: : M=SR, A=S, D=D, N=700 (83)
+Finished
+Started: : M=SR, A=S, D=D, N=750 - Number(84)
+Finished
+Started: : M=SR, A=S, D=D, N=750 (84)
+Finished
+Started: : M=SR, A=S, D=D, N=800 - Number(85)
+Finished
+Started: : M=SR, A=S, D=D, N=800 (85)
+Finished
+Started: : M=SR, A=S, D=D, N=850 - Number(86)
+Finished
+Started: : M=SR, A=S, D=D, N=850 (86)
+Finished
+Started: : M=SR, A=S, D=D, N=1000 - Number(87)
+Finished
+Started: : M=SR, A=S, D=D, N=1000 (87)
+Finished
+Started: : M=SR, A=S, D=D, N=3000 - Number(88)
+Finished
+Started: : M=SR, A=S, D=D, N=3000 (88)
+Finished
+Started: : M=SR, A=S, D=D, N=5000 - Number(89)
+Finished
+Started: : M=SR, A=S, D=D, N=5000 (89)
+Finished
+Started: : M=SR, A=S, D=D, N=10000 - Number(90)
+Finished
+Started: : M=SR, A=S, D=D, N=10000 (90)
+Finished
+Started: : M=SR, A=S, D=D, N=15000 - Number(91)
+Finished
+Started: : M=SR, A=S, D=D, N=15000 (91)
+Finished
+Started: : M=SR, A=S, D=D, N=20000 - Number(92)
+Finished
+Started: : M=SR, A=S, D=D, N=20000 (92)
+Finished
+Started: : M=SR, A=S, D=D, N=25000 - Number(93)
+Finished
+Started: : M=SR, A=S, D=D, N=25000 (93)
+Finished
+Started: : M=SR, A=S, D=D, N=30000 - Number(94)
+Finished
+Started: : M=SR, A=S, D=D, N=30000 (94)
+Finished
+Started: : M=SR, A=S, D=D, N=35000 - Number(95)
+Finished
+Started: : M=SR, A=S, D=D, N=35000 (95)
+Finished
+Started: : M=SR, A=S, D=D, N=40000 - Number(96)
+Finished
+Started: : M=SR, A=S, D=D, N=40000 (96)
+Finished
+Started: : M=SR, A=S, D=D, N=45000 - Number(97)
+Finished
+Started: : M=SR, A=S, D=D, N=45000 (97)
+Finished
+Started: : M=SR, A=S, D=D, N=50000 - Number(98)
+Finished
+Started: : M=SR, A=S, D=D, N=50000 (98)
+Finished
+Started: : M=XR, A=S, D=D, N=100 - Number(99)
+Finished
+Started: : M=XR, A=S, D=D, N=100 (99)
+Finished
+Started: : M=XR, A=S, D=D, N=500 - Number(100)
+Finished
+Started: : M=XR, A=S, D=D, N=500 (100)
+Finished
+Started: : M=XR, A=S, D=D, N=1000 - Number(101)
+Finished
+Started: : M=XR, A=S, D=D, N=1000 (101)
+Finished
+Started: : M=XR, A=S, D=D, N=2000 - Number(102)
+Finished
+Started: : M=XR, A=S, D=D, N=2000 (102)
+Finished
+Started: : M=XR, A=S, D=D, N=3000 - Number(103)
+Finished
+Started: : M=XR, A=S, D=D, N=3000 (103)
+Finished
+Started: : M=XR, A=S, D=D, N=4000 - Number(104)
+Finished
+Started: : M=XR, A=S, D=D, N=4000 (104)
+Finished
+Started: : M=XR, A=S, D=D, N=5000 - Number(105)
+Finished
+Started: : M=XR, A=S, D=D, N=5000 (105)
+Finished
+Started: : M=XR, A=S, D=D, N=6000 - Number(106)
+Finished
+Started: : M=XR, A=S, D=D, N=6000 (106)
+Finished
+Started: : M=XR, A=S, D=D, N=7000 - Number(107)
+Finished
+Started: : M=XR, A=S, D=D, N=7000 (107)
+Finished
+Started: : M=XR, A=S, D=D, N=8000 - Number(108)
+Finished
+Started: : M=XR, A=S, D=D, N=8000 (108)
+Finished
+Started: : M=XR, A=S, D=D, N=9000 - Number(109)
+Finished
+Started: : M=XR, A=S, D=D, N=9000 (109)
+Finished
+Started: : M=XR, A=S, D=D, N=10000 - Number(110)
+Finished
+Started: : M=XR, A=S, D=D, N=10000 (110)
+Finished
+Started: : M=XR, A=S, D=D, N=11000 - Number(111)
+Finished
+Started: : M=XR, A=S, D=D, N=11000 (111)
+Finished
+Started: : M=XR, A=S, D=D, N=12000 - Number(112)
+Finished
+Started: : M=XR, A=S, D=D, N=12000 (112)
+Finished
+Started: : M=XR, A=S, D=D, N=13000 - Number(113)
+Finished
+Started: : M=XR, A=S, D=D, N=13000 (113)
+Finished
+Started: : M=XR, A=S, D=D, N=14000 - Number(114)
+Finished
+Started: : M=XR, A=S, D=D, N=14000 (114)
+Finished
+Started: : M=XR, A=S, D=D, N=15000 - Number(115)
+Finished
+Started: : M=XR, A=S, D=D, N=15000 (115)
+Finished
+Started: : M=XR, A=S, D=D, N=16000 - Number(116)
+Finished
+Started: : M=XR, A=S, D=D, N=16000 (116)
+Finished
+Started: : M=XR, A=S, D=D, N=17000 - Number(117)
+Finished
+Started: : M=XR, A=S, D=D, N=17000 (117)
+Finished
+Started: : M=XR, A=S, D=D, N=18000 - Number(118)
+Finished
+Started: : M=XR, A=S, D=D, N=18000 (118)
+Finished
+Started: : M=LR, A=S, D=W, N=30 - Number(119)
+Finished
+Started: : M=LR, A=S, D=W, N=30 (119)
+Finished
+Started: : M=LR, A=S, D=W, N=50 - Number(120)
+Finished
+Started: : M=LR, A=S, D=W, N=50 (120)
+Finished
+Started: : M=LR, A=S, D=W, N=100 - Number(121)
+Finished
+Started: : M=LR, A=S, D=W, N=100 (121)
+Finished
+Started: : M=LR, A=S, D=W, N=200 - Number(122)
+Finished
+Started: : M=LR, A=S, D=W, N=200 (122)
+Finished
+Started: : M=LR, A=S, D=W, N=300 - Number(123)
+Finished
+Started: : M=LR, A=S, D=W, N=300 (123)
+Finished
+Started: : M=LR, A=S, D=W, N=400 - Number(124)
+Finished
+Started: : M=LR, A=S, D=W, N=400 (124)
+Finished
+Started: : M=LR, A=S, D=W, N=500 - Number(125)
+Finished
+Started: : M=LR, A=S, D=W, N=500 (125)
+Finished
+Started: : M=LR, A=S, D=W, N=600 - Number(126)
+Finished
+Started: : M=LR, A=S, D=W, N=600 (126)
+Finished
+Started: : M=LR, A=S, D=W, N=700 - Number(127)
+Finished
+Started: : M=LR, A=S, D=W, N=700 (127)
+Finished
+Started: : M=LR, A=S, D=W, N=800 - Number(128)
+Finished
+Started: : M=LR, A=S, D=W, N=800 (128)
+Finished
+Started: : M=LR, A=S, D=W, N=900 - Number(129)
+Finished
+Started: : M=LR, A=S, D=W, N=900 (129)
+Finished
+Started: : M=LR, A=S, D=W, N=1000 - Number(130)
+Finished
+Started: : M=LR, A=S, D=W, N=1000 (130)
+Finished
+Started: : M=LR, A=S, D=W, N=1100 - Number(131)
+Finished
+Started: : M=LR, A=S, D=W, N=1100 (131)
+Finished
+Started: : M=LR, A=S, D=W, N=1200 - Number(132)
+Finished
+Started: : M=LR, A=S, D=W, N=1200 (132)
+Finished
+Started: : M=LR, A=S, D=W, N=1300 - Number(133)
+Finished
+Started: : M=LR, A=S, D=W, N=1300 (133)
+Finished
+Started: : M=LR, A=S, D=W, N=1500 - Number(134)
+Finished
+Started: : M=LR, A=S, D=W, N=1500 (134)
+Finished
+Started: : M=LR, A=S, D=W, N=2000 - Number(135)
+Finished
+Started: : M=LR, A=S, D=W, N=2000 (135)
+Finished
+Started: : M=LR, A=S, D=W, N=2500 - Number(136)
+Finished
+Started: : M=LR, A=S, D=W, N=2500 (136)
+Finished
+Started: : M=LR, A=S, D=W, N=3000 - Number(137)
+Finished
+Started: : M=LR, A=S, D=W, N=3000 (137)
+Finished
+Started: : M=LR, A=S, D=W, N=3500 - Number(138)
+Finished
+Started: : M=LR, A=S, D=W, N=3500 (138)
+Finished
+Started: : M=LR, A=S, D=W, N=4000 - Number(139)
+Finished
+Started: : M=LR, A=S, D=W, N=4000 (139)
+Finished
+Started: : M=LR, A=S, D=W, N=4500 - Number(140)
+Finished
+Started: : M=LR, A=S, D=W, N=4500 (140)
+Finished
+Started: : M=LR, A=S, D=W, N=5000 - Number(141)
+Finished
+Started: : M=LR, A=S, D=W, N=5000 (141)
+Finished
+Started: : M=LR, A=S, D=W, N=5500 - Number(142)
+Finished
+Started: : M=LR, A=S, D=W, N=5500 (142)
+Finished
+Started: : M=LR, A=S, D=W, N=6000 - Number(143)
+Finished
+Started: : M=LR, A=S, D=W, N=6000 (143)
+Finished
+Started: : M=RR, A=S, D=W, N=30 - Number(144)
+Finished
+Started: : M=RR, A=S, D=W, N=30 (144)
+Finished
+Started: : M=RR, A=S, D=W, N=50 - Number(145)
+Finished
+Started: : M=RR, A=S, D=W, N=50 (145)
+Finished
+Started: : M=RR, A=S, D=W, N=100 - Number(146)
+Finished
+Started: : M=RR, A=S, D=W, N=100 (146)
+Finished
+Started: : M=RR, A=S, D=W, N=200 - Number(147)
+Finished
+Started: : M=RR, A=S, D=W, N=200 (147)
+Finished
+Started: : M=RR, A=S, D=W, N=300 - Number(148)
+Finished
+Started: : M=RR, A=S, D=W, N=300 (148)
+Finished
+Started: : M=RR, A=S, D=W, N=400 - Number(149)
+Finished
+Started: : M=RR, A=S, D=W, N=400 (149)
+Finished
+Started: : M=RR, A=S, D=W, N=500 - Number(150)
+Finished
+Started: : M=RR, A=S, D=W, N=500 (150)
+Finished
+Started: : M=RR, A=S, D=W, N=600 - Number(151)
+Finished
+Started: : M=RR, A=S, D=W, N=600 (151)
+Finished
+Started: : M=RR, A=S, D=W, N=700 - Number(152)
+Finished
+Started: : M=RR, A=S, D=W, N=700 (152)
+Finished
+Started: : M=RR, A=S, D=W, N=800 - Number(153)
+Finished
+Started: : M=RR, A=S, D=W, N=800 (153)
+Finished
+Started: : M=RR, A=S, D=W, N=900 - Number(154)
+Finished
+Started: : M=RR, A=S, D=W, N=900 (154)
+Finished
+Started: : M=RR, A=S, D=W, N=1000 - Number(155)
+Finished
+Started: : M=RR, A=S, D=W, N=1000 (155)
+Finished
+Started: : M=RR, A=S, D=W, N=1500 - Number(156)
+Finished
+Started: : M=RR, A=S, D=W, N=1500 (156)
+Finished
+Started: : M=RR, A=S, D=W, N=2000 - Number(157)
+Finished
+Started: : M=RR, A=S, D=W, N=2000 (157)
+Finished
+Started: : M=RR, A=S, D=W, N=2500 - Number(158)
+Finished
+Started: : M=RR, A=S, D=W, N=2500 (158)
+Finished
+Started: : M=RR, A=S, D=W, N=3000 - Number(159)
+Finished
+Started: : M=RR, A=S, D=W, N=3000 (159)
+Finished
+Started: : M=RR, A=S, D=W, N=3500 - Number(160)
+Finished
+Started: : M=RR, A=S, D=W, N=3500 (160)
+Finished
+Started: : M=RR, A=S, D=W, N=4000 - Number(161)
+Finished
+Started: : M=RR, A=S, D=W, N=4000 (161)
+Finished
+Started: : M=RR, A=S, D=W, N=4500 - Number(162)
+Finished
+Started: : M=RR, A=S, D=W, N=4500 (162)
+Finished
+Started: : M=RR, A=S, D=W, N=5000 - Number(163)
+Finished
+Started: : M=RR, A=S, D=W, N=5000 (163)
+Finished
+Started: : M=RR, A=S, D=W, N=5500 - Number(164)
+Finished
+Started: : M=RR, A=S, D=W, N=5500 (164)
+Finished
+Started: : M=RR, A=S, D=W, N=6000 - Number(165)
+Finished
+Started: : M=RR, A=S, D=W, N=6000 (165)
+Finished
+Started: : M=RR, A=S, D=W, N=9000 - Number(166)
+Finished
+Started: : M=RR, A=S, D=W, N=9000 (166)
+Finished
+Started: : M=RR, A=S, D=W, N=12000 - Number(167)
+Finished
+Started: : M=RR, A=S, D=W, N=12000 (167)
+Finished
+Started: : M=RR, A=S, D=W, N=15000 - Number(168)
+Finished
+Started: : M=RR, A=S, D=W, N=15000 (168)
+Finished
+Started: : M=RR, A=S, D=W, N=18000 - Number(169)
+Finished
+Started: : M=RR, A=S, D=W, N=18000 (169)
+Finished
+Started: : M=RR, A=S, D=W, N=21000 - Number(170)
+Finished
+Started: : M=RR, A=S, D=W, N=21000 (170)
+Finished
+Started: : M=RR, A=S, D=W, N=24000 - Number(171)
+Finished
+Started: : M=RR, A=S, D=W, N=24000 (171)
+Finished
+Started: : M=RR, A=S, D=W, N=27000 - Number(172)
+Finished
+Started: : M=RR, A=S, D=W, N=27000 (172)
+Finished
+Started: : M=RR, A=S, D=W, N=30000 - Number(173)
+Finished
+Started: : M=RR, A=S, D=W, N=30000 (173)
+Finished
+Started: : M=RR, A=S, D=W, N=33000 - Number(174)
+Finished
+Started: : M=RR, A=S, D=W, N=33000 (174)
+Finished
+Started: : M=RR, A=S, D=W, N=36000 - Number(175)
+Finished
+Started: : M=RR, A=S, D=W, N=36000 (175)
+Finished
+Started: : M=XR, A=S, D=W, N=30 - Number(176)
+Finished
+Started: : M=XR, A=S, D=W, N=30 (176)
+Finished
+Started: : M=XR, A=S, D=W, N=250 - Number(177)
+Finished
+Started: : M=XR, A=S, D=W, N=250 (177)
+Finished
+Started: : M=XR, A=S, D=W, N=600 - Number(178)
+Finished
+Started: : M=XR, A=S, D=W, N=600 (178)
+Finished
+Started: : M=XR, A=S, D=W, N=1000 - Number(179)
+Finished
+Started: : M=XR, A=S, D=W, N=1000 (179)
+Finished
+Started: : M=XR, A=S, D=W, N=1500 - Number(180)
+Finished
+Started: : M=XR, A=S, D=W, N=1500 (180)
+Finished
+Started: : M=XR, A=S, D=W, N=2000 - Number(181)
+Finished
+Started: : M=XR, A=S, D=W, N=2000 (181)
+Finished
+Started: : M=XR, A=S, D=W, N=3000 - Number(182)
+Finished
+Started: : M=XR, A=S, D=W, N=3000 (182)
+Finished
+Started: : M=XR, A=S, D=W, N=4000 - Number(183)
+Finished
+Started: : M=XR, A=S, D=W, N=4000 (183)
+Finished
+Started: : M=XR, A=S, D=W, N=6000 - Number(184)
+Finished
+Started: : M=XR, A=S, D=W, N=6000 (184)
+Finished
+Started: : M=XR, A=S, D=W, N=8000 - Number(185)
+Finished
+Started: : M=XR, A=S, D=W, N=8000 (185)
+Finished
+Started: : M=XR, A=S, D=W, N=10000 - Number(186)
+Finished
+Started: : M=XR, A=S, D=W, N=10000 (186)
+Finished
+Started: : M=XR, A=S, D=W, N=12000 - Number(187)
+Finished
+Started: : M=XR, A=S, D=W, N=12000 (187)
+Finished
+Started: : M=XR, A=S, D=W, N=16000 - Number(188)
+Finished
+Started: : M=XR, A=S, D=W, N=16000 (188)
+Finished
+Started: : M=SR, A=S, D=W, N=50 - Number(189)
+Finished
+Started: : M=SR, A=S, D=W, N=50 (189)
+Finished
+Started: : M=SR, A=S, D=W, N=100 - Number(190)
+Finished
+Started: : M=SR, A=S, D=W, N=100 (190)
+Finished
+Started: : M=SR, A=S, D=W, N=200 - Number(191)
+Finished
+Started: : M=SR, A=S, D=W, N=200 (191)
+Finished
+Started: : M=SR, A=S, D=W, N=300 - Number(192)
+Finished
+Started: : M=SR, A=S, D=W, N=300 (192)
+Finished
+Started: : M=SR, A=S, D=W, N=400 - Number(193)
+Finished
+Started: : M=SR, A=S, D=W, N=400 (193)
+Finished
+Started: : M=SR, A=S, D=W, N=500 - Number(194)
+Finished
+Started: : M=SR, A=S, D=W, N=500 (194)
+Finished
+Started: : M=SR, A=S, D=W, N=750 - Number(195)
+Finished
+Started: : M=SR, A=S, D=W, N=750 (195)
+Finished
+Started: : M=SR, A=S, D=W, N=1000 - Number(196)
+Finished
+Started: : M=SR, A=S, D=W, N=1000 (196)
+Finished
+Started: : M=SR, A=S, D=W, N=2000 - Number(197)
+Finished
+Started: : M=SR, A=S, D=W, N=2000 (197)
+Finished
+Started: : M=SR, A=S, D=W, N=3000 - Number(198)
+Finished
+Started: : M=SR, A=S, D=W, N=3000 (198)
+Finished
+Started: : M=SR, A=S, D=W, N=4000 - Number(199)
+Finished
+Started: : M=SR, A=S, D=W, N=4000 (199)
+Finished
+Started: : M=LR, A=K, D=D, N=1 - Number(200)
+Finished
+Started: : M=LR, A=K, D=D, N=1 (200)
+Finished
+Started: : M=LR, A=K, D=D, N=100 - Number(201)
+Finished
+Started: : M=LR, A=K, D=D, N=100 (201)
+Finished
+Started: : M=LR, A=K, D=D, N=500 - Number(202)
+Finished
+Started: : M=LR, A=K, D=D, N=500 (202)
+Finished
+Started: : M=LR, A=K, D=D, N=1000 - Number(203)
+Finished
+Started: : M=LR, A=K, D=D, N=1000 (203)
+Finished
+Started: : M=LR, A=K, D=D, N=5000 - Number(204)
+Finished
+Started: : M=LR, A=K, D=D, N=5000 (204)
+Finished
+Started: : M=LR, A=K, D=D, N=10000 - Number(205)
+Finished
+Started: : M=LR, A=K, D=D, N=10000 (205)
+Finished
+Started: : M=LR, A=K, D=D, N=20000 - Number(206)
+Finished
+Started: : M=LR, A=K, D=D, N=20000 (206)
+Finished
+Started: : M=LR, A=K, D=D, N=50000 - Number(207)
+Finished
+Started: : M=LR, A=K, D=D, N=50000 (207)
+Finished
+Started: : M=LR, A=K, D=D, N=100000 - Number(208)
+Finished
+Started: : M=LR, A=K, D=D, N=100000 (208)
+Finished
+Started: : M=LR, A=K, D=D, N=150000 - Number(209)
+Finished
+Started: : M=LR, A=K, D=D, N=150000 (209)
+Finished
+Started: : M=LR, A=K, D=D, N=200000 - Number(210)
+Finished
+Started: : M=LR, A=K, D=D, N=200000 (210)
+Finished
+Started: : M=LR, A=K, D=D, N=240000 - Number(211)
+Finished
+Started: : M=LR, A=K, D=D, N=240000 (211)
+Finished
+Started: : M=RR, A=K, D=D, N=1 - Number(212)
+Finished
+Started: : M=RR, A=K, D=D, N=1 (212)
+Finished
+Started: : M=RR, A=K, D=D, N=10 - Number(213)
+Finished
+Started: : M=RR, A=K, D=D, N=10 (213)
+Finished
+Started: : M=RR, A=K, D=D, N=20 - Number(214)
+Finished
+Started: : M=RR, A=K, D=D, N=20 (214)
+Finished
+Started: : M=RR, A=K, D=D, N=30 - Number(215)
+Finished
+Started: : M=RR, A=K, D=D, N=30 (215)
+Finished
+Started: : M=RR, A=K, D=D, N=40 - Number(216)
+Finished
+Started: : M=RR, A=K, D=D, N=40 (216)
+Finished
+Started: : M=RR, A=K, D=D, N=50 - Number(217)
+Finished
+Started: : M=RR, A=K, D=D, N=50 (217)
+Finished
+Started: : M=RR, A=K, D=D, N=75 - Number(218)
+Finished
+Started: : M=RR, A=K, D=D, N=75 (218)
+Finished
+Started: : M=RR, A=K, D=D, N=100 - Number(219)
+Finished
+Started: : M=RR, A=K, D=D, N=100 (219)
+Finished
+Started: : M=RR, A=K, D=D, N=125 - Number(220)
+Finished
+Started: : M=RR, A=K, D=D, N=125 (220)
+Finished
+Started: : M=RR, A=K, D=D, N=150 - Number(221)
+Finished
+Started: : M=RR, A=K, D=D, N=150 (221)
+Finished
+Started: : M=RR, A=K, D=D, N=200 - Number(222)
+Finished
+Started: : M=RR, A=K, D=D, N=200 (222)
+Finished
+Started: : M=RR, A=K, D=D, N=250 - Number(223)
+Finished
+Started: : M=RR, A=K, D=D, N=250 (223)
+Finished
+Started: : M=RR, A=K, D=D, N=300 - Number(224)
+Finished
+Started: : M=RR, A=K, D=D, N=300 (224)
+Finished
+Started: : M=SR, A=K, D=D, N=1 - Number(225)
+Finished
+Started: : M=SR, A=K, D=D, N=1 (225)
+Finished
+Started: : M=SR, A=K, D=D, N=10 - Number(226)
+Finished
+Started: : M=SR, A=K, D=D, N=10 (226)
+Finished
+Started: : M=SR, A=K, D=D, N=20 - Number(227)
+Finished
+Started: : M=SR, A=K, D=D, N=20 (227)
+Finished
+Started: : M=SR, A=K, D=D, N=30 - Number(228)
+Finished
+Started: : M=SR, A=K, D=D, N=30 (228)
+Finished
+Started: : M=SR, A=K, D=D, N=40 - Number(229)
+Finished
+Started: : M=SR, A=K, D=D, N=40 (229)
+Finished
+Started: : M=SR, A=K, D=D, N=50 - Number(230)
+Finished
+Started: : M=SR, A=K, D=D, N=50 (230)
+Finished
+Started: : M=SR, A=K, D=D, N=75 - Number(231)
+Finished
+Started: : M=SR, A=K, D=D, N=75 (231)
+Finished
+Started: : M=SR, A=K, D=D, N=100 - Number(232)
+Finished
+Started: : M=SR, A=K, D=D, N=100 (232)
+Finished
+Started: : M=SR, A=K, D=D, N=150 - Number(233)
+Finished
+Started: : M=SR, A=K, D=D, N=150 (233)
+Finished
+Started: : M=SR, A=K, D=D, N=200 - Number(234)
+Finished
+Started: : M=SR, A=K, D=D, N=200 (234)
+Finished
+Started: : M=SR, A=K, D=D, N=250 - Number(235)
+Finished
+Started: : M=SR, A=K, D=D, N=250 (235)
+Finished
+Started: : M=SR, A=K, D=D, N=300 - Number(236)
+Finished
+Started: : M=SR, A=K, D=D, N=300 (236)
+Finished
+Started: : M=SR, A=K, D=D, N=350 - Number(237)
+Finished
+Started: : M=SR, A=K, D=D, N=350 (237)
+Finished
+Started: : M=XR, A=K, D=D, N=1 - Number(238)
+Finished
+Started: : M=XR, A=K, D=D, N=1 (238)
+Finished
+Started: : M=XR, A=K, D=D, N=10 - Number(239)
+Finished
+Started: : M=XR, A=K, D=D, N=10 (239)
+Finished
+Started: : M=XR, A=K, D=D, N=25 - Number(240)
+Finished
+Started: : M=XR, A=K, D=D, N=25 (240)
+Finished
+Started: : M=XR, A=K, D=D, N=50 - Number(241)
+Finished
+Started: : M=XR, A=K, D=D, N=50 (241)
+Finished
+Started: : M=XR, A=K, D=D, N=75 - Number(242)
+Finished
+Started: : M=XR, A=K, D=D, N=75 (242)
+Finished
+Started: : M=XR, A=K, D=D, N=100 - Number(243)
+Finished
+Started: : M=XR, A=K, D=D, N=100 (243)
+Finished
+Started: : M=XR, A=K, D=D, N=150 - Number(244)
+Finished
+Started: : M=XR, A=K, D=D, N=150 (244)
+Finished
+Started: : M=XR, A=K, D=D, N=200 - Number(245)
+Finished
+Started: : M=XR, A=K, D=D, N=200 (245)
+Finished
+Started: : M=XR, A=K, D=D, N=250 - Number(246)
+Finished
+Started: : M=XR, A=K, D=D, N=250 (246)
+Finished
+Started: : M=XR, A=K, D=D, N=300 - Number(247)
+Finished
+Started: : M=XR, A=K, D=D, N=300 (247)
+Finished
+Started: : M=XR, A=K, D=D, N=350 - Number(248)
+Finished
+Started: : M=XR, A=K, D=D, N=350 (248)
+Finished
+Started: : M=XR, A=K, D=D, N=400 - Number(249)
+Finished
+Started: : M=XR, A=K, D=D, N=400 (249)
+Finished
+Started: : M=XR, A=K, D=D, N=450 - Number(250)
+Finished
+Started: : M=XR, A=K, D=D, N=450 (250)
+Finished
+Started: : M=LR, A=K, D=W, N=1 - Number(251)
+Finished
+Started: : M=LR, A=K, D=W, N=1 (251)
+Finished
+Started: : M=LR, A=K, D=W, N=3 - Number(252)
+Finished
+Started: : M=LR, A=K, D=W, N=3 (252)
+Finished
+Started: : M=LR, A=K, D=W, N=5 - Number(253)
+Finished
+Started: : M=LR, A=K, D=W, N=5 (253)
+Finished
+Started: : M=LR, A=K, D=W, N=10 - Number(254)
+Finished
+Started: : M=LR, A=K, D=W, N=10 (254)
+Finished
+Started: : M=LR, A=K, D=W, N=15 - Number(255)
+Finished
+Started: : M=LR, A=K, D=W, N=15 (255)
+Finished
+Started: : M=LR, A=K, D=W, N=20 - Number(256)
+Finished
+Started: : M=LR, A=K, D=W, N=20 (256)
+Finished
+Started: : M=LR, A=K, D=W, N=30 - Number(257)
+Finished
+Started: : M=LR, A=K, D=W, N=30 (257)
+Finished
+Started: : M=LR, A=K, D=W, N=40 - Number(258)
+Finished
+Started: : M=LR, A=K, D=W, N=40 (258)
+Finished
+Started: : M=LR, A=K, D=W, N=50 - Number(259)
+Finished
+Started: : M=LR, A=K, D=W, N=50 (259)
+Finished
+Started: : M=LR, A=K, D=W, N=60 - Number(260)
+Finished
+Started: : M=LR, A=K, D=W, N=60 (260)
+Finished
+Started: : M=LR, A=K, D=W, N=70 - Number(261)
+Finished
+Started: : M=LR, A=K, D=W, N=70 (261)
+Finished
+Started: : M=RR, A=K, D=W, N=1 - Number(262)
+Finished
+Started: : M=RR, A=K, D=W, N=1 (262)
+Finished
+Started: : M=RR, A=K, D=W, N=2 - Number(263)
+Finished
+Started: : M=RR, A=K, D=W, N=2 (263)
+Finished
+Started: : M=RR, A=K, D=W, N=3 - Number(264)
+Finished
+Started: : M=RR, A=K, D=W, N=3 (264)
+Finished
+Started: : M=RR, A=K, D=W, N=4 - Number(265)
+Finished
+Started: : M=RR, A=K, D=W, N=4 (265)
+Finished
+Started: : M=RR, A=K, D=W, N=5 - Number(266)
+Finished
+Started: : M=RR, A=K, D=W, N=5 (266)
+Finished
+Started: : M=RR, A=K, D=W, N=7 - Number(267)
+Finished
+Started: : M=RR, A=K, D=W, N=7 (267)
+Finished
+Started: : M=RR, A=K, D=W, N=10 - Number(268)
+Finished
+Started: : M=RR, A=K, D=W, N=10 (268)
+Finished
+Started: : M=RR, A=K, D=W, N=15 - Number(269)
+Finished
+Started: : M=RR, A=K, D=W, N=15 (269)
+Finished
+Started: : M=RR, A=K, D=W, N=25 - Number(270)
+Finished
+Started: : M=RR, A=K, D=W, N=25 (270)
+Finished
+Started: : M=RR, A=K, D=W, N=39 - Number(271)
+Finished
+Started: : M=RR, A=K, D=W, N=39 (271)
+Finished
+Started: : M=SR, A=K, D=W, N=1 - Number(272)
+Finished
+Started: : M=SR, A=K, D=W, N=1 (272)
+Finished
+Started: : M=SR, A=K, D=W, N=10 - Number(273)
+Finished
+Started: : M=SR, A=K, D=W, N=10 (273)
+Finished
+Started: : M=XR, A=K, D=W, N=1 - Number(274)
+Finished
+Started: : M=XR, A=K, D=W, N=1 (274)
+Finished
+Started: : M=XR, A=K, D=W, N=3 - Number(275)
+Finished
+Started: : M=XR, A=K, D=W, N=3 (275)
+Finished
+Started: : M=XR, A=K, D=W, N=5 - Number(276)
+Finished
+Started: : M=XR, A=K, D=W, N=5 (276)
+Finished
+Started: : M=XR, A=K, D=W, N=7 - Number(277)
+Finished
+Started: : M=XR, A=K, D=W, N=7 (277)
+Finished
+Started: : M=XR, A=K, D=W, N=10 - Number(278)
+Finished
+Started: : M=XR, A=K, D=W, N=10 (278)
+Finished
+Started: : M=XR, A=K, D=W, N=15 - Number(279)
+Finished
+Started: : M=XR, A=K, D=W, N=15 (279)
+Finished
+Started: : M=XR, A=K, D=W, N=20 - Number(280)
+Finished
+Started: : M=XR, A=K, D=W, N=20 (280)
+Finished
+Started: : M=XR, A=K, D=W, N=25 - Number(281)
+Finished
+Started: : M=XR, A=K, D=W, N=25 (281)
+Finished
+Started: : M=XR, A=K, D=W, N=30 - Number(282)
+Finished
+Started: : M=XR, A=K, D=W, N=30 (282)
+Finished
+Started: : M=XR, A=K, D=W, N=35 - Number(283)
+Finished
+Started: : M=XR, A=K, D=W, N=35 (283)
+Finished
+Started: : M=XR, A=K, D=W, N=40 - Number(284)
+Finished
+Started: : M=XR, A=K, D=W, N=40 (284)
+Finished
+Started: : M=XR, A=K, D=W, N=43 - Number(285)
+Finished
+Started: : M=XR, A=K, D=W, N=43 (285)
+Finished
+Started: : M=LR, A=C, D=D, N=12 - Number(286)
+Finished
+Started: : M=LR, A=C, D=D, N=12 (286)
+Finished
+Started: : M=LR, A=C, D=D, N=16 - Number(287)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '16', '--eval_method', 'R']' returned non-zero exit status 1. (287)
+Started: : M=LR, A=C, D=D, N=16 (287)
+Error for: : M=LR, A=C, D=D, N=16 = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '16', '--eval_method', 'F']' returned non-zero exit status 1. (287)
+Started: : M=LR, A=C, D=D, N=20 - Number(288)
+Finished
+Started: : M=LR, A=C, D=D, N=20 (288)
+Finished
+Started: : M=LR, A=C, D=D, N=26 - Number(289)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '26', '--eval_method', 'R']' returned non-zero exit status 1. (289)
+Started: : M=LR, A=C, D=D, N=26 (289)
+Error for: : M=LR, A=C, D=D, N=26 = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '26', '--eval_method', 'F']' returned non-zero exit status 1. (289)
+Started: : M=LR, A=C, D=D, N=30 - Number(290)
+Finished
+Started: : M=LR, A=C, D=D, N=30 (290)
+Finished
+Started: : M=LR, A=C, D=D, N=40 - Number(291)
+Finished
+Started: : M=LR, A=C, D=D, N=40 (291)
+Finished
+Started: : M=LR, A=C, D=D, N=50 - Number(292)
+Finished
+Started: : M=LR, A=C, D=D, N=50 (292)
+Finished
+Started: : M=LR, A=C, D=D, N=60 - Number(293)
+Finished
+Started: : M=LR, A=C, D=D, N=60 (293)
+Finished
+Started: : M=LR, A=C, D=D, N=70 - Number(294)
+Finished
+Started: : M=LR, A=C, D=D, N=70 (294)
+Finished
+Started: : M=LR, A=C, D=D, N=80 - Number(295)
+Finished
+Started: : M=LR, A=C, D=D, N=80 (295)
+Finished
+Started: : M=LR, A=C, D=D, N=90 - Number(296)
+Finished
+Started: : M=LR, A=C, D=D, N=90 (296)
+Finished
+Started: : M=LR, A=C, D=D, N=100 - Number(297)
+Finished
+Started: : M=LR, A=C, D=D, N=100 (297)
+Finished
+Started: : M=RR, A=C, D=D, N=12 - Number(298)
+Finished
+Started: : M=RR, A=C, D=D, N=12 (298)
+Finished
+Started: : M=RR, A=C, D=D, N=50 - Number(299)
+Finished
+Started: : M=RR, A=C, D=D, N=50 (299)
+Finished
+Started: : M=RR, A=C, D=D, N=100 - Number(300)
+Finished
+Started: : M=RR, A=C, D=D, N=100 (300)
+Finished
+Started: : M=RR, A=C, D=D, N=200 - Number(301)
+Finished
+Started: : M=RR, A=C, D=D, N=200 (301)
+Finished
+Started: : M=RR, A=C, D=D, N=300 - Number(302)
+Finished
+Started: : M=RR, A=C, D=D, N=300 (302)
+Finished
+Started: : M=RR, A=C, D=D, N=400 - Number(303)
+Finished
+Started: : M=RR, A=C, D=D, N=400 (303)
+Finished
+Started: : M=RR, A=C, D=D, N=500 - Number(304)
+Finished
+Started: : M=RR, A=C, D=D, N=500 (304)
+Finished
+Started: : M=RR, A=C, D=D, N=750 - Number(305)
+Finished
+Started: : M=RR, A=C, D=D, N=750 (305)
+Finished
+Started: : M=RR, A=C, D=D, N=1000 - Number(306)
+Finished
+Started: : M=RR, A=C, D=D, N=1000 (306)
+Finished
+Started: : M=RR, A=C, D=D, N=1250 - Number(307)
+Finished
+Started: : M=RR, A=C, D=D, N=1250 (307)
+Finished
+Started: : M=RR, A=C, D=D, N=1500 - Number(308)
+Finished
+Started: : M=RR, A=C, D=D, N=1500 (308)
+Finished
+Started: : M=RR, A=C, D=D, N=1750 - Number(309)
+Finished
+Started: : M=RR, A=C, D=D, N=1750 (309)
+Finished
+Started: : M=RR, A=C, D=D, N=2048 - Number(310)
+Finished
+Started: : M=RR, A=C, D=D, N=2048 (310)
+Finished
+Started: : M=SR, A=C, D=D, N=12 - Number(311)
+Finished
+Started: : M=SR, A=C, D=D, N=12 (311)
+Finished
+Started: : M=SR, A=C, D=D, N=50 - Number(312)
+Finished
+Started: : M=SR, A=C, D=D, N=50 (312)
+Finished
+Started: : M=SR, A=C, D=D, N=100 - Number(313)
+Finished
+Started: : M=SR, A=C, D=D, N=100 (313)
+Finished
+Started: : M=SR, A=C, D=D, N=200 - Number(314)
+Finished
+Started: : M=SR, A=C, D=D, N=200 (314)
+Finished
+Started: : M=SR, A=C, D=D, N=300 - Number(315)
+Finished
+Started: : M=SR, A=C, D=D, N=300 (315)
+Finished
+Started: : M=SR, A=C, D=D, N=400 - Number(316)
+Finished
+Started: : M=SR, A=C, D=D, N=400 (316)
+Finished
+Started: : M=SR, A=C, D=D, N=500 - Number(317)
+Finished
+Started: : M=SR, A=C, D=D, N=500 (317)
+Finished
+Started: : M=SR, A=C, D=D, N=750 - Number(318)
+Finished
+Started: : M=SR, A=C, D=D, N=750 (318)
+Finished
+Started: : M=SR, A=C, D=D, N=1000 - Number(319)
+Finished
+Started: : M=SR, A=C, D=D, N=1000 (319)
+Finished
+Started: : M=SR, A=C, D=D, N=1250 - Number(320)
+Finished
+Started: : M=SR, A=C, D=D, N=1250 (320)
+Finished
+Started: : M=SR, A=C, D=D, N=1500 - Number(321)
+Finished
+Started: : M=SR, A=C, D=D, N=1500 (321)
+Finished
+Started: : M=SR, A=C, D=D, N=1750 - Number(322)
+Finished
+Started: : M=SR, A=C, D=D, N=1750 (322)
+Finished
+Started: : M=SR, A=C, D=D, N=2048 - Number(323)
+Finished
+Started: : M=SR, A=C, D=D, N=2048 (323)
+Finished
+Started: : M=XR, A=C, D=D, N=12 - Number(324)
+Finished
+Started: : M=XR, A=C, D=D, N=12 (324)
+Finished
+Started: : M=XR, A=C, D=D, N=50 - Number(325)
+Finished
+Started: : M=XR, A=C, D=D, N=50 (325)
+Finished
+Started: : M=XR, A=C, D=D, N=100 - Number(326)
+Finished
+Started: : M=XR, A=C, D=D, N=100 (326)
+Finished
+Started: : M=XR, A=C, D=D, N=200 - Number(327)
+Finished
+Started: : M=XR, A=C, D=D, N=200 (327)
+Finished
+Started: : M=XR, A=C, D=D, N=300 - Number(328)
+Finished
+Started: : M=XR, A=C, D=D, N=300 (328)
+Finished
+Started: : M=XR, A=C, D=D, N=400 - Number(329)
+Finished
+Started: : M=XR, A=C, D=D, N=400 (329)
+Finished
+Started: : M=XR, A=C, D=D, N=500 - Number(330)
+Finished
+Started: : M=XR, A=C, D=D, N=500 (330)
+Finished
+Started: : M=XR, A=C, D=D, N=750 - Number(331)
+Finished
+Started: : M=XR, A=C, D=D, N=750 (331)
+Finished
+Started: : M=XR, A=C, D=D, N=1000 - Number(332)
+Finished
+Started: : M=XR, A=C, D=D, N=1000 (332)
+Finished
+Started: : M=XR, A=C, D=D, N=1250 - Number(333)
+Finished
+Started: : M=XR, A=C, D=D, N=1250 (333)
+Finished
+Started: : M=XR, A=C, D=D, N=1500 - Number(334)
+Finished
+Started: : M=XR, A=C, D=D, N=1500 (334)
+Finished
+Started: : M=XR, A=C, D=D, N=1750 - Number(335)
+Finished
+Started: : M=XR, A=C, D=D, N=1750 (335)
+Finished
+Started: : M=XR, A=C, D=D, N=2048 - Number(336)
+Finished
+Started: : M=XR, A=C, D=D, N=2048 (336)
+Finished
+Started: : M=LR, A=C, D=W, N=12 - Number(337)
+Finished
+Started: : M=LR, A=C, D=W, N=12 (337)
+Finished
+Started: : M=LR, A=C, D=W, N=14 - Number(338)
+Finished
+Started: : M=LR, A=C, D=W, N=14 (338)
+Finished
+Started: : M=LR, A=C, D=W, N=16 - Number(339)
+Finished
+Started: : M=LR, A=C, D=W, N=16 (339)
+Finished
+Started: : M=LR, A=C, D=W, N=18 - Number(340)
+Finished
+Started: : M=LR, A=C, D=W, N=18 (340)
+Finished
+Started: : M=LR, A=C, D=W, N=20 - Number(341)
+Finished
+Started: : M=LR, A=C, D=W, N=20 (341)
+Finished
+Started: : M=LR, A=C, D=W, N=22 - Number(342)
+Finished
+Started: : M=LR, A=C, D=W, N=22 (342)
+Finished
+Started: : M=LR, A=C, D=W, N=24 - Number(343)
+Finished
+Started: : M=LR, A=C, D=W, N=24 (343)
+Finished
+Started: : M=LR, A=C, D=W, N=26 - Number(344)
+Finished
+Started: : M=LR, A=C, D=W, N=26 (344)
+Finished
+Started: : M=LR, A=C, D=W, N=28 - Number(345)
+Finished
+Started: : M=LR, A=C, D=W, N=28 (345)
+Finished
+Started: : M=LR, A=C, D=W, N=30 - Number(346)
+Finished
+Started: : M=LR, A=C, D=W, N=30 (346)
+Finished
+Started: : M=RR, A=C, D=W, N=12 - Number(347)
+Finished
+Started: : M=RR, A=C, D=W, N=12 (347)
+Finished
+Started: : M=RR, A=C, D=W, N=50 - Number(348)
+Finished
+Started: : M=RR, A=C, D=W, N=50 (348)
+Finished
+Started: : M=RR, A=C, D=W, N=100 - Number(349)
+Finished
+Started: : M=RR, A=C, D=W, N=100 (349)
+Finished
+Started: : M=RR, A=C, D=W, N=200 - Number(350)
+Finished
+Started: : M=RR, A=C, D=W, N=200 (350)
+Finished
+Started: : M=RR, A=C, D=W, N=300 - Number(351)
+Finished
+Started: : M=RR, A=C, D=W, N=300 (351)
+Finished
+Started: : M=RR, A=C, D=W, N=400 - Number(352)
+Finished
+Started: : M=RR, A=C, D=W, N=400 (352)
+Finished
+Started: : M=RR, A=C, D=W, N=500 - Number(353)
+Finished
+Started: : M=RR, A=C, D=W, N=500 (353)
+Finished
+Started: : M=RR, A=C, D=W, N=750 - Number(354)
+Finished
+Started: : M=RR, A=C, D=W, N=750 (354)
+Finished
+Started: : M=RR, A=C, D=W, N=1000 - Number(355)
+Finished
+Started: : M=RR, A=C, D=W, N=1000 (355)
+Finished
+Started: : M=RR, A=C, D=W, N=1250 - Number(356)
+Finished
+Started: : M=RR, A=C, D=W, N=1250 (356)
+Finished
+Started: : M=RR, A=C, D=W, N=1500 - Number(357)
+Finished
+Started: : M=RR, A=C, D=W, N=1500 (357)
+Finished
+Started: : M=RR, A=C, D=W, N=1750 - Number(358)
+Finished
+Started: : M=RR, A=C, D=W, N=1750 (358)
+Finished
+Started: : M=RR, A=C, D=W, N=2048 - Number(359)
+Finished
+Started: : M=RR, A=C, D=W, N=2048 (359)
+Finished
+Started: : M=SR, A=C, D=W, N=12 - Number(360)
+Finished
+Started: : M=SR, A=C, D=W, N=12 (360)
+Finished
+Started: : M=SR, A=C, D=W, N=20 - Number(361)
+Finished
+Started: : M=SR, A=C, D=W, N=20 (361)
+Finished
+Started: : M=SR, A=C, D=W, N=30 - Number(362)
+Finished
+Started: : M=SR, A=C, D=W, N=30 (362)
+Finished
+Started: : M=SR, A=C, D=W, N=40 - Number(363)
+Finished
+Started: : M=SR, A=C, D=W, N=40 (363)
+Finished
+Started: : M=SR, A=C, D=W, N=50 - Number(364)
+Finished
+Started: : M=SR, A=C, D=W, N=50 (364)
+Finished
+Started: : M=SR, A=C, D=W, N=60 - Number(365)
+Finished
+Started: : M=SR, A=C, D=W, N=60 (365)
+Finished
+Started: : M=SR, A=C, D=W, N=70 - Number(366)
+Finished
+Started: : M=SR, A=C, D=W, N=70 (366)
+Finished
+Started: : M=SR, A=C, D=W, N=80 - Number(367)
+Finished
+Started: : M=SR, A=C, D=W, N=80 (367)
+Finished
+Started: : M=SR, A=C, D=W, N=90 - Number(368)
+Finished
+Started: : M=SR, A=C, D=W, N=90 (368)
+Finished
+Started: : M=SR, A=C, D=W, N=100 - Number(369)
+Finished
+Started: : M=SR, A=C, D=W, N=100 (369)
+Finished
+Started: : M=SR, A=C, D=W, N=110 - Number(370)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'C', '--nsamples', '110', '--eval_method', 'R']' returned non-zero exit status 1. (370)
+Started: : M=SR, A=C, D=W, N=110 (370)
+Error for: : M=SR, A=C, D=W, N=110 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'C', '--nsamples', '110', '--eval_method', 'F']' returned non-zero exit status 1. (370)
+Started: : M=SR, A=C, D=W, N=130 - Number(371)
+Finished
+Started: : M=SR, A=C, D=W, N=130 (371)
+Finished
+Started: : M=SR, A=C, D=W, N=150 - Number(372)
+Finished
+Started: : M=SR, A=C, D=W, N=150 (372)
+Finished
+Started: : M=XR, A=C, D=W, N=12 - Number(373)
+Finished
+Started: : M=XR, A=C, D=W, N=12 (373)
+Finished
+Started: : M=XR, A=C, D=W, N=50 - Number(374)
+Finished
+Started: : M=XR, A=C, D=W, N=50 (374)
+Finished
+Started: : M=XR, A=C, D=W, N=100 - Number(375)
+Finished
+Started: : M=XR, A=C, D=W, N=100 (375)
+Finished
+Started: : M=XR, A=C, D=W, N=200 - Number(376)
+Finished
+Started: : M=XR, A=C, D=W, N=200 (376)
+Finished
+Started: : M=XR, A=C, D=W, N=300 - Number(377)
+Finished
+Started: : M=XR, A=C, D=W, N=300 (377)
+Finished
+Started: : M=XR, A=C, D=W, N=400 - Number(378)
+Finished
+Started: : M=XR, A=C, D=W, N=400 (378)
+Finished
+Started: : M=XR, A=C, D=W, N=500 - Number(379)
+Finished
+Started: : M=XR, A=C, D=W, N=500 (379)
+Finished
+Started: : M=XR, A=C, D=W, N=750 - Number(380)
+Finished
+Started: : M=XR, A=C, D=W, N=750 (380)
+Finished
+Started: : M=XR, A=C, D=W, N=1000 - Number(381)
+Finished
+Started: : M=XR, A=C, D=W, N=1000 (381)
+Finished
+Started: : M=XR, A=C, D=W, N=1250 - Number(382)
+Finished
+Started: : M=XR, A=C, D=W, N=1250 (382)
+Finished
+Started: : M=XR, A=C, D=W, N=1500 - Number(383)
+Finished
+Started: : M=XR, A=C, D=W, N=1500 (383)
+Finished
+Started: : M=XR, A=C, D=W, N=1750 - Number(384)
+Finished
+Started: : M=XR, A=C, D=W, N=1750 (384)
+Finished
+Started: : M=XR, A=C, D=W, N=2048 - Number(385)
+Finished
+Started: : M=XR, A=C, D=W, N=2048 (385)
+Finished
+Started: : M=LR, A=G, D=D, N=12 - Number(386)
+Finished
+Started: : M=LR, A=G, D=D, N=12 (386)
+Finished
+Started: : M=LR, A=G, D=D, N=16 - Number(387)
+Finished
+Started: : M=LR, A=G, D=D, N=16 (387)
+Finished
+Started: : M=LR, A=G, D=D, N=20 - Number(388)
+Finished
+Started: : M=LR, A=G, D=D, N=20 (388)
+Finished
+Started: : M=LR, A=G, D=D, N=26 - Number(389)
+Finished
+Started: : M=LR, A=G, D=D, N=26 (389)
+Finished
+Started: : M=LR, A=G, D=D, N=30 - Number(390)
+Finished
+Started: : M=LR, A=G, D=D, N=30 (390)
+Finished
+Started: : M=LR, A=G, D=D, N=40 - Number(391)
+Finished
+Started: : M=LR, A=G, D=D, N=40 (391)
+Finished
+Started: : M=LR, A=G, D=D, N=50 - Number(392)
+Finished
+Started: : M=LR, A=G, D=D, N=50 (392)
+Finished
+Started: : M=LR, A=G, D=D, N=60 - Number(393)
+Finished
+Started: : M=LR, A=G, D=D, N=60 (393)
+Finished
+Started: : M=LR, A=G, D=D, N=70 - Number(394)
+Finished
+Started: : M=LR, A=G, D=D, N=70 (394)
+Finished
+Started: : M=LR, A=G, D=D, N=80 - Number(395)
+Finished
+Started: : M=LR, A=G, D=D, N=80 (395)
+Finished
+Started: : M=LR, A=G, D=D, N=90 - Number(396)
+Finished
+Started: : M=LR, A=G, D=D, N=90 (396)
+Finished
+Started: : M=LR, A=G, D=D, N=100 - Number(397)
+Finished
+Started: : M=LR, A=G, D=D, N=100 (397)
+Finished
+Started: : M=RR, A=G, D=D, N=12 - Number(398)
+Finished
+Started: : M=RR, A=G, D=D, N=12 (398)
+Finished
+Started: : M=RR, A=G, D=D, N=50 - Number(399)
+Finished
+Started: : M=RR, A=G, D=D, N=50 (399)
+Finished
+Started: : M=RR, A=G, D=D, N=100 - Number(400)
+Finished
+Started: : M=RR, A=G, D=D, N=100 (400)
+Finished
+Started: : M=RR, A=G, D=D, N=200 - Number(401)
+Finished
+Started: : M=RR, A=G, D=D, N=200 (401)
+Finished
+Started: : M=RR, A=G, D=D, N=300 - Number(402)
+Finished
+Started: : M=RR, A=G, D=D, N=300 (402)
+Finished
+Started: : M=RR, A=G, D=D, N=400 - Number(403)
+Finished
+Started: : M=RR, A=G, D=D, N=400 (403)
+Finished
+Started: : M=RR, A=G, D=D, N=500 - Number(404)
+Finished
+Started: : M=RR, A=G, D=D, N=500 (404)
+Finished
+Started: : M=RR, A=G, D=D, N=750 - Number(405)
+Finished
+Started: : M=RR, A=G, D=D, N=750 (405)
+Finished
+Started: : M=RR, A=G, D=D, N=1000 - Number(406)
+Finished
+Started: : M=RR, A=G, D=D, N=1000 (406)
+Finished
+Started: : M=RR, A=G, D=D, N=1250 - Number(407)
+Finished
+Started: : M=RR, A=G, D=D, N=1250 (407)
+Finished
+Started: : M=RR, A=G, D=D, N=1500 - Number(408)
+Finished
+Started: : M=RR, A=G, D=D, N=1500 (408)
+Finished
+Started: : M=RR, A=G, D=D, N=1750 - Number(409)
+Finished
+Started: : M=RR, A=G, D=D, N=1750 (409)
+Finished
+Started: : M=RR, A=G, D=D, N=2048 - Number(410)
+Finished
+Started: : M=RR, A=G, D=D, N=2048 (410)
+Finished
+Started: : M=SR, A=G, D=D, N=12 - Number(411)
+Finished
+Started: : M=SR, A=G, D=D, N=12 (411)
+Finished
+Started: : M=SR, A=G, D=D, N=50 - Number(412)
+Finished
+Started: : M=SR, A=G, D=D, N=50 (412)
+Finished
+Started: : M=SR, A=G, D=D, N=100 - Number(413)
+Finished
+Started: : M=SR, A=G, D=D, N=100 (413)
+Finished
+Started: : M=SR, A=G, D=D, N=200 - Number(414)
+Finished
+Started: : M=SR, A=G, D=D, N=200 (414)
+Finished
+Started: : M=SR, A=G, D=D, N=300 - Number(415)
+Finished
+Started: : M=SR, A=G, D=D, N=300 (415)
+Finished
+Started: : M=SR, A=G, D=D, N=400 - Number(416)
+Finished
+Started: : M=SR, A=G, D=D, N=400 (416)
+Finished
+Started: : M=SR, A=G, D=D, N=500 - Number(417)
+Finished
+Started: : M=SR, A=G, D=D, N=500 (417)
+Finished
+Started: : M=SR, A=G, D=D, N=750 - Number(418)
+Finished
+Started: : M=SR, A=G, D=D, N=750 (418)
+Finished
+Started: : M=SR, A=G, D=D, N=1000 - Number(419)
+Finished
+Started: : M=SR, A=G, D=D, N=1000 (419)
+Finished
+Started: : M=SR, A=G, D=D, N=1250 - Number(420)
+Finished
+Started: : M=SR, A=G, D=D, N=1250 (420)
+Finished
+Started: : M=SR, A=G, D=D, N=1500 - Number(421)
+Finished
+Started: : M=SR, A=G, D=D, N=1500 (421)
+Finished
+Started: : M=SR, A=G, D=D, N=1750 - Number(422)
+Finished
+Started: : M=SR, A=G, D=D, N=1750 (422)
+Finished
+Started: : M=SR, A=G, D=D, N=2048 - Number(423)
+Finished
+Started: : M=SR, A=G, D=D, N=2048 (423)
+Finished
+Started: : M=XR, A=G, D=D, N=12 - Number(424)
+Finished
+Started: : M=XR, A=G, D=D, N=12 (424)
+Finished
+Started: : M=XR, A=G, D=D, N=50 - Number(425)
+Finished
+Started: : M=XR, A=G, D=D, N=50 (425)
+Finished
+Started: : M=XR, A=G, D=D, N=100 - Number(426)
+Finished
+Started: : M=XR, A=G, D=D, N=100 (426)
+Finished
+Started: : M=XR, A=G, D=D, N=200 - Number(427)
+Finished
+Started: : M=XR, A=G, D=D, N=200 (427)
+Finished
+Started: : M=XR, A=G, D=D, N=300 - Number(428)
+Finished
+Started: : M=XR, A=G, D=D, N=300 (428)
+Finished
+Started: : M=XR, A=G, D=D, N=400 - Number(429)
+Finished
+Started: : M=XR, A=G, D=D, N=400 (429)
+Finished
+Started: : M=XR, A=G, D=D, N=500 - Number(430)
+Finished
+Started: : M=XR, A=G, D=D, N=500 (430)
+Finished
+Started: : M=XR, A=G, D=D, N=750 - Number(431)
+Finished
+Started: : M=XR, A=G, D=D, N=750 (431)
+Finished
+Started: : M=XR, A=G, D=D, N=1000 - Number(432)
+Finished
+Started: : M=XR, A=G, D=D, N=1000 (432)
+Finished
+Started: : M=XR, A=G, D=D, N=1250 - Number(433)
+Finished
+Started: : M=XR, A=G, D=D, N=1250 (433)
+Finished
+Started: : M=XR, A=G, D=D, N=1500 - Number(434)
+Finished
+Started: : M=XR, A=G, D=D, N=1500 (434)
+Finished
+Started: : M=XR, A=G, D=D, N=1750 - Number(435)
+Finished
+Started: : M=XR, A=G, D=D, N=1750 (435)
+Finished
+Started: : M=XR, A=G, D=D, N=2048 - Number(436)
+Finished
+Started: : M=XR, A=G, D=D, N=2048 (436)
+Finished
+Started: : M=LR, A=G, D=W, N=12 - Number(437)
+Finished
+Started: : M=LR, A=G, D=W, N=12 (437)
+Finished
+Started: : M=LR, A=G, D=W, N=16 - Number(438)
+Finished
+Started: : M=LR, A=G, D=W, N=16 (438)
+Finished
+Started: : M=LR, A=G, D=W, N=20 - Number(439)
+Finished
+Started: : M=LR, A=G, D=W, N=20 (439)
+Finished
+Started: : M=LR, A=G, D=W, N=26 - Number(440)
+Finished
+Started: : M=LR, A=G, D=W, N=26 (440)
+Finished
+Started: : M=LR, A=G, D=W, N=30 - Number(441)
+Finished
+Started: : M=LR, A=G, D=W, N=30 (441)
+Finished
+Started: : M=LR, A=G, D=W, N=40 - Number(442)
+Finished
+Started: : M=LR, A=G, D=W, N=40 (442)
+Finished
+Started: : M=LR, A=G, D=W, N=50 - Number(443)
+Finished
+Started: : M=LR, A=G, D=W, N=50 (443)
+Finished
+Started: : M=LR, A=G, D=W, N=60 - Number(444)
+Finished
+Started: : M=LR, A=G, D=W, N=60 (444)
+Finished
+Started: : M=LR, A=G, D=W, N=70 - Number(445)
+Finished
+Started: : M=LR, A=G, D=W, N=70 (445)
+Finished
+Started: : M=LR, A=G, D=W, N=80 - Number(446)
+Finished
+Started: : M=LR, A=G, D=W, N=80 (446)
+Finished
+Started: : M=RR, A=G, D=W, N=12 - Number(447)
+Finished
+Started: : M=RR, A=G, D=W, N=12 (447)
+Finished
+Started: : M=RR, A=G, D=W, N=50 - Number(448)
+Finished
+Started: : M=RR, A=G, D=W, N=50 (448)
+Finished
+Started: : M=RR, A=G, D=W, N=100 - Number(449)
+Finished
+Started: : M=RR, A=G, D=W, N=100 (449)
+Finished
+Started: : M=RR, A=G, D=W, N=200 - Number(450)
+Finished
+Started: : M=RR, A=G, D=W, N=200 (450)
+Finished
+Started: : M=RR, A=G, D=W, N=300 - Number(451)
+Finished
+Started: : M=RR, A=G, D=W, N=300 (451)
+Finished
+Started: : M=RR, A=G, D=W, N=400 - Number(452)
+Finished
+Started: : M=RR, A=G, D=W, N=400 (452)
+Finished
+Started: : M=RR, A=G, D=W, N=500 - Number(453)
+Finished
+Started: : M=RR, A=G, D=W, N=500 (453)
+Finished
+Started: : M=RR, A=G, D=W, N=750 - Number(454)
+Finished
+Started: : M=RR, A=G, D=W, N=750 (454)
+Finished
+Started: : M=RR, A=G, D=W, N=1000 - Number(455)
+Finished
+Started: : M=RR, A=G, D=W, N=1000 (455)
+Finished
+Started: : M=RR, A=G, D=W, N=1250 - Number(456)
+Finished
+Started: : M=RR, A=G, D=W, N=1250 (456)
+Finished
+Started: : M=RR, A=G, D=W, N=1500 - Number(457)
+Finished
+Started: : M=RR, A=G, D=W, N=1500 (457)
+Finished
+Started: : M=RR, A=G, D=W, N=1750 - Number(458)
+Finished
+Started: : M=RR, A=G, D=W, N=1750 (458)
+Finished
+Started: : M=RR, A=G, D=W, N=2048 - Number(459)
+Finished
+Started: : M=RR, A=G, D=W, N=2048 (459)
+Finished
+Started: : M=SR, A=G, D=W, N=12 - Number(460)
+Finished
+Started: : M=SR, A=G, D=W, N=12 (460)
+Finished
+Started: : M=SR, A=G, D=W, N=20 - Number(461)
+Finished
+Started: : M=SR, A=G, D=W, N=20 (461)
+Finished
+Started: : M=SR, A=G, D=W, N=30 - Number(462)
+Finished
+Started: : M=SR, A=G, D=W, N=30 (462)
+Finished
+Started: : M=SR, A=G, D=W, N=40 - Number(463)
+Finished
+Started: : M=SR, A=G, D=W, N=40 (463)
+Finished
+Started: : M=SR, A=G, D=W, N=50 - Number(464)
+Finished
+Started: : M=SR, A=G, D=W, N=50 (464)
+Finished
+Started: : M=SR, A=G, D=W, N=60 - Number(465)
+Finished
+Started: : M=SR, A=G, D=W, N=60 (465)
+Finished
+Started: : M=SR, A=G, D=W, N=70 - Number(466)
+Finished
+Started: : M=SR, A=G, D=W, N=70 (466)
+Finished
+Started: : M=SR, A=G, D=W, N=80 - Number(467)
+Finished
+Started: : M=SR, A=G, D=W, N=80 (467)
+Finished
+Started: : M=SR, A=G, D=W, N=90 - Number(468)
+Finished
+Started: : M=SR, A=G, D=W, N=90 (468)
+Finished
+Started: : M=SR, A=G, D=W, N=100 - Number(469)
+Finished
+Started: : M=SR, A=G, D=W, N=100 (469)
+Finished
+Started: : M=SR, A=G, D=W, N=110 - Number(470)
+Finished
+Started: : M=SR, A=G, D=W, N=110 (470)
+Finished
+Started: : M=SR, A=G, D=W, N=130 - Number(471)
+Finished
+Started: : M=SR, A=G, D=W, N=130 (471)
+Finished
+Started: : M=SR, A=G, D=W, N=150 - Number(472)
+Finished
+Started: : M=SR, A=G, D=W, N=150 (472)
+Finished
+Started: : M=XR, A=G, D=W, N=12 - Number(473)
+Finished
+Started: : M=XR, A=G, D=W, N=12 (473)
+Finished
+Started: : M=XR, A=G, D=W, N=50 - Number(474)
+Finished
+Started: : M=XR, A=G, D=W, N=50 (474)
+Finished
+Started: : M=XR, A=G, D=W, N=100 - Number(475)
+Finished
+Started: : M=XR, A=G, D=W, N=100 (475)
+Finished
+Started: : M=XR, A=G, D=W, N=200 - Number(476)
+Finished
+Started: : M=XR, A=G, D=W, N=200 (476)
+Finished
+Started: : M=XR, A=G, D=W, N=300 - Number(477)
+Finished
+Started: : M=XR, A=G, D=W, N=300 (477)
+Finished
+Started: : M=XR, A=G, D=W, N=400 - Number(478)
+Finished
+Started: : M=XR, A=G, D=W, N=400 (478)
+Finished
+Started: : M=XR, A=G, D=W, N=500 - Number(479)
+Finished
+Started: : M=XR, A=G, D=W, N=500 (479)
+Finished
+Started: : M=XR, A=G, D=W, N=750 - Number(480)
+Finished
+Started: : M=XR, A=G, D=W, N=750 (480)
+Finished
+Started: : M=XR, A=G, D=W, N=1000 - Number(481)
+Finished
+Started: : M=XR, A=G, D=W, N=1000 (481)
+Finished
+Started: : M=XR, A=G, D=W, N=1250 - Number(482)
+Finished
+Started: : M=XR, A=G, D=W, N=1250 (482)
+Finished
+Started: : M=XR, A=G, D=W, N=1500 - Number(483)
+Finished
+Started: : M=XR, A=G, D=W, N=1500 (483)
+Finished
+Started: : M=XR, A=G, D=W, N=1750 - Number(484)
+Finished
+Started: : M=XR, A=G, D=W, N=1750 (484)
+Finished
+Started: : M=XR, A=G, D=W, N=2048 - Number(485)
+Finished
+Started: : M=XR, A=G, D=W, N=2048 (485)
+Finished
+Training Models finished
+
+Started: : M=LR, A=G, D=W, N=100 - Number(1)
+Finished
+Started: : M=LR, A=G, D=W, N=400 - Number(2)
+Finished
+Training Models finished
+
+Started: : M=XR, A=S, D=W, N=27850 - Number(1)
+Finished
+Training Models finished
+
+Training Models finished
+
+Started: : M=LR, A=S, D=D, N=25 (0)
+Finished
+Started: : M=LR, A=S, D=D, N=50 (0)
+Finished
+Started: : M=LR, A=S, D=D, N=75 (0)
+Training Models finished
+
+Started: D=D, M=SR, A=K, D=W, N=2 (1)
+Finished: D=D, M=SR, A=K, D=W, N=2 (1)
+Started: D=D, M=SR, A=C, D=W, N=250 (2)
+Finished: D=D, M=SR, A=C, D=W, N=250 (2)
+Started: D=D, M=SR, A=C, D=W, N=350 (3)
+Finished: D=D, M=SR, A=C, D=W, N=350 (3)
+Started: D=D, M=SR, A=C, D=W, N=500 (4)
+Finished: D=D, M=SR, A=C, D=W, N=500 (4)
+Started: D=D, M=SR, A=C, D=W, N=700 (5)
+Finished: D=D, M=SR, A=C, D=W, N=700 (5)
+Started: D=D, M=SR, A=G, D=W, N=250 (6)
+Finished: D=D, M=SR, A=G, D=W, N=250 (6)
+Started: D=D, M=SR, A=G, D=W, N=350 (7)
+Finished: D=D, M=SR, A=G, D=W, N=350 (7)
+Started: D=D, M=SR, A=G, D=W, N=500 (8)
+Finished: D=D, M=SR, A=G, D=W, N=500 (8)
+Started: D=D, M=SR, A=G, D=W, N=700 (9)
+Finished: D=D, M=SR, A=G, D=W, N=700 (9)
+Started: D=D, M=XR, A=S, D=W, N=20000 (10)
+Finished: D=D, M=XR, A=S, D=W, N=20000 (10)
+Started: D=D, M=LR, A=G, D=D, N=120 (11)
+Finished: D=D, M=LR, A=G, D=D, N=120 (11)
+Started: D=D, M=LR, A=G, D=D, N=140 (12)
+Finished: D=D, M=LR, A=G, D=D, N=140 (12)
+Started: D=D, M=LR, A=G, D=D, N=160 (13)
+Finished: D=D, M=LR, A=G, D=D, N=160 (13)
+Started: D=D, M=LR, A=G, D=D, N=180 (14)
+Finished: D=D, M=LR, A=G, D=D, N=180 (14)
+Started: D=D, M=LR, A=G, D=D, N=200 (15)
+Finished: D=D, M=LR, A=G, D=D, N=200 (15)
+Started: D=D, M=LR, A=G, D=D, N=220 (16)
+Finished: D=D, M=LR, A=G, D=D, N=220 (16)
+Started: D=D, M=LR, A=G, D=D, N=240 (17)
+Finished: D=D, M=LR, A=G, D=D, N=240 (17)
+Started: D=D, M=LR, A=G, D=D, N=260 (18)
+Finished: D=D, M=LR, A=G, D=D, N=260 (18)
+Started: D=D, M=LR, A=G, D=D, N=280 (19)
+Finished: D=D, M=LR, A=G, D=D, N=280 (19)
+Started: D=D, M=LR, A=G, D=D, N=300 (20)
+Finished: D=D, M=LR, A=G, D=D, N=300 (20)
+Started: D=D, M=LR, A=G, D=D, N=320 (21)
+Finished: D=D, M=LR, A=G, D=D, N=320 (21)
+Started: D=D, M=LR, A=C, D=D, N=120 (22)
+Finished: D=D, M=LR, A=C, D=D, N=120 (22)
+Started: D=D, M=LR, A=C, D=D, N=140 (23)
+Finished: D=D, M=LR, A=C, D=D, N=140 (23)
+Started: D=D, M=LR, A=C, D=D, N=160 (24)
+Finished: D=D, M=LR, A=C, D=D, N=160 (24)
+Started: D=D, M=LR, A=C, D=D, N=180 (25)
+Finished: D=D, M=LR, A=C, D=D, N=180 (25)
+Started: D=D, M=LR, A=C, D=D, N=200 (26)
+Finished: D=D, M=LR, A=C, D=D, N=200 (26)
+Started: D=D, M=LR, A=C, D=D, N=220 (27)
+Finished: D=D, M=LR, A=C, D=D, N=220 (27)
+Started: D=D, M=LR, A=C, D=D, N=240 (28)
+Finished: D=D, M=LR, A=C, D=D, N=240 (28)
+Started: D=D, M=LR, A=C, D=D, N=260 (29)
+Finished: D=D, M=LR, A=C, D=D, N=260 (29)
+Started: D=D, M=LR, A=C, D=D, N=280 (30)
+Finished: D=D, M=LR, A=C, D=D, N=280 (30)
+Started RBO: : M=SR, A=K, D=W, N=2 - Number(1)
+Finished
+Started RBO: : M=SR, A=C, D=W, N=250 - Number(2)
+Finished
+Started RBO: : M=SR, A=C, D=W, N=350 - Number(3)
+Finished
+Started RBO: : M=SR, A=C, D=W, N=500 - Number(4)
+Finished
+Started RBO: : M=SR, A=C, D=W, N=700 - Number(5)
+Finished
+Started RBO: : M=SR, A=G, D=W, N=250 - Number(6)
+Finished
+Started RBO: : M=SR, A=G, D=W, N=350 - Number(7)
+Finished
+Started RBO: : M=SR, A=G, D=W, N=500 - Number(8)
+Finished
+Started RBO: : M=SR, A=G, D=W, N=700 - Number(9)
+Finished
+Started RBO: : M=XR, A=S, D=W, N=20000 - Number(10)
+Finished
+Started RBO: : M=LR, A=G, D=D, N=120 - Number(11)
+Finished
+Started RBO: : M=LR, A=G, D=D, N=140 - Number(12)
+Finished
+Started RBO: : M=LR, A=G, D=D, N=160 - Number(13)
+Finished
+Started RBO: : M=LR, A=G, D=D, N=180 - Number(14)
+Finished
+Started RBO: : M=LR, A=G, D=D, N=200 - Number(15)
+Finished
+Started RBO: : M=LR, A=G, D=D, N=220 - Number(16)
+Finished
+Started RBO: : M=LR, A=G, D=D, N=240 - Number(17)
+Finished
+Started RBO: : M=LR, A=G, D=D, N=260 - Number(18)
+Finished
+Started RBO: : M=LR, A=G, D=D, N=280 - Number(19)
+Finished
+Started RBO: : M=LR, A=G, D=D, N=300 - Number(20)
+Finished
+Started RBO: : M=LR, A=G, D=D, N=320 - Number(21)
+Finished
+Started RBO: : M=LR, A=C, D=D, N=120 - Number(22)
+Finished
+Started RBO: : M=LR, A=C, D=D, N=140 - Number(23)
+Finished
+Started RBO: : M=LR, A=C, D=D, N=160 - Number(24)
+Finished
+Started RBO: : M=LR, A=C, D=D, N=180 - Number(25)
+Finished
+Started RBO: : M=LR, A=C, D=D, N=200 - Number(26)
+Finished
+Started RBO: : M=LR, A=C, D=D, N=220 - Number(27)
+Finished
+Started RBO: : M=LR, A=C, D=D, N=240 - Number(28)
+Finished
+Started RBO: : M=LR, A=C, D=D, N=260 - Number(29)
+Finished
+Started RBO: : M=LR, A=C, D=D, N=280 - Number(30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=25 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=75 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=400 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=500 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=600 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=700 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=800 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=900 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=1000 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=1500 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=2000 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=2500 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=3000 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=3500 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=D, N=4000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=30 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=400 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=600 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=700 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=800 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=900 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=1000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=1150 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=1300 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=1500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=2000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=2500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=3000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=3500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=4000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=4500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=5000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=5500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=6000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=7000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=8000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=9000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=10000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=D, N=12000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=30 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=150 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=250 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=350 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=400 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=450 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=500 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=550 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=600 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=650 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=700 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=750 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=800 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=850 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=1000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=3000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=5000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=10000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=15000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=20000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=25000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=30000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=35000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=40000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=45000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=D, N=50000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=500 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=1000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=2000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=3000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=4000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=5000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=6000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=7000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=8000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=9000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=10000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=11000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=12000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=13000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=14000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=15000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=16000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=17000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=D, N=18000 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=30 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=50 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=100 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=200 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=300 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=400 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=500 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=600 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=700 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=800 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=900 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=1000 (30)
+Finished
+Started Fidelity: : M=LR, A=S, D=W, N=1100 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=30 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=50 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=100 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=200 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=300 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=400 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=600 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=700 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=800 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=900 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=1000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=1500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=2000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=2500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=3000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=3500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=4000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=4500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=5000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=5500 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=6000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=9000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=12000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=15000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=18000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=21000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=24000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=27000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=30000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=33000 (30)
+Finished
+Started Fidelity: : M=RR, A=S, D=W, N=36000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=30 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=250 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=600 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=1000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=1500 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=2000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=3000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=4000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=6000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=8000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=10000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=12000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=16000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=20000 (30)
+Finished
+Started Fidelity: : M=XR, A=S, D=W, N=27850 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=50 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=100 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=200 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=300 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=400 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=500 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=750 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=1000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=2000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=3000 (30)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=4000 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=1 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=500 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=1000 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=5000 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=10000 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=20000 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=50000 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=100000 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=150000 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=200000 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=D, N=240000 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=1 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=10 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=20 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=30 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=40 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=75 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=125 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=150 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=250 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=1 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=10 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=20 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=30 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=40 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=75 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=150 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=250 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=D, N=350 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=1 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=10 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=25 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=75 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=150 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=250 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=350 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=400 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=D, N=450 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=W, N=1 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=W, N=3 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=W, N=5 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=W, N=10 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=W, N=15 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=W, N=20 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=W, N=30 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=W, N=40 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=W, N=50 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=W, N=60 (30)
+Finished
+Started Fidelity: : M=LR, A=K, D=W, N=70 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=W, N=1 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=W, N=2 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=W, N=3 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=W, N=4 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=W, N=5 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=W, N=7 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=W, N=10 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=W, N=15 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=W, N=25 (30)
+Finished
+Started Fidelity: : M=RR, A=K, D=W, N=39 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=W, N=1 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=W, N=2 (30)
+Finished
+Started Fidelity: : M=SR, A=K, D=W, N=10 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=W, N=1 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=W, N=3 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=W, N=5 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=W, N=7 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=W, N=10 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=W, N=15 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=W, N=20 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=W, N=25 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=W, N=30 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=W, N=35 (30)
+Finished
+Started Fidelity: : M=XR, A=K, D=W, N=40 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=12 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=16 (30)
+Error for: : M=LR, A=C, D=D, N=16 = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '16', '--eval_method', 'F']' returned non-zero exit status 1. (30)
+Started Fidelity: : M=LR, A=C, D=D, N=20 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=26 (30)
+Error for: : M=LR, A=C, D=D, N=26 = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '26', '--eval_method', 'F']' returned non-zero exit status 1. (30)
+Started Fidelity: : M=LR, A=C, D=D, N=30 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=40 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=60 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=70 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=80 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=90 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=12 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=400 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=500 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=750 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=1000 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=1250 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=1500 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=1750 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=D, N=2048 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=12 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=400 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=500 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=750 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=1000 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=1250 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=1500 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=1750 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=D, N=2048 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=12 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=400 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=500 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=750 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=1000 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=1250 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=1500 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=1750 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=D, N=2048 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=W, N=12 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=W, N=14 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=W, N=16 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=W, N=18 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=W, N=20 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=12 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=50 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=100 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=200 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=300 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=400 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=500 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=750 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=1000 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=1250 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=1500 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=1750 (30)
+Finished
+Started Fidelity: : M=RR, A=C, D=W, N=2048 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=12 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=20 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=30 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=40 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=50 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=60 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=70 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=80 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=90 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=100 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=110 (30)
+Error for: : M=SR, A=C, D=W, N=110 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'C', '--nsamples', '110', '--eval_method', 'F']' returned non-zero exit status 1. (30)
+Started Fidelity: : M=SR, A=C, D=W, N=130 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=150 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=250 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=350 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=500 (30)
+Finished
+Started Fidelity: : M=SR, A=C, D=W, N=700 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=12 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=50 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=100 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=200 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=300 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=400 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=500 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=750 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=1000 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=1250 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=1500 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=1750 (30)
+Finished
+Started Fidelity: : M=XR, A=C, D=W, N=2048 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=12 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=16 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=20 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=26 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=30 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=40 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=60 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=70 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=80 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=90 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=12 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=400 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=500 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=750 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=1000 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=1250 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=1500 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=1750 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=D, N=2048 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=12 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=400 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=500 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=750 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=1000 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=1250 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=1500 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=1750 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=D, N=2048 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=12 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=50 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=100 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=400 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=500 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=750 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=1000 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=1250 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=1500 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=1750 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=D, N=2048 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=W, N=12 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=W, N=16 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=W, N=20 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=W, N=26 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=W, N=30 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=W, N=40 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=W, N=50 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=W, N=60 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=W, N=70 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=W, N=80 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=W, N=100 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=12 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=50 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=100 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=200 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=300 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=400 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=500 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=750 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=1000 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=1250 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=1500 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=1750 (30)
+Finished
+Started Fidelity: : M=RR, A=G, D=W, N=2048 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=12 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=20 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=30 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=40 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=50 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=60 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=70 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=80 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=90 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=100 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=110 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=130 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=150 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=250 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=350 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=500 (30)
+Finished
+Started Fidelity: : M=SR, A=G, D=W, N=700 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=12 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=50 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=100 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=200 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=300 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=400 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=500 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=750 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=1000 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=1250 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=1500 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=1750 (30)
+Finished
+Started Fidelity: : M=XR, A=G, D=W, N=2048 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=120 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=140 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=160 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=180 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=220 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=240 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=260 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=280 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=300 (30)
+Finished
+Started Fidelity: : M=LR, A=G, D=D, N=320 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=120 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=140 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=160 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=180 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=200 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=220 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=240 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=260 (30)
+Finished
+Started Fidelity: : M=LR, A=C, D=D, N=280 (30)
+Finished

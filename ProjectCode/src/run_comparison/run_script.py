@@ -315,8 +315,6 @@ def run_approximations():
     
     running_counter = 0
     src = str(src_dir)
-
-    # (approximation, model, n_samples) – sortiert nach geschätzter Runtime (schnelle zuerst)
     
     '''('S', 'LR',  'D', '100'),
     ('S', 'LR',  'D', '200'),
@@ -594,7 +592,8 @@ def run_approximations():
     ('K', 'RR',  'W', '25'),
     ('K', 'RR',  'W', '39'),
     
-    #SR only 1 and 10 already run!
+    ('K', 'SR',  'W', '1'),
+    ('K', 'SR',  'W', '10'),
     
     
     #1,3,5,7,10,16,20,26,30,35,40,43
@@ -841,13 +840,8 @@ def run_approximations():
     '''
     
     run_queue = [
-    ('C', 'SR', 'W', '116'), #ERROR
-    ('G', 'LR', 'D', '16'), #ERROR
-    ('G', 'LR', 'D', '26'), #ERROR
-    ('G', 'LR', 'W', '16'), #ERROR
-    ('G', 'LR', 'W', '26'), #ERROR
-    ('G', 'SR', 'W', '110'), #ERROR
-
+    ('G', 'SR', 'W', '2048'),
+    ('C', 'SR', 'W', '2048'),
     ]
     
     for approximation, model, data, n_samples in run_queue:
@@ -1567,126 +1561,17 @@ def run_evaluations():
     ('G', 'XR', 'W', '2048'),
     '''
     
+    run_queue_rbo = [
+    ('G', 'SR', 'W', '2048'),
+    ('C', 'SR', 'W', '2048'),] 
     
-    run_queue_stability = [
-     #D & LR - 3,5s
-    ("C","D","LR","12"),
-    ("C","D","LR","20"),
-
-    ("G","D","LR","12"),
-    ("G","D","LR","120"),
-
-    ("K","D","LR","800"),
-    ("K","D","LR","1700"),
-
-    ("S","D","LR","1400"),
-    ("S","D","LR","2300"),
-
-    #D & RR - 3,6,10s Lower Bound (S) > Upper Bound (K,C)
-    ("C","D","RR","20"),
-    ("C","D","RR","120"),
-    # not possible
-
-    ("G","D","RR","250"),
-    ("G","D","RR","130"),
-    # not possible
-
-    ("K","D","RR","4"),
-    ("K","D","RR","25"),
-    ("K","D","RR","52"),
-
-    # not possible
-    # not possible
-    ("S","D","RR","25"),
-
-
-    #D & SR - 10,25s
-    ("C","D","SR","120"),
-    ("C","D","SR","1300"),
-
-    ("G","D","SR","120"),
-    ("G","D","SR","270"),
-
-    ("K","D","SR","9"),
-    ("K","D","SR","40"),
-
-    ("S","D","SR","1000"),
-    ("S","D","SR","3000"),
-
-
-    #D & XR - 3,8s
-    ("C","D","XR","20"),
-    ("C","D","XR","220"),
-
-    ("G","D","XR","46"),
-    ("G","D","XR","2048"),
-
-    ("K","D","XR","35" ),
-    ("K","D","XR","120"),
-
-    ("S","D","XR","1500"),
-    ("S","D","XR","4300"),
-
-    #W & LR - 15,30s
-    ("C","W","LR","12"),
-    ("C","W","LR","26"),
-
-    ("G","W","LR","36"),
-
-    ("K","W","LR","28"),
-    ("K","W","LR","70"),
-
-    ("S","W","LR","500"),
-    ("S","W","LR","1150"),
-
-    #W & RR - 20, 80s, 130s
-    ("C","W","RR","12"),
-    ("C","W","RR","46"),
-    ("C","W","RR","86"),
-
-    ("G","W","RR","40"),
-    ("G","W","RR","2048"),
-    # not possible
-
-    # not possible
-    ("K","W","RR","1"),
-    ("K","W","RR","2"),
-    
-    # not possible
-    # not possible
-    ("S","W","RR","30"),
-    
-    #W & SR - 75s, 100
-    ("C","W","SR","12"),
-    ("C","W","SR","16"),
-
-    ("G","W","SR","12"),
-    ("G","W","SR","18"),
-
-    # not possible
-    # not possible
-
-    ("S","W","SR","50"),
-    ("S","W","SR","80"),
-
-
-    #W & XR - 20,50s
-    ("C","W","XR","12"),
-    ("C","W","XR","30"),
-
-    ("G","W","XR","46"),
-    ("G","W","XR","150"),
-
-    ("K","W","XR","1"),
-    ("K","W","XR","3"),
-
-    ("S","W","XR","600"),
-    ("S","W","XR","1500")
-    ]
+    run_queue_fidelity = [
+    ('G', 'SR', 'W', '2048'),
+    ('C', 'SR', 'W', '2048'),] 
     
 
 
-    for approximation, data, model, n_samples, eval_method in run_queue_stability:
+    for approximation, model, data, n_samples in run_queue_rbo:
         running_counter += 1
         key = f": M={model}, A={approximation}, D={data}, N={n_samples}"
         running_command_stability = [
@@ -1697,9 +1582,18 @@ def run_evaluations():
             "--approximation", approximation,
             "--nsamples", str(n_samples),
             "--eval_method", "R",
-            "--number_of_runs", "10",
         ]
         
+        try:
+            __write_result_to_file_and_print(f"Started RBO: {key} - Number({running_counter})")
+            subprocess.run(running_command_stability, check=True, cwd=src)
+            __write_result_to_file_and_print(f"Finished")
+        except Exception as e:
+            __write_result_to_file_and_print(f"Error for: = {str(e)} ({running_counter})")
+    
+    
+    for approximation, model, data, n_samples in run_queue_fidelity:
+        key = f": M={model}, A={approximation}, D={data}, N={n_samples}"
         running_command_fidelity = [
             "python", "main.py",
             "--mode", "E",
@@ -1707,22 +1601,17 @@ def run_evaluations():
             "--model", model,
             "--approximation", approximation,
             "--nsamples", str(n_samples),
-            "--eval_method", "S"
+            "--eval_method", "F"
         ]
 
+
+        
         try:
-            __write_result_to_file_and_print(f"Started: Runtime({running_counter})")
-            subprocess.run(running_command_stability, check=True, cwd=src)
+            __write_result_to_file_and_print(f"Started Fidelity: {key} ({running_counter})")
+            subprocess.run(running_command_fidelity, check=True, cwd=src)
             __write_result_to_file_and_print(f"Finished")
         except Exception as e:
-            __write_result_to_file_and_print(f"Error for: = {str(e)} ({running_counter})")
-        '''
-        try:
-            __write_result_to_file_and_print(f"Started: {eval_method} ({running_counter})")
-            subprocess.run(running_command_fidelity, check=True, cwd=src)
-            __write_result_to_file_and_print(f"Finished: {eval_method} ({running_counter})")
-        except Exception as e:
-            __write_result_to_file_and_print(f"Error for: {eval_method} = {str(e)} ({running_counter})")'''    
+            __write_result_to_file_and_print(f"Error for: {key} = {str(e)} ({running_counter})")
             
             
 def run_stability():
@@ -1851,8 +1740,13 @@ def run_stability():
     '''
     #50s and 100s
     run_queue = [
-
-
+    ("S","W","SR","70"),#70
+    ("S","W","SR","62"),#70
+    ("S","W","SR","64"),#70
+    ("S","W","SR","66"),#70
+    ("S","W","SR","68"),#70
+    ("S","W","SR","74"),#70
+    ("S","W","SR","78"),#70
     ]
 
     
