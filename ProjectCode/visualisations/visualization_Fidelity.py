@@ -561,13 +561,13 @@ df = get_evaluation(eval_method=["Running_Time","Fidelity_Score"]).reset_index()
 approx_keys = [f"{key[0]}_{key[2]}_{key[1]}_{key[3]}" for key in fidelity_runs]
 df_fidelity = df[df["index"].isin(approx_keys)]
 
-df_D = df_fidelity[df_fidelity["index"].str.contains("_D_")]
-df_D_dict = dict()
-df_D_dict_colors = dict()
-df_test_C = df_D[df_D["index"].str.contains("C_D_RR")]
-df_test_G = df_D[df_D["index"].str.contains("G_D_RR")]
-df_test_S = df_D[df_D["index"].str.contains("S_D_RR")]
-df_test_K = df_D[df_D["index"].str.contains("K_D_RR")]
+df_W = df_fidelity[df_fidelity["index"].str.contains("_W_")]
+df_W_dict = dict()
+df_W_dict_colors = dict()
+df_test_C = df_W[df_W["index"].str.contains("C_W_RR")]
+df_test_G = df_W[df_W["index"].str.contains("G_W_RR")]
+df_test_S = df_W[df_W["index"].str.contains("S_W_RR")]
+df_test_K = df_W[df_W["index"].str.contains("K_W_RR")]
 print(df_test_C)
 print(df_test_G)
 print(df_test_K)
@@ -611,9 +611,9 @@ plt.title(f"Fidelity Comparison (MSE) - {shap_name} Diabetes Dataset")
 plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
 plt.axvline(x=2.310240, color='green', linestyle=':', linewidth=1, label="Gaussian SHAP - Sample Lower Bound", alpha=0.6)
 plt.axvline(x=2.817665, color='blue', linestyle=':', linewidth=1, label="Copula SHAP - Sample Lower Bound", alpha=0.6)
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
-
+plt.legend(title="Approximation", loc="best", prop={'size': 8})
+plt.show()
+'''
 '''
 models = ["RR"]
 #D - RR

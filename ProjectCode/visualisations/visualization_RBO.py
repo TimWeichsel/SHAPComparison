@@ -647,6 +647,7 @@ plt.legend(title="Approximation", loc="best")
 plt.show()'''
 
 
+
 '''
 #D - XR
 models = ["XR"]
@@ -776,7 +777,7 @@ plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label=
 plt.legend(title="Approximation", loc="best")
 plt.show()'''
 
-'''
+
 #W - XR
 models = ["XR"]
 exact_shap_value = None
@@ -800,4 +801,4 @@ plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label=
 plt.axvline(x=304.774652 , color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
 plt.axvline(x=87.576517, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
 plt.legend(title="Approximation", loc="best")
-plt.show()'''
+plt.show()

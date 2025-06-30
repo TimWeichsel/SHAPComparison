@@ -142,6 +142,14 @@ df_D_dict_colors = dict()
 exact_shap_values_D = {"LR":6.731802940368652, "RR":49.28979778289795,"SR":419.9395990371704,"XR":30.09837508201599}
 
 df_W = df_stability[df_stability["index"].str.contains("_W_")]
+df_test = df_W[df_W["index"].str.contains("G_W_RR")]
+print(df_test)
+df_test2 = df_W[df_W["index"].str.contains("C_W_RR")]
+print(df_test2)
+df_test3 = df_W[df_W["index"].str.contains("S_W_RR")]
+print(df_test3)
+df_test4 = df_W[df_W["index"].str.contains("K_W_RR")]
+print(df_test4)
 df_W_dict = dict()
 df_W_dict_colors = dict()
 exact_shap_values_W = {"LR":30.49867606163025, "RR":1666.557268857956,"SR":153204.29993009567,"XR":576.2753148078918}
@@ -225,7 +233,9 @@ plt.xlabel("Running Time in seconds")
 plt.ylabel("Stability Score")
 plt.title(f"Stability Comparison (10 runs) - {shap_name} Diabetes Dataset")
 plt.legend(title="Approximation", loc="best")
-plt.show()'''
+plt.show()
+
+'''
 
 '''
 #D - XR
@@ -278,7 +288,7 @@ plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label=
 plt.legend(title="Approximation", loc="best")
 plt.show()'''
 
-'''
+
 #W - RR
 models = ["RR"]
 exact_shap_value = None
@@ -299,10 +309,13 @@ plt.xlabel("Running Time in seconds")
 plt.ylabel("Stability Score")
 plt.title(f"Stability Comparison (10 runs) - {shap_name} Wine Dataset")
 #plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
+plt.axvline(x=78.775649, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
+plt.axvline(x=123.42659, color='purple', linestyle=':', linewidth=1, label="Sample SHAP - Sample Lower Bound", alpha=0.6)
+plt.axvline(x=103.550527, color='yellow', linestyle=':', linewidth=1, label="Kernel SHAP - Sample Lower Bound", alpha=0.6)
 plt.legend(title="Approximation", loc="best")
-plt.show()'''
+plt.show()
 
-
+'''
 #W - SR
 models = ["SR"]
 exact_shap_value = None
@@ -324,7 +337,8 @@ plt.ylabel("Stability Score")
 plt.title(f"Stability Comparison (10 runs) - {shap_name} Wine Dataset")
 #plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
 plt.legend(title="Approximation", loc="best")
-plt.show()
+plt.show()'''
+
 '''
 #W - XR
 models = ["XR"]

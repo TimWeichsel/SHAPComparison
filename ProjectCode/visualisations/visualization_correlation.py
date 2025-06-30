@@ -15,13 +15,21 @@ os.chdir(project_start_point / "src")
 
 data_D_dict = get_data("D", 0)
 data_W_dict = get_data("W", 0)
+data_A_dict = get_data("A", 0)
+data_B_dict = get_data("B", 0)
 
 data_D_X_train = data_D_dict["X_train"]
 data_W_X_train = data_W_dict["X_train"]
+data_A_X_train = data_A_dict["X_train"]
+data_B_X_train = data_B_dict["X_train"]
 
 
 # Source for the following code: https://seaborn.pydata.org/examples/many_pairwise_correlations.html
-corr = data_D_X_train.corr()
+df = data_B_X_train
+num_cols = df.select_dtypes(include=np.number).columns
+cols_to_exclude = [col for col in num_cols if set(df[col].dropna().unique()) <= {0, 1}]
+filtered_df = df.drop(columns=cols_to_exclude)
+corr = filtered_df.corr()
 # Generate a mask for the upper triangle
 mask = np.triu(np.ones_like(corr, dtype=bool))
 
@@ -32,7 +40,32 @@ f, ax = plt.subplots(figsize=(11, 9))
 cmap = sns.diverging_palette(230, 20, as_cmap=True)
 
 # Draw the heatmap with the mask and correct aspect ratio
-sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
+sns.heatmap(corr, mask=mask, cmap=cmap, vmax=1, vmin=-1, center=0,
             square=True, linewidths=.5, cbar_kws={"shrink": .5})
 plt.show()
+'''
 
+
+def average_absolute_correlation(df):
+    num_cols = df.select_dtypes(include=np.number).columns
+    cols_to_exclude = [col for col in num_cols if set(df[col].dropna().unique()) <= {0, 1}]
+    filtered_df = df.drop(columns=cols_to_exclude)
+    corr_matrix = filtered_df.corr().abs()
+    upper_tri = corr_matrix.where(np.triu(np.ones(corr_matrix.shape), k=1).astype(bool))
+    return upper_tri.stack().mean()
+
+print(average_absolute_correlation(data_D_X_train))
+
+print(average_absolute_correlation(data_W_X_train))
+
+print(average_absolute_correlation(data_A_X_train))
+
+print(average_absolute_correlation(data_B_X_train))
+
+def max_absolute_correlation(df):
+    num_cols = df.select_dtypes(include=np.number).columns
+    cols_to_exclude = [col for col in num_cols if set(df[col].dropna().unique()) <= {0, 1}]
+    filtered_df = df.drop(columns=cols_to_exclude)
+    corr_matrix = filtered_df.corr().abs()
+    upper_tri = corr_matrix.where(np.triu(np.ones(corr_matrix.shape), k=1).astype(bool))
+    return upper_tri.stack().max()'''
