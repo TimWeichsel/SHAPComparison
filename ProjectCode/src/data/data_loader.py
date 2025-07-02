@@ -24,9 +24,21 @@ def get_data(data: str, regression_indicator: int) -> pd.DataFrame:
             if regression_indicator == 1:
                 raise ValueError("Invalid data set. Diabetes is not a classification data set.")
             key = "BlogComments_Regression"
+        case "BR":
+            if regression_indicator == 1:
+                raise ValueError("Invalid data set. Diabetes is not a classification data set.")
+            key = "BlogComments_Regression"
         case _:
             raise ValueError("Invalid data set.")
     if key not in data_dict:
         raise ValueError(f"Key {key} not found")
     else:
+        if data == "BR":
+            # BlogComments Reduced only returns a subset of the test data
+            return {
+                "X_train": data_dict["BlogComments_Regression"]["X_train"],
+                "X_test": data_dict["BlogComments_Regression"]["X_test"][:500],
+                "y_train": data_dict["BlogComments_Regression"]["y_train"],
+                "y_test": data_dict["BlogComments_Regression"]["y_test"][:500]
+            }
         return data_dict[key] #returns a dictionary with "X_train", "X_test", "y_train", "y_test"

@@ -840,8 +840,12 @@ def run_approximations():
     '''
     
     run_queue = [
-    ('G', 'SR', 'W', '2048'),
-    ('C', 'SR', 'W', '2048'),
+    ('G', 'LR', 'B', '20'),
+    ('C', 'LR', 'B', '20'),
+    ('K', 'LR', 'B', '20'),
+    ('S', 'LR', 'B', '20'),
+    ('')
+    
     ]
     
     for approximation, model, data, n_samples in run_queue:

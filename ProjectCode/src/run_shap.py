@@ -72,42 +72,10 @@ def __get_SHAP_values(approximation: str, model, X_train, X_test, nsamples, y_tr
     match approximation:
         case "K":
             explainer = create_kernel_shap_explainer(model=model, X_train=X_train, run_id_seed=run_id_seed)
-            ###DELETE
-            explainer, model_calls = create_kernel_shap_explainer(model=model, X_train=X_train, run_id_seed=run_id_seed)
-            ###DELETE END
-            # UNCOMMENT
-            #return explainer.shap_values(X_test, nsamples=nsamples)
-            # UNCOMMENT END
-            ###DELETE
-            with open("model_calls.txt", "a") as file:
-                file.write(f"KernelSHAP model calls before Shap calc: {model_calls['calls']}\n")
-            ###DELETE ENDs
-            shap_values = explainer.shap_values(X_test, nsamples=nsamples)
-            ###DELETE
-            with open("model_calls.txt", "a") as file:
-                file.write(f"KernelSHAP model calls: {model_calls['calls']}\n")
-            return shap_values
-            ###DELETE END
+            return explainer.shap_values(X_test, nsamples=nsamples)
         case "S":
             explainer = create_sample_shap_explainer(model=model, X_train=X_train, run_id_seed=run_id_seed)
-            ###DELETE
-            explainer, model_calls = create_sample_shap_explainer(model=model, X_train=X_train, run_id_seed=run_id_seed)
-            ###DELETE END
-            #return explainer.shap_values(X_test, nsamples=nsamples)
-            # UNCOMMENT END
-            ###DELETE
-            with open("model_calls.txt", "a") as file:
-                file.write(f"SampleSHAP model calls before Shap calc: {model_calls['calls']}\n")
-            ###DELETE ENDs
-            shap_values = explainer.shap_values(X_test, nsamples=nsamples)
-            ###DELETE
-            with open("model_calls.txt", "a") as file:
-                file.write(f"SampleSHAP model calls: {model_calls['calls']}\n")
-            return shap_values
-            ###DELETE ENDs
-        case "B":
-            pass
-            #return create_bounded_sampling_shap_explainer
+            return explainer.shap_values(X_test, nsamples=nsamples)
         case "C":
             return get_copula_shap_values(model=model, X_train=X_train, X_test=X_test, y_train=y_train, n_samples=nsamples, run_id_seed=run_id_seed)
         case "G":
@@ -117,7 +85,7 @@ def __get_SHAP_values(approximation: str, model, X_train, X_test, nsamples, y_tr
             return explainer(X_test)
         case _:
             pass
-            #raise ValueError("Invalid SHAP approximation. Choose 'K', 'S', 'B', 'C', 'G' or 'E'")
+            raise ValueError("Invalid SHAP approximation. Choose 'K', 'S', 'B', 'C', 'G' or 'E'")
             
 def __create_shap_information(total_time, shap_values, model_name, data, approximation, nsamples, X_test, y_test, feature_names, timestamp, run_id = 1) -> dict:
     return {

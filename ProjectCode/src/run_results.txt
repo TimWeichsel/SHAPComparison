@@ -7958,3 +7958,56 @@ Started Fidelity: : M=LR, A=C, D=D, N=260 (30)
 Finished
 Started Fidelity: : M=LR, A=C, D=D, N=280 (30)
 Finished
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=W, N=20 (1)
+Finished: D=D, M=LR, A=G, D=W, N=20 (1)
+Started: D=D, M=LR, A=C, D=W, N=20 (2)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=A, N=20 (1)
+Finished: D=D, M=LR, A=G, D=A, N=20 (1)
+Started: D=D, M=LR, A=C, D=A, N=20 (2)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=A, N=20 (1)
+Finished: D=D, M=LR, A=G, D=A, N=20 (1)
+Started: D=D, M=LR, A=C, D=A, N=20 (2)
+Finished: D=D, M=LR, A=C, D=A, N=20 (2)
+Started RBO: : M=SR, A=G, D=W, N=2048 - Number(1)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'G', '--nsamples', '2048', '--eval_method', 'R']' returned non-zero exit status 1. (1)
+Started RBO: : M=SR, A=C, D=W, N=2048 - Number(2)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'C', '--nsamples', '2048', '--eval_method', 'R']' returned non-zero exit status 1. (2)
+Started Fidelity: : M=SR, A=G, D=W, N=2048 (2)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=A, N=20 (1)
+Finished: D=D, M=LR, A=G, D=A, N=20 (1)
+Started: D=D, M=LR, A=C, D=A, N=20 (2)
+Finished: D=D, M=LR, A=C, D=A, N=20 (2)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=A, N=20 (1)
+Finished: D=D, M=LR, A=G, D=A, N=20 (1)
+Started: D=D, M=LR, A=C, D=A, N=20 (2)
+Finished: D=D, M=LR, A=C, D=A, N=20 (2)
+Started: D=D, M=LR, A=K, D=A, N=20 (3)
+Finished: D=D, M=LR, A=K, D=A, N=20 (3)
+Started: D=D, M=LR, A=S, D=A, N=20 (4)
+Finished: D=D, M=LR, A=S, D=A, N=20 (4)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=A, N=20 (1)
+Finished: D=D, M=LR, A=G, D=A, N=20 (1)
+Started: D=D, M=LR, A=C, D=A, N=20 (2)
+Finished: D=D, M=LR, A=C, D=A, N=20 (2)
+Started: D=D, M=LR, A=K, D=A, N=20 (3)
+Finished: D=D, M=LR, A=K, D=A, N=20 (3)
+Started: D=D, M=LR, A=S, D=A, N=20 (4)
+Finished: D=D, M=LR, A=S, D=A, N=20 (4)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=B, N=20 (1)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=B, N=20 (1)

@@ -18,8 +18,6 @@ def get_model(data: str, model: str):
             model_name = "RFClassifier"
         case "SR":
             model_name = "SVMRegressor"
-        case "SRL":
-            model_name = "SVMLRegressor"
         case "SC":
             model_name = "SVMClassifier"
         case "XR":
@@ -36,6 +34,8 @@ def get_model(data: str, model: str):
         case "W":
             data_name = "WineQuality"
         case "B":
+            data_name = "BlogComments"
+        case "BR":
             data_name = "BlogComments"
         case "D":
             data_name = "Diabetes"
