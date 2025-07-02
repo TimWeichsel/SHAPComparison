@@ -12,14 +12,13 @@ from models.regression import train_LogRegression
 from models.random_forest import train_RFregressor
 from models.random_forest import train_RFclassifier
 from models.support_vector_machine import train_SVMregressor
-from models.support_vector_machine import train_SVMregressor_linear
 from models.support_vector_machine import train_SVMclassifier
 from models.xgboost import train_XGBregressor
 from models.xgboost import train_XGBclassifier
 
 #model evaluation imports
 from sklearn.metrics import mean_squared_error, accuracy_score
-'''
+
 def train_models(test_split: float = 0.2):
     
     # Fetching all data
@@ -83,7 +82,6 @@ def __train_all_model_data_combinations(reg_data,classification_data):
         trained_models.append((0,"LinRegression", data_name, train_LinRegression(X_train, y_train),X_train, X_test, y_train, y_test))
         trained_models.append((0,"RFRegressor", data_name, train_RFregressor(X_train, y_train),X_train, X_test, y_train, y_test))
         trained_models.append((0,"SVMRegressor", data_name, train_SVMregressor(X_train, y_train),X_train, X_test, y_train, y_test))
-        trained_models.append((0,"SVMLRegressor", data_name, train_SVMregressor_linear(X_train, y_train),X_train, X_test, y_train, y_test))
         trained_models.append((0,"XGBRegressor", data_name, train_XGBregressor(X_train, y_train),X_train, X_test, y_train, y_test))
 
         
@@ -119,71 +117,5 @@ def __evaluate_all_models(models):
             y_hat = model.predict(X_test)
             mse = accuracy_score(y_test, y_hat)
             print(f"{model_name}_{data_set}, Accuracy Score: {mse}")
-
-    return models'''
-    
-def train_models(test_split: float = 0.2):
-
-    # Fetching all data
-    reg_data = __fetch_all_data()
-    print("All data sets have been loaded...")
-    #__safe_all_data(reg_data, classification_data)
-    #print("All data sets have been saved as pickle file...")
-    
-    # Train all models on each data set
-    models = __train_all_model_data_combinations(reg_data)
-    print("All models are trained...")
-    
-    # Save all models to pickle
-    __safe_all_models(models)
-    print("All models have been saved as pickle file...")
-    
-    # Evaluate all models
-    __evaluate_all_models(models)
-
-def __fetch_all_data(test_split: float = 0.2):
-    reg_data = []
-    reg_data.append(("BlogComments", fetch_blog(normalize=True, test_split=test_split)))
-    return reg_data
-
-
-def __train_all_model_data_combinations(reg_data):
-    trained_models = []
-    for data_name, (X_train, X_test, y_train, y_test) in reg_data:
-        #0=Regression, model_name, data_set, model, X_train, X_test, y_train, y_test
-        trained_models.append((0,"SVMLRegressor", data_name, train_SVMregressor_linear(X_train, y_train),X_train, X_test, y_train, y_test))
-        print(f"{data_name} trained, size {len(trained_models)}")
-
-    return trained_models
-
-def __safe_all_models(models):
-    import os
-
-
-    #Save the dictionairy to pickle file
-    # Lade bestehende Modelle, falls vorhanden
-    file_name = "models/all_models.pkl"
-    if os.path.exists(file_name):
-        with open(file_name, "rb") as f:
-            model_dict = pickle.load(f)
-    else:
-        model_dict = {}
-        
-    #Save data to dictionary
-    for _, model_name, data_set, model, _, _, _, _ in models:
-        model_dict[f"{model_name}_{data_set}"] = model
-
-    # Speichern
-    with open(file_name, "wb") as f:
-        pickle.dump(model_dict, f)
-
-def __evaluate_all_models(models):
-    for indicator, model_name, data_set, model, _, X_test, _, y_test in models:
-        if indicator == 0:
-            # Regression
-            y_hat = model.predict(X_test)
-            mse = mean_squared_error(y_test, y_hat)
-            print(f"{model_name}_{data_set}, MSE: {mse}")
-
 
     return models

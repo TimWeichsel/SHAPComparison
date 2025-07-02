@@ -73,7 +73,6 @@ def __get_SHAP_values(approximation: str, model, X_train, X_test, nsamples, y_tr
         case "K":
             explainer = create_kernel_shap_explainer(model=model, X_train=X_train, run_id_seed=run_id_seed)
             return explainer.shap_values(X_test, nsamples=nsamples)
-
         case "S":
             explainer = create_sample_shap_explainer(model=model, X_train=X_train, run_id_seed=run_id_seed)
             return explainer.shap_values(X_test, nsamples=nsamples)

@@ -17,7 +17,7 @@ from models.support_vector_machine import train_SVMregressor
 from models.support_vector_machine import train_SVMclassifier
 from models.xgboost import train_XGBregressor
 from models.xgboost import train_XGBclassifier
-from models.xgboost import predict_helper_XGB
+
 
 #model evaluation imports
 from sklearn.metrics import mean_squared_error, accuracy_score
