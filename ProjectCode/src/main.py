@@ -38,7 +38,6 @@ def main():
             from run_comparison.run_script import run_evaluations
             #from run_comparison.run_script import run_stability
             #from evaluations.result_organizer import update_runtimes_flat_key_format
-
             run_approximations()
             #run_evaluations()
             #run_stability()
@@ -49,12 +48,12 @@ def main():
         case "R":
             if args.approximation == "E":
                 if not all([args.data, args.model]):
-                    print("Not all arguments provided for running an approximation.")
+                    raise ValueError("Not all arguments provided for running an approximation.")
                 else:
                     run_and_save_shap_values(args.data, args.model, args.approximation, None)
             else:
                 if not all([args.data, args.model, args.approximation, args.nsamples]):
-                    print("Not all arguments provided for running an approximation.")
+                    raise ValueError("Not all arguments provided for running an approximation.")
                 else:
                     if not (args.number_of_runs):
                         run_and_save_shap_values(args.data, args.model, args.approximation, args.nsamples)
@@ -63,7 +62,7 @@ def main():
                     return
         case "E":
             if not (args.eval_method):
-                print("Evaluation Method needs to be defined.")
+                raise ValueError("Evaluation Method needs to be defined.")
             else:
                 match args.eval_method:
                     case "F":
@@ -74,21 +73,21 @@ def main():
                         if all([args.data, args.model, args.approximation, args.nsamples, args.number_of_runs]):
                             print(compute_stability_score(args.data, args.model, args.approximation, args.nsamples, args.number_of_runs))
                         else:
-                            print("Not all arguments provided for running an Stability evaluations are provided.")
+                            raise ValueError("Not all arguments provided for running an Stability evaluations are provided.")
                     case _:
-                        print("Invalid Evaluation Method.")
+                        raise ValueError("Invalid Evaluation Method.")
         case "L":
             if not all([args.data, args.model, args.approximation]):
-                print("Not all arguments provided for running an approximation.")
+                raise ValueError("Not all arguments provided for running an approximation.")
             else:
                 if not (args.number_of_runs):
                     shap_values = get_shap_values(args.data, args.model, args.approximation, args.nsamples)
-                    print(type(shap_values))
-                    print(shap_values.shape)
-                    print(shap_values[0:10,:])
                 else:
                     for run_id in range(args.number_of_runs):
-                        print(get_shap_values(args.data, args.model, args.approximation, args.nsamples, run_id+1))
+                        print(get_shap_values(args.data, args.model, args.approximation, args.nsamples, run_id+1)) 
+                print(type(shap_values))
+                print(shap_values.shape)
+                print(shap_values[0:10,:])
         case "P":
             if not (args.eval_method):
                 print_results()

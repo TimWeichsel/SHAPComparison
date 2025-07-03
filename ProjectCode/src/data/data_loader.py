@@ -37,8 +37,8 @@ def get_data(data: str, regression_indicator: int) -> pd.DataFrame:
             # BlogComments Reduced only returns a subset of the test data
             return {
                 "X_train": data_dict["BlogComments_Regression"]["X_train"],
-                "X_test": data_dict["BlogComments_Regression"]["X_test"][:500],
+                "X_test": data_dict["BlogComments_Regression"]["X_test"][:1],
                 "y_train": data_dict["BlogComments_Regression"]["y_train"],
-                "y_test": data_dict["BlogComments_Regression"]["y_test"][:500]
+                "y_test": data_dict["BlogComments_Regression"]["y_test"][:1]
             }
         return data_dict[key] #returns a dictionary with "X_train", "X_test", "y_train", "y_test"

@@ -3,7 +3,6 @@ import rpy2
 
 MC_SAMPLES = 10 #fixed number for this project
 
-#CHANGE NAME WITHOUT _ORIGINAL
 def get_copula_shap_values (model, X_train, X_test, y_train, n_samples, run_id_seed):
     phi_0 = y_train.mean().iloc[0] #according to shapr: "phi0 = Numeric. The prediction value for unseen data, i.e. an estimate of the expected prediction without conditioning on any features. Typically we set this value equal to the mean of the response variable in our training data, but other choices such as the mean of the predictions in the training data are also reasonable.
     phi_0_R = rpy2.robjects.FloatVector([phi_0]) #convert to R float, needeed for the shapr function

@@ -8011,3 +8011,70 @@ Started: D=D, M=LR, A=G, D=B, N=20 (1)
 Training Models finished
 
 Started: D=D, M=LR, A=G, D=B, N=20 (1)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=BL, N=500 (1)
+Error for: D=D, M=LR, A=G, D=BL, N=500 = Command '['python', 'main.py', '--mode', 'R', '--data', 'BL', '--model', 'LR', '--approximation', 'G', '--nsamples', '500']' returned non-zero exit status 2. (1)
+Started: D=D, M=LR, A=C, D=BL, N=500 (2)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=BR, N=500 (1)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=W, N=500 (1)
+Finished: D=D, M=LR, A=G, D=W, N=500 (1)
+Started: D=D, M=LR, A=G, D=A, N=500 (2)
+Finished: D=D, M=LR, A=G, D=A, N=500 (2)
+Started: D=D, M=LR, A=G, D=D, N=500 (3)
+Finished: D=D, M=LR, A=G, D=D, N=500 (3)
+Started: D=D, M=LR, A=G, D=BR, N=500 (4)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=BR, N=500 (1)
+Error for: D=D, M=LR, A=G, D=BR, N=500 = Command '['python', 'main.py', '--mode', 'R', '--data', 'BR', '--model', 'LR', '--approximation', 'G', '--nsamples', '500']' returned non-zero exit status 1. (1)
+Started: D=D, M=LR, A=C, D=BR, N=500 (2)
+Error for: D=D, M=LR, A=C, D=BR, N=500 = Command '['python', 'main.py', '--mode', 'R', '--data', 'BR', '--model', 'LR', '--approximation', 'C', '--nsamples', '500']' returned non-zero exit status 1. (2)
+Started: D=D, M=LR, A=S, D=BR, N=500 (3)
+Error for: D=D, M=LR, A=S, D=BR, N=500 = Command '['python', 'main.py', '--mode', 'R', '--data', 'BR', '--model', 'LR', '--approximation', 'S', '--nsamples', '500']' returned non-zero exit status 1. (3)
+Started: D=D, M=LR, A=K, D=BR, N=500 (4)
+Error for: D=D, M=LR, A=K, D=BR, N=500 = Command '['python', 'main.py', '--mode', 'R', '--data', 'BR', '--model', 'LR', '--approximation', 'K', '--nsamples', '500']' died with <Signals.SIGKILL: 9>. (4)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=A, N=500 (1)
+Finished: D=D, M=LR, A=G, D=A, N=500 (1)
+Started: D=D, M=LR, A=C, D=A, N=500 (2)
+Finished: D=D, M=LR, A=C, D=A, N=500 (2)
+Started: D=D, M=LR, A=S, D=A, N=1000 (3)
+Finished: D=D, M=LR, A=S, D=A, N=1000 (3)
+Started: D=D, M=LR, A=K, D=A, N=500 (4)
+Finished: D=D, M=LR, A=K, D=A, N=500 (4)
+Started: D=D, M=LR, A=E, D=A, N=500 (5)
+Finished: D=D, M=LR, A=E, D=A, N=500 (5)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=BR, N=1 (1)
+Error for: D=D, M=LR, A=G, D=BR, N=1 = Command '['python', 'main.py', '--mode', 'R', '--data', 'BR', '--model', 'LR', '--approximation', 'G', '--nsamples', '1']' returned non-zero exit status 1. (1)
+Started: D=D, M=LR, A=C, D=BR, N=1 (2)
+Error for: D=D, M=LR, A=C, D=BR, N=1 = Command '['python', 'main.py', '--mode', 'R', '--data', 'BR', '--model', 'LR', '--approximation', 'C', '--nsamples', '1']' returned non-zero exit status 1. (2)
+Started: D=D, M=LR, A=S, D=BR, N=1000 (3)
+Finished: D=D, M=LR, A=S, D=BR, N=1000 (3)
+Started: D=D, M=LR, A=K, D=BR, N=1 (4)
+Finished: D=D, M=LR, A=K, D=BR, N=1 (4)
+Training Models finished
+
+Started: D=D, M=LR, A=G, D=BR, N=1 (1)
+Error for: D=D, M=LR, A=G, D=BR, N=1 = Command '['python', 'main.py', '--mode', 'R', '--data', 'BR', '--model', 'LR', '--approximation', 'G', '--nsamples', '1']' returned non-zero exit status 1. (1)
+Started: D=D, M=LR, A=C, D=BR, N=1 (2)
+Error for: D=D, M=LR, A=C, D=BR, N=1 = Command '['python', 'main.py', '--mode', 'R', '--data', 'BR', '--model', 'LR', '--approximation', 'C', '--nsamples', '1']' returned non-zero exit status 1. (2)
+Training Models finished
+
+Training Models finished
+
+Training Models finished
+
+Training Models finished
+
+Training Models finished
+
+Training Models finished
+
