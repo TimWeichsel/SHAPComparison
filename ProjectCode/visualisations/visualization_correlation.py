@@ -16,12 +16,10 @@ os.chdir(project_start_point / "src")
 data_D_dict = get_data("D", 0)
 data_W_dict = get_data("W", 0)
 data_A_dict = get_data("A", 0)
-data_B_dict = get_data("B", 0)
 
 data_D_X_train = data_D_dict["X_train"]
 data_W_X_train = data_W_dict["X_train"]
 data_A_X_train = data_A_dict["X_train"]
-data_B_X_train = data_B_dict["X_train"]
 
 
 # Source for the following code: https://seaborn.pydata.org/examples/many_pairwise_correlations.html

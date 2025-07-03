@@ -23,7 +23,7 @@ from evaluations.result_organizer import get_results
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["T", "R", "E", "L", "P", "Z"], type=str, required=True, help="T = Training all the models on all data sets. R = Run one model on one Shap Approximation and saving runtime. E = Evaluate one SHAP approximation on one Method. L = Load SHAP values. P = Print all Evaluation Results")
-    parser.add_argument("--data", choices=["A", "D", "B", "BR", "W"], type=str, help="A = Abalone (Regression), D = Diabetes (Regression), B = Blog Comments (Regression), B = Blog Comments Reduced = 500 Train Instances (Regression), W = Wine Quality (Classification & Regression)")
+    parser.add_argument("--data", choices=["A", "D", "M", "W"], type=str, help="A = Abalone (Regression), D = Diabetes (Regression), M = Music Origin (Regression), W = Wine Quality (Classification & Regression)")
     parser.add_argument("--model", choices=["LR","LO", "RR", "RC", "SR", "SLR", "SC", "XR", "XC"], type=str, help="LR = LinRegression, LO = LogRegression, RR = RFRegressor, RC = RFClassifier, SR = SVMRegressor with rbf Kernel, SLR = SVMRegressor with linear Kernel, SC = SVMClassifier, XR = XGBRegressor, XC = XGBClassifier")
     parser.add_argument("--approximation", choices=["K", "S", "C", "G", "E"], type=str, help="K = Kernel SHAP, S = Sampling SHAP, C = Copula SHAP, G = Gauss Copula SHAP, E = Exact SHAP")
     parser.add_argument("--nsamples", type=int, help="Number of coalitions for the SHAP approximation")

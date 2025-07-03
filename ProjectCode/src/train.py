@@ -4,7 +4,7 @@ import pickle
 from data.abalone import fetch_abalone
 from data.wine_quality import fetch_wine_quality
 from data.diabetes import fetch_diabetes
-from data.blog_comments import fetch_blog
+from data.music import fetch_music
 
 #model functions imports
 from models.regression import train_LinRegression
@@ -44,7 +44,7 @@ def __fetch_all_data(test_split: float = 0.2):
     reg_data.append(("Abalone", fetch_abalone(normalize=True, test_split=test_split)))
     reg_data.append(("WineQuality", fetch_wine_quality(normalize=True, test_split=test_split)))
     reg_data.append(("Diabetes", fetch_diabetes(normalize=True, test_split=test_split)))
-    reg_data.append(("BlogComments", fetch_blog(normalize=True, test_split=test_split)))
+    reg_data.append(("Music", fetch_music(normalize=True, test_split=test_split)))
     classification_data.append(("WineQuality", fetch_wine_quality(normalize=True, test_split=test_split)))
     return reg_data, classification_data
 

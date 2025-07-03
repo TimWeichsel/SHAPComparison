@@ -33,10 +33,8 @@ def get_model(data: str, model: str):
             data_name = "Abalone"
         case "W":
             data_name = "WineQuality"
-        case "B":
-            data_name = "BlogComments"
-        case "BR":
-            data_name = "BlogComments"
+        case "M":
+            data_name = "Music"
         case "D":
             data_name = "Diabetes"
         case _:
