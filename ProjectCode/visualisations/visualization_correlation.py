@@ -16,14 +16,16 @@ os.chdir(project_start_point / "src")
 data_D_dict = get_data("D", 0)
 data_W_dict = get_data("W", 0)
 data_A_dict = get_data("A", 0)
+data_M_dict = get_data("M", 0)
 
 data_D_X_train = data_D_dict["X_train"]
 data_W_X_train = data_W_dict["X_train"]
 data_A_X_train = data_A_dict["X_train"]
+data_M_X_train = data_M_dict["X_train"]
 
 
 # Source for the following code: https://seaborn.pydata.org/examples/many_pairwise_correlations.html
-df = data_B_X_train
+df = data_M_X_train
 num_cols = df.select_dtypes(include=np.number).columns
 cols_to_exclude = [col for col in num_cols if set(df[col].dropna().unique()) <= {0, 1}]
 filtered_df = df.drop(columns=cols_to_exclude)
@@ -42,8 +44,12 @@ sns.heatmap(corr, mask=mask, cmap=cmap, vmax=1, vmin=-1, center=0,
             square=True, linewidths=.5, cbar_kws={"shrink": .5})
 plt.show()
 '''
+corr_matrix = data_A_X_train.corr().values  # oder eigene Matrix
+cond_number = np.linalg.cond(corr_matrix)
+print(f"Konditionszahl: {cond_number:.2e}")'''
 
 
+'''
 def average_absolute_correlation(df):
     num_cols = df.select_dtypes(include=np.number).columns
     cols_to_exclude = [col for col in num_cols if set(df[col].dropna().unique()) <= {0, 1}]
@@ -58,7 +64,7 @@ print(average_absolute_correlation(data_W_X_train))
 
 print(average_absolute_correlation(data_A_X_train))
 
-print(average_absolute_correlation(data_B_X_train))
+print(average_absolute_correlation(data_M_X_train))
 
 def max_absolute_correlation(df):
     num_cols = df.select_dtypes(include=np.number).columns

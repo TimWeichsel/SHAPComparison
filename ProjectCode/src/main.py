@@ -89,10 +89,19 @@ def main():
                 print(shap_values.shape)
                 print(shap_values[0:10,:])
         case "P":
-            if not (args.eval_method):
-                print_results()
+            eval_method = None
+            approximation_method = ""
+            model_name = ""
+            if (args.eval_method):
+                eval_method = args.eval_method
+            if (args.approximation):
+                approximation_method = args.approximation
+            if (args.model):
+                model_name = args.model
+            if not (args.data):
+                print_results(eval_method=eval_method, approximation_name=approximation_method, model_name=model_name)
             else:
-                print_results(args.eval_method)
+                print_results(args.data, eval_method=eval_method, approximation_name=approximation_method, model_name=model_name)
 
 if __name__ == "__main__":
     main()

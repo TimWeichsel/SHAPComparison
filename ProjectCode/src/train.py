@@ -26,7 +26,7 @@ def train_models(test_split: float = 0.2):
     print("All data sets have been loaded...")
     __safe_all_data(reg_data, classification_data)
     print("All data sets have been saved as pickle file...")
-    
+
     # Train all models on each data set
     models = __train_all_model_data_combinations(reg_data,classification_data)
     print("All models are trained...")
@@ -41,16 +41,25 @@ def train_models(test_split: float = 0.2):
 def __fetch_all_data(test_split: float = 0.2):
     reg_data = []
     classification_data = []
-    reg_data.append(("Abalone", fetch_abalone(normalize=True, test_split=test_split)))
-    reg_data.append(("WineQuality", fetch_wine_quality(normalize=True, test_split=test_split)))
-    reg_data.append(("Diabetes", fetch_diabetes(normalize=True, test_split=test_split)))
+    #reg_data.append(("Abalone", fetch_abalone(normalize=True, test_split=test_split)))
+    #reg_data.append(("WineQuality", fetch_wine_quality(normalize=True, test_split=test_split)))
+    #reg_data.append(("Diabetes", fetch_diabetes(normalize=True, test_split=test_split)))
     reg_data.append(("Music", fetch_music(normalize=True, test_split=test_split)))
-    classification_data.append(("WineQuality", fetch_wine_quality(normalize=True, test_split=test_split)))
+    #classification_data.append(("WineQuality", fetch_wine_quality(normalize=True, test_split=test_split)))
     return reg_data, classification_data
 
 def __safe_all_data(reg_data,classification_data):
-    #Save data to dictionary
+    #Get data from data file and save it to a dictionary
     data_dict = {}
+    try: 
+        file = open("data/all_datasets.pkl", "rb")
+        data_dict = pickle.load(file)
+        file.close()
+    except FileNotFoundError:
+        print("No existing data file found, creating a new one.")
+        data_dict = {}
+        
+
     for data_name, (X_train, X_test, y_train, y_test) in reg_data:
         print(f"{data_name}_Regression")
         data_dict[f"{data_name}_Regression"] = {
@@ -95,8 +104,17 @@ def __train_all_model_data_combinations(reg_data,classification_data):
     return trained_models
 
 def __safe_all_models(models):
-    #Save data to dictionary
+    #Open model file and get existing models
     model_dict = {}
+    try: 
+        file = open("models/all_models.pkl", "rb")
+        model_dict = pickle.load(file)
+        file.close()
+    except FileNotFoundError:
+        print("No existing model file found, creating a new one.")
+        model_dict = {}
+    
+    #Add new models to the dictionary
     for _, model_name, data_set, model, _, _, _, _ in models:
         model_dict[f"{model_name}_{data_set}"] = model
 

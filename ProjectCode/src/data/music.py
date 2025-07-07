@@ -7,7 +7,7 @@ def fetch_music(normalize: bool = True, test_split: float = 0.2) -> tuple[pd.Dat
     feature_names = [f"feature_{i}" for i in range(0, 67)] + ["latitude"] + ["longitude"]  #68 audio features of the track + latitude & longitude of the origin
     
     music = pd.read_csv(f"{data_folder}/default_features_1059_tracks.txt",sep=",", header=None, names=feature_names) #Infer Column names
-    music_X = music.drop(columns=["latitude", "longitude"]) #only keep audio features
+    music_X = music.iloc[:, :15] #only considering the first audio features as predictors
     music_y = music["longitude"] #predict longitude based on the audio features
     
     #Split the data into train and test sets

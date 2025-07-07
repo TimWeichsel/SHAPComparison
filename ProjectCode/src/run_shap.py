@@ -82,7 +82,7 @@ def __get_SHAP_values(approximation: str, model, X_train, X_test, nsamples, y_tr
             return get_gauss_shap_values(model=model, X_train=X_train, X_test=X_test, y_train=y_train, n_samples=nsamples, run_id_seed=run_id_seed)
         case "E":
             explainer = create_exact_shap_explainer(model=model, X_train=X_train)
-            return explainer(X_test)
+            return explainer(X_test, max_evals=2**20)
         case _:
             pass
             raise ValueError("Invalid SHAP approximation. Choose 'K', 'S', 'B', 'C', 'G' or 'E'")

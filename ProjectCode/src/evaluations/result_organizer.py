@@ -1,5 +1,6 @@
 import pickle
 import pandas as pd
+import numpy as np
 
 def save_result(data_name, model_name, approximation_name, nsamples, category, result, number_of_runs = None):
     file_name = f"evaluations/results.pkl"
@@ -24,7 +25,17 @@ def save_result(data_name, model_name, approximation_name, nsamples, category, r
     file.close()
     
             
-def print_results():
+def print_results(data_name: str = "", eval_method: str = None, approximation_name: str = "", model_name: str = ""):
+    if eval_method is None:
+        eval_method = "Running_Time"
+    else: 
+       match eval_method:
+            case "F":
+                eval_method = "Fidelity_Score"
+            case "R":
+                eval_method = "RBO_Score_0.9"
+            case "S":
+                eval_method = "Stability_Score"
     file_name = f"evaluations/results.pkl"
     try:
         file = open(file_name, "rb")
@@ -33,10 +44,12 @@ def print_results():
     except FileNotFoundError:
         raise FileNotFoundError(f"{file_name} not found")
     
-    running_times = [(key, value["Running_Time"]) for key, value in evaluation_dict.items() if "Running_Time" in value]
-    running_times.sort(key=lambda x: (x[0][:6], x[1]))
-    for key, running_time in running_times:
-        print(f"{key}: {running_time}")
+    eval_result_dict = [(key, value[eval_method]) for key, value in evaluation_dict.items() if eval_method in value]
+    eval_result_dict.sort(key=lambda x: (x[0][:6], x[1]))
+    for aprox_key,approx_value in eval_result_dict:
+        if f"{data_name}_" in aprox_key and f"{approximation_name}_" in aprox_key and f"{model_name}_" in aprox_key and not np.isnan(approx_value):
+            print(f"{aprox_key}, {approx_value}")
+
         
 def get_results() -> pd.DataFrame:
     file_name = f"evaluations/results.pkl"
