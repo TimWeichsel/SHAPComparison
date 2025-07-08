@@ -39,7 +39,7 @@ def main():
             #from run_comparison.run_script import run_stability
             #from evaluations.result_organizer import update_runtimes_flat_key_format
             run_approximations()
-            #run_evaluations()
+            run_evaluations()
             #run_stability()
             #update_runtimes_flat_key_format()
 
