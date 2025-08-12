@@ -287,9 +287,9 @@ rbo_runs =[
 
 
     ('C', 'LR', 'D', '12'),
-    ('C', 'LR', 'D', '16'), #ERROR
+    ('C', 'LR', 'D', '16'),
     ('C', 'LR', 'D', '20'),
-    ('C', 'LR', 'D', '26'), #ERROR
+    ('C', 'LR', 'D', '26'), 
     ('C', 'LR', 'D', '30'),
     ('C', 'LR', 'D', '40'),
     ('C', 'LR', 'D', '50'),
@@ -391,6 +391,7 @@ rbo_runs =[
     ('C', 'SR', 'W', '350'),
     ('C', 'SR', 'W', '500'),
     ('C', 'SR', 'W', '700'),
+    ('C', 'SR', 'W', '1024'),
     ('C', 'SR', 'W', '2048'),
     
     #12, 50, 100, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2048
@@ -410,9 +411,9 @@ rbo_runs =[
     
     #12,16,20,26,30,40,50,60,70,80,90,100
     ('G', 'LR', 'D', '12'),
-    ('G', 'LR', 'D', '16'), #ERROR
+    ('G', 'LR', 'D', '16'), 
     ('G', 'LR', 'D', '20'),
-    ('G', 'LR', 'D', '26'), #ERROR
+    ('G', 'LR', 'D', '26'),
     ('G', 'LR', 'D', '30'),
     ('G', 'LR', 'D', '40'),
     ('G', 'LR', 'D', '50'),
@@ -484,6 +485,8 @@ rbo_runs =[
     ('G', 'LR', 'W', '70'),
     ('G', 'LR', 'W', '80'),
     ('G', 'LR', 'W', '90'),
+    ('G', 'LR', 'W', '100'),
+    ('G', 'LR', 'W', '110'),
     
     #12, 50, 100, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2048
     ('G', 'RR', 'W', '12'),
@@ -518,6 +521,7 @@ rbo_runs =[
     ('G', 'SR', 'W', '350'),
     ('G', 'SR', 'W', '500'),
     ('G', 'SR', 'W', '700'),
+    ('G', 'SR', 'W', '1024'),
     ('G', 'SR', 'W', '2048'),
     
     #12, 50, 100, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2048
@@ -533,38 +537,621 @@ rbo_runs =[
     ('G', 'XR', 'W', '1250'),
     ('G', 'XR', 'W', '1500'),
     ('G', 'XR', 'W', '1750'),
-    ('G', 'XR', 'W', '2048')]
+    ('G', 'XR', 'W', '2048'),
+    
+    
+    # 12, 14, 16 
+    ('C', 'LR', 'A', '12'),
+    ('C', 'LR', 'A', '14'),
+    ('C', 'LR', 'A', '16'),
+    ('C', 'LR', 'A', '18'),
+    
+    # 12, 24, 40, 60, 80, 100, 150, 200, 250, 300, 500, 750, 1024 
+    ('C', 'RR', 'A', '12'),
+    ('C', 'RR', 'A', '24'),
+    ('C', 'RR', 'A', '40'),
+    ('C', 'RR', 'A', '60'),
+    ('C', 'RR', 'A', '80'),
+    ('C', 'RR', 'A', '100'),
+    ('C', 'RR', 'A', '150'),
+    ('C', 'RR', 'A', '200'),
+    ('C', 'RR', 'A', '250'),
+    ('C', 'RR', 'A', '300'),
+    ('C', 'RR', 'A', '500'),
+    ('C', 'RR', 'A', '750'),
+    ('C', 'RR', 'A', '1024'),
+    
+    # 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 200, 300, 500, 750, 1024 
+    ('C', 'SR', 'A', '10'),
+    ('C', 'SR', 'A', '20'),
+    ('C', 'SR', 'A', '30'),
+    ('C', 'SR', 'A', '40'),
+    ('C', 'SR', 'A', '50'),
+    ('C', 'SR', 'A', '60'),
+    ('C', 'SR', 'A', '70'),
+    ('C', 'SR', 'A', '80'),
+    ('C', 'SR', 'A', '90'),
+    ('C', 'SR', 'A', '100'),
+    ('C', 'SR', 'A', '125'),
+    ('C', 'SR', 'A', '200'),
+    ('C', 'SR', 'A', '300'),
+    ('C', 'SR', 'A', '500'),
+    ('C', 'SR', 'A', '750'),
+    ('C', 'SR', 'A', '1024'),
+    
+    
 
+    
+    # 12, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140 
+    ('C', 'XR', 'A', '12'),
+    ('C', 'XR', 'A', '20'),
+    ('C', 'XR', 'A', '30'),
+    ('C', 'XR', 'A', '40'),
+    ('C', 'XR', 'A', '50'),
+    ('C', 'XR', 'A', '60'),
+    ('C', 'XR', 'A', '70'),
+    ('C', 'XR', 'A', '80'),
+    ('C', 'XR', 'A', '90'),
+    ('C', 'XR', 'A', '100'),
+    ('C', 'XR', 'A', '110'),
+    ('C', 'XR', 'A', '120'),
+    ('C', 'XR', 'A', '130'),
+    ('C', 'XR', 'A', '140'),
+    
+    # 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46 
+    ('G', 'LR', 'A', '12'),
+    ('G', 'LR', 'A', '14'),
+    ('G', 'LR', 'A', '16'),
+    ('G', 'LR', 'A', '18'),  
+    ('G', 'LR', 'A', '22'),
+    ('G', 'LR', 'A', '24'),
+    ('G', 'LR', 'A', '26'),
+    ('G', 'LR', 'A', '28'),
+    ('G', 'LR', 'A', '30'),
+    ('G', 'LR', 'A', '32'),
+    ('G', 'LR', 'A', '34'),
+    ('G', 'LR', 'A', '36'),
+    ('G', 'LR', 'A', '38'),
+    ('G', 'LR', 'A', '42'),
+    ('G', 'LR', 'A', '44'),
+    ('G', 'LR', 'A', '46'),
+    ('G', 'LR', 'A', '50'),
+    
+    # 12, 24, 40, 60, 80, 100, 150, 200, 250, 300, 500, 750, 1024 
+    ('G', 'RR', 'A', '12'),
+    ('G', 'RR', 'A', '24'),
+    ('G', 'RR', 'A', '40'),
+    ('G', 'RR', 'A', '60'),
+    ('G', 'RR', 'A', '80'),
+    ('G', 'RR', 'A', '100'),
+    ('G', 'RR', 'A', '150'),
+    ('G', 'RR', 'A', '200'),
+    ('G', 'RR', 'A', '250'),
+    ('G', 'RR', 'A', '300'),
+    ('G', 'RR', 'A', '500'),
+    ('G', 'RR', 'A', '750'),
+    ('G', 'RR', 'A', '1024'),
+    
+    # 12, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 175 
 
+    ('G', 'SR', 'A', '12'),
+    ('G', 'SR', 'A', '20'),
+    ('G', 'SR', 'A', '30'),
+    ('G', 'SR', 'A', '40'),
+    ('G', 'SR', 'A', '60'),
+    ('G', 'SR', 'A', '70'),
+    ('G', 'SR', 'A', '80'),
+    ('G', 'SR', 'A', '90'),
+    ('G', 'SR', 'A', '100'),
+    ('G', 'SR', 'A', '125'),
+    ('G', 'SR', 'A', '150'),
+    ('G', 'SR', 'A', '175'),
+    ('G', 'SR', 'A', '500'),
+    ('G', 'SR', 'A', '1024'),
+    
+    #12, 20, 30, 40, 50,60, 70, 80,90, 100, 125, 150, 175, 300, 600, 1024 
+    ('G', 'XR', 'A', '12'),
+    ('G', 'XR', 'A', '20'),
+    ('G', 'XR', 'A', '30'),
+    ('G', 'XR', 'A', '40'),
+    ('G', 'XR', 'A', '50'),
+    ('G', 'XR', 'A', '60'),
+    ('G', 'XR', 'A', '70'),
+    ('G', 'XR', 'A', '80'),
+    ('G', 'XR', 'A', '90'),
+    ('G', 'XR', 'A', '100'),
+    ('G', 'XR', 'A', '125'),
+    ('G', 'XR', 'A', '150'),
+    ('G', 'XR', 'A', '175'),
+    ('G', 'XR', 'A', '300'),
+    ('G', 'XR', 'A', '600'),
+    #('G', 'XR', 'A', '1024'),
+    
+
+    
+    # 10, 30, 34, 40, 44, 50, 54, 60, 64, 70, 74, 80 
+    ('K', 'LR', 'A', '10'),
+    ('K', 'LR', 'A', '30'),
+    ('K', 'LR', 'A', '34'),
+    ('K', 'LR', 'A', '40'),
+    ('K', 'LR', 'A', '44'),
+    ('K', 'LR', 'A', '50'),
+    ('K', 'LR', 'A', '54'),
+    ('K', 'LR', 'A', '60'),
+    ('K', 'LR', 'A', '64'),
+    ('K', 'LR', 'A', '70'),
+    ('K', 'LR', 'A', '74'),
+    ('K', 'LR', 'A', '80'),
+    
+    # 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 
+    ('K', 'RR', 'A', '1'),
+    ('K', 'RR', 'A', '2'),
+    ('K', 'RR', 'A', '3'),
+    ('K', 'RR', 'A', '4'),
+    ('K', 'RR', 'A', '5'),
+    ('K', 'RR', 'A', '6'),
+    ('K', 'RR', 'A', '7'),
+    ('K', 'RR', 'A', '8'),
+    ('K', 'RR', 'A', '9'),
+    ('K', 'RR', 'A', '10'),
+    ('K', 'RR', 'A', '11'),
+    ('K', 'RR', 'A', '12'),
+    ('K', 'RR', 'A', '13'),
+    ('K', 'RR', 'A', '14'),
+    ('K', 'RR', 'A', '15'),
+    
+    # 1, 2, 3, 4, 5
+    ('K', 'SR', 'A', '1'),
+    ('K', 'SR', 'A', '2'),
+    ('K', 'SR', 'A', '3'),
+    ('K', 'SR', 'A', '4'),
+    
+    # 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 
+    ('K', 'XR', 'A', '1'),
+    ('K', 'XR', 'A', '2'),
+    ('K', 'XR', 'A', '3'),
+    ('K', 'XR', 'A', '4'),
+    ('K', 'XR', 'A', '5'),
+    ('K', 'XR', 'A', '6'),
+    ('K', 'XR', 'A', '7'),
+    ('K', 'XR', 'A', '8'),
+    ('K', 'XR', 'A', '10'),
+    ('K', 'XR', 'A', '11'),
+    ('K', 'XR', 'A', '12'),
+    ('K', 'XR', 'A', '13'),
+    ('K', 'XR', 'A', '14'),
+    ('K', 'XR', 'A', '15'),
+    ('K', 'XR', 'A', '16'),
+    ('K', 'XR', 'A', '17'),
+    ('K', 'XR', 'A', '18'),
+    ('K', 'XR', 'A', '19'),
+    
+    # 10, 25, 50, 75, 100, 150, 200, 250, 300, 400, 500, 600, 700 
+    ('S', 'LR', 'A', '25'),
+    ('S', 'LR', 'A', '50'),
+    ('S', 'LR', 'A', '75'),
+    ('S', 'LR', 'A', '100'),
+    ('S', 'LR', 'A', '150'),
+    ('S', 'LR', 'A', '200'),
+    ('S', 'LR', 'A', '250'),
+    ('S', 'LR', 'A', '300'),
+    ('S', 'LR', 'A', '400'),
+    
+    #  50, 100, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2500, 3000, 3500, 4000 
+    ('S', 'RR', 'A', '50'),
+    ('S', 'RR', 'A', '100'),
+    ('S', 'RR', 'A', '200'),
+    ('S', 'RR', 'A', '300'),
+    ('S', 'RR', 'A', '400'),
+    ('S', 'RR', 'A', '500'),
+    ('S', 'RR', 'A', '750'),
+    ('S', 'RR', 'A', '1000'),
+    ('S', 'RR', 'A', '1250'),
+    ('S', 'RR', 'A', '1500'),
+    ('S', 'RR', 'A', '1750'),
+    ('S', 'RR', 'A', '2000'),
+    ('S', 'RR', 'A', '2500'),
+    ('S', 'RR', 'A', '3000'),
+    ('S', 'RR', 'A', '3500'),
+    ('S', 'RR', 'A', '4000'),
+    
+    # 20, 30, 50, 80, 100, 150, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1250, 1500, 2000 
+    ('S', 'SR', 'A', '20'),
+    ('S', 'SR', 'A', '30'),
+    ('S', 'SR', 'A', '50'),
+    ('S', 'SR', 'A', '80'),
+    ('S', 'SR', 'A', '100'),
+    ('S', 'SR', 'A', '150'),
+    ('S', 'SR', 'A', '200'),
+    ('S', 'SR', 'A', '300'),
+    ('S', 'SR', 'A', '400'),
+    ('S', 'SR', 'A', '500'),
+    ('S', 'SR', 'A', '600'),
+    ('S', 'SR', 'A', '700'),
+    ('S', 'SR', 'A', '800'),
+    ('S', 'SR', 'A', '900'),
+    ('S', 'SR', 'A', '1000'),
+    ('S', 'SR', 'A', '1250'),
+    ('S', 'SR', 'A', '1500'),
+    ('S', 'SR', 'A', '2000'),
+    
+    # 20, 50, 100, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2500, 3000, 4000, 5000, 6000, 7000
+    ('S', 'XR', 'A', '20'),
+    ('S', 'XR', 'A', '50'),
+    ('S', 'XR', 'A', '100'),
+    ('S', 'XR', 'A', '200'),
+    ('S', 'XR', 'A', '300'),
+    ('S', 'XR', 'A', '400'),
+    ('S', 'XR', 'A', '500'),
+    ('S', 'XR', 'A', '750'),
+    ('S', 'XR', 'A', '1000'),
+    ('S', 'XR', 'A', '1500'),
+    ('S', 'XR', 'A', '2000'),
+    ('S', 'XR', 'A', '2500'),
+    ('S', 'XR', 'A', '3000'),
+    ('S', 'XR', 'A', '4000'),
+    ('S', 'XR', 'A', '5000'),
+    ('S', 'XR', 'A', '6000'),
+    #('S', 'XR', 'A', '7000'),
+    
+    #1, 10, 50, 100, 200, 300, 400, 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+    ('K', 'LR', 'M', '1'),
+    ('K', 'LR', 'M', '10'),
+    ('K', 'LR', 'M', '50'),
+    ('K', 'LR', 'M', '100'),
+    ('K', 'LR', 'M', '200'),
+    ('K', 'LR', 'M', '300'),
+    ('K', 'LR', 'M', '400'),
+    ('K', 'LR', 'M', '500'),
+    ('K', 'LR', 'M', '1000'),
+    ('K', 'LR', 'M', '2000'),
+    ('K', 'LR', 'M', '3000'),
+    ('K', 'LR', 'M', '4000'),
+    ('K', 'LR', 'M', '5000'),
+    ('K', 'LR', 'M', '6000'),
+    ('K', 'LR', 'M', '7000'),
+    ('K', 'LR', 'M', '8000'),
+    
+    #1, 5, 10, 20, 30, 40, 50, 75, 100, 150, 200, 250 
+    ('K', 'RR', 'M', '1'),
+    ('K', 'RR', 'M', '5'),
+    ('K', 'RR', 'M', '10'),
+    ('K', 'RR', 'M', '20'),
+    ('K', 'RR', 'M', '30'),
+    ('K', 'RR', 'M', '40'),
+    ('K', 'RR', 'M', '50'),
+    ('K', 'RR', 'M', '75'),
+    ('K', 'RR', 'M', '100'),
+    ('K', 'RR', 'M', '150'),
+    ('K', 'RR', 'M', '200'),
+    ('K', 'RR', 'M', '250'),
+    
+    ('K', 'RR', 'M', '300'),
+    ('K', 'RR', 'M', '500'),
+    ('K', 'RR', 'M', '750'),
+    ('K', 'RR', 'M', '1000'),
+    
+    
+    
+    #1, 2, 3, 4, 5, 6, 8, 10, 12, 
+    ('K', 'SR', 'M', '1'),
+    ('K', 'SR', 'M', '2'),
+    ('K', 'SR', 'M', '3'),
+    ('K', 'SR', 'M', '4'),
+    ('K', 'SR', 'M', '5'),
+    ('K', 'SR', 'M', '6'),
+    ('K', 'SR', 'M', '8'),
+    ('K', 'SR', 'M', '10'),
+    ('K', 'SR', 'M', '12'),
+    
+    ('K', 'SR', 'M', '20'),
+    ('K', 'SR', 'M', '30'),
+    ('K', 'SR', 'M', '40'),
+    ('K', 'SR', 'M', '50'),
+    ('K', 'SR', 'M', '60'),
+    ('K', 'SR', 'M', '70'),
+    
+    #1, 5, 10, 25, 50, 75, 100, 200, 300, 400, 500, 600, 800, 1000, 1250, 1500 
+    ('K', 'XR', 'M', '1'),
+    ('K', 'XR', 'M', '5'),
+    ('K', 'XR', 'M', '10'),
+    ('K', 'XR', 'M', '25'),
+    ('K', 'XR', 'M', '50'),
+    ('K', 'XR', 'M', '75'),
+    ('K', 'XR', 'M', '100'),
+    ('K', 'XR', 'M', '200'),
+    ('K', 'XR', 'M', '300'),
+    ('K', 'XR', 'M', '400'),
+    ('K', 'XR', 'M', '500'),
+    ('K', 'XR', 'M', '600'),
+    
+    ('K', 'XR', 'M', '750'),
+    ('K', 'XR', 'M', '900'),
+    ('K', 'XR', 'M', '1100'),
+    ('K', 'XR', 'M', '1300'),
+    ('K', 'XR', 'M', '1500'),
+    ('K', 'XR', 'M', '1700'),
+    ('K', 'XR', 'M', '2000'),
+    ('K', 'XR', 'M', '3000'),
+    
+    #30, 100, 200, 300, 400, 500, 800, 1400, 1500, 3000, 5000, 10000, 20000, 30000, 40000, 50000
+    ('S', 'LR', 'M', '30'),
+    ('S', 'LR', 'M', '100'),
+    ('S', 'LR', 'M', '200'),
+    ('S', 'LR', 'M', '300'),
+    ('S', 'LR', 'M', '400'),
+    ('S', 'LR', 'M', '500'),
+    ('S', 'LR', 'M', '800'),
+    ('S', 'LR', 'M', '1500'),
+    ('S', 'LR', 'M', '3000'),
+    ('S', 'LR', 'M', '5000'),
+    ('S', 'LR', 'M', '10000'),
+    ('S', 'LR', 'M', '20000'),
+    ('S', 'LR', 'M', '30000'),
+    ('S', 'LR', 'M', '40000'),
+    ('S', 'LR', 'M', '50000'),
+    
+    #30, 100, 200, 500, 1000, 1500, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 12000 
+    ('S', 'RR', 'M', '30'),
+    ('S', 'RR', 'M', '100'),
+    ('S', 'RR', 'M', '200'),
+    ('S', 'RR', 'M', '500'),
+    ('S', 'RR', 'M', '1000'),
+    ('S', 'RR', 'M', '1500'),
+    ('S', 'RR', 'M', '2000'),
+    ('S', 'RR', 'M', '3000'),
+    ('S', 'RR', 'M', '4000'),
+    ('S', 'RR', 'M', '5000'),
+    ('S', 'RR', 'M', '6000'),
+    ('S', 'RR', 'M', '7000'),
+    ('S', 'RR', 'M', '8000'),
+    ('S', 'RR', 'M', '9000'),
+    ('S', 'RR', 'M', '10000'),
+    ('S', 'RR', 'M', '12000'),
+    
+    ('S', 'RR', 'M', '20000'),
+    ('S', 'RR', 'M', '40000'),
+    ('S', 'RR', 'M', '60000'),
+    ('S', 'RR', 'M', '100000'),
+    ('S', 'RR', 'M', '120000'),
+    ('S', 'RR', 'M', '150000'),
+    
+    #30, 40, 50, 75, 100, 150, 200, 300, 500, 750, 1000, 1250, 1500, 2000, 2500, 3000, 4000, 5000, 6000  
+    ('S', 'SR', 'M', '30'),
+    ('S', 'SR', 'M', '40'),
+    ('S', 'SR', 'M', '50'),
+    ('S', 'SR', 'M', '75'),
+    ('S', 'SR', 'M', '100'),
+    ('S', 'SR', 'M', '150'),
+    ('S', 'SR', 'M', '200'),
+    ('S', 'SR', 'M', '300'),
+    ('S', 'SR', 'M', '500'),
+    ('S', 'SR', 'M', '750'),
+    ('S', 'SR', 'M', '1000'),
+    ('S', 'SR', 'M', '1250'),
+    ('S', 'SR', 'M', '1500'),
+    ('S', 'SR', 'M', '2000'),
+    ('S', 'SR', 'M', '2500'),
+    ('S', 'SR', 'M', '3000'),
+    ('S', 'SR', 'M', '4000'),
+    ('S', 'SR', 'M', '5000'),
+    ('S', 'SR', 'M', '6000'),
+    
+    ('S', 'SR', 'M', '8000'),
+    ('S', 'SR', 'M', '10000'),
+    ('S', 'SR', 'M', '15000'),
+    ('S', 'SR', 'M', '20000'),
+    ('S', 'SR', 'M', '25000'),
+    ('S', 'SR', 'M', '30000'),
+    
+    
+    #30, 50, 100, 400, 1000, 3000, 5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000, 50000 
+    
+    ('S', 'XR', 'M', '150'),
+    ('S', 'XR', 'M', '400'),
+    ('S', 'XR', 'M', '1000'),
+    ('S', 'XR', 'M', '3000'),
+    ('S', 'XR', 'M', '5000'),
+    ('S', 'XR', 'M', '10000'),
+    ('S', 'XR', 'M', '15000'),
+    ('S', 'XR', 'M', '20000'),
+    ('S', 'XR', 'M', '25000'),
+    ('S', 'XR', 'M', '30000'),
+    ('S', 'XR', 'M', '35000'),
+    ('S', 'XR', 'M', '40000'),
+    ('S', 'XR', 'M', '45000'),
+    ('S', 'XR', 'M', '50000'),
+    
+    ('S', 'XR', 'M', '60000'),
+    ('S', 'XR', 'M', '70000'),
+    ('S', 'XR', 'M', '80000'),
+    ('S', 'XR', 'M', '100000'),
+    ('S', 'XR', 'M', '150000'),
+    ('S', 'XR', 'M', '200000'),
+    ('S', 'XR', 'M', '250000'),
+    ('S', 'XR', 'M', '300000'),
+    
+
+    #16, 50, 100, 200, 300, 400, 1000, 3000, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 25000, 32768
+    ('C', 'LR', 'M', '16'),
+    ('C', 'LR', 'M', '50'),
+    ('C', 'LR', 'M', '100'),
+    ('C', 'LR', 'M', '200'),
+    ('C', 'LR', 'M', '300'),
+    ('C', 'LR', 'M', '400'),
+    ('C', 'LR', 'M', '1000'),
+    ('C', 'LR', 'M', '3000'),
+    ('C', 'LR', 'M', '5000'),
+    ('C', 'LR', 'M', '7500'),
+    ('C', 'LR', 'M', '10000'),
+    ('C', 'LR', 'M', '12500'),
+    ('C', 'LR', 'M', '15000'),
+    ('C', 'LR', 'M', '17500'),
+    ('C', 'LR', 'M', '20000'),
+    ('C', 'LR', 'M', '25000'),
+    ('C', 'LR', 'M', '32768'),
+    
+    
+    #15, 50, 70, 90, 110, 150, 500, 1000, 2000, 3000, 5000, 7500, 10000, 15000, 20000, 25000, 32768 
+    ('C', 'RR', 'M', '16'),
+    ('C', 'RR', 'M', '50'),
+    ('C', 'RR', 'M', '70'),
+    ('C', 'RR', 'M', '90'),
+    ('C', 'RR', 'M', '110'),
+    ('C', 'RR', 'M', '150'),
+    ('C', 'RR', 'M', '500'),
+    ('C', 'RR', 'M', '1000'),
+    ('C', 'RR', 'M', '2000'),
+    ('C', 'RR', 'M', '3000'),
+    ('C', 'RR', 'M', '5000'),
+    ('C', 'RR', 'M', '7500'),
+    ('C', 'RR', 'M', '10000'),
+    ('C', 'RR', 'M', '15000'),
+    ('C', 'RR', 'M', '20000'),
+    ('C', 'RR', 'M', '25000'),
+    ('C', 'RR', 'M', '32768'),
+    
+    #16, 50, 100, 250, 500, 1000, 2500, 5000, 7500, 10000, 12500, 15000, 20000, 25000, 32768 
+    ('C', 'SR', 'M', '16'),
+    ('C', 'SR', 'M', '50'),
+    ('C', 'SR', 'M', '100'),
+    ('C', 'SR', 'M', '250'),
+    ('C', 'SR', 'M', '500'),
+    ('C', 'SR', 'M', '1000'),
+    ('C', 'SR', 'M', '2500'),
+    ('C', 'SR', 'M', '5000'),
+    ('C', 'SR', 'M', '7500'),
+    ('C', 'SR', 'M', '10000'),
+    ('C', 'SR', 'M', '12500'),
+    ('C', 'SR', 'M', '15000'),
+    ('C', 'SR', 'M', '20000'),
+    ('C', 'SR', 'M', '25000'),
+    ('C', 'SR', 'M', '32768'),
+    
+    #16, 50, 150, 300, 500, 700, 1000, 1250, 1500, 2000, 3000, 4000, 5000, 7500, 10000 
+    
+    ('C', 'XR', 'M', '16'),
+    ('C', 'XR', 'M', '50'),
+    ('C', 'XR', 'M', '150'),
+    ('C', 'XR', 'M', '300'),
+    ('C', 'XR', 'M', '500'),
+    ('C', 'XR', 'M', '700'),
+    ('C', 'XR', 'M', '1000'),
+    ('C', 'XR', 'M', '1250'),
+    ('C', 'XR', 'M', '1500'),
+    ('C', 'XR', 'M', '2000'),
+    ('C', 'XR', 'M', '3000'),
+    ('C', 'XR', 'M', '4000'),
+    ('C', 'XR', 'M', '5000'),
+    ('C', 'XR', 'M', '7500'),
+    ('C', 'XR', 'M', '10000'),
+    
+ 
+    
+    #16, 50, 100, 250, 500, 1000, 2000, 5000, 7500, 10000, 15000, 20000, 25000, 32768
+    ('G', 'LR', 'M', '16'), 
+    ('G', 'LR', 'M', '50'),
+    ('G', 'LR', 'M', '100'),
+    ('G', 'LR', 'M', '250'),
+    ('G', 'LR', 'M', '500'),
+    ('G', 'LR', 'M', '1000'),
+    ('G', 'LR', 'M', '2000'),
+    ('G', 'LR', 'M', '5000'),
+    ('G', 'LR', 'M', '7500'),
+    ('G', 'LR', 'M', '10000'),
+    ('G', 'LR', 'M', '15000'),
+    ('G', 'LR', 'M', '20000'),
+    ('G', 'LR', 'M', '25000'),
+    ('G', 'LR', 'M', '32768'),
+ 
+    
+    # 16, 50, 60, 80, 100, 500, 1000, 2000, 3000, 5000, 7500, 10000, 15000, 20000, 25000, 32768 
+    ('G', 'RR', 'M', '16'),
+    ('G', 'RR', 'M', '50'),
+    ('G', 'RR', 'M', '60'),
+    ('G', 'RR', 'M', '80'),
+    ('G', 'RR', 'M', '100'),
+    ('G', 'RR', 'M', '500'),
+    ('G', 'RR', 'M', '1000'),
+    ('G', 'RR', 'M', '2000'),
+    ('G', 'RR', 'M', '3000'),
+    ('G', 'RR', 'M', '5000'),
+    ('G', 'RR', 'M', '7500'),
+    ('G', 'RR', 'M', '10000'),
+    ('G', 'RR', 'M', '15000'),
+    ('G', 'RR', 'M', '20000'),
+    ('G', 'RR', 'M', '25000'),
+    ('G', 'RR', 'M', '32768'),
+
+    
+    #16, 50, 100, 250, 500, 1000, 2500, 5000, 7500, 10000, 12500, 15000, 20000, 25000, 32768  
+    ('G', 'SR', 'M', '16'),
+    ('G', 'SR', 'M', '50'),
+    ('G', 'SR', 'M', '100'),
+    ('G', 'SR', 'M', '250'),
+    ('G', 'SR', 'M', '500'),
+    ('G', 'SR', 'M', '1000'),
+    ('G', 'SR', 'M', '2500'),
+    ('G', 'SR', 'M', '5000'),
+    ('G', 'SR', 'M', '7500'),
+    ('G', 'SR', 'M', '10000'),
+    ('G', 'SR', 'M', '12500'),
+    ('G', 'SR', 'M', '15000'),
+    ('G', 'SR', 'M', '20000'),
+    ('G', 'SR', 'M', '25000'),
+    ('G', 'SR', 'M', '32768'),
+
+    # 16, 50, 70, 90, 150, 300, 500, 1000, 2500, 5000, 7500, 10000, 12500, 15000 
+    ('G', 'XR', 'M', '16'),
+    ('G', 'XR', 'M', '50'),
+    ('G', 'XR', 'M', '70'),
+    ('G', 'XR', 'M', '90'),
+    ('G', 'XR', 'M', '150'),
+    ('G', 'XR', 'M', '300'),
+    ('G', 'XR', 'M', '500'),
+    ('G', 'XR', 'M', '1000'),
+    ('G', 'XR', 'M', '2500'),
+    ('G', 'XR', 'M', '5000'),
+    ('G', 'XR', 'M', '7500'),
+    ('G', 'XR', 'M', '10000'),
+    ('G', 'XR', 'M', '12500'),
+    ('G', 'XR', 'M', '15000'),
+    ]
 
 
 df = get_evaluation(eval_method=["Running_Time","RBO_Score_0.9"]).reset_index()
 approx_keys = [f"{key[0]}_{key[2]}_{key[1]}_{key[3]}" for key in rbo_runs]
 df_rbo = df[df["index"].isin(approx_keys)]
 
-
+#Datase Diabetes
 df_D = df_rbo[df_rbo["index"].str.contains("_D_")]
-
 df_D_dict = dict()
 df_D_dict_colors = dict()
 exact_shap_values_D = {"LR":6.731802940368652, "RR":49.28979778289795,"SR":419.9395990371704,"XR":30.09837508201599}
 
+#Datase Wine
 df_W = df_rbo[df_rbo["index"].str.contains("_W_")]
-df_test = df_W[df_W["index"].str.contains("G_W_SR")]
-print(df_test)
-df_test2 = df_W[df_W["index"].str.contains("K_W_SR")]
-print(df_test2)
 df_W_dict = dict()
 df_W_dict_colors = dict()
 exact_shap_values_W = {"LR":30.49867606163025, "RR":1666.557268857956,"SR":153204.29993009567,"XR":576.2753148078918}
 
+#Dataset Abalone
+df_A = df_rbo[df_rbo["index"].str.contains("_A_")]
+df_A_dict = dict()
+df_A_dict_colors = dict()
+exact_shap_values_A = {"LR":13.3, "RR":255,"SR":16180.786,"XR":105}
+
+#Dataset Music
+df_M = df_rbo[df_rbo["index"].str.contains("_M_")]
+df_M_dict = dict()
+df_M_dict_colors = dict()
+exact_shap_values_M = {"LR":298.284, "RR":4673.568,"SR":122133.64,"XR":2255.235}
+
+#General settings
 approximations = ["C", "G", "K", "S"]
 colors = {"C":"blue", "G":"green","K":"orange","S":"purple"}
-
 model_names = {"LR":"Linear Regression", "RR":"Random Forest","SR":"SVM","XR":"XGBoost"}
 shap_names = {"C":"Copula SHAP", "G":"Gaussian SHAP","K":"Kernel SHAP","S":"Sample SHAP"}
-
-
 
 '''
 models = ["LR"]
@@ -576,20 +1163,20 @@ for index_model, model in enumerate(models):
         df_D_dict[f"{approximation}_{model}"]=df
         df_D_dict_colors[f"{approximation}_{model}"]=colors[approximation]
         exact_shap_value = exact_shap_values_D[model]
-        shap_name = model_names[model]
+        model_name = model_names[model]
         
 for key in df_D_dict.keys():
     plt.scatter(df_D_dict[key]["Running_Time"], df_D_dict[key]["RBO_Score_0.9"], color=df_D_dict_colors[key], label=shap_names[key[0]])
     df = df_D_dict[key].sort_values("Running_Time")
     plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_D_dict_colors[key], linestyle='-')
     
-plt.xlabel("Running Time in seconds")
+plt.xlabel("Running Time in Seconds")
 plt.ylabel("RBO Score")
-plt.title(f"RBO Comparison (p=0.9) - {shap_name} Diabetes Dataset")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Diabetes Dataset")
 plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
 plt.axvline(x=2.310240, color='green', linestyle=':', linewidth=1, label="Gaussian SHAP - Sample Lower Bound", alpha=0.6)
 plt.axvline(x=2.817665, color='blue', linestyle=':', linewidth=1, label="Copula SHAP - Sample Lower Bound", alpha=0.6)
-plt.legend(title="Approximation", loc="best")
+plt.legend(title="Approximation", loc="best", fontsize="8")
 plt.show()'''
 
 '''
@@ -602,16 +1189,16 @@ for index_model, model in enumerate(models):
         df_D_dict[f"{approximation}_{model}"]=df
         df_D_dict_colors[f"{approximation}_{model}"]=colors[approximation]
         exact_shap_value = exact_shap_values_D[model]
-        shap_name = model_names[model]
+        model_name = model_names[model]
         
 for key in df_D_dict.keys():
     plt.scatter(df_D_dict[key]["Running_Time"], df_D_dict[key]["RBO_Score_0.9"], color=df_D_dict_colors[key], label=shap_names[key[0]])
     df = df_D_dict[key].sort_values("Running_Time")
     plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_D_dict_colors[key], linestyle='-')
     
-plt.xlabel("Running Time in seconds")
+plt.xlabel("Running Time in Seconds")
 plt.ylabel("RBO Score")
-plt.title(f"RBO Comparison (p=0.9) - {shap_name} Diabetes Dataset")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Diabetes Dataset")
 plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
 plt.axvline(x=8.44816780090332, color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
 plt.axvline(x=7.491661071777344, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
@@ -630,16 +1217,16 @@ for index_model, model in enumerate(models):
         df_D_dict[f"{approximation}_{model}"]=df
         df_D_dict_colors[f"{approximation}_{model}"]=colors[approximation]
         exact_shap_value = exact_shap_values_D[model]
-        shap_name = model_names[model]
+        model_name = model_names[model]
         
 for key in df_D_dict.keys():
     plt.scatter(df_D_dict[key]["Running_Time"], df_D_dict[key]["RBO_Score_0.9"], color=df_D_dict_colors[key], label=shap_names[key[0]])
     df = df_D_dict[key].sort_values("Running_Time")
     plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_D_dict_colors[key], linestyle='-')
     
-plt.xlabel("Running Time in seconds")
+plt.xlabel("Running Time in Seconds")
 plt.ylabel("RBO Score")
-plt.title(f"RBO Comparison (p=0.9) - {shap_name} Diabetes Dataset")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Diabetes Dataset")
 plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
 plt.axvline(x=35.218860 , color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
 plt.axvline(x=38.0098, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
@@ -658,16 +1245,16 @@ for index_model, model in enumerate(models):
         df_D_dict[f"{approximation}_{model}"]=df
         df_D_dict_colors[f"{approximation}_{model}"]=colors[approximation]
         exact_shap_value = exact_shap_values_D[model]
-        shap_name = model_names[model]
+        model_name = model_names[model]
         
 for key in df_D_dict.keys():
     plt.scatter(df_D_dict[key]["Running_Time"], df_D_dict[key]["RBO_Score_0.9"], color=df_D_dict_colors[key], label=shap_names[key[0]])
     df = df_D_dict[key].sort_values("Running_Time")
     plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_D_dict_colors[key], linestyle='-')
     
-plt.xlabel("Running Time in seconds")
+plt.xlabel("Running Time in Seconds")
 plt.ylabel("RBO Score")
-plt.title(f"RBO Comparison (p=0.9) - {shap_name} Diabetes Dataset")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Diabetes Dataset")
 plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
 plt.axvline(x=7.779833, color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
 plt.axvline(x=7.018606, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
@@ -685,20 +1272,20 @@ for index_model, model in enumerate(models):
         df_W_dict[f"{approximation}_{model}"]=df
         df_W_dict_colors[f"{approximation}_{model}"]=colors[approximation]
         exact_shap_value = exact_shap_values_W[model]
-        shap_name = model_names[model]
+        model_name = model_names[model]
         
 for key in df_W_dict.keys():
     plt.scatter(df_W_dict[key]["Running_Time"], df_W_dict[key]["RBO_Score_0.9"], color=df_W_dict_colors[key], label=shap_names[key[0]])
     df = df_W_dict[key].sort_values("Running_Time")
     plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_W_dict_colors[key], linestyle='-')
     
-plt.xlabel("Running Time in seconds")
+plt.xlabel("Running Time in Seconds")
 plt.ylabel("RBO Score")
-plt.title(f"RBO Comparison (p=0.9) - {shap_name} Wine Dataset")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Wine Dataset")
 plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
 plt.axvline(x=19.628270 , color='blue', linestyle=':', linewidth=1, label="Copula SHAP - Sample Lower Bound", alpha=0.6)
 plt.axvline(x=7.858782, color='green', linestyle=':', linewidth=1, label="Gaussian SHAP - Sample Lower Bound", alpha=0.6)
-plt.legend(title="Approximation", loc="best")
+plt.legend(title="Approximation", loc="best", fontsize="6")
 plt.show()'''
 
 '''
@@ -711,22 +1298,22 @@ for index_model, model in enumerate(models):
         df_W_dict[f"{approximation}_{model}"]=df
         df_W_dict_colors[f"{approximation}_{model}"]=colors[approximation]
         exact_shap_value = exact_shap_values_W[model]
-        shap_name = model_names[model]
+        model_name = model_names[model]
         
 for key in df_W_dict.keys():
     plt.scatter(df_W_dict[key]["Running_Time"], df_W_dict[key]["RBO_Score_0.9"], color=df_W_dict_colors[key], label=shap_names[key[0]])
     df = df_W_dict[key].sort_values("Running_Time")
     plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_W_dict_colors[key], linestyle='-')
    
-plt.xlabel("Running Time in seconds")
+plt.xlabel("Running Time in Seconds")
 plt.ylabel("RBO Score")
-plt.title(f"RBO Comparison (p=0.9) - {shap_name} Wine Dataset")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Wine Dataset")
 plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
 plt.axvline(x=304.774652 , color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
 plt.axvline(x=80.803144, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
 plt.axvline(x=128.962151, color='purple', linestyle=':', linewidth=1, label="Sample SHAP - Sample Lower Bound", alpha=0.6)
-plt.axvline(x=82.998192, color='yellow', linestyle=':', linewidth=1, label="Kernel SHAP - Sample Lower Bound", alpha=0.6)
-plt.legend(title="Approximation", loc="best")
+plt.axvline(x=82.998192, color='orange', linestyle=':', linewidth=1, label="Kernel SHAP - Sample Lower Bound", alpha=0.6)
+plt.legend(title="Approximation", loc="best", fontsize="8")
 plt.show()'''
 
 '''
@@ -739,17 +1326,19 @@ for index_model, model in enumerate(models):
         df_W_dict[f"{approximation}_{model}"]=df
         df_W_dict_colors[f"{approximation}_{model}"]=colors[approximation]
         exact_shap_value = exact_shap_values_W[model]
-        shap_name = model_names[model]
+        model_name = model_names[model]
         
 for key in df_W_dict.keys():
     plt.scatter(df_W_dict[key]["Running_Time"], df_W_dict[key]["RBO_Score_0.9"], color=df_W_dict_colors[key], label=shap_names[key[0]])
     df = df_W_dict[key].sort_values("Running_Time")
     plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_W_dict_colors[key], linestyle='-')
     
-plt.xlabel("Running Time in seconds")
+plt.xlabel("Running Time in Seconds")
 plt.ylabel("RBO Score")
-plt.title(f"RBO Comparison (p=0.9) - {shap_name} Wine Dataset")
-plt.axvline(x=2962.636975, color='yellow', linestyle=':', linewidth=1, label="Kernel SHAP - Sample Lower Bound", alpha=0.6)
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Wine Dataset")
+plt.axvline(x=2962.636975, color='orange', linestyle=':', linewidth=1, label="Kernel SHAP - Sample Lower Bound", alpha=0.6)
+plt.axvline(x=0 , color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
+plt.axvline(x=0, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
 plt.legend(title="Approximation", loc="best")
 plt.show()'''
 
@@ -763,21 +1352,21 @@ for index_model, model in enumerate(models):
         df_W_dict[f"{approximation}_{model}"]=df
         df_W_dict_colors[f"{approximation}_{model}"]=colors[approximation]
         exact_shap_value = exact_shap_values_W[model]
-        shap_name = model_names[model]
+        model_name = model_names[model]
         
 for key in df_W_dict.keys():
     plt.scatter(df_W_dict[key]["Running_Time"], df_W_dict[key]["RBO_Score_0.9"], color=df_W_dict_colors[key], label=shap_names[key[0]])
     df = df_W_dict[key].sort_values("Running_Time")
     plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_W_dict_colors[key], linestyle='-')
     
-plt.xlabel("Running Time in seconds")
+plt.xlabel("Running Time in Seconds")
 plt.ylabel("RBO Score")
-plt.title(f"RBO Comparison (p=0.9) - {shap_name} Wine Dataset (with Exact Value)")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Wine Dataset (with Exact Value)")
 plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
 plt.legend(title="Approximation", loc="best")
 plt.show()'''
 
-
+'''
 #W - XR
 models = ["XR"]
 exact_shap_value = None
@@ -787,18 +1376,227 @@ for index_model, model in enumerate(models):
         df_W_dict[f"{approximation}_{model}"]=df
         df_W_dict_colors[f"{approximation}_{model}"]=colors[approximation]
         exact_shap_value = exact_shap_values_W[model]
-        shap_name = model_names[model]
+        model_name = model_names[model]
         
 for key in df_W_dict.keys():
     plt.scatter(df_W_dict[key]["Running_Time"], df_W_dict[key]["RBO_Score_0.9"], color=df_W_dict_colors[key], label=shap_names[key[0]])
     df = df_W_dict[key].sort_values("Running_Time")
     plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_W_dict_colors[key], linestyle='-')
     
-plt.xlabel("Running Time in seconds")
+plt.xlabel("Running Time in Seconds")
 plt.ylabel("RBO Score")
-plt.title(f"RBO Comparison (p=0.9) - {shap_name} Wine Dataset")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Wine Dataset")
 plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
 plt.axvline(x=304.774652 , color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
 plt.axvline(x=87.576517, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
+plt.legend(title="Approximation", loc="best")
+plt.show()'''
+
+'''
+models = ["LR"]
+#A - LR
+exact_shap_value = None
+for index_model, model in enumerate(models):
+    for index_approximation, approximation in enumerate(approximations):
+        df = df_A[(df_A["index"].str.contains(f"{approximation}_")) & (df_A["index"].str.contains(f"_{model}_"))]
+        df_A_dict[f"{approximation}_{model}"]=df
+        df_A_dict_colors[f"{approximation}_{model}"]=colors[approximation]
+        exact_shap_value = exact_shap_values_A[model]
+        model_name = model_names[model]
+        
+for key in df_A_dict.keys():
+    plt.scatter(df_A_dict[key]["Running_Time"], df_A_dict[key]["RBO_Score_0.9"], color=df_A_dict_colors[key], label=shap_names[key[0]])
+    df = df_A_dict[key].sort_values("Running_Time")
+    plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_A_dict_colors[key], linestyle='-')
+    
+plt.xlabel("Running Time in Seconds")
+plt.ylabel("RBO Score")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Abalone Dataset")
+plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
+plt.axvline(x=6.906, color='green', linestyle=':', linewidth=1, label="Gaussian SHAP - Sample Lower Bound", alpha=0.6)
+plt.axvline(x=11.179, color='blue', linestyle=':', linewidth=1, label="Copula SHAP - Sample Lower Bound", alpha=0.6)
+plt.legend(title="Approximation", loc="best", fontsize="8")
+plt.show()'''
+
+'''
+models = ["RR"]
+#A - RR
+exact_shap_value = None
+for index_model, model in enumerate(models):
+    for index_approximation, approximation in enumerate(approximations):
+        df = df_A[(df_A["index"].str.contains(f"{approximation}_")) & (df_A["index"].str.contains(f"_{model}_"))]
+        df_A_dict[f"{approximation}_{model}"]=df
+        df_A_dict_colors[f"{approximation}_{model}"]=colors[approximation]
+        exact_shap_value = exact_shap_values_A[model]
+        model_name = model_names[model]
+        
+for key in df_A_dict.keys():
+    plt.scatter(df_A_dict[key]["Running_Time"], df_A_dict[key]["RBO_Score_0.9"], color=df_A_dict_colors[key], label=shap_names[key[0]])
+    df = df_A_dict[key].sort_values("Running_Time")
+    plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_A_dict_colors[key], linestyle='-')
+    
+plt.xlabel("Running Time in Seconds")
+plt.ylabel("RBO Score")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Abalone Dataset")
+plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
+plt.axvline(x=76.418, color='purple', linestyle=':', linewidth=1, label="Sample SHAP - Sample Lower Bound", alpha=0.6)
+plt.axvline(x=37.558, color='orange', linestyle=':', linewidth=1, label="Kernel SHAP - Kernel Lower Bound", alpha=0.6)
+plt.axvline(x=102.342, color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
+plt.axvline(x=151.0453, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
+plt.legend(title="Approximation", loc="best", fontsize="6")
+plt.show()'''
+
+'''
+models = ["XR"]
+#A - XR
+exact_shap_value = None
+for index_model, model in enumerate(models):
+    for index_approximation, approximation in enumerate(approximations):
+        df = df_A[(df_A["index"].str.contains(f"{approximation}_")) & (df_A["index"].str.contains(f"_{model}_"))]
+        df_A_dict[f"{approximation}_{model}"]=df
+        df_A_dict_colors[f"{approximation}_{model}"]=colors[approximation]
+        exact_shap_value = exact_shap_values_A[model]
+        model_name = model_names[model]
+        
+for key in df_A_dict.keys():
+    plt.scatter(df_A_dict[key]["Running_Time"], df_A_dict[key]["RBO_Score_0.9"], color=df_A_dict_colors[key], label=shap_names[key[0]])
+    df = df_A_dict[key].sort_values("Running_Time")
+    plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_A_dict_colors[key], linestyle='-')
+    
+plt.xlabel("Running Time in Seconds")
+plt.ylabel("RBO Score")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Abalone Dataset")
+plt.axvline(x=16.0243, color='blue', linestyle=':', linewidth=1, label="Copula SHAP - Sample Lower Bound", alpha=0.6)
+plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
+plt.legend(title="Approximation", loc="best", fontsize="6")
+plt.show()'''
+
+'''
+models = ["SR"]
+#A - SR
+exact_shap_value = None
+for index_model, model in enumerate(models):
+    for index_approximation, approximation in enumerate(approximations):
+        df = df_A[(df_A["index"].str.contains(f"{approximation}_")) & (df_A["index"].str.contains(f"_{model}_"))]
+        df_A_dict[f"{approximation}_{model}"]=df
+        df_A_dict_colors[f"{approximation}_{model}"]=colors[approximation]
+        exact_shap_value = exact_shap_values_A[model]
+        model_name = model_names[model]
+        
+for key in df_A_dict.keys():
+    plt.scatter(df_A_dict[key]["Running_Time"], df_A_dict[key]["RBO_Score_0.9"], color=df_A_dict_colors[key], label=shap_names[key[0]])
+    df = df_A_dict[key].sort_values("Running_Time")
+    plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_A_dict_colors[key], linestyle='-')
+    
+plt.xlabel("Running Time in Seconds")
+plt.ylabel("RBO Score")
+plt.axvline(x=731.899, color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
+plt.axvline(x=564.743, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
+plt.axvline(x=894.869, color='orange', linestyle=':', linewidth=1, label="Kernel SHAP - Sample Lower Bound", alpha=0.6)
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Abalone Dataset")
+plt.legend(title="Approximation", loc="best")
+plt.show()'''
+
+'''
+#M - LR
+models = ["LR"]
+exact_shap_value = None
+for index_model, model in enumerate(models):
+    for index_approximation, approximation in enumerate(approximations):
+        df = df_M[(df_M["index"].str.contains(f"{approximation}_")) & (df_M["index"].str.contains(f"_{model}_"))]
+        df_M_dict[f"{approximation}_{model}"]=df
+        df_M_dict_colors[f"{approximation}_{model}"]=colors[approximation]
+        exact_shap_value = exact_shap_values_M[model]
+        model_name = model_names[model]
+        
+for key in df_M_dict.keys():
+    plt.scatter(df_M_dict[key]["Running_Time"], df_M_dict[key]["RBO_Score_0.9"], color=df_M_dict_colors[key], label=shap_names[key[0]])
+    df = df_M_dict[key].sort_values("Running_Time")
+    plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_M_dict_colors[key], linestyle='-')
+    
+plt.xlabel("Running Time in Seconds")
+plt.ylabel("RBO Score")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Music Dataset")
+plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
+plt.axvline(x=39.298 , color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
+plt.axvline(x=27.958, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
+plt.legend(title="Approximation", loc="best")
+plt.show()'''
+
+'''
+#M - RR
+models = ["RR"]
+exact_shap_value = None
+for index_model, model in enumerate(models):
+    for index_approximation, approximation in enumerate(approximations):
+        df = df_M[(df_M["index"].str.contains(f"{approximation}_")) & (df_M["index"].str.contains(f"_{model}_"))]
+        df_M_dict[f"{approximation}_{model}"]=df
+        df_M_dict_colors[f"{approximation}_{model}"]=colors[approximation]
+        exact_shap_value = exact_shap_values_M[model]
+        model_name = model_names[model]
+        
+for key in df_M_dict.keys():
+    plt.scatter(df_M_dict[key]["Running_Time"], df_M_dict[key]["RBO_Score_0.9"], color=df_M_dict_colors[key], label=shap_names[key[0]])
+    df = df_M_dict[key].sort_values("Running_Time")
+    plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_M_dict_colors[key], linestyle='-')
+    
+plt.xlabel("Running Time in Seconds")
+plt.ylabel("RBO Score")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Music Dataset")
+#plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
+plt.axvline(x=42.301 , color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
+plt.axvline(x=27.320, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
+plt.legend(title="Approximation", loc="best")
+plt.show()'''
+
+'''
+#M - SR
+models = ["SR"]
+exact_shap_value = None
+for index_model, model in enumerate(models):
+    for index_approximation, approximation in enumerate(approximations):
+        df = df_M[(df_M["index"].str.contains(f"{approximation}_")) & (df_M["index"].str.contains(f"_{model}_"))]
+        df_M_dict[f"{approximation}_{model}"]=df
+        df_M_dict_colors[f"{approximation}_{model}"]=colors[approximation]
+        exact_shap_value = exact_shap_values_M[model]
+        model_name = model_names[model]
+        
+for key in df_M_dict.keys():
+    plt.scatter(df_M_dict[key]["Running_Time"], df_M_dict[key]["RBO_Score_0.9"], color=df_M_dict_colors[key], label=shap_names[key[0]])
+    df = df_M_dict[key].sort_values("Running_Time")
+    plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_M_dict_colors[key], linestyle='-')
+    
+plt.xlabel("Running Time in Seconds")
+plt.ylabel("RBO Score")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Music Dataset")
+#plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
+plt.axvline(x=83.097 , color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
+plt.axvline(x=70.860, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
+plt.legend(title="Approximation", loc="best")
+plt.show()'''
+
+
+#M - XR
+models = ["XR"]
+exact_shap_value = None
+for index_model, model in enumerate(models):
+    for index_approximation, approximation in enumerate(approximations):
+        df = df_M[(df_M["index"].str.contains(f"{approximation}_")) & (df_M["index"].str.contains(f"_{model}_"))]
+        df_M_dict[f"{approximation}_{model}"]=df
+        df_M_dict_colors[f"{approximation}_{model}"]=colors[approximation]
+        exact_shap_value = exact_shap_values_M[model]
+        model_name = model_names[model]
+        
+for key in df_M_dict.keys():
+    plt.scatter(df_M_dict[key]["Running_Time"], df_M_dict[key]["RBO_Score_0.9"], color=df_M_dict_colors[key], label=shap_names[key[0]])
+    df = df_M_dict[key].sort_values("Running_Time")
+    plt.plot(df["Running_Time"], df["RBO_Score_0.9"], color=df_M_dict_colors[key], linestyle='-')
+    
+plt.xlabel("Running Time in Seconds")
+plt.ylabel("RBO Score")
+plt.title(f"RBO Comparison (p=0.9) - {model_name} & Music Dataset")
+#plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
+plt.axvline(x=83.633 , color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
+plt.axvline(x=54.804, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
 plt.legend(title="Approximation", loc="best")
 plt.show()
