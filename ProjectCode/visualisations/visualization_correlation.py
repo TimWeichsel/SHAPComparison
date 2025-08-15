@@ -49,7 +49,6 @@ cond_number = np.linalg.cond(corr_matrix)
 print(f"Konditionszahl: {cond_number:.2e}")'''
 
 
-'''
 def average_absolute_correlation(df):
     num_cols = df.select_dtypes(include=np.number).columns
     cols_to_exclude = [col for col in num_cols if set(df[col].dropna().unique()) <= {0, 1}]
@@ -72,4 +71,4 @@ def max_absolute_correlation(df):
     filtered_df = df.drop(columns=cols_to_exclude)
     corr_matrix = filtered_df.corr().abs()
     upper_tri = corr_matrix.where(np.triu(np.ones(corr_matrix.shape), k=1).astype(bool))
-    return upper_tri.stack().max()'''
+    return upper_tri.stack().max()

@@ -1575,6 +1575,7 @@ plt.axvline(x=70.860, color='green', linestyle='-', linewidth=1, label="Gaussian
 plt.legend(title="Approximation", loc="best")
 plt.show()'''
 
+'''
 models = ["XR"]
 #M - XR
 exact_shap_value = None
@@ -1598,6 +1599,163 @@ plt.title(f"Fidelity Comparison (MSE) - {model_name} & Music Dataset")
 plt.axvline(x=83.633 , color='blue', linestyle='-', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
 plt.axvline(x=54.804, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
 plt.legend(title="Approximation", loc="best")
-plt.show()
+plt.show()'''
 
+
+model = "LR"
+
+bounds_LR = {
+    "D": [
+        ("green", ":", 2.310240, "Gaussian SHAP - Sample Lower Bound"),
+        ("blue",  ":", 2.817665, "Copula SHAP - Sample Lower Bound"),
+    ],
+    "W": [
+        ("blue",  ":", 19.628270, "Copula SHAP - Sample Lower Bound"),
+        ("green", ":", 7.858782,  "Gaussian SHAP - Sample Lower Bound"),
+    ],
+    "A": [
+        ("green", ":", 6.906,  "Gaussian SHAP - Sample Lower Bound"),
+        ("blue",  ":", 11.179, "Copula SHAP - Sample Lower Bound"),
+    ],
+    "M": [
+        ("blue",  "-", 39.298, "Copula SHAP - Sample Upper Bound"),
+        ("green", "-", 27.958, "Gaussian SHAP - Sample Upper Bound"),
+    ],
+}
+bounds_RR = {
+    "D": [
+        ("blue",  "-",  8.44816780090332,  "Copula SHAP - Sample Upper Bound"),
+        ("green", "-",  7.491661071777344, "Gaussian SHAP - Sample Upper Bound"),
+        ("purple",":", 11.016456842422485, "Sample SHAP - Sample Lower Bound"),
+    ],
+    "W": [
+        ("blue",  "-", 304.774652,  "Copula SHAP - Sample Upper Bound"),
+        ("green", "-",  80.803144,  "Gaussian SHAP - Sample Upper Bound"),
+        ("purple",":", 128.962151,  "Sample SHAP - Sample Lower Bound"),
+        ("orange",":",  82.998192,  "Kernel SHAP - Sample Lower Bound"),
+    ],
+    "A": [
+        ("purple",":",  76.418,     "Sample SHAP - Sample Lower Bound"),
+        ("orange",":",  37.558,     "Kernel SHAP - Kernel Lower Bound"),
+        ("blue",  "-", 102.342,     "Copula SHAP - Sample Upper Bound"),
+        ("green", "-", 151.0453,    "Gaussian SHAP - Sample Upper Bound"),
+    ],
+    "M": [
+        ("blue",  "-",  42.301,     "Copula SHAP - Sample Upper Bound"),
+        ("green", "-",  27.320,     "Gaussian SHAP - Sample Upper Bound"),
+    ],
+}
+
+bounds_SR = {
+    "D": [
+        ("blue",  "-", 35.218860, "Copula SHAP - Sample Upper Bound"),
+        ("green", "-", 38.0098,   "Gaussian SHAP - Sample Upper Bound"),
+    ],
+    "W": [
+        ("orange",":", 2962.636975, "Kernel SHAP - Sample Lower Bound"),
+    ],
+    "A": [
+        ("blue",  "-", 731.899,  "Copula SHAP - Sample Upper Bound"),
+        ("green", "-", 564.743,  "Gaussian SHAP - Sample Upper Bound"),
+        ("orange",":", 894.869,  "Kernel SHAP - Sample Lower Bound"),
+    ],
+    "M": [
+        ("blue",  "-", 83.097,   "Copula SHAP - Sample Upper Bound"),
+        ("green", "-", 70.860,   "Gaussian SHAP - Sample Upper Bound"),
+    ],
+}
+
+bounds_XR = {
+    "D": [
+        ("blue",  "-", 7.779833, "Copula SHAP - Sample Upper Bound"),
+        ("green", "-", 7.018606, "Gaussian SHAP - Sample Upper Bound"),
+    ],
+    "W": [
+        ("blue",  "-", 304.774652, "Copula SHAP - Sample Upper Bound"),
+        ("green", "-",  87.576517, "Gaussian SHAP - Sample Upper Bound"),
+    ],
+    "A": [
+        ("blue",  ":", 16.0243,  "Copula SHAP - Sample Lower Bound"),
+    ],
+    "M": [
+        ("blue",  "-", 83.633,   "Copula SHAP - Sample Upper Bound"),
+        ("green", "-", 54.804,   "Gaussian SHAP - Sample Upper Bound"),
+    ],
+}
+
+bounds = {
+    "LR": bounds_LR,
+    "RR": bounds_RR,
+    "SR": bounds_SR,
+    "XR": bounds_XR,
+}
+
+
+show_exact_shap_LR = {"D":True, "W":True, "A":True, "M":True}
+show_exact_shap_RR = {"D":True, "W":True, "A":True, "M":False}
+show_exact_shap_SR = {"D":True, "W":False, "A":False, "M":False}
+show_exact_shap_XR = {"D":True, "W":True, "A":True, "M":False}
+
+show_exact_shap = {
+    "LR": show_exact_shap_LR,
+    "RR": show_exact_shap_RR,
+    "SR": show_exact_shap_SR,
+    "XR": show_exact_shap_XR,
+}
+
+datasets = [
+    ("D", df_D, df_D_dict, df_D_dict_colors, exact_shap_values_D, "Diabetes"),
+    ("W", df_W, df_W_dict, df_W_dict_colors, exact_shap_values_W, "Wine"),
+    ("A", df_A, df_A_dict, df_A_dict_colors, exact_shap_values_A, "Abalone"),
+    ("M", df_M, df_M_dict, df_M_dict_colors, exact_shap_values_M, "Music"),
+]
+
+fig, axes = plt.subplots(1, 4, figsize=(16, 5))
+axes = axes.flatten()
+
+for index, (ax, (data_key, df_ds, ds_dict, data_colors, exact_values, data_name)) in enumerate (zip(axes, datasets)):
+    exact_shap_value = None
+    for approximation in approximations:
+        df_sel = df_ds[(df_ds["index"].str.contains(f"{approximation}_")) & (df_ds["index"].str.contains(f"_{model}_"))]
+        ds_dict[f"{approximation}_{model}"] = df_sel
+        data_colors[f"{approximation}_{model}"] = colors[approximation]
+        exact_shap_value = exact_values[model]
+        model_name = model_names[model]
+
+    for key in ds_dict.keys():
+        ax.scatter(ds_dict[key]["Running_Time"], ds_dict[key]["Fidelity_Score"],
+                   color=data_colors[key], label=shap_names[key[0]])
+        _dfp = ds_dict[key].sort_values("Running_Time")
+        ax.plot(_dfp["Running_Time"], _dfp["Fidelity_Score"],
+                color=data_colors[key], linestyle='-')
+
+    if index == 0:
+        ax.set_ylabel("MSE", fontsize=12)
+    ax.set_title(f"{data_name} Dataset")
+
+    if show_exact_shap[model][data_key] is True:
+        ax.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
+
+    for color_b, ls_b, x_b, lbl_b in bounds[model].get(data_key, []):
+        ax.axvline(x=x_b, color=color_b, linestyle=ls_b, linewidth=1, label=lbl_b, alpha=0.6)
+
+handles, labels = [], []
+for ax in axes:
+    h, l = ax.get_legend_handles_labels()
+    handles += h
+    labels += l
+
+reference_set = set()
+uniq_handles, uniq_labels = [], []
+for h, l in zip(handles, labels):
+    if l not in reference_set:
+        uniq_handles.append(h)
+        uniq_labels.append(l)
+        reference_set.add(l)
+
+fig.legend(uniq_handles, uniq_labels, loc="lower center", ncol=4, fontsize=9)
+fig.text(0.5, 0.15, "Running Time in Seconds", ha="center", fontsize=12) #x label
+plt.tight_layout(rect=[0.01, 0.15, 0.99, 0.95])
+plt.suptitle(f"Fidelity Comparison - {model_names[model]}", fontsize=18)
+plt.show()
 

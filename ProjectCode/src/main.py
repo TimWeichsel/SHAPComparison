@@ -37,8 +37,8 @@ def main():
             from run_comparison.run_script import run_approximations
             from run_comparison.run_script import run_evaluations
             from run_comparison.run_script import run_stability
-            run_approximations()
-            run_evaluations()
+            #run_approximations()
+            #run_evaluations()
             run_stability()
             
             
