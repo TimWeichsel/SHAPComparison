@@ -78,14 +78,18 @@ def __get_SHAP_values(approximation: str, model, X_train, X_test, nsamples, y_tr
             return explainer.shap_values(X_test, nsamples=nsamples)
         case "C":
             return get_copula_shap_values(model=model, X_train=X_train, X_test=X_test, y_train=y_train, n_samples=nsamples, run_id_seed=run_id_seed)
+        case "C100":
+            return get_copula_shap_values(model=model, X_train=X_train, X_test=X_test, y_train=y_train, n_samples=nsamples, run_id_seed=run_id_seed, mc_samples=1000)
         case "G":
             return get_gauss_shap_values(model=model, X_train=X_train, X_test=X_test, y_train=y_train, n_samples=nsamples, run_id_seed=run_id_seed)
+        case "G100":
+            return get_gauss_shap_values(model=model, X_train=X_train, X_test=X_test, y_train=y_train, n_samples=nsamples, run_id_seed=run_id_seed, mc_samples=1000)
         case "E":
             explainer = create_exact_shap_explainer(model=model, X_train=X_train)
             return explainer(X_test, max_evals=2**20)
         case _:
             pass
-            raise ValueError("Invalid SHAP approximation. Choose 'K', 'S', 'B', 'C', 'G' or 'E'")
+            raise ValueError("Invalid SHAP approximation. Choose 'K', 'S', 'C', 'G', 'E', 'C100', G100")
             
 def __create_shap_information(total_time, shap_values, model_name, data, approximation, nsamples, X_test, y_test, feature_names, timestamp, run_id = 1) -> dict:
     return {

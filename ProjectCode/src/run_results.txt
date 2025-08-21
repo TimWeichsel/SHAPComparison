@@ -13621,3 +13621,4267 @@ Finished: Stability: M=SR, A=K, D=M, N=10, R=10 (46)
 Started: Stability: M=SR, A=K, D=M, N=10, R=10 (46)
 Finished: Stability: M=SR, A=K, D=M, N=10, R=10 (46)
 Started: Stability: M=SR, A=K, D=M, N=40, R=10 (47)
+Training Models finished
+
+Started: D=D, M=LR, A=C100, D=A, N=12 (1)
+Training Models finished
+
+Started: D=D, M=LR, A=C100, D=A, N=12 (1)
+Finished: D=D, M=LR, A=C100, D=A, N=12 (1)
+Started: D=D, M=LR, A=G100, D=A, N=12 (2)
+Error for: D=D, M=LR, A=G100, D=A, N=12 = Command '['python', 'main.py', '--mode', 'R', '--data', 'A', '--model', 'LR', '--approximation', 'G100', '--nsamples', '12']' returned non-zero exit status 1. (2)
+Started: D=D, M=LR, A=C100, D=D, N=12 (3)
+Training Models finished
+
+Started RBO: : M=LR, A=C100, D=A, N=12 - Number(1)
+Finished
+Started Fidelity: : M=LR, A=C100, D=A, N=12 (1)
+Finished
+Training Models finished
+
+Started RBO: : M=RR, A=C100, D=D, N=12 - Number(1)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'RR', '--approximation', 'C100', '--nsamples', '12', '--eval_method', 'R']' returned non-zero exit status 1. (1)
+Started RBO: : M=RR, A=G100, D=D, N=12 - Number(2)
+Training Models finished
+
+Started: D=D, M=RR, A=C100, D=D, N=12 (1)
+Finished: D=D, M=RR, A=C100, D=D, N=12 (1)
+Started: D=D, M=RR, A=G100, D=D, N=12 (2)
+Finished: D=D, M=RR, A=G100, D=D, N=12 (2)
+Started RBO: : M=RR, A=C100, D=D, N=12 - Number(1)
+Finished
+Started RBO: : M=RR, A=G100, D=D, N=12 - Number(2)
+Finished
+Started Fidelity: : M=RR, A=C100, D=D, N=12 (2)
+Finished
+Started Fidelity: : M=RR, A=G100, D=D, N=12 (2)
+Finished
+Training Models finished
+
+Started: D=D, M=RR, A=C100, D=A, N=12 (1)
+Finished: D=D, M=RR, A=C100, D=A, N=12 (1)
+Started: D=D, M=RR, A=G100, D=A, N=12 (2)
+Finished: D=D, M=RR, A=G100, D=A, N=12 (2)
+Started: D=D, M=RR, A=C100, D=M, N=12 (3)
+Finished: D=D, M=RR, A=C100, D=M, N=12 (3)
+Started: D=D, M=RR, A=G100, D=M, N=12 (4)
+Finished: D=D, M=RR, A=G100, D=M, N=12 (4)
+Started: D=D, M=RR, A=C100, D=W, N=12 (5)
+Finished: D=D, M=RR, A=C100, D=W, N=12 (5)
+Started: D=D, M=RR, A=G100, D=W, N=12 (6)
+Finished: D=D, M=RR, A=G100, D=W, N=12 (6)
+Started RBO: : M=RR, A=C100, D=A, N=12 - Number(1)
+Finished
+Started RBO: : M=RR, A=G100, D=A, N=12 - Number(2)
+Finished
+Started RBO: : M=RR, A=C100, D=M, N=12 - Number(3)
+Finished
+Started RBO: : M=RR, A=G100, D=M, N=12 - Number(4)
+Finished
+Started RBO: : M=RR, A=C100, D=W, N=12 - Number(5)
+Finished
+Started RBO: : M=RR, A=G100, D=W, N=12 - Number(6)
+Finished
+Started Fidelity: : M=RR, A=C100, D=A, N=12 (6)
+Finished
+Started Fidelity: : M=RR, A=G100, D=A, N=12 (6)
+Finished
+Started Fidelity: : M=RR, A=C100, D=M, N=12 (6)
+Finished
+Started Fidelity: : M=RR, A=G100, D=M, N=12 (6)
+Finished
+Started Fidelity: : M=RR, A=C100, D=W, N=12 (6)
+Finished
+Started Fidelity: : M=RR, A=G100, D=W, N=12 (6)
+Finished
+Training Models finished
+
+Started: D=D, M=XR, A=C100, D=A, N=12 (1)
+Finished: D=D, M=XR, A=C100, D=A, N=12 (1)
+Started: D=D, M=XR, A=G100, D=A, N=12 (2)
+Finished: D=D, M=XR, A=G100, D=A, N=12 (2)
+Started: D=D, M=XR, A=C100, D=D, N=12 (3)
+Finished: D=D, M=XR, A=C100, D=D, N=12 (3)
+Started: D=D, M=XR, A=G100, D=D, N=12 (4)
+Finished: D=D, M=XR, A=G100, D=D, N=12 (4)
+Started: D=D, M=XR, A=C100, D=M, N=12 (5)
+Finished: D=D, M=XR, A=C100, D=M, N=12 (5)
+Started: D=D, M=XR, A=G100, D=M, N=12 (6)
+Finished: D=D, M=XR, A=G100, D=M, N=12 (6)
+Started: D=D, M=XR, A=C100, D=W, N=12 (7)
+Finished: D=D, M=XR, A=C100, D=W, N=12 (7)
+Started: D=D, M=XR, A=G100, D=W, N=12 (8)
+Finished: D=D, M=XR, A=G100, D=W, N=12 (8)
+Started RBO: : M=XR, A=C100, D=A, N=12 - Number(1)
+Finished
+Started RBO: : M=XR, A=G100, D=A, N=12 - Number(2)
+Finished
+Started RBO: : M=XR, A=C100, D=D, N=12 - Number(3)
+Finished
+Started RBO: : M=XR, A=G100, D=D, N=12 - Number(4)
+Finished
+Started RBO: : M=XR, A=C100, D=M, N=12 - Number(5)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=12 - Number(6)
+Finished
+Started RBO: : M=XR, A=C100, D=W, N=12 - Number(7)
+Finished
+Started RBO: : M=XR, A=G100, D=W, N=12 - Number(8)
+Finished
+Started Fidelity: : M=XR, A=C100, D=A, N=12 (8)
+Finished
+Started Fidelity: : M=XR, A=G100, D=A, N=12 (8)
+Finished
+Started Fidelity: : M=XR, A=C100, D=D, N=12 (8)
+Finished
+Started Fidelity: : M=XR, A=G100, D=D, N=12 (8)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=12 (8)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=12 (8)
+Finished
+Started Fidelity: : M=XR, A=C100, D=W, N=12 (8)
+Finished
+Started Fidelity: : M=XR, A=G100, D=W, N=12 (8)
+Finished
+Training Models finished
+
+Started: D=D, M=SR, A=C100, D=A, N=12 (1)
+Training Models finished
+
+Started: Stability: M=SR, A=K, D=M, N=40, R=10 (1)
+Training Models finished
+
+Started: D=D, M=LR, A=C100, D=M, N=12 (1)
+Training Models finished
+
+Started: Stability: M=SR, A=K, D=M, N=40, R=10 (1)
+Finished: Stability: M=SR, A=K, D=M, N=40, R=10 (1)
+Started: Stability: M=SR, A=K, D=M, N=40, R=10 (1)
+Finished: Stability: M=SR, A=K, D=M, N=40, R=10 (1)
+Started: Stability: M=SR, A=S, D=M, N=2000, R=10 (2)
+Finished: Stability: M=SR, A=S, D=M, N=2000, R=10 (2)
+Started: Stability: M=SR, A=S, D=M, N=2000, R=10 (2)
+Finished: Stability: M=SR, A=S, D=M, N=2000, R=10 (2)
+Started: Stability: M=SR, A=S, D=M, N=4000, R=10 (3)
+Finished: Stability: M=SR, A=S, D=M, N=4000, R=10 (3)
+Started: Stability: M=SR, A=S, D=M, N=4000, R=10 (3)
+Finished: Stability: M=SR, A=S, D=M, N=4000, R=10 (3)
+Started: Stability: M=SR, A=S, D=M, N=12000, R=10 (4)
+Finished: Stability: M=SR, A=S, D=M, N=12000, R=10 (4)
+Started: Stability: M=SR, A=S, D=M, N=12000, R=10 (4)
+Finished: Stability: M=SR, A=S, D=M, N=12000, R=10 (4)
+Started: Stability: M=SR, A=C, D=M, N=300, R=10 (5)
+Finished: Stability: M=SR, A=C, D=M, N=300, R=10 (5)
+Started: Stability: M=SR, A=C, D=M, N=300, R=10 (5)
+Finished: Stability: M=SR, A=C, D=M, N=300, R=10 (5)
+Started: Stability: M=SR, A=C, D=M, N=600, R=10 (6)
+Finished: Stability: M=SR, A=C, D=M, N=600, R=10 (6)
+Started: Stability: M=SR, A=C, D=M, N=600, R=10 (6)
+Finished: Stability: M=SR, A=C, D=M, N=600, R=10 (6)
+Started: Stability: M=SR, A=C, D=M, N=2000, R=10 (7)
+Finished: Stability: M=SR, A=C, D=M, N=2000, R=10 (7)
+Started: Stability: M=SR, A=C, D=M, N=2000, R=10 (7)
+Finished: Stability: M=SR, A=C, D=M, N=2000, R=10 (7)
+Started: Stability: M=SR, A=G, D=M, N=32000, R=10 (8)
+Finished: Stability: M=SR, A=G, D=M, N=32000, R=10 (8)
+Started: Stability: M=SR, A=G, D=M, N=32000, R=10 (8)
+Finished: Stability: M=SR, A=G, D=M, N=32000, R=10 (8)
+Started: Stability: M=SR, A=G, D=W, N=24, R=10 (9)
+Finished: Stability: M=SR, A=G, D=W, N=24, R=10 (9)
+Started: Stability: M=SR, A=G, D=W, N=24, R=10 (9)
+Finished: Stability: M=SR, A=G, D=W, N=24, R=10 (9)
+Started: D=D, M=LR, A=C100, D=M, N=12 (1)
+Finished: D=D, M=LR, A=C100, D=M, N=12 (1)
+Started: D=D, M=LR, A=G100, D=M, N=12 (2)
+Finished: D=D, M=LR, A=G100, D=M, N=12 (2)
+Started: D=D, M=LR, A=C100, D=M, N=30 (3)
+Finished: D=D, M=LR, A=C100, D=M, N=30 (3)
+Started: D=D, M=LR, A=G100, D=M, N=30 (4)
+Finished: D=D, M=LR, A=G100, D=M, N=30 (4)
+Started: D=D, M=LR, A=C100, D=M, N=100 (5)
+Finished: D=D, M=LR, A=C100, D=M, N=100 (5)
+Started: D=D, M=LR, A=G100, D=M, N=100 (6)
+Finished: D=D, M=LR, A=G100, D=M, N=100 (6)
+Started: D=D, M=LR, A=C100, D=W, N=12 (7)
+Finished: D=D, M=LR, A=C100, D=W, N=12 (7)
+Started: D=D, M=LR, A=G100, D=W, N=12 (8)
+Finished: D=D, M=LR, A=G100, D=W, N=12 (8)
+Started: D=D, M=LR, A=C100, D=D, N=12 (9)
+Finished: D=D, M=LR, A=C100, D=D, N=12 (9)
+Started: D=D, M=LR, A=G100, D=D, N=12 (10)
+Finished: D=D, M=LR, A=G100, D=D, N=12 (10)
+Started: D=D, M=RR, A=C100, D=W, N=24 (11)
+Finished: D=D, M=RR, A=C100, D=W, N=24 (11)
+Started: D=D, M=RR, A=G100, D=W, N=24 (12)
+Finished: D=D, M=RR, A=G100, D=W, N=24 (12)
+Started: D=D, M=RR, A=C100, D=W, N=40 (13)
+Finished: D=D, M=RR, A=C100, D=W, N=40 (13)
+Started: D=D, M=RR, A=G100, D=W, N=40 (14)
+Finished: D=D, M=RR, A=G100, D=W, N=40 (14)
+Started: D=D, M=RR, A=C100, D=D, N=24 (15)
+Finished: D=D, M=RR, A=C100, D=D, N=24 (15)
+Started: D=D, M=RR, A=G100, D=D, N=24 (16)
+Finished: D=D, M=RR, A=G100, D=D, N=24 (16)
+Started: D=D, M=RR, A=C100, D=M, N=40 (17)
+Finished: D=D, M=RR, A=C100, D=M, N=40 (17)
+Started: D=D, M=RR, A=G100, D=M, N=40 (18)
+Finished: D=D, M=RR, A=G100, D=M, N=40 (18)
+Started: D=D, M=RR, A=C100, D=M, N=100 (19)
+Finished: D=D, M=RR, A=C100, D=M, N=100 (19)
+Started: D=D, M=RR, A=G100, D=M, N=100 (20)
+Finished: D=D, M=RR, A=G100, D=M, N=100 (20)
+Started: D=D, M=RR, A=C100, D=M, N=300 (21)
+Finished: D=D, M=RR, A=C100, D=M, N=300 (21)
+Started: D=D, M=RR, A=G100, D=M, N=300 (22)
+Finished: D=D, M=RR, A=G100, D=M, N=300 (22)
+Started: D=D, M=RR, A=C100, D=M, N=500 (23)
+Finished: D=D, M=RR, A=C100, D=M, N=500 (23)
+Started: D=D, M=RR, A=G100, D=M, N=500 (24)
+Finished: D=D, M=RR, A=G100, D=M, N=500 (24)
+Started: D=D, M=XR, A=C100, D=W, N=24 (25)
+Finished: D=D, M=XR, A=C100, D=W, N=24 (25)
+Started: D=D, M=XR, A=G100, D=W, N=24 (26)
+Finished: D=D, M=XR, A=G100, D=W, N=24 (26)
+Started: D=D, M=XR, A=C100, D=M, N=40 (27)
+Finished: D=D, M=XR, A=C100, D=M, N=40 (27)
+Started: D=D, M=XR, A=G100, D=M, N=40 (28)
+Finished: D=D, M=XR, A=G100, D=M, N=40 (28)
+Started: D=D, M=XR, A=C100, D=M, N=100 (29)
+Finished: D=D, M=XR, A=C100, D=M, N=100 (29)
+Started: D=D, M=XR, A=G100, D=M, N=100 (30)
+Training Models finished
+
+Started: D=D, M=XR, A=G100, D=M, N=100 (1)
+Finished: D=D, M=XR, A=G100, D=M, N=100 (1)
+Started: D=D, M=XR, A=C100, D=M, N=300 (2)
+Finished: D=D, M=XR, A=C100, D=M, N=300 (2)
+Started: D=D, M=XR, A=G100, D=M, N=300 (3)
+Finished: D=D, M=XR, A=G100, D=M, N=300 (3)
+Started: D=D, M=XR, A=C100, D=M, N=500 (4)
+Finished: D=D, M=XR, A=C100, D=M, N=500 (4)
+Started: D=D, M=XR, A=G100, D=M, N=500 (5)
+Finished: D=D, M=XR, A=G100, D=M, N=500 (5)
+Started: D=D, M=SR, A=C100, D=A, N=12 (6)
+Finished: D=D, M=SR, A=C100, D=A, N=12 (6)
+Started: D=D, M=SR, A=G100, D=A, N=12 (7)
+Finished: D=D, M=SR, A=G100, D=A, N=12 (7)
+Started: D=D, M=SR, A=C100, D=D, N=12 (8)
+Finished: D=D, M=SR, A=C100, D=D, N=12 (8)
+Started: D=D, M=SR, A=G100, D=D, N=12 (9)
+Finished: D=D, M=SR, A=G100, D=D, N=12 (9)
+Started: D=D, M=SR, A=C100, D=M, N=12 (10)
+Finished: D=D, M=SR, A=C100, D=M, N=12 (10)
+Started: D=D, M=SR, A=G100, D=M, N=12 (11)
+Finished: D=D, M=SR, A=G100, D=M, N=12 (11)
+Started: D=D, M=SR, A=C100, D=W, N=12 (12)
+Finished: D=D, M=SR, A=C100, D=W, N=12 (12)
+Started: D=D, M=SR, A=G100, D=W, N=12 (13)
+Finished: D=D, M=SR, A=G100, D=W, N=12 (13)
+Started: D=D, M=SR, A=C100, D=A, N=24 (14)
+Finished: D=D, M=SR, A=C100, D=A, N=24 (14)
+Started: D=D, M=SR, A=G100, D=A, N=24 (15)
+Finished: D=D, M=SR, A=G100, D=A, N=24 (15)
+Started: D=D, M=SR, A=C100, D=D, N=24 (16)
+Finished: D=D, M=SR, A=C100, D=D, N=24 (16)
+Started: D=D, M=SR, A=G100, D=D, N=24 (17)
+Finished: D=D, M=SR, A=G100, D=D, N=24 (17)
+Started: D=D, M=SR, A=C100, D=M, N=24 (18)
+Finished: D=D, M=SR, A=C100, D=M, N=24 (18)
+Started: D=D, M=SR, A=G100, D=M, N=24 (19)
+Finished: D=D, M=SR, A=G100, D=M, N=24 (19)
+Started: D=D, M=SR, A=C100, D=W, N=24 (20)
+Training Models finished
+
+Started: D=D, M=SR, A=C100, D=D, N=100 (1)
+Finished: D=D, M=SR, A=C100, D=D, N=100 (1)
+Started: D=D, M=SR, A=G100, D=D, N=100 (2)
+Finished: D=D, M=SR, A=G100, D=D, N=100 (2)
+Started: D=D, M=SR, A=C100, D=M, N=100 (3)
+Finished: D=D, M=SR, A=C100, D=M, N=100 (3)
+Started: D=D, M=SR, A=G100, D=M, N=100 (4)
+Finished: D=D, M=SR, A=G100, D=M, N=100 (4)
+Started: D=D, M=SR, A=C100, D=W, N=100 (5)
+Training Models finished
+
+Started RBO: : M=LR, A=C100, D=M, N=12 - Number(1)
+Finished
+Started RBO: : M=LR, A=G100, D=M, N=12 - Number(2)
+Finished
+Started RBO: : M=LR, A=C100, D=M, N=30 - Number(3)
+Finished
+Started RBO: : M=LR, A=G100, D=M, N=30 - Number(4)
+Finished
+Started RBO: : M=LR, A=C100, D=M, N=100 - Number(5)
+Finished
+Started RBO: : M=LR, A=G100, D=M, N=100 - Number(6)
+Finished
+Started RBO: : M=LR, A=C100, D=W, N=12 - Number(7)
+Finished
+Started RBO: : M=LR, A=G100, D=W, N=12 - Number(8)
+Finished
+Started RBO: : M=LR, A=C100, D=D, N=12 - Number(9)
+Finished
+Started RBO: : M=LR, A=G100, D=D, N=12 - Number(10)
+Finished
+Started RBO: : M=RR, A=C100, D=W, N=24 - Number(11)
+Finished
+Started RBO: : M=RR, A=G100, D=W, N=24 - Number(12)
+Finished
+Started RBO: : M=RR, A=C100, D=W, N=40 - Number(13)
+Finished
+Started RBO: : M=RR, A=G100, D=W, N=40 - Number(14)
+Finished
+Started RBO: : M=RR, A=C100, D=D, N=24 - Number(15)
+Finished
+Started RBO: : M=RR, A=G100, D=D, N=24 - Number(16)
+Finished
+Started RBO: : M=RR, A=C100, D=M, N=40 - Number(17)
+Finished
+Started RBO: : M=RR, A=G100, D=M, N=40 - Number(18)
+Finished
+Started RBO: : M=RR, A=C100, D=M, N=100 - Number(19)
+Finished
+Started RBO: : M=RR, A=G100, D=M, N=100 - Number(20)
+Finished
+Started RBO: : M=RR, A=C100, D=M, N=300 - Number(21)
+Finished
+Started RBO: : M=RR, A=G100, D=M, N=300 - Number(22)
+Finished
+Started RBO: : M=RR, A=C100, D=M, N=500 - Number(23)
+Finished
+Started RBO: : M=RR, A=G100, D=M, N=500 - Number(24)
+Finished
+Started RBO: : M=XR, A=C100, D=W, N=24 - Number(25)
+Finished
+Started RBO: : M=XR, A=G100, D=W, N=24 - Number(26)
+Finished
+Started RBO: : M=XR, A=C100, D=M, N=40 - Number(27)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=40 - Number(28)
+Finished
+Started RBO: : M=XR, A=C100, D=M, N=100 - Number(29)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=100 - Number(30)
+Finished
+Started RBO: : M=XR, A=C100, D=M, N=300 - Number(31)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=300 - Number(32)
+Finished
+Started RBO: : M=XR, A=C100, D=M, N=500 - Number(33)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=500 - Number(34)
+Finished
+Started RBO: : M=SR, A=C100, D=A, N=12 - Number(35)
+Finished
+Started RBO: : M=SR, A=G100, D=A, N=12 - Number(36)
+Finished
+Started RBO: : M=SR, A=C100, D=D, N=12 - Number(37)
+Finished
+Started RBO: : M=SR, A=G100, D=D, N=12 - Number(38)
+Finished
+Started RBO: : M=SR, A=C100, D=M, N=12 - Number(39)
+Finished
+Started RBO: : M=SR, A=G100, D=M, N=12 - Number(40)
+Finished
+Started RBO: : M=SR, A=C100, D=W, N=12 - Number(41)
+Finished
+Started RBO: : M=SR, A=G100, D=W, N=12 - Number(42)
+Finished
+Started RBO: : M=SR, A=C100, D=A, N=24 - Number(43)
+Finished
+Started RBO: : M=SR, A=G100, D=A, N=24 - Number(44)
+Finished
+Started RBO: : M=SR, A=C100, D=D, N=24 - Number(45)
+Finished
+Started RBO: : M=SR, A=G100, D=D, N=24 - Number(46)
+Finished
+Started RBO: : M=SR, A=C100, D=M, N=24 - Number(47)
+Finished
+Started RBO: : M=SR, A=G100, D=M, N=24 - Number(48)
+Finished
+Started RBO: : M=SR, A=C100, D=W, N=24 - Number(49)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'C100', '--nsamples', '24', '--eval_method', 'R']' returned non-zero exit status 1. (49)
+Started RBO: : M=SR, A=G100, D=W, N=24 - Number(50)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'G100', '--nsamples', '24', '--eval_method', 'R']' returned non-zero exit status 1. (50)
+Started RBO: : M=SR, A=C100, D=A, N=40 - Number(51)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'A', '--model', 'SR', '--approximation', 'C100', '--nsamples', '40', '--eval_method', 'R']' returned non-zero exit status 1. (51)
+Started RBO: : M=SR, A=G100, D=A, N=40 - Number(52)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'A', '--model', 'SR', '--approximation', 'G100', '--nsamples', '40', '--eval_method', 'R']' returned non-zero exit status 1. (52)
+Started RBO: : M=SR, A=C100, D=D, N=40 - Number(53)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'SR', '--approximation', 'C100', '--nsamples', '40', '--eval_method', 'R']' returned non-zero exit status 1. (53)
+Started RBO: : M=SR, A=G100, D=D, N=40 - Number(54)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'SR', '--approximation', 'G100', '--nsamples', '40', '--eval_method', 'R']' returned non-zero exit status 1. (54)
+Started RBO: : M=SR, A=C100, D=M, N=40 - Number(55)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'M', '--model', 'SR', '--approximation', 'C100', '--nsamples', '40', '--eval_method', 'R']' returned non-zero exit status 1. (55)
+Started RBO: : M=SR, A=G100, D=M, N=40 - Number(56)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'M', '--model', 'SR', '--approximation', 'G100', '--nsamples', '40', '--eval_method', 'R']' returned non-zero exit status 1. (56)
+Started RBO: : M=SR, A=C100, D=W, N=40 - Number(57)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'C100', '--nsamples', '40', '--eval_method', 'R']' returned non-zero exit status 1. (57)
+Started RBO: : M=SR, A=G100, D=W, N=40 - Number(58)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'G100', '--nsamples', '40', '--eval_method', 'R']' returned non-zero exit status 1. (58)
+Started RBO: : M=SR, A=C100, D=A, N=100 - Number(59)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'A', '--model', 'SR', '--approximation', 'C100', '--nsamples', '100', '--eval_method', 'R']' returned non-zero exit status 1. (59)
+Started RBO: : M=SR, A=G100, D=A, N=100 - Number(60)
+Error for: = Command '['python', 'main.py', '--mode', 'E', '--data', 'A', '--model', 'SR', '--approximation', 'G100', '--nsamples', '100', '--eval_method', 'R']' returned non-zero exit status 1. (60)
+Started RBO: : M=SR, A=C100, D=D, N=100 - Number(61)
+Finished
+Started RBO: : M=SR, A=G100, D=D, N=100 - Number(62)
+Finished
+Started RBO: : M=SR, A=C100, D=M, N=100 - Number(63)
+Finished
+Started RBO: : M=SR, A=G100, D=M, N=100 - Number(64)
+Finished
+Started Fidelity: : M=LR, A=C100, D=M, N=12 (64)
+Finished
+Started Fidelity: : M=LR, A=G100, D=M, N=12 (64)
+Finished
+Started Fidelity: : M=LR, A=C100, D=M, N=30 (64)
+Finished
+Started Fidelity: : M=LR, A=G100, D=M, N=30 (64)
+Finished
+Started Fidelity: : M=LR, A=C100, D=M, N=100 (64)
+Finished
+Started Fidelity: : M=LR, A=G100, D=M, N=100 (64)
+Finished
+Started Fidelity: : M=LR, A=C100, D=W, N=12 (64)
+Finished
+Started Fidelity: : M=LR, A=G100, D=W, N=12 (64)
+Finished
+Started Fidelity: : M=LR, A=C100, D=D, N=12 (64)
+Finished
+Started Fidelity: : M=LR, A=G100, D=D, N=12 (64)
+Finished
+Started Fidelity: : M=RR, A=C100, D=W, N=24 (64)
+Finished
+Started Fidelity: : M=RR, A=G100, D=W, N=24 (64)
+Finished
+Started Fidelity: : M=RR, A=C100, D=W, N=40 (64)
+Finished
+Started Fidelity: : M=RR, A=G100, D=W, N=40 (64)
+Finished
+Started Fidelity: : M=RR, A=C100, D=D, N=24 (64)
+Finished
+Started Fidelity: : M=RR, A=G100, D=D, N=24 (64)
+Finished
+Started Fidelity: : M=RR, A=C100, D=M, N=40 (64)
+Finished
+Started Fidelity: : M=RR, A=G100, D=M, N=40 (64)
+Finished
+Started Fidelity: : M=RR, A=C100, D=M, N=100 (64)
+Finished
+Started Fidelity: : M=RR, A=G100, D=M, N=100 (64)
+Finished
+Started Fidelity: : M=RR, A=C100, D=M, N=300 (64)
+Finished
+Started Fidelity: : M=RR, A=G100, D=M, N=300 (64)
+Finished
+Started Fidelity: : M=RR, A=C100, D=M, N=500 (64)
+Finished
+Started Fidelity: : M=RR, A=G100, D=M, N=500 (64)
+Finished
+Started Fidelity: : M=XR, A=C100, D=W, N=24 (64)
+Finished
+Started Fidelity: : M=XR, A=G100, D=W, N=24 (64)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=40 (64)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=40 (64)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=100 (64)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=100 (64)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=300 (64)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=300 (64)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=500 (64)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=500 (64)
+Finished
+Started Fidelity: : M=SR, A=C100, D=A, N=12 (64)
+Finished
+Started Fidelity: : M=SR, A=G100, D=A, N=12 (64)
+Finished
+Started Fidelity: : M=SR, A=C100, D=D, N=12 (64)
+Finished
+Started Fidelity: : M=SR, A=G100, D=D, N=12 (64)
+Finished
+Started Fidelity: : M=SR, A=C100, D=M, N=12 (64)
+Finished
+Started Fidelity: : M=SR, A=G100, D=M, N=12 (64)
+Finished
+Started Fidelity: : M=SR, A=C100, D=W, N=12 (64)
+Finished
+Started Fidelity: : M=SR, A=G100, D=W, N=12 (64)
+Finished
+Started Fidelity: : M=SR, A=C100, D=A, N=24 (64)
+Finished
+Started Fidelity: : M=SR, A=G100, D=A, N=24 (64)
+Finished
+Started Fidelity: : M=SR, A=C100, D=D, N=24 (64)
+Finished
+Started Fidelity: : M=SR, A=G100, D=D, N=24 (64)
+Finished
+Started Fidelity: : M=SR, A=C100, D=M, N=24 (64)
+Finished
+Started Fidelity: : M=SR, A=G100, D=M, N=24 (64)
+Finished
+Started Fidelity: : M=SR, A=C100, D=W, N=24 (64)
+Error for: : M=SR, A=C100, D=W, N=24 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'C100', '--nsamples', '24', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=G100, D=W, N=24 (64)
+Error for: : M=SR, A=G100, D=W, N=24 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'G100', '--nsamples', '24', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=C100, D=A, N=40 (64)
+Error for: : M=SR, A=C100, D=A, N=40 = Command '['python', 'main.py', '--mode', 'E', '--data', 'A', '--model', 'SR', '--approximation', 'C100', '--nsamples', '40', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=G100, D=A, N=40 (64)
+Error for: : M=SR, A=G100, D=A, N=40 = Command '['python', 'main.py', '--mode', 'E', '--data', 'A', '--model', 'SR', '--approximation', 'G100', '--nsamples', '40', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=C100, D=D, N=40 (64)
+Error for: : M=SR, A=C100, D=D, N=40 = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'SR', '--approximation', 'C100', '--nsamples', '40', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=G100, D=D, N=40 (64)
+Error for: : M=SR, A=G100, D=D, N=40 = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'SR', '--approximation', 'G100', '--nsamples', '40', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=C100, D=M, N=40 (64)
+Error for: : M=SR, A=C100, D=M, N=40 = Command '['python', 'main.py', '--mode', 'E', '--data', 'M', '--model', 'SR', '--approximation', 'C100', '--nsamples', '40', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=G100, D=M, N=40 (64)
+Error for: : M=SR, A=G100, D=M, N=40 = Command '['python', 'main.py', '--mode', 'E', '--data', 'M', '--model', 'SR', '--approximation', 'G100', '--nsamples', '40', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=C100, D=W, N=40 (64)
+Error for: : M=SR, A=C100, D=W, N=40 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'C100', '--nsamples', '40', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=G100, D=W, N=40 (64)
+Error for: : M=SR, A=G100, D=W, N=40 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'G100', '--nsamples', '40', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=C100, D=A, N=100 (64)
+Error for: : M=SR, A=C100, D=A, N=100 = Command '['python', 'main.py', '--mode', 'E', '--data', 'A', '--model', 'SR', '--approximation', 'C100', '--nsamples', '100', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=G100, D=A, N=100 (64)
+Error for: : M=SR, A=G100, D=A, N=100 = Command '['python', 'main.py', '--mode', 'E', '--data', 'A', '--model', 'SR', '--approximation', 'G100', '--nsamples', '100', '--eval_method', 'F']' returned non-zero exit status 1. (64)
+Started Fidelity: : M=SR, A=C100, D=D, N=100 (64)
+Finished
+Started Fidelity: : M=SR, A=G100, D=D, N=100 (64)
+Finished
+Started Fidelity: : M=SR, A=C100, D=M, N=100 (64)
+Finished
+Started Fidelity: : M=SR, A=G100, D=M, N=100 (64)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=70 (1)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=W, N=16 (2)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=60 (3)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=1000 (4)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=25 (1)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=50 (2)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=75 (3)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=100 (4)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=200 (5)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=300 (6)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=400 (7)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=500 (8)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=600 (9)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=700 (10)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=800 (11)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=900 (12)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=1000 (13)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=1500 (14)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=2000 (15)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=2500 (16)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=30 (17)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=50 (18)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=100 (19)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=200 (20)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=300 (21)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=400 (22)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=500 (23)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=600 (24)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=700 (25)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=800 (26)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=900 (27)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=1000 (28)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=1150 (29)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=1300 (30)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=1500 (31)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=2000 (32)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=2500 (33)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=3000 (34)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=3500 (35)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=4000 (36)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=4500 (37)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=5000 (38)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=5500 (39)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=6000 (40)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=7000 (41)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=8000 (42)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=9000 (43)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=10000 (44)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=12000 (45)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=30 (46)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=50 (47)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=100 (48)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=150 (49)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=200 (50)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=250 (51)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=300 (52)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=350 (53)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=400 (54)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=450 (55)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=500 (56)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=550 (57)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=600 (58)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=650 (59)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=700 (60)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=750 (61)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=800 (62)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=850 (63)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=1000 (64)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=3000 (65)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=5000 (66)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=10000 (67)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=15000 (68)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=20000 (69)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=25000 (70)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=30000 (71)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=35000 (72)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=40000 (73)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=45000 (74)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=50000 (75)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=100 (76)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=500 (77)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=1000 (78)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=2000 (79)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=3000 (80)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=4000 (81)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=5000 (82)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=6000 (83)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=7000 (84)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=8000 (85)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=9000 (86)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=10000 (87)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=11000 (88)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=12000 (89)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=13000 (90)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=14000 (91)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=15000 (92)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=16000 (93)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=17000 (94)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=18000 (95)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=30 (96)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=50 (97)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=100 (98)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=200 (99)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=300 (100)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=400 (101)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=500 (102)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=600 (103)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=700 (104)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=800 (105)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=900 (106)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=1000 (107)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=1100 (108)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=30 (109)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=50 (110)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=100 (111)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=200 (112)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=300 (113)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=400 (114)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=500 (115)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=600 (116)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=700 (117)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=800 (118)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=900 (119)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=1000 (120)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=1500 (121)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=2000 (122)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=2500 (123)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=3000 (124)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=3500 (125)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=4000 (126)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=4500 (127)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=5000 (128)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=5500 (129)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=6000 (130)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=9000 (131)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=12000 (132)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=15000 (133)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=18000 (134)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=21000 (135)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=24000 (136)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=27000 (137)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=30000 (138)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=33000 (139)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=36000 (140)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=30 (141)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=250 (142)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=600 (143)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=1000 (144)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=1500 (145)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=2000 (146)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=3000 (147)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=4000 (148)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=6000 (149)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=8000 (150)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=10000 (151)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=12000 (152)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=16000 (153)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=20000 (154)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=27850 (155)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=50 (156)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=100 (157)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=200 (158)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=300 (159)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=400 (160)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=500 (161)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=750 (162)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=1000 (163)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=2000 (164)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=3000 (165)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=4000 (166)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=5000 (167)
+Error for: : M=SR, A=S, D=W, N=5000 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'S', '--nsamples', '5000', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (167)
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=1 (168)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=100 (169)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=500 (170)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=1000 (171)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=5000 (172)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=10000 (173)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=20000 (174)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=50000 (175)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=100000 (176)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=150000 (177)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=200000 (178)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=240000 (179)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=1 (180)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=10 (181)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=20 (182)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=30 (183)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=40 (184)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=50 (185)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=75 (186)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=100 (187)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=125 (188)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=150 (189)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=200 (190)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=250 (191)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=300 (192)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=1 (193)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=10 (194)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=20 (195)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=30 (196)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=40 (197)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=50 (198)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=75 (199)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=100 (200)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=150 (201)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=200 (202)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=250 (203)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=300 (204)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=350 (205)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=1 (206)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=10 (207)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=25 (208)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=50 (209)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=75 (210)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=100 (211)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=150 (212)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=200 (213)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=250 (214)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=300 (215)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=350 (216)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=400 (217)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=450 (218)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=1 (219)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=3 (220)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=5 (221)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=10 (222)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=15 (223)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=20 (224)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=30 (225)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=40 (226)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=50 (227)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=60 (228)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=70 (229)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=1 (230)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=2 (231)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=3 (232)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=4 (233)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=5 (234)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=7 (235)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=10 (236)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=15 (237)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=25 (238)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=39 (239)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=W, N=1 (240)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=W, N=2 (241)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=1 (242)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=3 (243)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=5 (244)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=7 (245)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=10 (246)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=15 (247)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=20 (248)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=25 (249)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=30 (250)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=35 (251)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=40 (252)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=12 (253)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=16 (254)
+Error for: : M=LR, A=C, D=D, N=16 = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '16', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (254)
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=20 (255)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=26 (256)
+Error for: : M=LR, A=C, D=D, N=26 = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '26', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (256)
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=30 (257)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=40 (258)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=50 (259)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=60 (260)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=70 (261)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=80 (262)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=90 (263)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=100 (264)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=120 (265)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=140 (266)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=160 (267)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=12 (268)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=50 (269)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=100 (270)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=200 (271)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=300 (272)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=400 (273)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=500 (274)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=750 (275)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=1000 (276)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=1250 (277)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=1500 (278)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=1750 (279)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=2048 (280)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=12 (281)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=50 (282)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=100 (283)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=200 (284)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=300 (285)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=400 (286)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=500 (287)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=750 (288)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=1000 (289)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=1250 (290)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=1500 (291)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=1750 (292)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=2048 (293)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=12 (294)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=50 (295)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=100 (296)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=200 (297)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=300 (298)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=400 (299)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=500 (300)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=750 (301)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=1000 (302)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=1250 (303)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=1500 (304)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=1750 (305)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=2048 (306)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=W, N=12 (307)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=W, N=14 (308)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=W, N=16 (309)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=W, N=18 (310)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=W, N=20 (311)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=12 (312)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=50 (313)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=100 (314)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=200 (315)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=300 (316)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=400 (317)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=500 (318)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=750 (319)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=1000 (320)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=1250 (321)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=1500 (322)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=1750 (323)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=2048 (324)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=12 (325)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=20 (326)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=30 (327)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=40 (328)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=50 (329)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=60 (330)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=70 (331)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=80 (332)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=90 (333)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=100 (334)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=110 (335)
+Error for: : M=SR, A=C, D=W, N=110 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'C', '--nsamples', '110', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (335)
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=130 (336)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=150 (337)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=250 (338)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=350 (339)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=500 (340)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=700 (341)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=1024 (342)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=2048 (343)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=12 (344)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=50 (345)
+Started: D=D, M=LR, A=C100, D=M, N=50 (1)
+Finished: D=D, M=LR, A=C100, D=M, N=50 (1)
+Started: D=D, M=LR, A=G100, D=M, N=50 (2)
+Finished: D=D, M=LR, A=G100, D=M, N=50 (2)
+Started: D=D, M=SR, A=S, D=W, N=5000 (3)
+Finished: D=D, M=SR, A=S, D=W, N=5000 (3)
+Started: D=D, M=SR, A=K, D=A, N=5 (4)
+Finished: D=D, M=SR, A=K, D=A, N=5 (4)
+Started: D=D, M=SR, A=K, D=A, N=6 (5)
+Finished: D=D, M=SR, A=K, D=A, N=6 (5)
+Started: D=D, M=SR, A=S, D=A, N=3000 (6)
+Finished: D=D, M=SR, A=S, D=A, N=3000 (6)
+Started: D=D, M=SR, A=S, D=A, N=4000 (7)
+Finished: D=D, M=SR, A=S, D=A, N=4000 (7)
+Started: D=D, M=SR, A=S, D=A, N=5000 (8)
+Finished: D=D, M=SR, A=S, D=A, N=5000 (8)
+Started: D=D, M=SR, A=S, D=A, N=6000 (9)
+Finished: D=D, M=SR, A=S, D=A, N=6000 (9)
+Started: D=D, M=SR, A=S, D=A, N=7000 (10)
+Finished: D=D, M=SR, A=S, D=A, N=7000 (10)
+Started: D=D, M=SR, A=S, D=A, N=8000 (11)
+Finished: D=D, M=SR, A=S, D=A, N=8000 (11)
+Started: D=D, M=SR, A=S, D=A, N=9000 (12)
+Started RBO: : M=LR, A=C100, D=M, N=50 - Number(1)
+Finished
+Started RBO: : M=LR, A=G100, D=M, N=50 - Number(2)
+Finished
+Started RBO: : M=SR, A=S, D=W, N=5000 - Number(3)
+Finished
+Started RBO: : M=SR, A=K, D=A, N=5 - Number(4)
+Finished
+Started RBO: : M=SR, A=K, D=A, N=6 - Number(5)
+Finished
+Started RBO: : M=SR, A=S, D=A, N=3000 - Number(6)
+Finished
+Started RBO: : M=SR, A=S, D=A, N=4000 - Number(7)
+Finished
+Started RBO: : M=SR, A=S, D=A, N=5000 - Number(8)
+Finished
+Started RBO: : M=SR, A=S, D=A, N=6000 - Number(9)
+Finished
+Started RBO: : M=SR, A=S, D=A, N=7000 - Number(10)
+Finished
+Started RBO: : M=SR, A=S, D=A, N=8000 - Number(11)
+Finished
+Started Fidelity: : M=LR, A=C100, D=M, N=50 (12)
+Finished
+Started Fidelity: : M=LR, A=G100, D=M, N=50 (13)
+Finished
+Started Fidelity: : M=SR, A=S, D=W, N=5000 (14)
+Finished
+Started Fidelity: : M=SR, A=K, D=A, N=5 (15)
+Finished
+Started Fidelity: : M=SR, A=K, D=A, N=6 (16)
+Finished
+Started Fidelity: : M=SR, A=S, D=A, N=3000 (17)
+Finished
+Started Fidelity: : M=SR, A=S, D=A, N=4000 (18)
+Finished
+Started Fidelity: : M=SR, A=S, D=A, N=5000 (19)
+Finished
+Started Fidelity: : M=SR, A=S, D=A, N=6000 (20)
+Finished
+Started Fidelity: : M=SR, A=S, D=A, N=7000 (21)
+Finished
+Started Fidelity: : M=SR, A=S, D=A, N=8000 (22)
+Finished
+Started: D=D, M=SR, A=S, D=M, N=35000 (1)
+Finished: D=D, M=SR, A=S, D=M, N=35000 (1)
+Started: D=D, M=SR, A=S, D=M, N=40000 (2)
+Started: D=D, M=SR, A=S, D=M, N=40000 (1)
+Started RBO: : M=SR, A=S, D=M, N=35000 - Number(1)
+Finished
+Started Fidelity: : M=SR, A=S, D=M, N=35000 (2)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=M, N=100 (1)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=M, N=100 (2)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=750 (3)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=120000 (4)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=50 (5)
+Started Fidelity (MAE): : M=SR, A=C100, D=W, N=12 (1)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=W, N=12 (2)
+Finished
+Started Fidelity (MAE): : M=SR, A=K0, D=W, N=2 (3)
+Error for: : M=SR, A=K0, D=W, N=2 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'K0', '--nsamples', '2', '--eval_method', 'F_MAE']' returned non-zero exit status 2. (3)
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=5000 (4)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=50 (5)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=100 (6)
+Started Fidelity (MAE): : M=SR, A=G100, D=W, N=12 (1)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=W, N=2 (2)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=50 (3)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=100 (4)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=200 (5)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=300 (6)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=400 (7)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=500 (8)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=750 (9)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=1000 (10)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=1250 (11)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=1500 (12)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=1750 (13)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=2048 (14)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=12 (15)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=16 (16)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=20 (17)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=26 (18)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=30 (19)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=40 (20)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=50 (21)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=60 (22)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=70 (23)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=80 (24)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=90 (25)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=100 (26)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=120 (27)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=140 (28)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=160 (29)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=180 (30)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=260 (31)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=12 (32)
+Started Fidelity (MAE): : M=LR, A=C100, D=M, N=50 (1)
+Finished
+Started Fidelity (MAE): : M=LR, A=G100, D=M, N=50 (2)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=8000 (3)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=50000 (4)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=12 (5)
+Started Fidelity (MAE): : M=RR, A=G100, D=D, N=24 (1)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=D, N=24 (2)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=12 (3)
+Started Fidelity (MAE): : M=SR, A=G100, D=M, N=24 (1)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=M, N=24 (2)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=30 (3)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=10000 (4)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=12 (5)
+Started: D=D, M=XR, A=C100, D=W, N=20 (1)
+Started: D=D, M=XR, A=C100, D=W, N=18 (1)
+Finished: D=D, M=XR, A=C100, D=W, N=18 (1)
+Started RBO: : M=XR, A=C100, D=W, N=18 - Number(1)
+Finished
+Started MSE: : M=XR, A=C100, D=W, N=18 - Number(1)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=W, N=18 (1)
+Finished
+Started: D=D, M=XR, A=G100, D=W, N=18 (2)
+Finished: D=D, M=XR, A=G100, D=W, N=18 (2)
+Started RBO: : M=XR, A=G100, D=W, N=18 - Number(2)
+Finished
+Started MSE: : M=XR, A=G100, D=W, N=18 - Number(2)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=W, N=18 (2)
+Finished
+Started: D=D, M=XR, A=C100, D=D, N=16 (3)
+Finished: D=D, M=XR, A=C100, D=D, N=16 (3)
+Started RBO: : M=XR, A=C100, D=D, N=16 - Number(3)
+Finished
+Started MSE: : M=XR, A=C100, D=D, N=16 - Number(3)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=D, N=16 (3)
+Finished
+Started: D=D, M=XR, A=G100, D=D, N=16 (4)
+Finished: D=D, M=XR, A=G100, D=D, N=16 (4)
+Started RBO: : M=XR, A=G100, D=D, N=16 - Number(4)
+Finished
+Started MSE: : M=XR, A=G100, D=D, N=16 - Number(4)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=D, N=16 (4)
+Finished
+Started: D=D, M=XR, A=C100, D=M, N=450 (5)
+Finished: D=D, M=XR, A=C100, D=M, N=450 (5)
+Started RBO: : M=XR, A=C100, D=M, N=450 - Number(5)
+Finished
+Started MSE: : M=XR, A=C100, D=M, N=450 - Number(5)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=450 (5)
+Finished
+Started: D=D, M=XR, A=G100, D=M, N=450 (6)
+Finished: D=D, M=XR, A=G100, D=M, N=450 (6)
+Started RBO: : M=XR, A=G100, D=M, N=450 - Number(6)
+Finished
+Started MSE: : M=XR, A=G100, D=M, N=450 - Number(6)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=450 (6)
+Finished
+Started: D=D, M=XR, A=C100, D=M, N=600 (7)
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=1000 (1)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=50 (2)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=5 (3)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=3000 (4)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=12 (5)
+Started: D=D, M=XR, A=C100, D=M, N=600 (1)
+Finished: D=D, M=XR, A=C100, D=M, N=600 (1)
+Started RBO: : M=XR, A=C100, D=M, N=600 - Number(1)
+Finished
+Started MSE: : M=XR, A=C100, D=M, N=600 - Number(1)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=600 (1)
+Finished
+Started: D=D, M=XR, A=G100, D=M, N=600 (2)
+Finished: D=D, M=XR, A=G100, D=M, N=600 (2)
+Started RBO: : M=XR, A=G100, D=M, N=600 - Number(2)
+Finished
+Started MSE: : M=XR, A=G100, D=M, N=600 - Number(2)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=600 (2)
+Finished
+Started: D=D, M=XR, A=S, D=M, N=400000 (3)
+Finished: D=D, M=XR, A=S, D=M, N=400000 (3)
+Started RBO: : M=XR, A=S, D=M, N=400000 - Number(3)
+Finished
+Started MSE: : M=XR, A=S, D=M, N=400000 - Number(3)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=400000 (3)
+Finished
+Started: D=D, M=XR, A=S, D=M, N=500000 (4)
+Finished: D=D, M=XR, A=S, D=M, N=500000 (4)
+Started RBO: : M=XR, A=S, D=M, N=500000 - Number(4)
+Finished
+Started MSE: : M=XR, A=S, D=M, N=500000 - Number(4)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=500000 (4)
+Finished
+Started: D=D, M=XR, A=S, D=M, N=600000 (5)
+Finished: D=D, M=XR, A=S, D=M, N=600000 (5)
+Started RBO: : M=XR, A=S, D=M, N=600000 - Number(5)
+Finished
+Started MSE: : M=XR, A=S, D=M, N=600000 - Number(5)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=600000 (5)
+Finished
+Started: D=D, M=SR, A=K, D=A, N=7 (6)
+Finished: D=D, M=SR, A=K, D=A, N=7 (6)
+Started RBO: : M=SR, A=K, D=A, N=7 - Number(6)
+Finished
+Started MSE: : M=SR, A=K, D=A, N=7 - Number(6)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=A, N=7 (6)
+Finished
+Started: D=D, M=SR, A=S, D=A, N=9000 (7)
+Finished: D=D, M=SR, A=S, D=A, N=9000 (7)
+Started RBO: : M=SR, A=S, D=A, N=9000 - Number(7)
+Finished
+Started MSE: : M=SR, A=S, D=A, N=9000 - Number(7)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=9000 (7)
+Finished
+Started: D=D, M=SR, A=S, D=A, N=10000 (8)
+Finished: D=D, M=SR, A=S, D=A, N=10000 (8)
+Started RBO: : M=SR, A=S, D=A, N=10000 - Number(8)
+Finished
+Started MSE: : M=SR, A=S, D=A, N=10000 - Number(8)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=10000 (8)
+Finished
+Started: D=D, M=SR, A=S, D=M, N=40000 (9)
+Finished: D=D, M=SR, A=S, D=M, N=40000 (9)
+Started RBO: : M=SR, A=S, D=M, N=40000 - Number(9)
+Finished
+Started MSE: : M=SR, A=S, D=M, N=40000 - Number(9)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=40000 (9)
+Finished
+Started: D=D, M=SR, A=S, D=M, N=45000 (10)
+Finished: D=D, M=SR, A=S, D=M, N=45000 (10)
+Started RBO: : M=SR, A=S, D=M, N=45000 - Number(10)
+Finished
+Started MSE: : M=SR, A=S, D=M, N=45000 - Number(10)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=45000 (10)
+Finished
+Started: D=D, M=SR, A=S, D=M, N=50000 (11)
+Finished: D=D, M=SR, A=S, D=M, N=50000 (11)
+Started RBO: : M=SR, A=S, D=M, N=50000 - Number(11)
+Finished
+Started MSE: : M=SR, A=S, D=M, N=50000 - Number(11)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=50000 (11)
+Finished
+Started: D=D, M=SR, A=S, D=M, N=55000 (12)
+Finished: D=D, M=SR, A=S, D=M, N=55000 (12)
+Started RBO: : M=SR, A=S, D=M, N=55000 - Number(12)
+Finished
+Started MSE: : M=SR, A=S, D=M, N=55000 - Number(12)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=55000 (12)
+Finished
+Started: D=D, M=SR, A=S, D=M, N=60000 (13)
+Finished: D=D, M=SR, A=S, D=M, N=60000 (13)
+Started RBO: : M=SR, A=S, D=M, N=60000 - Number(13)
+Finished
+Started MSE: : M=SR, A=S, D=M, N=60000 - Number(13)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=60000 (13)
+Finished
+Started: D=D, M=SR, A=S, D=M, N=120000 (14)
+Finished: D=D, M=SR, A=S, D=M, N=120000 (14)
+Started RBO: : M=SR, A=S, D=M, N=120000 - Number(14)
+Finished
+Started MSE: : M=SR, A=S, D=M, N=120000 - Number(14)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=120000 (14)
+Finished
+Started: D=D, M=SR, A=S, D=M, N=180000 (15)
+Finished: D=D, M=SR, A=S, D=M, N=180000 (15)
+Started RBO: : M=SR, A=S, D=M, N=180000 - Number(15)
+Finished
+Started MSE: : M=SR, A=S, D=M, N=180000 - Number(15)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=180000 (15)
+Finished
+Started: D=D, M=SR, A=K, D=M, N=80 (16)
+Finished: D=D, M=SR, A=K, D=M, N=80 (16)
+Started RBO: : M=SR, A=K, D=M, N=80 - Number(16)
+Finished
+Started MSE: : M=SR, A=K, D=M, N=80 - Number(16)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=80 (16)
+Finished
+Started: D=D, M=SR, A=K, D=M, N=90 (17)
+Finished: D=D, M=SR, A=K, D=M, N=90 (17)
+Started RBO: : M=SR, A=K, D=M, N=90 - Number(17)
+Finished
+Started MSE: : M=SR, A=K, D=M, N=90 - Number(17)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=90 (17)
+Finished
+Started: D=D, M=SR, A=K, D=M, N=100 (18)
+Started RBO: : M=XR, A=C100, D=M, N=500 - Number(1)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=500 - Number(2)
+Finished
+Started RBO: : M=XR, A=C100, D=M, N=600 - Number(3)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=600 - Number(4)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=500 (5)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=500 (6)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=600 (7)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=600 (8)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=500 (1)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=500 (2)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=600 (3)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=600 (4)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=12 (5)
+Started: D=D, M=XR, A=K, D=M, N=4000 (1)
+Finished: D=D, M=XR, A=K, D=M, N=4000 (1)
+Started RBO: : M=XR, A=K, D=M, N=4000 - Number(1)
+Finished
+Started MSE: : M=XR, A=K, D=M, N=4000 - Number(1)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=4000 (1)
+Finished
+Started: D=D, M=XR, A=K, D=M, N=5000 (2)
+Finished: D=D, M=XR, A=K, D=M, N=5000 (2)
+Started RBO: : M=XR, A=K, D=M, N=5000 - Number(2)
+Finished
+Started MSE: : M=XR, A=K, D=M, N=5000 - Number(2)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=5000 (2)
+Finished
+Started: D=D, M=XR, A=K, D=M, N=6000 (3)
+Finished: D=D, M=XR, A=K, D=M, N=6000 (3)
+Started RBO: : M=XR, A=K, D=M, N=6000 - Number(3)
+Finished
+Started MSE: : M=XR, A=K, D=M, N=6000 - Number(3)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=6000 (3)
+Finished
+Started: D=D, M=XR, A=C100, D=M, N=1000 (4)
+Finished: D=D, M=XR, A=C100, D=M, N=1000 (4)
+Started RBO: : M=XR, A=C100, D=M, N=1000 - Number(4)
+Finished
+Started MSE: : M=XR, A=C100, D=M, N=1000 - Number(4)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=1000 (4)
+Finished
+Started: D=D, M=XR, A=G100, D=M, N=1000 (5)
+Finished: D=D, M=XR, A=G100, D=M, N=1000 (5)
+Started RBO: : M=XR, A=G100, D=M, N=1000 - Number(5)
+Finished
+Started MSE: : M=XR, A=G100, D=M, N=1000 - Number(5)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=1000 (5)
+Finished
+Started: D=D, M=XR, A=C100, D=M, N=2000 (6)
+Finished: D=D, M=XR, A=C100, D=M, N=2000 (6)
+Started RBO: : M=XR, A=C100, D=M, N=2000 - Number(6)
+Finished
+Started MSE: : M=XR, A=C100, D=M, N=2000 - Number(6)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=2000 (6)
+Finished
+Started: D=D, M=XR, A=G100, D=M, N=2000 (7)
+Finished: D=D, M=XR, A=G100, D=M, N=2000 (7)
+Started RBO: : M=XR, A=G100, D=M, N=2000 - Number(7)
+Finished
+Started MSE: : M=XR, A=G100, D=M, N=2000 - Number(7)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=2000 (7)
+Finished
+Started: D=D, M=SR, A=K, D=M, N=110 (8)
+Finished: D=D, M=SR, A=K, D=M, N=110 (8)
+Started RBO: : M=SR, A=K, D=M, N=110 - Number(8)
+Finished
+Started MSE: : M=SR, A=K, D=M, N=110 - Number(8)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=110 (8)
+Finished
+Started: D=D, M=SR, A=K, D=M, N=140 (9)
+Finished: D=D, M=SR, A=K, D=M, N=140 (9)
+Started RBO: : M=SR, A=K, D=M, N=140 - Number(9)
+Finished
+Started MSE: : M=SR, A=K, D=M, N=140 - Number(9)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=140 (9)
+Finished
+Started: D=D, M=SR, A=K, D=M, N=280 (10)
+Finished: D=D, M=SR, A=K, D=M, N=280 (10)
+Started RBO: : M=SR, A=K, D=M, N=280 - Number(10)
+Finished
+Started MSE: : M=SR, A=K, D=M, N=280 - Number(10)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=280 (10)
+Finished
+Started: D=D, M=SR, A=K, D=M, N=420 (11)
+Finished: D=D, M=SR, A=K, D=M, N=420 (11)
+Started RBO: : M=SR, A=K, D=M, N=420 - Number(11)
+Finished
+Started MSE: : M=SR, A=K, D=M, N=420 - Number(11)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=420 (11)
+Finished
+Started: D=D, M=SR, A=C100, D=D, N=24 (12)
+Finished: D=D, M=SR, A=C100, D=D, N=24 (12)
+Started RBO: : M=SR, A=C100, D=D, N=24 - Number(12)
+Finished
+Started MSE: : M=SR, A=C100, D=D, N=24 - Number(12)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=D, N=24 (12)
+Finished
+Started: D=D, M=SR, A=G100, D=D, N=24 (13)
+Finished: D=D, M=SR, A=G100, D=D, N=24 (13)
+Started RBO: : M=SR, A=G100, D=D, N=24 - Number(13)
+Finished
+Started MSE: : M=SR, A=G100, D=D, N=24 - Number(13)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=D, N=24 (13)
+Finished
+Started: D=D, M=SR, A=C100, D=D, N=40 (14)
+Finished: D=D, M=SR, A=C100, D=D, N=40 (14)
+Started RBO: : M=SR, A=C100, D=D, N=40 - Number(14)
+Finished
+Started MSE: : M=SR, A=C100, D=D, N=40 - Number(14)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=D, N=40 (14)
+Finished
+Started: D=D, M=SR, A=G100, D=D, N=40 (15)
+Finished: D=D, M=SR, A=G100, D=D, N=40 (15)
+Started RBO: : M=SR, A=G100, D=D, N=40 - Number(15)
+Finished
+Started MSE: : M=SR, A=G100, D=D, N=40 - Number(15)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=D, N=40 (15)
+Finished
+Started: D=D, M=SR, A=C100, D=M, N=200 (16)
+Finished: D=D, M=SR, A=C100, D=M, N=200 (16)
+Started RBO: : M=SR, A=C100, D=M, N=200 - Number(16)
+Finished
+Started MSE: : M=SR, A=C100, D=M, N=200 - Number(16)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=M, N=200 (16)
+Finished
+Started: D=D, M=SR, A=G100, D=M, N=200 (17)
+Finished: D=D, M=SR, A=G100, D=M, N=200 (17)
+Started RBO: : M=SR, A=G100, D=M, N=200 - Number(17)
+Finished
+Started MSE: : M=SR, A=G100, D=M, N=200 - Number(17)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=M, N=200 (17)
+Finished
+Started: D=D, M=SR, A=C100, D=M, N=300 (18)
+Finished: D=D, M=SR, A=C100, D=M, N=300 (18)
+Started RBO: : M=SR, A=C100, D=M, N=300 - Number(18)
+Finished
+Started MSE: : M=SR, A=C100, D=M, N=300 - Number(18)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=M, N=300 (18)
+Finished
+Started: D=D, M=SR, A=G100, D=M, N=300 (19)
+Finished: D=D, M=SR, A=G100, D=M, N=300 (19)
+Started RBO: : M=SR, A=G100, D=M, N=300 - Number(19)
+Finished
+Started MSE: : M=SR, A=G100, D=M, N=300 - Number(19)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=M, N=300 (19)
+Finished
+Started: D=D, M=SR, A=C100, D=A, N=12 (20)
+Started: D=D, M=SR, A=C100, D=A, N=12 (1)
+Finished: D=D, M=SR, A=C100, D=A, N=12 (1)
+Started RBO: : M=SR, A=C100, D=A, N=12 - Number(1)
+Finished
+Started MSE: : M=SR, A=C100, D=A, N=12 - Number(1)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=A, N=12 (1)
+Finished
+Started: D=D, M=SR, A=G100, D=A, N=12 (2)
+Started RBO: : M=XR, A=C100, D=M, N=450 - Number(1)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=450 - Number(2)
+Finished
+Started RBO: : M=XR, A=C100, D=M, N=500 - Number(3)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=500 - Number(4)
+Finished
+Started RBO: : M=XR, A=C100, D=M, N=600 - Number(5)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=600 - Number(6)
+Finished
+Started RBO: : M=XR, A=C100, D=M, N=1000 - Number(7)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=1000 - Number(8)
+Finished
+Started RBO: : M=XR, A=C100, D=M, N=2000 - Number(9)
+Finished
+Started RBO: : M=XR, A=G100, D=M, N=2000 - Number(10)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=450 (11)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=450 (12)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=500 (13)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=500 (14)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=600 (15)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=600 (16)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=1000 (17)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=1000 (18)
+Finished
+Started Fidelity: : M=XR, A=C100, D=M, N=2000 (19)
+Finished
+Started Fidelity: : M=XR, A=G100, D=M, N=2000 (20)
+Finished
+Started: D=D, M=XR, A=G100, D=M, N=50000 (1)
+Started Fidelity (MAE): : M=SR, A=C100, D=A, N=24 (1)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=A, N=24 (2)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=25 (3)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=50 (4)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=75 (5)
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=25 (1)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=50 (2)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=75 (3)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=100 (4)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=200 (5)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=300 (6)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=400 (7)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=500 (8)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=600 (9)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=700 (10)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=800 (11)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=900 (12)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=1000 (13)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=1500 (14)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=2000 (15)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=D, N=2500 (16)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=30 (17)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=50 (18)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=100 (19)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=200 (20)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=300 (21)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=400 (22)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=500 (23)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=600 (24)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=700 (25)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=800 (26)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=900 (27)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=1000 (28)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=1150 (29)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=1300 (30)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=1500 (31)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=2000 (32)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=2500 (33)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=3000 (34)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=3500 (35)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=4000 (36)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=4500 (37)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=5000 (38)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=5500 (39)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=6000 (40)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=7000 (41)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=8000 (42)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=9000 (43)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=10000 (44)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=D, N=12000 (45)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=30 (46)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=50 (47)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=100 (48)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=150 (49)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=200 (50)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=250 (51)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=300 (52)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=350 (53)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=400 (54)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=450 (55)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=500 (56)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=550 (57)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=600 (58)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=650 (59)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=700 (60)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=750 (61)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=800 (62)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=850 (63)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=1000 (64)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=3000 (65)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=5000 (66)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=10000 (67)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=15000 (68)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=20000 (69)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=25000 (70)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=30000 (71)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=35000 (72)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=40000 (73)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=45000 (74)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=D, N=50000 (75)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=100 (76)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=500 (77)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=1000 (78)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=2000 (79)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=3000 (80)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=4000 (81)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=5000 (82)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=6000 (83)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=7000 (84)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=8000 (85)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=9000 (86)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=10000 (87)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=11000 (88)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=12000 (89)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=13000 (90)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=14000 (91)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=15000 (92)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=16000 (93)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=17000 (94)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=D, N=18000 (95)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=30 (96)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=50 (97)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=100 (98)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=200 (99)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=300 (100)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=400 (101)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=500 (102)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=600 (103)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=700 (104)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=800 (105)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=900 (106)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=1000 (107)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=W, N=1100 (108)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=30 (109)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=50 (110)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=100 (111)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=200 (112)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=300 (113)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=400 (114)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=500 (115)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=600 (116)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=700 (117)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=800 (118)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=900 (119)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=1000 (120)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=1500 (121)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=2000 (122)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=2500 (123)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=3000 (124)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=3500 (125)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=4000 (126)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=4500 (127)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=5000 (128)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=5500 (129)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=6000 (130)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=9000 (131)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=12000 (132)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=15000 (133)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=18000 (134)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=21000 (135)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=24000 (136)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=27000 (137)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=30000 (138)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=33000 (139)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=W, N=36000 (140)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=30 (141)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=250 (142)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=600 (143)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=1000 (144)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=1500 (145)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=2000 (146)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=3000 (147)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=4000 (148)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=6000 (149)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=8000 (150)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=10000 (151)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=12000 (152)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=16000 (153)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=20000 (154)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=W, N=27850 (155)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=50 (156)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=100 (157)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=200 (158)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=300 (159)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=400 (160)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=500 (161)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=750 (162)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=1000 (163)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=2000 (164)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=3000 (165)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=4000 (166)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=W, N=5000 (167)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=1 (168)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=100 (169)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=500 (170)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=1000 (171)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=5000 (172)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=10000 (173)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=20000 (174)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=50000 (175)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=100000 (176)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=150000 (177)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=200000 (178)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=D, N=240000 (179)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=1 (180)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=10 (181)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=20 (182)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=30 (183)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=40 (184)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=50 (185)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=75 (186)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=100 (187)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=125 (188)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=150 (189)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=200 (190)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=250 (191)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=D, N=300 (192)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=1 (193)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=10 (194)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=20 (195)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=30 (196)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=40 (197)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=50 (198)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=75 (199)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=100 (200)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=150 (201)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=200 (202)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=250 (203)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=300 (204)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=D, N=350 (205)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=1 (206)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=10 (207)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=25 (208)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=50 (209)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=75 (210)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=100 (211)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=150 (212)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=200 (213)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=250 (214)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=300 (215)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=350 (216)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=400 (217)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=D, N=450 (218)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=1 (219)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=3 (220)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=5 (221)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=10 (222)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=15 (223)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=20 (224)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=30 (225)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=40 (226)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=50 (227)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=60 (228)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=W, N=70 (229)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=1 (230)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=2 (231)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=3 (232)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=4 (233)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=5 (234)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=7 (235)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=10 (236)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=15 (237)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=25 (238)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=W, N=39 (239)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=W, N=1 (240)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=W, N=2 (241)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=1 (242)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=3 (243)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=5 (244)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=7 (245)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=10 (246)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=15 (247)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=20 (248)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=25 (249)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=30 (250)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=35 (251)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=W, N=40 (252)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=12 (253)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=16 (254)
+Error for: : M=LR, A=C, D=D, N=16 = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '16', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (254)
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=20 (255)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=26 (256)
+Error for: : M=LR, A=C, D=D, N=26 = Command '['python', 'main.py', '--mode', 'E', '--data', 'D', '--model', 'LR', '--approximation', 'C', '--nsamples', '26', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (256)
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=30 (257)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=40 (258)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=50 (259)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=60 (260)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=70 (261)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=80 (262)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=90 (263)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=100 (264)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=120 (265)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=140 (266)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=D, N=160 (267)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=12 (268)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=50 (269)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=100 (270)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=200 (271)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=300 (272)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=400 (273)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=500 (274)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=750 (275)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=1000 (276)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=1250 (277)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=1500 (278)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=1750 (279)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=D, N=2048 (280)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=12 (281)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=50 (282)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=100 (283)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=200 (284)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=300 (285)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=400 (286)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=500 (287)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=750 (288)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=1000 (289)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=1250 (290)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=1500 (291)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=1750 (292)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=D, N=2048 (293)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=12 (294)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=50 (295)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=100 (296)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=200 (297)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=300 (298)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=400 (299)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=500 (300)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=750 (301)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=1000 (302)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=1250 (303)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=1500 (304)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=1750 (305)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=D, N=2048 (306)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=W, N=12 (307)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=W, N=14 (308)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=W, N=16 (309)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=W, N=18 (310)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=W, N=20 (311)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=12 (312)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=50 (313)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=100 (314)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=200 (315)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=300 (316)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=400 (317)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=500 (318)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=750 (319)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=1000 (320)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=1250 (321)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=1500 (322)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=1750 (323)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=W, N=2048 (324)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=12 (325)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=20 (326)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=30 (327)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=40 (328)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=50 (329)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=60 (330)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=70 (331)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=80 (332)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=90 (333)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=100 (334)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=110 (335)
+Error for: : M=SR, A=C, D=W, N=110 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'SR', '--approximation', 'C', '--nsamples', '110', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (335)
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=130 (336)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=150 (337)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=250 (338)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=350 (339)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=500 (340)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=700 (341)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=1024 (342)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=W, N=2048 (343)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=12 (344)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=50 (345)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=100 (346)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=200 (347)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=300 (348)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=400 (349)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=500 (350)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=750 (351)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=1000 (352)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=1250 (353)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=1500 (354)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=1750 (355)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=W, N=2048 (356)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=12 (357)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=16 (358)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=20 (359)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=26 (360)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=30 (361)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=40 (362)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=50 (363)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=60 (364)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=70 (365)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=80 (366)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=90 (367)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=100 (368)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=120 (369)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=140 (370)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=160 (371)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=180 (372)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=D, N=260 (373)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=12 (374)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=50 (375)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=100 (376)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=200 (377)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=300 (378)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=400 (379)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=500 (380)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=750 (381)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=1000 (382)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=1250 (383)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=1500 (384)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=1750 (385)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=D, N=2048 (386)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=12 (387)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=50 (388)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=100 (389)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=200 (390)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=300 (391)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=400 (392)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=500 (393)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=750 (394)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=1000 (395)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=1250 (396)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=1500 (397)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=1750 (398)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=D, N=2048 (399)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=12 (400)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=50 (401)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=100 (402)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=200 (403)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=300 (404)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=400 (405)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=500 (406)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=750 (407)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=1000 (408)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=1250 (409)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=1500 (410)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=1750 (411)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=D, N=2048 (412)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=12 (413)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=16 (414)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=20 (415)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=26 (416)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=30 (417)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=40 (418)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=50 (419)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=60 (420)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=70 (421)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=80 (422)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=90 (423)
+Error for: : M=LR, A=G, D=W, N=90 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'LR', '--approximation', 'G', '--nsamples', '90', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (423)
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=100 (424)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=W, N=110 (425)
+Error for: : M=LR, A=G, D=W, N=110 = Command '['python', 'main.py', '--mode', 'E', '--data', 'W', '--model', 'LR', '--approximation', 'G', '--nsamples', '110', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (425)
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=12 (426)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=50 (427)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=100 (428)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=200 (429)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=300 (430)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=400 (431)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=500 (432)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=750 (433)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=1000 (434)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=1250 (435)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=1500 (436)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=1750 (437)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=W, N=2048 (438)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=12 (439)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=20 (440)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=30 (441)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=40 (442)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=50 (443)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=60 (444)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=70 (445)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=80 (446)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=90 (447)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=100 (448)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=130 (449)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=150 (450)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=1024 (451)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=W, N=2048 (452)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=12 (453)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=50 (454)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=100 (455)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=200 (456)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=300 (457)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=400 (458)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=500 (459)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=750 (460)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=1000 (461)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=1250 (462)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=1500 (463)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=1750 (464)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=W, N=2048 (465)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=A, N=12 (466)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=A, N=14 (467)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=A, N=16 (468)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=A, N=18 (469)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=12 (470)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=24 (471)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=40 (472)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=60 (473)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=80 (474)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=100 (475)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=150 (476)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=200 (477)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=250 (478)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=300 (479)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=500 (480)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=750 (481)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=A, N=1024 (482)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=10 (483)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=20 (484)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=30 (485)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=40 (486)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=50 (487)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=60 (488)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=70 (489)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=80 (490)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=90 (491)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=100 (492)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=125 (493)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=200 (494)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=300 (495)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=500 (496)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=750 (497)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=A, N=1024 (498)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=12 (499)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=20 (500)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=30 (501)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=40 (502)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=50 (503)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=60 (504)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=70 (505)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=80 (506)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=90 (507)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=100 (508)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=110 (509)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=120 (510)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=130 (511)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=A, N=140 (512)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=12 (513)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=14 (514)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=16 (515)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=18 (516)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=22 (517)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=24 (518)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=26 (519)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=28 (520)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=30 (521)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=32 (522)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=34 (523)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=36 (524)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=38 (525)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=42 (526)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=44 (527)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=46 (528)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=A, N=50 (529)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=12 (530)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=24 (531)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=40 (532)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=60 (533)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=80 (534)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=100 (535)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=150 (536)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=200 (537)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=250 (538)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=300 (539)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=500 (540)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=750 (541)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=A, N=1024 (542)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=12 (543)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=20 (544)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=30 (545)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=40 (546)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=60 (547)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=70 (548)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=80 (549)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=90 (550)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=100 (551)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=125 (552)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=150 (553)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=175 (554)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=500 (555)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=A, N=1024 (556)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=12 (557)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=20 (558)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=30 (559)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=40 (560)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=50 (561)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=60 (562)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=70 (563)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=80 (564)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=90 (565)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=100 (566)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=125 (567)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=150 (568)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=175 (569)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=300 (570)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=A, N=600 (571)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=10 (572)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=30 (573)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=34 (574)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=40 (575)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=44 (576)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=50 (577)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=54 (578)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=60 (579)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=64 (580)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=70 (581)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=74 (582)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=A, N=80 (583)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=1 (584)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=2 (585)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=3 (586)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=4 (587)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=5 (588)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=6 (589)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=7 (590)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=8 (591)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=9 (592)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=10 (593)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=11 (594)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=12 (595)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=13 (596)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=14 (597)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=A, N=15 (598)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=A, N=1 (599)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=A, N=2 (600)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=A, N=3 (601)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=A, N=4 (602)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=A, N=5 (603)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=A, N=6 (604)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=A, N=7 (605)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=1 (606)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=2 (607)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=3 (608)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=4 (609)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=5 (610)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=6 (611)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=7 (612)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=8 (613)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=10 (614)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=11 (615)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=12 (616)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=13 (617)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=14 (618)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=15 (619)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=16 (620)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=17 (621)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=18 (622)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=A, N=19 (623)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=A, N=25 (624)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=A, N=50 (625)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=A, N=75 (626)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=A, N=100 (627)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=A, N=150 (628)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=A, N=200 (629)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=A, N=250 (630)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=A, N=300 (631)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=A, N=400 (632)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=50 (633)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=100 (634)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=200 (635)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=300 (636)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=400 (637)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=500 (638)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=750 (639)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=1000 (640)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=1250 (641)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=1500 (642)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=1750 (643)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=2000 (644)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=2500 (645)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=3000 (646)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=3500 (647)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=A, N=4000 (648)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=20 (649)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=30 (650)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=50 (651)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=80 (652)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=100 (653)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=150 (654)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=200 (655)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=300 (656)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=400 (657)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=500 (658)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=600 (659)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=700 (660)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=800 (661)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=900 (662)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=1000 (663)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=1250 (664)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=1500 (665)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=2000 (666)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=3000 (667)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=4000 (668)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=5000 (669)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=6000 (670)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=7000 (671)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=8000 (672)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=9000 (673)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=A, N=10000 (674)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=20 (675)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=50 (676)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=100 (677)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=200 (678)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=300 (679)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=400 (680)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=500 (681)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=750 (682)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=1000 (683)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=1500 (684)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=2000 (685)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=2500 (686)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=3000 (687)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=4000 (688)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=5000 (689)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=A, N=6000 (690)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=1 (691)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=10 (692)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=50 (693)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=100 (694)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=200 (695)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=300 (696)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=400 (697)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=500 (698)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=1000 (699)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=2000 (700)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=3000 (701)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=4000 (702)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=5000 (703)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=6000 (704)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=7000 (705)
+Finished
+Started Fidelity (MAE): : M=LR, A=K, D=M, N=8000 (706)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=1 (707)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=5 (708)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=10 (709)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=20 (710)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=30 (711)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=40 (712)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=50 (713)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=75 (714)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=100 (715)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=150 (716)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=200 (717)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=250 (718)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=300 (719)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=500 (720)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=750 (721)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=1000 (722)
+Finished
+Started Fidelity (MAE): : M=RR, A=K, D=M, N=1250 (723)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=1 (724)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=2 (725)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=3 (726)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=4 (727)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=5 (728)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=6 (729)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=8 (730)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=10 (731)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=12 (732)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=12 (733)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=20 (734)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=30 (735)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=40 (736)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=50 (737)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=60 (738)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=70 (739)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=80 (740)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=90 (741)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=100 (742)
+Error for: : M=SR, A=K, D=M, N=100 = Command '['python', 'main.py', '--mode', 'E', '--data', 'M', '--model', 'SR', '--approximation', 'K', '--nsamples', '100', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (742)
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=110 (743)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=120 (744)
+Error for: : M=SR, A=K, D=M, N=120 = Command '['python', 'main.py', '--mode', 'E', '--data', 'M', '--model', 'SR', '--approximation', 'K', '--nsamples', '120', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (744)
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=130 (745)
+Error for: : M=SR, A=K, D=M, N=130 = Command '['python', 'main.py', '--mode', 'E', '--data', 'M', '--model', 'SR', '--approximation', 'K', '--nsamples', '130', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (745)
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=140 (746)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=280 (747)
+Finished
+Started Fidelity (MAE): : M=SR, A=K, D=M, N=420 (748)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=1 (749)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=5 (750)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=10 (751)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=25 (752)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=50 (753)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=75 (754)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=100 (755)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=200 (756)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=300 (757)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=400 (758)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=500 (759)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=600 (760)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=750 (761)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=900 (762)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=1100 (763)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=1300 (764)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=1500 (765)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=1700 (766)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=2000 (767)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=3000 (768)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=4000 (769)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=5000 (770)
+Finished
+Started Fidelity (MAE): : M=XR, A=K, D=M, N=6000 (771)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=30 (772)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=100 (773)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=200 (774)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=300 (775)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=400 (776)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=500 (777)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=800 (778)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=1500 (779)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=3000 (780)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=5000 (781)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=10000 (782)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=20000 (783)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=30000 (784)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=40000 (785)
+Finished
+Started Fidelity (MAE): : M=LR, A=S, D=M, N=50000 (786)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=30 (787)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=100 (788)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=200 (789)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=500 (790)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=1000 (791)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=1500 (792)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=2000 (793)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=3000 (794)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=4000 (795)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=5000 (796)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=6000 (797)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=7000 (798)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=8000 (799)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=9000 (800)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=10000 (801)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=12000 (802)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=20000 (803)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=40000 (804)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=60000 (805)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=100000 (806)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=120000 (807)
+Finished
+Started Fidelity (MAE): : M=RR, A=S, D=M, N=150000 (808)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=30 (809)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=40 (810)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=50 (811)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=75 (812)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=100 (813)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=150 (814)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=200 (815)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=300 (816)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=500 (817)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=750 (818)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=1000 (819)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=1250 (820)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=1500 (821)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=2000 (822)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=2500 (823)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=3000 (824)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=4000 (825)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=5000 (826)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=6000 (827)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=8000 (828)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=10000 (829)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=15000 (830)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=20000 (831)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=25000 (832)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=30000 (833)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=35000 (834)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=40000 (835)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=45000 (836)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=50000 (837)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=55000 (838)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=60000 (839)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=120000 (840)
+Finished
+Started Fidelity (MAE): : M=SR, A=S, D=M, N=180000 (841)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=150 (842)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=400 (843)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=1000 (844)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=3000 (845)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=5000 (846)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=10000 (847)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=15000 (848)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=20000 (849)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=25000 (850)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=30000 (851)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=35000 (852)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=40000 (853)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=45000 (854)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=50000 (855)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=60000 (856)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=70000 (857)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=80000 (858)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=100000 (859)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=150000 (860)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=200000 (861)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=250000 (862)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=300000 (863)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=400000 (864)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=500000 (865)
+Finished
+Started Fidelity (MAE): : M=XR, A=S, D=M, N=600000 (866)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=16 (867)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=50 (868)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=100 (869)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=200 (870)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=300 (871)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=400 (872)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=1000 (873)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=3000 (874)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=5000 (875)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=7500 (876)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=10000 (877)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=12500 (878)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=15000 (879)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=17500 (880)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=20000 (881)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=25000 (882)
+Finished
+Started Fidelity (MAE): : M=LR, A=C, D=M, N=32768 (883)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=16 (884)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=50 (885)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=70 (886)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=90 (887)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=110 (888)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=150 (889)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=500 (890)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=1000 (891)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=2000 (892)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=3000 (893)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=5000 (894)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=7500 (895)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=10000 (896)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=15000 (897)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=20000 (898)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=25000 (899)
+Finished
+Started Fidelity (MAE): : M=RR, A=C, D=M, N=32768 (900)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=16 (901)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=50 (902)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=100 (903)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=250 (904)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=500 (905)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=1000 (906)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=2500 (907)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=5000 (908)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=7500 (909)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=10000 (910)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=12500 (911)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=15000 (912)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=20000 (913)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=25000 (914)
+Finished
+Started Fidelity (MAE): : M=SR, A=C, D=M, N=32768 (915)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=16 (916)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=50 (917)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=150 (918)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=300 (919)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=500 (920)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=700 (921)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=1000 (922)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=1250 (923)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=1500 (924)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=2000 (925)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=3000 (926)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=4000 (927)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=5000 (928)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=7500 (929)
+Finished
+Started Fidelity (MAE): : M=XR, A=C, D=M, N=10000 (930)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=16 (931)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=50 (932)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=100 (933)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=250 (934)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=500 (935)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=1000 (936)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=2000 (937)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=5000 (938)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=7500 (939)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=10000 (940)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=15000 (941)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=20000 (942)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=25000 (943)
+Finished
+Started Fidelity (MAE): : M=LR, A=G, D=M, N=32768 (944)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=16 (945)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=50 (946)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=60 (947)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=80 (948)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=100 (949)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=500 (950)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=1000 (951)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=2000 (952)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=3000 (953)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=5000 (954)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=7500 (955)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=10000 (956)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=15000 (957)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=20000 (958)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=25000 (959)
+Finished
+Started Fidelity (MAE): : M=RR, A=G, D=M, N=32768 (960)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=16 (961)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=50 (962)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=100 (963)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=250 (964)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=500 (965)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=1000 (966)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=2500 (967)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=5000 (968)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=7500 (969)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=10000 (970)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=12500 (971)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=15000 (972)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=20000 (973)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=25000 (974)
+Finished
+Started Fidelity (MAE): : M=SR, A=G, D=M, N=32768 (975)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=16 (976)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=50 (977)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=70 (978)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=90 (979)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=150 (980)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=300 (981)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=500 (982)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=1000 (983)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=2500 (984)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=5000 (985)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=7500 (986)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=10000 (987)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=12500 (988)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=15000 (989)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=A, N=12 (990)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=A, N=12 (991)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=A, N=12 (992)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=A, N=12 (993)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=M, N=12 (994)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=M, N=12 (995)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=12 (996)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=12 (997)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=W, N=12 (998)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=W, N=12 (999)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=W, N=12 (1000)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=W, N=12 (1001)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=D, N=12 (1002)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=D, N=12 (1003)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=D, N=12 (1004)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=D, N=12 (1005)
+Finished
+Started Fidelity (MAE): : M=LR, A=C100, D=M, N=12 (1006)
+Finished
+Started Fidelity (MAE): : M=LR, A=G100, D=M, N=12 (1007)
+Finished
+Started Fidelity (MAE): : M=LR, A=C100, D=M, N=30 (1008)
+Finished
+Started Fidelity (MAE): : M=LR, A=G100, D=M, N=30 (1009)
+Finished
+Started Fidelity (MAE): : M=LR, A=C100, D=M, N=50 (1010)
+Finished
+Started Fidelity (MAE): : M=LR, A=G100, D=M, N=50 (1011)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=W, N=24 (1012)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=W, N=24 (1013)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=W, N=40 (1014)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=W, N=40 (1015)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=D, N=24 (1016)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=D, N=24 (1017)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=M, N=40 (1018)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=M, N=40 (1019)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=M, N=100 (1020)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=M, N=100 (1021)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=M, N=300 (1022)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=M, N=300 (1023)
+Finished
+Started Fidelity (MAE): : M=RR, A=C100, D=M, N=500 (1024)
+Finished
+Started Fidelity (MAE): : M=RR, A=G100, D=M, N=500 (1025)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=D, N=16 (1026)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=D, N=16 (1027)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=W, N=18 (1028)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=W, N=18 (1029)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=40 (1030)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=40 (1031)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=100 (1032)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=100 (1033)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=300 (1034)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=300 (1035)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=450 (1036)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=450 (1037)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=500 (1038)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=500 (1039)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=600 (1040)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=600 (1041)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=1000 (1042)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=1000 (1043)
+Finished
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=2000 (1044)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=2000 (1045)
+Finished
+Started Fidelity (MAE): : M=XR, A=G100, D=M, N=32768 (1046)
+Error for: : M=XR, A=G100, D=M, N=32768 = Command '['python', 'main.py', '--mode', 'E', '--data', 'M', '--model', 'XR', '--approximation', 'G100', '--nsamples', '32768', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (1046)
+Started Fidelity (MAE): : M=XR, A=C100, D=M, N=32768 (1047)
+Error for: : M=XR, A=C100, D=M, N=32768 = Command '['python', 'main.py', '--mode', 'E', '--data', 'M', '--model', 'XR', '--approximation', 'C100', '--nsamples', '32768', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (1047)
+Started Fidelity (MAE): : M=SR, A=C100, D=A, N=12 (1048)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=A, N=12 (1049)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=D, N=12 (1050)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=D, N=12 (1051)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=M, N=12 (1052)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=M, N=12 (1053)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=W, N=12 (1054)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=W, N=12 (1055)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=A, N=24 (1056)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=A, N=24 (1057)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=D, N=24 (1058)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=D, N=24 (1059)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=M, N=24 (1060)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=M, N=24 (1061)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=D, N=40 (1062)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=D, N=40 (1063)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=M, N=50 (1064)
+Error for: : M=SR, A=C100, D=M, N=50 = Command '['python', 'main.py', '--mode', 'E', '--data', 'M', '--model', 'SR', '--approximation', 'C100', '--nsamples', '50', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (1064)
+Started Fidelity (MAE): : M=SR, A=G100, D=M, N=50 (1065)
+Error for: : M=SR, A=G100, D=M, N=50 = Command '['python', 'main.py', '--mode', 'E', '--data', 'M', '--model', 'SR', '--approximation', 'G100', '--nsamples', '50', '--eval_method', 'F_MAE']' returned non-zero exit status 1. (1065)
+Started Fidelity (MAE): : M=SR, A=C100, D=D, N=100 (1066)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=D, N=100 (1067)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=M, N=100 (1068)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=M, N=100 (1069)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=M, N=200 (1070)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=M, N=200 (1071)
+Finished
+Started Fidelity (MAE): : M=SR, A=C100, D=M, N=300 (1072)
+Finished
+Started Fidelity (MAE): : M=SR, A=G100, D=M, N=300 (1073)
+Finished
+Started: Stability: M=LR, A=C, D=M, N=1000, R=10 (1)
+Finished: Stability: M=LR, A=C, D=M, N=1000, R=10 (1)
+Started: Stability: M=LR, A=C, D=M, N=1000, R=10 (1)
+Finished: Stability: M=LR, A=C, D=M, N=1000, R=10 (1)
+Started: Stability: M=LR, A=C, D=M, N=2000, R=10 (2)
+Finished: Stability: M=LR, A=C, D=M, N=2000, R=10 (2)
+Started: Stability: M=LR, A=C, D=M, N=2000, R=10 (2)
+Finished: Stability: M=LR, A=C, D=M, N=2000, R=10 (2)
+Started: Stability: M=LR, A=C, D=M, N=3000, R=10 (3)
+Finished: Stability: M=LR, A=C, D=M, N=3000, R=10 (3)
+Started: Stability: M=LR, A=C, D=M, N=3000, R=10 (3)
+Finished: Stability: M=LR, A=C, D=M, N=3000, R=10 (3)
+Started: Stability: M=LR, A=G, D=M, N=1200, R=10 (4)
+Finished: Stability: M=LR, A=G, D=M, N=1200, R=10 (4)
+Started: Stability: M=LR, A=G, D=M, N=1200, R=10 (4)
+Finished: Stability: M=LR, A=G, D=M, N=1200, R=10 (4)
+Started: Stability: M=LR, A=G, D=M, N=1500, R=10 (5)
+Finished: Stability: M=LR, A=G, D=M, N=1500, R=10 (5)
+Started: Stability: M=LR, A=G, D=M, N=1500, R=10 (5)
+Finished: Stability: M=LR, A=G, D=M, N=1500, R=10 (5)
+Started: Stability: M=LR, A=G, D=M, N=2000, R=10 (6)
+Finished: Stability: M=LR, A=G, D=M, N=2000, R=10 (6)
+Started: Stability: M=LR, A=G, D=M, N=2000, R=10 (6)
+Finished: Stability: M=LR, A=G, D=M, N=2000, R=10 (6)
+Started: Stability: M=LR, A=G, D=M, N=2500, R=10 (7)
+Finished: Stability: M=LR, A=G, D=M, N=2500, R=10 (7)
+Started: Stability: M=LR, A=G, D=M, N=2500, R=10 (7)
+Finished: Stability: M=LR, A=G, D=M, N=2500, R=10 (7)
+Started: Stability: M=RR, A=G, D=D, N=500, R=10 (8)
+Finished: Stability: M=RR, A=G, D=D, N=500, R=10 (8)
+Started: Stability: M=RR, A=G, D=D, N=500, R=10 (8)
+Finished: Stability: M=RR, A=G, D=D, N=500, R=10 (8)
+Started: Stability: M=RR, A=G, D=D, N=750, R=10 (9)
+Finished: Stability: M=RR, A=G, D=D, N=750, R=10 (9)
+Started: Stability: M=RR, A=G, D=D, N=750, R=10 (9)
+Finished: Stability: M=RR, A=G, D=D, N=750, R=10 (9)
+Started: Stability: M=RR, A=G, D=D, N=1000, R=10 (10)
+Finished: Stability: M=RR, A=G, D=D, N=1000, R=10 (10)
+Started: Stability: M=RR, A=G, D=D, N=1000, R=10 (10)
+Finished: Stability: M=RR, A=G, D=D, N=1000, R=10 (10)
+Started: Stability: M=RR, A=G, D=D, N=1500, R=10 (11)
+Finished: Stability: M=RR, A=G, D=D, N=1500, R=10 (11)
+Started: Stability: M=RR, A=G, D=D, N=1500, R=10 (11)
+Finished: Stability: M=RR, A=G, D=D, N=1500, R=10 (11)
+Started: Stability: M=RR, A=G, D=D, N=2048, R=10 (12)
+Finished: Stability: M=RR, A=G, D=D, N=2048, R=10 (12)
+Started: Stability: M=RR, A=G, D=D, N=2048, R=10 (12)
+Finished: Stability: M=RR, A=G, D=D, N=2048, R=10 (12)
+Started: Stability: M=RR, A=C, D=D, N=500, R=10 (13)
+Finished: Stability: M=RR, A=C, D=D, N=500, R=10 (13)
+Started: Stability: M=RR, A=C, D=D, N=500, R=10 (13)
+Finished: Stability: M=RR, A=C, D=D, N=500, R=10 (13)
+Started: Stability: M=RR, A=C, D=D, N=1000, R=10 (14)
+Finished: Stability: M=RR, A=C, D=D, N=1000, R=10 (14)
+Started: Stability: M=RR, A=C, D=D, N=1000, R=10 (14)
+Finished: Stability: M=RR, A=C, D=D, N=1000, R=10 (14)
+Started: Stability: M=RR, A=C, D=D, N=1500, R=10 (15)
+Finished: Stability: M=RR, A=C, D=D, N=1500, R=10 (15)
+Started: Stability: M=RR, A=C, D=D, N=1500, R=10 (15)
+Finished: Stability: M=RR, A=C, D=D, N=1500, R=10 (15)
+Started: Stability: M=RR, A=C, D=D, N=2048, R=10 (16)
+Finished: Stability: M=RR, A=C, D=D, N=2048, R=10 (16)
+Started: Stability: M=RR, A=C, D=D, N=2048, R=10 (16)
+Finished: Stability: M=RR, A=C, D=D, N=2048, R=10 (16)
+Started: Stability: M=RR, A=S, D=D, N=100, R=10 (17)
+Finished: Stability: M=RR, A=S, D=D, N=100, R=10 (17)
+Started: Stability: M=RR, A=S, D=D, N=100, R=10 (17)
+Finished: Stability: M=RR, A=S, D=D, N=100, R=10 (17)
+Started: Stability: M=RR, A=S, D=D, N=150, R=10 (18)
+Finished: Stability: M=RR, A=S, D=D, N=150, R=10 (18)
+Started: Stability: M=RR, A=S, D=D, N=150, R=10 (18)
+Finished: Stability: M=RR, A=S, D=D, N=150, R=10 (18)
+Started: Stability: M=RR, A=S, D=D, N=200, R=10 (19)
+Finished: Stability: M=RR, A=S, D=D, N=200, R=10 (19)
+Started: Stability: M=RR, A=S, D=D, N=200, R=10 (19)
+Finished: Stability: M=RR, A=S, D=D, N=200, R=10 (19)
+Started: Stability: M=RR, A=S, D=D, N=500, R=10 (20)
+Finished: Stability: M=RR, A=S, D=D, N=500, R=10 (20)
+Started: Stability: M=RR, A=S, D=D, N=500, R=10 (20)
+Finished: Stability: M=RR, A=S, D=D, N=500, R=10 (20)
+Started: Stability: M=RR, A=K, D=D, N=100, R=10 (21)
+Finished: Stability: M=RR, A=K, D=D, N=100, R=10 (21)
+Started: Stability: M=RR, A=K, D=D, N=100, R=10 (21)
+Finished: Stability: M=RR, A=K, D=D, N=100, R=10 (21)
+Started: Stability: M=RR, A=K, D=D, N=200, R=10 (22)
+Finished: Stability: M=RR, A=K, D=D, N=200, R=10 (22)
+Started: Stability: M=RR, A=K, D=D, N=200, R=10 (22)
+Finished: Stability: M=RR, A=K, D=D, N=200, R=10 (22)
+Started: Stability: M=RR, A=K, D=D, N=300, R=10 (23)
+Finished: Stability: M=RR, A=K, D=D, N=300, R=10 (23)
+Started: Stability: M=RR, A=K, D=D, N=300, R=10 (23)
+Finished: Stability: M=RR, A=K, D=D, N=300, R=10 (23)
+Started: Stability: M=RR, A=K, D=D, N=500, R=10 (24)
+Finished: Stability: M=RR, A=K, D=D, N=500, R=10 (24)
+Started: Stability: M=RR, A=K, D=D, N=500, R=10 (24)
+Finished: Stability: M=RR, A=K, D=D, N=500, R=10 (24)
+Started: Stability: M=RR, A=S, D=W, N=1600, R=10 (25)
+Finished: Stability: M=RR, A=S, D=W, N=1600, R=10 (25)
+Started: Stability: M=RR, A=S, D=W, N=1600, R=10 (25)
+Finished: Stability: M=RR, A=S, D=W, N=1600, R=10 (25)
+Started: Stability: M=RR, A=G, D=W, N=500, R=10 (26)
+Finished: Stability: M=RR, A=G, D=W, N=500, R=10 (26)
+Started: Stability: M=RR, A=G, D=W, N=500, R=10 (26)
+Finished: Stability: M=RR, A=G, D=W, N=500, R=10 (26)
+Started: Stability: M=RR, A=G, D=W, N=2048, R=10 (27)
+Finished: Stability: M=RR, A=G, D=W, N=2048, R=10 (27)
+Started: Stability: M=RR, A=G, D=W, N=2048, R=10 (27)
+Finished: Stability: M=RR, A=G, D=W, N=2048, R=10 (27)
+Started: Stability: M=RR, A=K, D=M, N=5, R=10 (28)
+Finished: Stability: M=RR, A=K, D=M, N=5, R=10 (28)
+Started: Stability: M=RR, A=K, D=M, N=5, R=10 (28)
+Finished: Stability: M=RR, A=K, D=M, N=5, R=10 (28)
+Started: Stability: M=RR, A=S, D=M, N=100, R=10 (29)
+Finished: Stability: M=RR, A=S, D=M, N=100, R=10 (29)
+Started: Stability: M=RR, A=S, D=M, N=100, R=10 (29)
+Finished: Stability: M=RR, A=S, D=M, N=100, R=10 (29)
+Started: Stability: M=XR, A=K, D=D, N=500, R=10 (30)
+Finished: Stability: M=XR, A=K, D=D, N=500, R=10 (30)
+Started: Stability: M=XR, A=K, D=D, N=500, R=10 (30)
+Finished: Stability: M=XR, A=K, D=D, N=500, R=10 (30)
+Started: Stability: M=XR, A=C, D=D, N=1200, R=10 (31)
+Finished: Stability: M=XR, A=C, D=D, N=1200, R=10 (31)
+Started: Stability: M=XR, A=C, D=D, N=1200, R=10 (31)
+Finished: Stability: M=XR, A=C, D=D, N=1200, R=10 (31)
+Started: Stability: M=XR, A=C, D=D, N=2048, R=10 (32)
+Finished: Stability: M=XR, A=C, D=D, N=2048, R=10 (32)
+Started: Stability: M=XR, A=C, D=D, N=2048, R=10 (32)
+Finished: Stability: M=XR, A=C, D=D, N=2048, R=10 (32)
+Started: Stability: M=XR, A=G, D=W, N=800, R=10 (33)
+Finished: Stability: M=XR, A=G, D=W, N=800, R=10 (33)
+Started: Stability: M=XR, A=G, D=W, N=800, R=10 (33)
+Finished: Stability: M=XR, A=G, D=W, N=800, R=10 (33)
+Started: Stability: M=XR, A=G, D=W, N=1400, R=10 (34)
+Finished: Stability: M=XR, A=G, D=W, N=1400, R=10 (34)
+Started: Stability: M=XR, A=G, D=W, N=1400, R=10 (34)
+Finished: Stability: M=XR, A=G, D=W, N=1400, R=10 (34)
+Started: Stability: M=XR, A=C, D=M, N=400, R=10 (35)
+Finished: Stability: M=XR, A=C, D=M, N=400, R=10 (35)
+Started: Stability: M=XR, A=C, D=M, N=400, R=10 (35)
+Finished: Stability: M=XR, A=C, D=M, N=400, R=10 (35)
+Started: Stability: M=XR, A=C, D=M, N=600, R=10 (36)
+Finished: Stability: M=XR, A=C, D=M, N=600, R=10 (36)
+Started: Stability: M=XR, A=C, D=M, N=600, R=10 (36)
+Finished: Stability: M=XR, A=C, D=M, N=600, R=10 (36)
+Started: Stability: M=XR, A=C, D=M, N=900, R=10 (37)
+Finished: Stability: M=XR, A=C, D=M, N=900, R=10 (37)
+Started: Stability: M=XR, A=C, D=M, N=900, R=10 (37)
+Finished: Stability: M=XR, A=C, D=M, N=900, R=10 (37)
+Started: Stability: M=XR, A=G, D=M, N=600, R=10 (38)
+Finished: Stability: M=XR, A=G, D=M, N=600, R=10 (38)
+Started: Stability: M=XR, A=G, D=M, N=600, R=10 (38)
+Finished: Stability: M=XR, A=G, D=M, N=600, R=10 (38)
+Started: Stability: M=XR, A=G, D=M, N=1000, R=10 (39)
+Finished: Stability: M=XR, A=G, D=M, N=1000, R=10 (39)
+Started: Stability: M=XR, A=G, D=M, N=1000, R=10 (39)
+Finished: Stability: M=XR, A=G, D=M, N=1000, R=10 (39)
+Started: Stability: M=XR, A=G, D=M, N=1500, R=10 (40)
+Finished: Stability: M=XR, A=G, D=M, N=1500, R=10 (40)
+Started: Stability: M=XR, A=G, D=M, N=1500, R=10 (40)
+Finished: Stability: M=XR, A=G, D=M, N=1500, R=10 (40)
+Started: Stability: M=SR, A=G, D=D, N=2048, R=10 (41)
+Finished: Stability: M=SR, A=G, D=D, N=2048, R=10 (41)
+Started: Stability: M=SR, A=G, D=D, N=2048, R=10 (41)
+Finished: Stability: M=SR, A=G, D=D, N=2048, R=10 (41)
+Started: Stability: M=SR, A=K, D=D, N=160, R=10 (42)
+Finished: Stability: M=SR, A=K, D=D, N=160, R=10 (42)
+Started: Stability: M=SR, A=K, D=D, N=160, R=10 (42)
+Finished: Stability: M=SR, A=K, D=D, N=160, R=10 (42)
+Started: Stability: M=SR, A=K, D=D, N=240, R=10 (43)
+Finished: Stability: M=SR, A=K, D=D, N=240, R=10 (43)
+Started: Stability: M=SR, A=K, D=D, N=240, R=10 (43)
+Finished: Stability: M=SR, A=K, D=D, N=240, R=10 (43)
+Started: Stability: M=SR, A=K, D=D, N=320, R=10 (44)
+Finished: Stability: M=SR, A=K, D=D, N=320, R=10 (44)
+Started: Stability: M=SR, A=K, D=D, N=320, R=10 (44)
+Finished: Stability: M=SR, A=K, D=D, N=320, R=10 (44)
+Started: Stability: M=SR, A=S, D=D, N=26000, R=10 (45)
+Finished: Stability: M=SR, A=S, D=D, N=26000, R=10 (45)
+Started: Stability: M=SR, A=S, D=D, N=26000, R=10 (45)
+Finished: Stability: M=SR, A=S, D=D, N=26000, R=10 (45)
+Started: Stability: M=SR, A=S, D=D, N=40000, R=10 (46)
+Finished: Stability: M=SR, A=S, D=D, N=40000, R=10 (46)
+Started: Stability: M=SR, A=S, D=D, N=40000, R=10 (46)
+Finished: Stability: M=SR, A=S, D=D, N=40000, R=10 (46)
+Started: Stability: M=SR, A=S, D=D, N=65000, R=10 (47)
+Finished: Stability: M=SR, A=S, D=D, N=65000, R=10 (47)
+Started: Stability: M=SR, A=S, D=D, N=65000, R=10 (47)
+Finished: Stability: M=SR, A=S, D=D, N=65000, R=10 (47)
+Started: Stability: M=SR, A=S, D=W, N=200, R=10 (48)
+Finished: Stability: M=SR, A=S, D=W, N=200, R=10 (48)
+Started: Stability: M=SR, A=S, D=W, N=200, R=10 (48)
+Finished: Stability: M=SR, A=S, D=W, N=200, R=10 (48)
+Started: Stability: M=SR, A=S, D=W, N=300, R=10 (49)
+Finished: Stability: M=SR, A=S, D=W, N=300, R=10 (49)
+Started: Stability: M=SR, A=S, D=W, N=300, R=10 (49)
+Finished: Stability: M=SR, A=S, D=W, N=300, R=10 (49)
+Started: Stability: M=SR, A=G, D=W, N=24, R=10 (50)
+Finished: Stability: M=SR, A=G, D=W, N=24, R=10 (50)
+Started: Stability: M=SR, A=G, D=W, N=24, R=10 (50)
+Finished: Stability: M=SR, A=G, D=W, N=24, R=10 (50)
+Started: Stability: M=SR, A=G, D=W, N=50, R=10 (51)
+Finished: Stability: M=SR, A=G, D=W, N=50, R=10 (51)
+Started: Stability: M=SR, A=G, D=W, N=50, R=10 (51)
+Finished: Stability: M=SR, A=G, D=W, N=50, R=10 (51)
+Started: Stability: M=SR, A=G, D=W, N=74, R=10 (52)
+Finished: Stability: M=SR, A=G, D=W, N=74, R=10 (52)
+Started: Stability: M=SR, A=G, D=W, N=74, R=10 (52)
+Finished: Stability: M=SR, A=G, D=W, N=74, R=10 (52)
+Started: Stability: M=SR, A=C, D=W, N=40, R=10 (53)
+Finished: Stability: M=SR, A=C, D=W, N=40, R=10 (53)
+Started: Stability: M=SR, A=C, D=W, N=40, R=10 (53)
+Finished: Stability: M=SR, A=C, D=W, N=40, R=10 (53)
+Started: Stability: M=SR, A=C, D=W, N=60, R=10 (54)
+Finished: Stability: M=SR, A=C, D=W, N=60, R=10 (54)
+Started: Stability: M=SR, A=C, D=W, N=60, R=10 (54)
+Finished: Stability: M=SR, A=C, D=W, N=60, R=10 (54)
+Started: Stability: M=SR, A=K, D=M, N=40, R=10 (55)
+Finished: Stability: M=SR, A=K, D=M, N=40, R=10 (55)
+Started: Stability: M=SR, A=K, D=M, N=40, R=10 (55)
+Finished: Stability: M=SR, A=K, D=M, N=40, R=10 (55)
+Started: Stability: M=SR, A=S, D=M, N=2000, R=10 (56)
+Finished: Stability: M=SR, A=S, D=M, N=2000, R=10 (56)
+Started: Stability: M=SR, A=S, D=M, N=2000, R=10 (56)
+Finished: Stability: M=SR, A=S, D=M, N=2000, R=10 (56)
+Started: Stability: M=SR, A=S, D=M, N=4000, R=10 (57)
+Finished: Stability: M=SR, A=S, D=M, N=4000, R=10 (57)
+Started: Stability: M=SR, A=S, D=M, N=4000, R=10 (57)
+Finished: Stability: M=SR, A=S, D=M, N=4000, R=10 (57)
+Started: Stability: M=SR, A=S, D=M, N=12000, R=10 (58)
+Started: D=D, M=XR, A=G, D=M, N=32768 (1)
+Finished: D=D, M=XR, A=G, D=M, N=32768 (1)
+Started RBO: : M=XR, A=G, D=M, N=32768 - Number(1)
+Finished
+Started MSE: : M=XR, A=G, D=M, N=32768 - Number(1)
+Finished
+Started Fidelity (MAE): : M=XR, A=G, D=M, N=32768 (1)
+Finished
+Started: D=D, M=XR, A=C, D=M, N=32768 (2)
+Started: Stability: M=M, A=G, D=XR, N=32768, R=10 (1)
+Error for: Stability: M=M, A=G, D=XR, N=32768, R=10 = Command '['python', 'main.py', '--mode', 'R', '--data', 'XR', '--model', 'M', '--approximation', 'G', '--nsamples', '32768', '--number_of_runs', '10']' returned non-zero exit status 2. (1)
+Started: Stability: M=M, A=G, D=XR, N=32768, R=10 (1)
+Error for: Stability: M=M, A=G, D=XR, N=32768, R=10 = Command '['python', 'main.py', '--mode', 'E', '--data', 'XR', '--model', 'M', '--approximation', 'G', '--nsamples', '32768', '--number_of_runs', '10', '--eval_method', 'S']' returned non-zero exit status 2. (1)
+Started: Stability: M=M, A=C, D=XR, N=32768, R=10 (2)
+Error for: Stability: M=M, A=C, D=XR, N=32768, R=10 = Command '['python', 'main.py', '--mode', 'R', '--data', 'XR', '--model', 'M', '--approximation', 'C', '--nsamples', '32768', '--number_of_runs', '10']' returned non-zero exit status 2. (2)
+Started: Stability: M=M, A=C, D=XR, N=32768, R=10 (2)
+Error for: Stability: M=M, A=C, D=XR, N=32768, R=10 = Command '['python', 'main.py', '--mode', 'E', '--data', 'XR', '--model', 'M', '--approximation', 'C', '--nsamples', '32768', '--number_of_runs', '10', '--eval_method', 'S']' returned non-zero exit status 2. (2)
+Started: Stability: M=RR, A=S, D=D, N=3000, R=10 (3)
+Finished: Stability: M=RR, A=S, D=D, N=3000, R=10 (3)
+Started: Stability: M=RR, A=S, D=D, N=3000, R=10 (3)
+Finished: Stability: M=RR, A=S, D=D, N=3000, R=10 (3)
+Started: Stability: M=RR, A=S, D=D, N=12000, R=10 (4)
+Started: Stability: M=M, A=G, D=XR, N=32768, R=10 (1)
+Error for: Stability: M=M, A=G, D=XR, N=32768, R=10 = Command '['python', 'main.py', '--mode', 'R', '--data', 'XR', '--model', 'M', '--approximation', 'G', '--nsamples', '32768', '--number_of_runs', '10']' returned non-zero exit status 2. (1)
+Started: Stability: M=M, A=G, D=XR, N=32768, R=10 (1)
+Started: Stability: M=XR, A=G, D=M, N=32768, R=10 (1)
+Finished: Stability: M=XR, A=G, D=M, N=32768, R=10 (1)
+Started: Stability: M=XR, A=G, D=M, N=32768, R=10 (1)
+Finished: Stability: M=XR, A=G, D=M, N=32768, R=10 (1)
+Started: Stability: M=XR, A=C, D=M, N=32768, R=10 (2)
+Finished: Stability: M=XR, A=C, D=M, N=32768, R=10 (2)
+Started: Stability: M=XR, A=C, D=M, N=32768, R=10 (2)
+Finished: Stability: M=XR, A=C, D=M, N=32768, R=10 (2)
+Started: Stability: M=RR, A=S, D=D, N=12000, R=10 (3)
+Started: Stability: M=RR, A=S, D=D, N=12000, R=10 (1)
+Finished: Stability: M=RR, A=S, D=D, N=12000, R=10 (1)
+Started: Stability: M=RR, A=S, D=D, N=12000, R=10 (1)
+Finished: Stability: M=RR, A=S, D=D, N=12000, R=10 (1)
+Started: Stability: M=RR, A=S, D=A, N=2000, R=10 (2)

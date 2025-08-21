@@ -32,6 +32,8 @@ def print_results(data_name: str = "", eval_method: str = None, approximation_na
        match eval_method:
             case "F":
                 eval_method = "Fidelity_Score"
+            case "F_MAE":
+                eval_method = "Fidelity_Score_MAE"
             case "R":
                 eval_method = "RBO_Score_0.9"
             case "S":

@@ -2,7 +2,7 @@ from evaluation_results_loader import get_evaluation
 import matplotlib.pyplot as plt
 
 
-
+model = "XR"
 stability_runs =[
 #D & LR - 3,5s
     #("C","D","LR","12"),#70
@@ -35,13 +35,20 @@ stability_runs =[
     ("C","D","RR","120"),
     ("C","D","RR","300"),
     ("C","D","RR","500"),
+    ("C","D","RR","1000"),
+    ("C","D","RR","1500"),
+    ("C","D","RR","2048"),
 
     # not possible
     ("G","D","RR","50"),
-    ("G","D","RR","250"),
     ("G","D","RR","130"),
+    ("G","D","RR","250"),
+
     ("G","D","RR","500"),
     ("G","D","RR","750"),
+    ("G","D","RR","1000"),
+    ("G","D","RR","1500"),
+    ("G","D","RR","2048"),
     # not possible
 
     ("K","D","RR","1"),
@@ -50,34 +57,48 @@ stability_runs =[
     ("K","D","RR","52"),
     ("K","D","RR","1"),
     ("K","D","RR","100"),
+    ("K","D","RR","200"),
+    ("K","D","RR","300"),
+    ("K","D","RR","500"),
 
     # not possible
     # not possible
     ("S","D","RR","25"),
     ("S","D","RR","50"),
+    ("S","D","RR","100"),
+    ("S","D","RR","150"),
+    ("S","D","RR","500"),
+    ("S","D","RR","3000"),
+    ("S","D","RR","12000"),
+
 
 
     #D & SR - 10,25s
     ("C","D","SR","120"),
     ("C","D","SR","1300"),
-    ("C","D","SR","2700"),
-    ("C","D","SR","5000"),
+    ("C","D","SR","2700"), #=2048
 
     ("G","D","SR","120"),
     ("G","D","SR","270"),
     ("G","D","SR","600"),
     ("G","D","SR","1300"),
+    ("G","D","SR","2048"),
 
     ("K","D","SR","9"),
     ("K","D","SR","20"),
     ("K","D","SR","40"),
     ("K","D","SR","80"),
-
+    ("K","D","SR","160"),
+    ("K","D","SR","240"),
+    ("K","D","SR","320"),
 
     ("S","D","SR","1000"),
     ("S","D","SR","3000"),
     ("S","D","SR","6000"),
     ("S","D","SR","13000"),
+    ("S","D","SR","26000"),
+    ("S","D","SR","40000"),
+    ("S","D","SR","65000"),
 
 
     #D & XR - 3,8s
@@ -85,15 +106,15 @@ stability_runs =[
     ("C","D","XR","220"),
     ("C","D","XR","500"),
     ("C","D","XR","750"),
+    ("C","D","XR","1200"),
+    ("C","D","XR","2048"),
 
     ("G","D","XR","46"),
     ("G","D","XR","2048"),
-    #Upper
 
     ("K","D","XR","35"),
     ("K","D","XR","120"),
-    ("K","D","XR","1000"),
-    ("K","D","XR","1600"),
+    ("K","D","XR","500"),
 
     ("S","D","XR","1500"),
     ("S","D","XR","4300"),
@@ -123,6 +144,7 @@ stability_runs =[
     ("C","W","RR","1000"),
 
     ("G","W","RR","40"),
+    ("G","W","RR","500"),
     ("G","W","RR","2048"),
     # not possible
 
@@ -132,7 +154,6 @@ stability_runs =[
     ("K","W","RR","3"),
     ("K","W","RR","5"),
     ("K","W","RR","10"),
-    ("K","W","RR","20"),
     
     # not possible
     # not possible
@@ -141,15 +162,20 @@ stability_runs =[
     ("S","W","RR","100"),
     ("S","W","RR","500"),
     ("S","W","RR","1000"),
+    ("S","W","RR","1600"),
     
     #W & SR - 75s, 100
     ("C","W","SR","12"),
     ("C","W","SR","16"),
     ("C","W","SR","20"),
+    ("C","W","SR","40"),
+    ("C","W","SR","60"),
 
     ("G","W","SR","12"),
     ("G","W","SR","18"),
-    ("G","W","SR","25"),
+    ("G","W","SR","24"),
+    ("G","W","SR","50"),
+    ("G","W","SR","74"),
 
     # not possible
     # not possible
@@ -157,6 +183,9 @@ stability_runs =[
     ("S","W","SR","40"),
     ("S","W","SR","74"),
     ("S","W","SR","100"),
+    ("S","W","SR","200"),
+    ("S","W","SR","300"),
+
 
     #W & XR - 20,50s
     ("C","W","XR","12"),
@@ -168,8 +197,9 @@ stability_runs =[
     ("G","W","XR","46"),
     ("G","W","XR","150"),
     ("G","W","XR","300"),
-    ("G","W","XR","500"),
     ("G","W","XR","800"),
+    ("G","W","XR","1400"),#=1024
+    ("G","W","XR","500"),
 
     ("K","W","XR","1"),
     ("K","W","XR","3"),
@@ -186,19 +216,33 @@ stability_runs =[
     
     
     # A+LR [11.1 - 11.8 - 12.89]    -> C12 - C16, G12 - G46, K10 - K80, S25 - S700
+        
+
+    ("G","A","LR","12"),
     ("C","A","LR","12"),
-    ("G","A","LR","38"),
-    ("K","A","LR","62"),
-    ("S","A","LR","250"),
     ("C","A","LR","14"),
-    ("G","A","LR","44"),
-    ("S","A","LR","280"),
     ("C","A","LR","16"),
+    ("G","A","LR","18"),
+    ("G","A","LR","24"),
+    ("G","A","LR","30"),
+    ("G","A","LR","38"),
+    ("G","A","LR","44"),
     ("G","A","LR","46"),
+    ("G","A","LR","60"),
+    ("K","A","LR","62"),
+
+
+
+
+
+
+    
+    ("S","A","LR","250"),
+    ("S","A","LR","280"),
     ("S","A","LR","320"),
     
     
-    ("G","A","LR","60"),
+
     
     ("K","A","LR","10"),
     ("K","A","LR","20"),
@@ -217,11 +261,7 @@ stability_runs =[
     ("K","A","LR","1"),
     ("K","A","LR","5"),
     
-    
-    ("G","A","LR","30"),
-    ("G","A","LR","24"),
-    ("G","A","LR","18"),
-    ("G","A","LR","12"),
+
     
     # A + RR [76, 102] -> C12 - C1024, G12 - G1024, K1 - K15, S50 - S4000
     ("C","A","RR", "80"),
@@ -261,16 +301,15 @@ stability_runs =[
     ("S","A","RR", "900"),
     ("S","A","RR", "1000"),
     ("S","A","RR", "1250"),
-    ("S","A","RR", "15000"),
+    ("S","A","RR", "2000"),
     
     ("K","A","RR", "1"),
     ("K","A","RR", "15"),
-    ("S","A","RR", "20000"),
-    ("S","A","RR", "50000"),
     ("G","A","RR", "12"),
     ("G","A","RR", "50"),
     ("G","A","RR", "800"),
     ("G","A","RR", "1024"),
+    
     ("C","A","RR", "50"),
     ("C","A","RR", "30"),
     ("C","A","RR", "12"),
@@ -366,6 +405,9 @@ stability_runs =[
     ('C', 'M', 'LR', '300'),
     ('C', 'M', 'LR', '400'),
     ('C', 'M', 'LR', '600'),
+    ('C', 'M', 'LR', '1000'),
+    ('C', 'M', 'LR', '2000'),
+    ('C', 'M', 'LR', '3000'),
     ('S', 'M', 'LR', '3200'),
     ('S', 'M', 'LR', '4000'),
     ('S', 'M', 'LR', '8000'),
@@ -374,19 +416,24 @@ stability_runs =[
     ('G', 'M', 'LR', '800'),
     ('G', 'M', 'LR', '1200'),
     ('G', 'M', 'LR', '1500'),
+    ('G', 'M', 'LR', '2000'),
+    ('G', 'M', 'LR', '2500'),
     ('K', 'M', 'LR', '1500'),
     ('K', 'M', 'LR', '2000'),
     ('K', 'M', 'LR', '3000'),
-    ('K', 'M', 'LR', '5000'),
+    #('K', 'M', 'LR', '5000'),
 
     # M + RR
+    ('K', 'M', 'RR', '5'),
+    ('S', 'M', 'RR', '100'),
     ('G', 'M', 'RR', '80'),
     ('G', 'M', 'RR', '300'),
     ('C', 'M', 'RR', '50'),
     ('C', 'M', 'RR', '120'),
     ('C', 'M', 'RR', '32768'),
+    ('K', 'M', 'RR', '200'),
+    ('K', 'M', 'RR', '300'),
     ('K', 'M', 'RR', '400'),
-    ('K', 'M', 'RR', '900'),
     ('S', 'M', 'RR', '1400'),
     ('S', 'M', 'RR', '1800'),
     ('S', 'M', 'RR', '5000'),
@@ -394,7 +441,6 @@ stability_runs =[
     
     ('K', 'M', 'RR', '50'),
     ('K', 'M', 'RR', '100'),
-    ('K', 'M', 'RR', '200'),
     ('G', 'M', 'RR', '1000'),
     ('G', 'M', 'RR', '10000'),
     ('G', 'M', 'RR', '32768'),
@@ -403,6 +449,7 @@ stability_runs =[
     ('S', 'M', 'RR', '30000'),
     ('S', 'M', 'RR', '40000'),
     ('S', 'M', 'RR', '50000'),
+    ('S', 'M', 'RR', '70000'),
 
     # M + XR
     ('G', 'M', 'XR', '16'),
@@ -419,6 +466,8 @@ stability_runs =[
     ('K', 'M', 'XR', '30'),
     ('K', 'M', 'XR', '50'),
     ('K', 'M', 'XR', '60'),
+    ('G', 'M', 'XR', '32768'),
+    ('C', 'M', 'XR', '32768'),   
     
     
     ('G', 'M', 'XR', '600'),
@@ -458,6 +507,7 @@ stability_runs =[
     ('C', 'M', 'SR', '600'),
     ('C', 'M', 'SR', '2000'),
     ('G', 'M', 'SR', '32000'),
+    
     ]
 
 approx_keys = ["_".join(key) for key in stability_runs]
@@ -493,396 +543,155 @@ model_names = {"LR":"Linear Regression", "RR":"Random Forest","SR":"SVM","XR":"X
 shap_names = {"C":"Copula SHAP", "G":"Gaussian SHAP","K":"Kernel SHAP","S":"Sample SHAP"}
 
 
-'''
-#D - LR
-models = ["LR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_D[(df_D["index"].str.contains(f"{approximation}_")) & (df_D["index"].str.contains(f"_{model}_"))]
-        df_D_dict[f"{approximation}_{model}"]=df
-        df_D_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_D[model]
-        model_name = model_names[model]
+# Settings
+approximations = ["C", "G", "K", "S"]
+colors = {"C": "blue", "G": "green", "K": "orange", "S": "purple"}
+model_names = {"LR": "Linear Regression", "RR": "Random Forest", "SR": "SVM", "XR": "XGBoost"}
+shap_names = {"C": "Copula SHAP", "G": "Gaussian SHAP", "K": "Kernel SHAP", "S": "Sample SHAP"}
+
+# --- Exact SHAP Anzeigen (pro Modell & Dataset) ---
+show_exact_shap_LR = {"D": True, "W": True, "A": True, "M": False}
+show_exact_shap_RR = {"D": True, "W": False, "A": True, "M": False}
+show_exact_shap_XR = {"D": True, "W": False, "A": True, "M": False}
+show_exact_shap_SR = {"D": True, "W": False, "A": False, "M": False}
+
+
+show_exact_shap = {
+    "LR": show_exact_shap_LR,
+    "RR": show_exact_shap_RR,
+    "SR": show_exact_shap_SR,
+    "XR": show_exact_shap_XR,
+}
+
+# --- Datasets vorbereiten
+datasets = [
+    ("D", df_D, df_D_dict, df_D_dict_colors, exact_shap_values_D, "Diabetes"),
+    ("W", df_W, df_W_dict, df_W_dict_colors, exact_shap_values_W, "Wine"),
+    ("A", df_A, df_A_dict, df_A_dict_colors, exact_shap_values_A, "Abalone"),
+    ("M", df_M, df_M_dict, df_M_dict_colors, exact_shap_values_M, "Music"),
+]
+bounds_LR = {
+    "D": [
+    ],
+    "W": [
+        ("blue",   ":", 19.373605728149414, "Copula SHAP - Lower Bound"),
+    ],
+    "A": [
+        ("green",   ":", 6.15, "Copula SHAP - Lower Bound"),
+        ("blue",   ":", 11.269, "Copula SHAP - Lower Bound"),
+    ],
+    "M": [
         
-for key in df_D_dict.keys():
-    plt.scatter(df_D_dict[key]["Running_Time"], df_D_dict[key]["Stability_Score"], color=df_D_dict_colors[key], label=shap_names[key[0]])
-    df = df_D_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_D_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Diabetes Dataset")
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
+    ]
+}
 
-'''
-#D - RR
-models = ["RR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_D[(df_D["index"].str.contains(f"{approximation}_")) & (df_D["index"].str.contains(f"_{model}_"))]
-        df_D_dict[f"{approximation}_{model}"]=df
-        df_D_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_D[model]
+bounds_RR = {
+    "D": [
+        ("purple", ":", 8, "Sample SHAP - Lower Bound"),
+        ("green",  "-", 7, "Gaussian SHAP - Upper Bound"),
+        ("blue",  "-", 7.6, "Copula SHAP - Upper Bound")
+    ],
+    "W": [
+        ("green",  "-", 86, "Gaussian SHAP - Upper Bound"),
+        ("purple", ":", 123.42659, "Sample SHAP - Lower Bound"),
+        ("orange", ":", 103.550527,"Kernel SHAP - Lower Bound"),
+    ],
+    "A": [
+        ("purple", ":", 72, "Sample SHAP - Lower Bound"),
+        ("green",  "-", 105, "Gaussian SHAP - Upper Bound"),
+        ("blue",  "-", 205, "Copula SHAP - Upper Bound")],
+    "M": [("green",  "-", 15.671, "Gaussian SHAP - Upper Bound"),
+          ("blue",  "-", 34.280, "Copula SHAP - Upper Bound")
+        ]
+}
+
+bounds_SR = {
+    "D": [("green",  "-", 34, "Gaussian SHAP - Upper Bound"),
+        ("blue",  "-", 37, "Copula SHAP - Upper Bound")],
+    "W": [],
+    "A": [("orange", ":", 1027.620,"Kernel SHAP - Lower Bound")],
+    "M": []
+}
+
+bounds_XR = {
+    "D": [
+        ("blue",   "-",    6.7, "Copula SHAP - Upper Bound"),
+        ("green",  "-",  6.449, "Gaussian SHAP - Upper Bound"),
+    ],
+    "W": [("green",  "-",  70.76, "Gaussian SHAP - Upper Bound"),],
+    "A": [],
+    "M": [
+        ("blue",   "-",    27.39117693901062, "Copula SHAP - Upper Bound"),
+        ("green",  "-",  26, "Gaussian SHAP - Upper Bound"),
+    ]
+}#
+
+bounds = {
+    "LR": bounds_LR,
+    "RR": bounds_RR,
+    "SR": bounds_SR,
+    "XR": bounds_XR,
+}
+
+
+# ----------------------------------------
+# Figure mit 4 Subplots nebeneinander
+fig, axes = plt.subplots(1, 4, figsize=(18, 5))
+axes = axes.flatten()
+
+for index, (ax, (data_key, df_ds, ds_dict, data_colors, exact_values, data_name)) in enumerate(zip(axes, datasets)):
+    exact_shap_value = None
+
+    # Daten sammeln
+    for approximation in approximations:
+        df_sel = df_ds[(df_ds["index"].str.contains(f"{approximation}_")) & (df_ds["index"].str.contains(f"_{model}_"))]
+        ds_dict[f"{approximation}_{model}"] = df_sel
+        data_colors[f"{approximation}_{model}"] = colors[approximation]
+        exact_shap_value = exact_values.get(model, None)
         model_name = model_names[model]
-        
-for key in df_D_dict.keys():
-    plt.scatter(df_D_dict[key]["Running_Time"], df_D_dict[key]["Stability_Score"], color=df_D_dict_colors[key], label=shap_names[key[0]])
-    df = df_D_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_D_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Diabetes Dataset")
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.axvline(x=9, color='blue', linestyle=':', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
-plt.axvline(x=7.5, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
-plt.axvline(x=10, color='purple', linestyle='-', linewidth=1, label="Sample SHAP - Sample Lower Bound", alpha=0.6)
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
+
+    # Scatter + Lineplots
+    for key in ds_dict.keys():
+        ax.scatter(ds_dict[key]["Running_Time"], ds_dict[key]["Stability_Score"],
+                   color=data_colors[key], label=shap_names[key.split('_')[0]])
+        _dfp = ds_dict[key].sort_values("Running_Time")
+        ax.plot(_dfp["Running_Time"], _dfp["Stability_Score"],
+                color=data_colors[key], linestyle='-')
+
+    # Labels & Titel
+    if index == 0:
+        ax.set_ylabel("Mean 95% Confidence Interval Width (SHAP Values)", fontsize=9)
+    ax.set_title(f"{data_name} Dataset")
+
+    # Rote Linie = Exact SHAP (nur wenn erlaubt)
+    if show_exact_shap[model][data_key] and exact_shap_value is not None:
+        ax.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
+
+    # Bounds-Linien
+    for color_b, ls_b, x_b, lbl_b in bounds[model].get(data_key, []):
+        ax.axvline(x=x_b, color=color_b, linestyle=ls_b, linewidth=1, label=lbl_b, alpha=0.6)
 
 
-'''
-#D - SR
-models = ["SR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_D[(df_D["index"].str.contains(f"{approximation}_")) & (df_D["index"].str.contains(f"_{model}_"))]
-        df_D_dict[f"{approximation}_{model}"]=df
-        df_D_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_D[model]
-        model_name = model_names[model]
-        
-for key in df_D_dict.keys():
-    plt.scatter(df_D_dict[key]["Running_Time"], df_D_dict[key]["Stability_Score"], color=df_D_dict_colors[key], label=shap_names[key[0]])
-    df = df_D_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_D_dict_colors[key], linestyle='-')
-    
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Diabetes Dataset")
-plt.legend(title="Approximation", loc="best")
-plt.show()
-'''
+# ----------------------------------------
+# Gemeinsame Legende
+handles, labels = [], []
+for ax in axes:
+    h, l = ax.get_legend_handles_labels()
+    handles += h
+    labels += l
 
-'''
-#D - XR
-models = ["XR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_D[(df_D["index"].str.contains(f"{approximation}_")) & (df_D["index"].str.contains(f"_{model}_"))]
-        df_D_dict[f"{approximation}_{model}"]=df
-        df_D_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_D[model]
-        model_name = model_names[model]
-        
-for key in df_D_dict.keys():
-    plt.scatter(df_D_dict[key]["Running_Time"], df_D_dict[key]["Stability_Score"], color=df_D_dict_colors[key], label=shap_names[key[0]])
-    df = df_D_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_D_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Diabetes Dataset")
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")  
-plt.axvline(x=8, color='blue', linestyle=':', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
-plt.axvline(x=7, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
+reference_set = set()
+uniq_handles, uniq_labels = [], []
+for h, l in zip(handles, labels):
+    if l not in reference_set:
+        uniq_handles.append(h)
+        uniq_labels.append(l)
+        reference_set.add(l)
 
+fig.legend(uniq_handles, uniq_labels, loc="lower center", ncol=3, fontsize=10)
 
-'''
-#W - LR
-models = ["LR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_W[(df_W["index"].str.contains(f"{approximation}_")) & (df_W["index"].str.contains(f"_{model}_"))]
-        df_W_dict[f"{approximation}_{model}"]=df
-        df_W_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_W[model]
-        model_name = model_names[model]
-        
-for key in df_W_dict.keys():
-    plt.scatter(df_W_dict[key]["Running_Time"], df_W_dict[key]["Stability_Score"], color=df_W_dict_colors[key], label=shap_names[key[0]])
-    df = df_W_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_W_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Wine Dataset")
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.axvline(x=19.373605728149414, color='blue', linestyle=':', linewidth=1, label="Copula SHAP - Sample Upper Bound", alpha=0.6)
-plt.legend(title="Approximation", loc="best", fontsize=6)
-plt.show()'''
-
-
-'''
-#W - RR
-models = ["RR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_W[(df_W["index"].str.contains(f"{approximation}_")) & (df_W["index"].str.contains(f"_{model}_"))]
-        df_W_dict[f"{approximation}_{model}"]=df
-        df_W_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_W[model]
-        model_name = model_names[model]
-        
-for key in df_W_dict.keys():
-    plt.scatter(df_W_dict[key]["Running_Time"], df_W_dict[key]["Stability_Score"], color=df_W_dict_colors[key], label=shap_names[key[0]])
-    df = df_W_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_W_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Wine Dataset")
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.axvline(x=78.775649, color='green', linestyle='-', linewidth=1, label="Gaussian SHAP - Sample Upper Bound", alpha=0.6)
-plt.axvline(x=123.42659, color='purple', linestyle=':', linewidth=1, label="Sample SHAP - Sample Lower Bound", alpha=0.6)
-plt.axvline(x=103.550527, color='orange', linestyle=':', linewidth=1, label="Kernel SHAP - Sample Lower Bound", alpha=0.6)
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
-
-'''
-#W - SR
-models = ["SR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_W[(df_W["index"].str.contains(f"{approximation}_")) & (df_W["index"].str.contains(f"_{model}_"))]
-        df_W_dict[f"{approximation}_{model}"]=df
-        df_W_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        model_name = model_names[model]
-        
-for key in df_W_dict.keys():
-    plt.scatter(df_W_dict[key]["Running_Time"], df_W_dict[key]["Stability_Score"], color=df_W_dict_colors[key], label=shap_names[key[0]])
-    df = df_W_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_W_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Wine Dataset")
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
-
-'''
-#W - XR
-models = ["XR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_W[(df_W["index"].str.contains(f"{approximation}_")) & (df_W["index"].str.contains(f"_{model}_"))]
-        df_W_dict[f"{approximation}_{model}"]=df
-        df_W_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_W[model]
-        model_name = model_names[model]
-        
-for key in df_W_dict.keys():
-    plt.scatter(df_W_dict[key]["Running_Time"], df_W_dict[key]["Stability_Score"], color=df_W_dict_colors[key], label=shap_names[key[0]])
-    df = df_W_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_W_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Wine Dataset")
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
-
-'''
-#A - LR
-models = ["LR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_A[(df_A["index"].str.contains(f"{approximation}_")) & (df_A["index"].str.contains(f"_{model}_"))]
-        df_A_dict[f"{approximation}_{model}"]=df
-        df_A_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_A[model]
-        model_name = model_names[model]
-        
-for key in df_A_dict.keys():
-    plt.scatter(df_A_dict[key]["Running_Time"], df_A_dict[key]["Stability_Score"], color=df_A_dict_colors[key], label=shap_names[key[0]])
-    df = df_A_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_A_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Abalone Dataset")
-plt.axvline(x=11.269, color='blue', linestyle=':', linewidth=1, label="Sample SHAP - Copula Lower Bound", alpha=0.6)
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
-
-'''
-#A - RR
-models = ["RR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_A[(df_A["index"].str.contains(f"{approximation}_")) & (df_A["index"].str.contains(f"_{model}_"))]
-        df_A_dict[f"{approximation}_{model}"]=df
-        df_A_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_A[model]
-        model_name = model_names[model]
-        
-for key in df_A_dict.keys():
-    plt.scatter(df_A_dict[key]["Running_Time"], df_A_dict[key]["Stability_Score"], color=df_A_dict_colors[key], label=shap_names[key[0]])
-    df = df_A_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_A_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Abalone Dataset")
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
-
-'''
-#A - SR
-models = ["SR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_A[(df_A["index"].str.contains(f"{approximation}_")) & (df_A["index"].str.contains(f"_{model}_"))]
-        df_A_dict[f"{approximation}_{model}"]=df
-        df_A_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        model_name = model_names[model]
-        
-for key in df_A_dict.keys():
-    plt.scatter(df_A_dict[key]["Running_Time"], df_A_dict[key]["Stability_Score"], color=df_A_dict_colors[key], label=shap_names[key[0]])
-    df = df_A_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_A_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Abalone Dataset")
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
-
-'''
-#A - XR
-models = ["XR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_A[(df_A["index"].str.contains(f"{approximation}_")) & (df_A["index"].str.contains(f"_{model}_"))]
-        df_A_dict[f"{approximation}_{model}"]=df
-        df_A_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_A[model]
-        model_name = model_names[model]
-        
-for key in df_A_dict.keys():
-    plt.scatter(df_A_dict[key]["Running_Time"], df_A_dict[key]["Stability_Score"], color=df_A_dict_colors[key], label=shap_names[key[0]])
-    df = df_A_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_A_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Abalone Dataset")
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
-
-'''
-#M - LR
-models = ["LR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_M[(df_M["index"].str.contains(f"{approximation}_")) & (df_M["index"].str.contains(f"_{model}_"))]
-        df_M_dict[f"{approximation}_{model}"]=df
-        df_M_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_M[model]
-        model_name = model_names[model]
-        
-for key in df_M_dict.keys():
-    plt.scatter(df_M_dict[key]["Running_Time"], df_M_dict[key]["Stability_Score"], color=df_M_dict_colors[key], label=shap_names[key[0]])
-    df = df_M_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_M_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Music Dataset")
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
-
-'''
-#M - RR
-models = ["RR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_M[(df_M["index"].str.contains(f"{approximation}_")) & (df_M["index"].str.contains(f"_{model}_"))]
-        df_M_dict[f"{approximation}_{model}"]=df
-        df_M_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_M[model]
-        model_name = model_names[model]
-        
-for key in df_M_dict.keys():
-    plt.scatter(df_M_dict[key]["Running_Time"], df_M_dict[key]["Stability_Score"], color=df_M_dict_colors[key], label=shap_names[key[0]])
-    df = df_M_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_M_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Music Dataset")
-plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
-
-'''
-#M - XR
-models = ["XR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_M[(df_M["index"].str.contains(f"{approximation}_")) & (df_M["index"].str.contains(f"_{model}_"))]
-        df_M_dict[f"{approximation}_{model}"]=df
-        df_M_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        #exact_shap_value = exact_shap_values_M[model]
-        model_name = model_names[model]
-        
-for key in df_M_dict.keys():
-    plt.scatter(df_M_dict[key]["Running_Time"], df_M_dict[key]["Stability_Score"], color=df_M_dict_colors[key], label=shap_names[key[0]])
-    df = df_M_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_M_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-#plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Music Dataset")
-plt.legend(title="Approximation", loc="best")
-plt.show()'''
-
-
-#M - SR
-models = ["SR"]
-exact_shap_value = None
-for index_model, model in enumerate(models):
-    for index_approximation, approximation in enumerate(approximations):
-        df = df_M[(df_M["index"].str.contains(f"{approximation}_")) & (df_M["index"].str.contains(f"_{model}_"))]
-        df_M_dict[f"{approximation}_{model}"]=df
-        df_M_dict_colors[f"{approximation}_{model}"]=colors[approximation]
-        exact_shap_value = exact_shap_values_M[model]
-        model_name = model_names[model]
-        
-for key in df_M_dict.keys():
-    plt.scatter(df_M_dict[key]["Running_Time"], df_M_dict[key]["Stability_Score"], color=df_M_dict_colors[key], label=shap_names[key[0]])
-    df = df_M_dict[key].sort_values("Running_Time")
-    plt.plot(df["Running_Time"], df["Stability_Score"], color=df_M_dict_colors[key], linestyle='-')
-    
-plt.xlabel("Running Time in Seconds")
-plt.ylabel("Stability Score")
-#plt.axvline(x=exact_shap_value, color='red', linestyle='--', linewidth=1, label="Exact SHAP")
-plt.title(f"Stability Comparison (10 runs) - {model_name} & Music Dataset")
-plt.legend(title="Approximation", loc="best")
+# Gemeinsame X-Achse und Layout
+fig.text(0.5, 0.18, "Running Time in Seconds", ha="center", fontsize=12)
+plt.tight_layout(rect=[0.01, 0.18, 0.99, 0.95])
+plt.suptitle(f"Stability Comparison (10 runs) - {model_names[model]}", fontsize=18)
 plt.show()

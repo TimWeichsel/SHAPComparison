@@ -1,7 +1,7 @@
 import pickle
 import numpy as np
 
-def get_shap_values(data_name, model_name, approximation_name, nsamples="None", run_id = 0) -> np.ndarray:
+def get_shap_values(data_name, model_name, approximation_name, nsamples="None", run_id = 0, instance_index = None) -> np.ndarray:
     if run_id:
         file_name = f"shap_approximations/shap_values/{approximation_name}_{data_name}_{model_name}_{nsamples}_{run_id}.pkl"
     else:
@@ -14,13 +14,23 @@ def get_shap_values(data_name, model_name, approximation_name, nsamples="None", 
         raise FileNotFoundError(f"{file_name} not found")
     
     if approximation_name == "E":
-        return shap_dict["shap_values"].values
-    elif approximation_name == "C" or approximation_name == "G":
+        if instance_index is None:
+            return shap_dict["shap_values"].values
+        else:
+            return shap_dict["shap_values"].values[instance_index]
+    elif approximation_name == "C" or approximation_name == "G" or approximation_name == "C100" or approximation_name == "G100":
         shap_values_with_meta = shap_dict["shap_values"].sort_values("explain_id", ascending=True)
         shap_values = shap_values_with_meta.drop(columns=["explain_id", "none"])
-        return shap_values.values
+        
+        if instance_index is None:
+            return shap_values.values
+        else:
+            return shap_values.values[instance_index]
     else:
-        return shap_dict["shap_values"]
+        if instance_index is None:
+            return shap_dict["shap_values"]
+        else:
+            return shap_dict["shap_values"][instance_index]
     
 def get_run_time(data_name, model_name, approximation_name, nsamples="None", run_id = 0) -> float:
     if run_id:

@@ -16,30 +16,35 @@ from shap_approximations.shap_loader import get_shap_values
 from evaluations.stability import compute_stability_score
 from evaluations.rbo import compute_rbo_score
 from evaluations.fidelity import compute_fidelity_score
+from evaluations.fidelity import compute_fidelity_score_MAE
 from evaluations.result_organizer import print_results
 from evaluations.result_organizer import get_results
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["T", "R", "E", "L", "P", "Z"], type=str, required=True, help="T = Training all the models on all data sets. R = Run one model on one Shap Approximation and saving runtime. E = Evaluate one SHAP approximation on one Method. L = Load SHAP values. P = Print all Evaluation Results")
+    parser.add_argument("--mode", choices=["T", "R", "E", "L", "P", "Z"], type=str, required=True, help="T = Training all the models on all data sets. R = Run one model on one Shap Approximation and saving runtime. E = Evaluate one SHAP approximation on one Method (default: Runtime). L = Load SHAP values. P = Print all Results of one Evaluation Metrik (default: Runtime)")
     parser.add_argument("--data", choices=["A", "D", "M", "W"], type=str, help="A = Abalone (Regression), D = Diabetes (Regression), M = Music Origin (Regression), W = Wine Quality (Classification & Regression)")
     parser.add_argument("--model", choices=["LR","LO", "RR", "RC", "SR", "SLR", "SC", "XR", "XC"], type=str, help="LR = LinRegression, LO = LogRegression, RR = RFRegressor, RC = RFClassifier, SR = SVMRegressor with rbf Kernel, SLR = SVMRegressor with linear Kernel, SC = SVMClassifier, XR = XGBRegressor, XC = XGBClassifier")
-    parser.add_argument("--approximation", choices=["K", "S", "C", "G", "E"], type=str, help="K = Kernel SHAP, S = Sampling SHAP, C = Copula SHAP, G = Gauss Copula SHAP, E = Exact SHAP")
+    parser.add_argument("--approximation", choices=["K", "S", "C", "G", "E", "C100", "G100"], type=str, help="K = Kernel SHAP, S = Sampling SHAP, C = Copula SHAP (MC_Samples = 10), G = Gauss Copula SHAP (MC_Samples = 10), C100 = Copula SHAP (MC_Samples = 1000), G100 = Gauss Copula SHAP (MC_Samples = 1000), E = Exact SHAP")
     parser.add_argument("--nsamples", type=int, help="Number of coalitions for the SHAP approximation")
     parser.add_argument("--number_of_runs", type=int, help="Number of individual SHAP calculations for the same model, data and approximation for stability evaluation")
-    parser.add_argument("--eval_method", choices=["F", "R", "S"], type=str, help="F = Fidelity, R = RBO, S = Stability")
+    parser.add_argument("--eval_method", choices=["F", "F_MAE", "R", "S"], type=str, help="F = Fidelity (Mean Squared Error), F_MAE = Fidelity (Mean Absolut Error) R = RBO, S = Stability")
+    parser.add_argument("--instance", type=int, help="Index for listing only one instance of the test set")
     
     args = parser.parse_args()
     
     match args.mode:
         case "Z":
-            from run_comparison.run_script import run_approximations
+            from run_comparison.run_script import run_approximations_and_eval
             from run_comparison.run_script import run_evaluations
             from run_comparison.run_script import run_stability
-            #run_approximations()
+            from run_comparison.run_script import run_evaluations_mae
             #run_evaluations()
+            #run_approximations_and_eval()
+            #run_evaluations_mae()
             run_stability()
+            
             
             
 
@@ -67,6 +72,8 @@ def main():
                 match args.eval_method:
                     case "F":
                         print(compute_fidelity_score(args.data, args.model, args.approximation, args.nsamples))
+                    case "F_MAE":
+                        print(compute_fidelity_score_MAE(args.data, args.model, args.approximation, args.nsamples))
                     case "R":
                         print(compute_rbo_score(args.data, args.model, args.approximation, args.nsamples))
                     case "S":
@@ -81,13 +88,16 @@ def main():
                 raise ValueError("Not all arguments provided for running an approximation.")
             else:
                 if not (args.number_of_runs):
-                    shap_values = get_shap_values(args.data, args.model, args.approximation, args.nsamples)
+                    if args.nsamples:
+                        shap_values = get_shap_values(args.data, args.model, args.approximation, nsamples=args.nsamples, instance_index=args.instance, )
+                    else:
+                        shap_values = get_shap_values(args.data, args.model, args.approximation, instance_index=args.instance)
                 else:
                     for run_id in range(args.number_of_runs):
-                        print(get_shap_values(args.data, args.model, args.approximation, args.nsamples, run_id+1)) 
+                        print(get_shap_values(args.data, args.model, args.approximation, nsamples=args.nsamples, run_id=run_id+1, instance_index=args.instance)) 
                 print(type(shap_values))
                 print(shap_values.shape)
-                print(shap_values[0:10,:])
+                print(shap_values)
         case "P":
             eval_method = None
             approximation_method = ""
