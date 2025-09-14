@@ -2,6 +2,16 @@ import pickle
 import pandas as pd
 
 def get_model(data: str, model: str):
+    '''
+    Loads specified trained model from "models/all_models.pkl" file, with key {model_name}_{data_name}
+    
+    Parameters:
+        data -- One letter indicator for dataset
+        model -- Two letter indicator for Model
+    
+    Returns:
+        Any type of trained model
+    '''
     file = open("models/all_models.pkl", "rb")
     model_dict = pickle.load(file)
     model_name = ""

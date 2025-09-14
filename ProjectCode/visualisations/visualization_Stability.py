@@ -2,7 +2,7 @@ from evaluation_results_loader import get_evaluation
 import matplotlib.pyplot as plt
 
 
-model = "XR"
+model = "SR"
 stability_runs =[
 #D & LR - 3,5s
     #("C","D","LR","12"),#70
@@ -302,6 +302,7 @@ stability_runs =[
     ("S","A","RR", "1000"),
     ("S","A","RR", "1250"),
     ("S","A","RR", "2000"),
+    ("S","A","RR", "3500"),
     
     ("K","A","RR", "1"),
     ("K","A","RR", "15"),
@@ -411,7 +412,7 @@ stability_runs =[
     ('S', 'M', 'LR', '3200'),
     ('S', 'M', 'LR', '4000'),
     ('S', 'M', 'LR', '8000'),
-    ('S', 'M', 'LR', '12000'),
+    #('S', 'M', 'LR', '12000'),
     ('G', 'M', 'LR', '400'),
     ('G', 'M', 'LR', '800'),
     ('G', 'M', 'LR', '1200'),
@@ -419,8 +420,8 @@ stability_runs =[
     ('G', 'M', 'LR', '2000'),
     ('G', 'M', 'LR', '2500'),
     ('K', 'M', 'LR', '1500'),
-    ('K', 'M', 'LR', '2000'),
-    ('K', 'M', 'LR', '3000'),
+    #('K', 'M', 'LR', '2000'),
+    #('K', 'M', 'LR', '3000'),
     #('K', 'M', 'LR', '5000'),
 
     # M + RR
@@ -499,6 +500,8 @@ stability_runs =[
     
     ('K', 'M', 'SR', '6'),
     ('K', 'M', 'SR', '10'),
+    ('K', 'M', 'SR', '20'),
+    ('K', 'M', 'SR', '30'),
     ('K', 'M', 'SR', '40'),
     ('S', 'M', 'SR', '2000'),
     ('S', 'M', 'SR', '4000'),
@@ -610,7 +613,10 @@ bounds_SR = {
         ("blue",  "-", 37, "Copula SHAP - Upper Bound")],
     "W": [],
     "A": [("orange", ":", 1027.620,"Kernel SHAP - Lower Bound")],
-    "M": []
+    "M": [
+        ("blue",   "-",    60, "Copula SHAP - Upper Bound"),
+        ("green",  "-",  70.050, "Gaussian SHAP - Upper Bound"),
+    ]
 }
 
 bounds_XR = {
@@ -624,7 +630,7 @@ bounds_XR = {
         ("blue",   "-",    27.39117693901062, "Copula SHAP - Upper Bound"),
         ("green",  "-",  26, "Gaussian SHAP - Upper Bound"),
     ]
-}#
+}
 
 bounds = {
     "LR": bounds_LR,

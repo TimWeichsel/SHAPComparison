@@ -9,6 +9,8 @@ from evaluation_results_loader import recover_base_from_exact
 
 project_start_point = Path(__file__).resolve().parent.parent
 os.chdir(project_start_point / "src")
+
+
 import shap
 import pickle
 import os
@@ -147,77 +149,27 @@ def plot_shap_rank_comparison(data_name_long, model_name,
 
 if __name__ == "__main__":
     
-   #LR
-    plot_shap_rank_comparison(
-        data_name_long="Diabetes", model_name="LR",
-        C_samples=160, G_samples=260, K_samples=10000, S_samples=2500,
-        seconds=6,
-        instance_index=None,   
-        eval_method="RBO_Score_0.9",  # oder "Fidelity_Score_MAE"
-        figsize=(15, 6)
-    )
-    
-    plot_shap_rank_comparison(
-        data_name_long="Music", model_name="LR",
-        C_samples=50, G_samples=50, K_samples=8000, S_samples=50000,
-        seconds=300,
-        instance_index=None,   
-        eval_method="Fidelity_Score_MAE", 
-        figsize=(15, 6), MC_100=True
-    )
 
-    
-    # RR
-    plot_shap_rank_comparison(
-        data_name_long="Abalone", model_name="RR",
-        C_samples=12, G_samples=12, K_samples=14, S_samples=4000,
-        seconds=250,
-        instance_index=None,   
-        eval_method="RBO_Score_0.9", 
-        figsize=(15, 6), MC_100=True
-    )
-
-    plot_shap_rank_comparison(
-        data_name_long="Diabetes", model_name="RR",
-        C_samples=24, G_samples=24, K_samples=300, S_samples=12000,
-        seconds=50,
-        instance_index=None,   
-        eval_method="Fidelity_Score_MAE",  # oder "RBO_Score_0.9"
-        figsize=(15, 6), MC_100=True
-    )
-
-    
-    #SR
-
-    plot_shap_rank_comparison(
-        data_name_long="Abalone", model_name="SR",
-        C_samples=24, G_samples=24, K_samples=7, S_samples=10000, #Determine right Samples for K and S
-        seconds=6000,
-        instance_index=None,   
-        eval_method="Fidelity_Score_MAE",  # oder "Fidelity_Score_MAE"
-        figsize=(15, 6), MC_100=True
-    )
 
     
     plot_shap_rank_comparison(
         data_name_long="Music", model_name="SR",
         C_samples=24, G_samples=24, K_samples=30, S_samples=10000,
-        seconds=500,
-        instance_index=None,   
+        seconds=5000,
+        instance_index=0,   
         eval_method="RBO_Score_0.9",  # oder 
         figsize=(15, 6), MC_100=True
     )
     
     #Backup
-    '''
     plot_shap_rank_comparison(
-        data_name_long="Wine", model_name="SR",
-        C_samples=12, G_samples=12, K_samples=2, S_samples=5000,
-        seconds=6000,
-        instance_index=None,   
+        data_name_long="Abalone", model_name="SR",
+        C_samples=750, G_samples=1024, K_samples=1, S_samples=1250,
+        seconds=800,
+        instance_index=0,   
         eval_method="Fidelity_Score_MAE",  # oder "RBO_Score_0.9"
-        figsize=(15, 6), MC_100=True
-    )'''
+        figsize=(15, 6),
+    )
     
     
     #XR -> 2. Updaten und auf RBO/MSA entscheiden 
@@ -231,24 +183,36 @@ if __name__ == "__main__":
         figsize=(15, 6)
     )
     
-
     plot_shap_rank_comparison(
-        data_name_long="Wine", model_name="XR",
-        C_samples=50, G_samples=1000 , K_samples=5, S_samples=3000,
-        seconds=80,
-        instance_index=None,   
-        eval_method="Fidelity_Score_MAE",  # oder "Fidelity_Score_MAE"
-        figsize=(15, 6)
-    )
+            data_name_long="Wine", model_name="XR",
+            C_samples=50, G_samples=1000 , K_samples=5, S_samples=3000,
+            seconds=80,
+            instance_index=None,   
+            eval_method="Fidelity_Score_MAE",  # oder "Fidelity_Score_MAE"
+            figsize=(15, 6)
+        )
+    
+    
     
     
 #Backup
-'''
-    plot_shap_rank_comparison(
+    for i in range(10):
+        plot_shap_rank_comparison(
+            data_name_long="Wine", model_name="XR",
+            C_samples=18, G_samples=18 , K_samples=35, S_samples=20000,
+            seconds=500,
+            instance_index=i,   
+            eval_method="Fidelity_Score_MAE",  # oder "Fidelity_Score_MAE"
+            figsize=(15, 6), MC_100=True
+        )
+ 
+    
+plot_shap_rank_comparison(
         data_name_long="Wine", model_name="XR",
-        C_samples=18, G_samples=18 , K_samples=35, S_samples=20000,
-        seconds=500,
+        C_samples=12, G_samples=12 , K_samples=20, S_samples=10000,
+        seconds=300,
         instance_index=None,   
         eval_method="RBO_Score_0.9",  # oder "Fidelity_Score_MAE"
+     
         figsize=(15, 6), MC_100=True
-    )'''
+    )

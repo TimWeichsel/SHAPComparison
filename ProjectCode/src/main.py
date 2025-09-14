@@ -2,11 +2,18 @@ import sys
 from pathlib import Path
 import argparse
 
-src_path = str(Path(__file__).parent/"src")
-sys.path.append(src_path)
+
+src_path = Path(__file__).parent #get src path
+sys.path.insert(0, str(src_path)) #prioritize src path
+
+shapr_path = src_path / "external" / "shapr" / "python" #path to python shapr directory
+sys.path.insert(1, str(shapr_path)) #add python shapr directory
+
+
 
 # import training function
 from train import train_models
+
 
 #impoort shap functions
 from run_shap import run_and_save_shap_values
@@ -15,7 +22,7 @@ from shap_approximations.shap_loader import get_shap_values
 #import evaluation functions
 from evaluations.stability import compute_stability_score
 from evaluations.rbo import compute_rbo_score
-from evaluations.fidelity import compute_fidelity_score
+from evaluations.fidelity import compute_fidelity_score_MSE
 from evaluations.fidelity import compute_fidelity_score_MAE
 from evaluations.result_organizer import print_results
 from evaluations.result_organizer import get_results
@@ -71,7 +78,7 @@ def main():
             else:
                 match args.eval_method:
                     case "F":
-                        print(compute_fidelity_score(args.data, args.model, args.approximation, args.nsamples))
+                        print(compute_fidelity_score_MSE(args.data, args.model, args.approximation, args.nsamples))
                     case "F_MAE":
                         print(compute_fidelity_score_MAE(args.data, args.model, args.approximation, args.nsamples))
                     case "R":

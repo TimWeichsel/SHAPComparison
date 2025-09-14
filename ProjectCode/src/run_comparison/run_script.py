@@ -11,7 +11,7 @@ os.chdir(str(src_dir))
 from train import train_models
 from evaluations.stability import compute_stability_score
 from evaluations.rbo import compute_rbo_score
-from evaluations.fidelity import compute_fidelity_score
+from evaluations.fidelity import compute_fidelity_score_MSE
 
 from evaluations.fidelity import compute_fidelity_score_MAE
 
@@ -170,7 +170,7 @@ def __run_all():
         if approximation == "E":
             continue # Skip Exact SHAP for evaluation
         
-        fidelity_score = compute_fidelity_score(data, model, approximation, nsamples)
+        fidelity_score = compute_fidelity_score_MSE(data, model, approximation, nsamples)
         #fidelity_score = 0
         __write_result_to_file_and_print(f"Computed Fidelity Score for {data}, {model}, {approximation}, {nsamples} = {fidelity_score}")
         
@@ -188,7 +188,7 @@ def __run_all():
         if approximation == "E":
             continue # Skip Exact SHAP for evaluation
         
-        fidelity_score = compute_fidelity_score(data, model, approximation, nsamples)
+        fidelity_score = compute_fidelity_score_MSE(data, model, approximation, nsamples)
         #fidelity_score = 0
         __write_result_to_file_and_print(f"Computed Fidelity Score for {data}, {model}, {approximation}, {nsamples} = {fidelity_score}")
         
@@ -4026,24 +4026,18 @@ def run_stability():
     
     ("S","D","RR","3000"),
     ("S","D","RR","12000"),
+    
+    
+    ("S","D","RR","25"),
+    ('K', 'M', 'SR', '20'),
+    ('K', 'M', 'SR', '30'),
     '''
     
     
     run_queue = [
         
 
-
-    ("S","A","RR", "2000"),
-    ('K', 'M', 'RR', '300'),
-    ('S', 'M', 'RR', '70000'),
-    
-    ('S', 'M', 'SR', '12000'),
-    ('C', 'M', 'SR', '300'),
-    ('C', 'M', 'SR', '600'),
-    ('C', 'M', 'SR', '2000'),
-    ('G', 'M', 'SR', '32000'),
-    
-    
+    ("S","A","RR", "3500")
     ]
 
 

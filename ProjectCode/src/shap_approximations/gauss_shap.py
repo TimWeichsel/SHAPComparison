@@ -1,4 +1,4 @@
-from external.shapr.python.shaprpy.explain import explain
+from shaprpy.explain import explain
 import rpy2
 
 MC_SAMPLES = 10 #fixed number for this project
