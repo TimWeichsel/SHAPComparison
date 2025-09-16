@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from config import Seed
 
 
-def split_data (X: pd.DataFrame, y: pd.DataFrame, test_split: float = 0.2) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+def split_data (X: pd.DataFrame, y: pd.DataFrame, test_split: float = 0.2) -> tuple[pd.DataFrame, pd.DataFrame, pd.Series, pd.Series]:
     '''
     Split the data into train and test sets using sklearn's train_test_split function
     

@@ -38,13 +38,13 @@ def save_result(data_name: str, model_name: str, approximation_name: str, nsampl
     file.close()
     
             
-def print_results(data_name: str = "", eval_method: str = None, approximation_name: str = "", model_name: str = "") -> None:
+def print_results(data_name: str = "", eval_method = None, approximation_name: str = "", model_name: str = "") -> None:
     '''
-    Print evaluation results of evaluations/results.pkl file
+    Print specific evaluation results of evaluations/results.pkl file
     
     Parameters:
         data_name -- name of the dataset for the SHAP values to filter results (default: all datasets)
-        eval_method -- eval method indicator ("F" = Mean Squared Error, F_MAE = Mean Absolute Error, R = RBO, S = Stability_Score, for the SHAP values to get results (default: Running_Time)
+        eval_method -- eval method indicator: "F" = Mean Squared Error, F_MAE = Mean Absolute Error, R = RBO, S = Stability_Score, for the SHAP values to get results (default: Running_Time)
         approximation_name -- name of the approximation for the SHAP values to filter results (default: all approximations)
         model_name -- name of the model for the SHAP values to filter results (default: all models)
     '''
@@ -72,7 +72,7 @@ def print_results(data_name: str = "", eval_method: str = None, approximation_na
     # extract all relevant results
     eval_result_dict = [(key, value[eval_method]) for key, value in evaluation_dict.items() if eval_method in value]
     
-    # sort result by {approximation_name}_{data_name}_{model_name} (always 6 characters) and then by value
+    # sort result by {approximation_name}_{data_name}_{model_name} (always 6 characters in this work) and then by value
     eval_result_dict.sort(key=lambda x: (x[0][:6], x[1]))
     
     # print all relevant results sorted

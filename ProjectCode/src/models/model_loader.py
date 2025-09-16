@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 
-def get_model(data: str, model: str):
+def get_model(data: str, model: str) -> object:
     '''
     Loads specified trained model from "models/all_models.pkl" file, with key {model_name}_{data_name}
     
