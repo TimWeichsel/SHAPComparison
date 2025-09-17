@@ -30,7 +30,7 @@ def main():
     supervised by Prof. Ass.-Prof. Dipl.-Ing. Dr.techn. Sebastian Tschiatschek
                                     
     - Description:
-    This thesis investigates how well standard model-agnostic SHAP approximations align with the evaluation properties of Degree of Importance (RBO), Fidelity(MAE) and Stability(Confidence Interval) across different machine learning models.
+    This thesis' project investigates how well standard model-agnostic SHAP approximations align with the evaluation properties of Degree of Importance (RBO), Fidelity(MAE) and Stability(Confidence Interval) across different machine learning models.
                                         
     - Usage of the script:
     Run the main.py file with "--help" to see all the necessary information.
