@@ -11,7 +11,7 @@ def get_shap_values(data_name: str, model_name: str, approximation_name: str, ns
         approximation_name -- SHAP approximation indicator ("K", "S", "C", "G", "E", "C100", "G100")
         nsamples -- number of samples/coalitions for the SHAP approximation, default: "None" for Exact SHAP
         run_id -- identifier for multiple runs or 1 if single run
-        instance_index -- index when only one specific SHAP value should be returned (default: return all instances    
+        instance_index -- index when only one specific SHAP value should be returned (default: return all instances)    
     
     Returns:
         SHAP values as numpy array
