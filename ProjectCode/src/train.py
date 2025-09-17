@@ -24,7 +24,7 @@ def train_models(test_split: float = 0.2) -> None:
         test_split -- Fraction of data that is used for the test set (default: 0.2 = 20% test data)
     '''
     # Fetching all data
-    reg_data= __fetch_all_data(test_split)
+    reg_data = __fetch_all_data(test_split)
     print("All data sets have been loaded...")
     __safe_all_data(reg_data)
     print("All data sets have been saved as pickle file...")

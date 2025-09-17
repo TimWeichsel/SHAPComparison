@@ -1,7 +1,7 @@
 import pickle
 import numpy as np
 
-def get_shap_values(data_name: str, model_name: str, approximation_name: str, nsamples: str|int="None", run_id:int=0, instance_index:int = None) -> np.ndarray:
+def get_shap_values(data_name: str, model_name: str, approximation_name: str, nsamples: str | int="None", run_id:int=0, instance_index:int = None) -> np.ndarray:
     '''
     Loads all SHAP values in the provided format of the library from shap_approximations/shap_values/ and converts it to a numpy array
     
