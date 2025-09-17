@@ -1,7 +1,7 @@
 from sklearn.linear_model import LinearRegression
 import pandas as pd
 
-def train_LinRegression (X_train: pd.DateFrame, y_train:pd.Series) -> LinearRegression:
+def train_LinRegression (X_train: pd.DataFrame, y_train:pd.Series) -> LinearRegression:
     '''
     Create and train a Linear Regression model using scikit-learn
     
