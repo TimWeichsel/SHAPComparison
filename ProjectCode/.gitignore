@@ -1,8 +1,0 @@
-ProjectCode/src/external/shapr/
-
-#Cache files
-__pycache__/
-*.pyc
-
-#MacOS files
-.DS_Store

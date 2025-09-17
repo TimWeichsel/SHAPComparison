@@ -1,4 +1,11 @@
-all_datasets.pkl
 all_models.pkl
+ProjectCode/src/external/shapr/
+
+#Cache files
+__pycache__/
+*.pyc
+
+#MacOS files
+.DS_Store
 
 
