@@ -2,6 +2,5 @@
 __pycache__/
 .env
 
-# zu groß für GitHub / wird per setup_shapr.sh geklont
 src/models/all_models.pkl
 src/external/shapr/
