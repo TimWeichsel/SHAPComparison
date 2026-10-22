@@ -1,4 +1,7 @@
-all_datasets.pkl
-all_models.pkl
+.DS_Store
+__pycache__/
+.env
 
-
+# zu groß für GitHub / wird per setup_shapr.sh geklont
+src/models/all_models.pkl
+src/external/shapr/
